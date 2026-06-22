@@ -2,13 +2,8 @@
 
 Private dated reporting snapshots.
 
-This repository contains dated final artifacts only:
+This repository contains dated complete ranking CSV files and top-50 HTML technical trend galleries for Prism and Early Signal across SPX and Russell 2000.
 
-- complete ranking CSV files
-- Chinese Markdown reports
-- top-50 HTML technical trend galleries
-- ranking timeline Excel workbooks
-
-Source code, skills, raw market data, logs, and account information are intentionally excluded.
+Source code, skills, raw market data, Markdown reports, Excel workbooks, logs, and account information are intentionally excluded.
 
 > Research and educational use only. Not financial advice.
