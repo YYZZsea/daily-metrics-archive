@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "description": "Ticker-only inputs for per-user exit-risk monitoring. No position size, cost basis, market value, or account data.",
+  "users": ["yuan", "ethan", "rui"],
+  "required_columns": ["ticker"],
+  "optional_columns": ["name", "category", "notes"],
+  "output_root": "latest/exit-risk"
+}
