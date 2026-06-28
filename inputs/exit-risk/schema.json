@@ -1,9 +1,12 @@
 {
   "version": 1,
-  "description": "Ticker-only input for unified exit-risk monitoring. No position size, cost basis, market value, or account data.",
+  "description": "Ticker-only input for unified exit-risk and return tracking. No position size, cost basis, market value, or account data.",
   "input_file": "tickers.txt",
-  "compatible_input_file": "tickers.csv",
-  "required_columns": ["ticker"],
-  "optional_columns": ["name", "category", "buy_date", "notes"],
+  "formats": [
+    "MM/DD/YYYY, TICKER, TICKER",
+    "YYYY-MM-DD, TICKER, TICKER",
+    "TICKER, TICKER"
+  ],
+  "default_date": "today when no date is provided",
   "output_root": "latest/exit-risk"
 }

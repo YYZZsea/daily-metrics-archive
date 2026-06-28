@@ -11,7 +11,20 @@ inputs/exit-risk/
 
 ## tickers.txt 格式
 
-一行一只股票，第二列可选买入/观察日期：
+推荐用批量格式：日期在前，后面接一批股票。日期支持 `MM/DD/YYYY` 或 `YYYY-MM-DD`。
+
+```text
+06/30/2026, MRVL, MU, AVGO
+2026-07-01, HOOD, AMD
+```
+
+如果不写日期，就默认使用当天日期：
+
+```text
+MRVL, MU, AVGO
+```
+
+也可以继续用一行一只股票：
 
 ```text
 MRVL 2026-06-20
@@ -22,16 +35,8 @@ HOOD
 字段说明：
 
 - `ticker`: 必填，美股代码。
-- `buy_date`: 可选，格式建议 `YYYY-MM-DD`。如果写了，会用当日或之后第一个交易日收盘价估算买入/观察收益。
+- `buy_date`: 可选。用于收益统计和卖点监控，会用当日或之后第一个交易日收盘价估算买入/观察收益。
 - `notes`: 可选，可以用空格接在日期后面，只写非敏感备注。
-
-也可以继续用 `tickers.csv`，格式为：
-
-```csv
-ticker,name,category,buy_date,notes
-MRVL,Marvell Technology,stock,2026-06-20,
-MU,Micron Technology,stock,2026-06-24,
-```
 
 不要放：
 
