@@ -46,11 +46,11 @@
         <h2>最新卖出分析</h2>
         <span class="latest-date">2026-06-29</span>
       </div>
-      <a class="card exit-latest-card" href="../latest/exit-risk-index.html?v=20260629122807">打开最新卖出分析</a>
+      <a class="card exit-latest-card" href="../latest/exit-risk-index.html?v=20260629131259">打开最新卖出分析</a>
       <h3 class="history-title">卖出分析历史</h3>
       <div class="history-grid">
-        <a class="date-chip" href="../2026-06-29/exit-risk-index.html?v=20260629122807">2026-06-29</a>
-        <a class="date-chip" href="../2026-06-26/exit-risk-index.html?v=20260629122807">2026-06-26</a>
+        <a class="date-chip" href="../2026-06-29/exit-risk-index.html?v=20260629131259">2026-06-29</a>
+        <a class="date-chip" href="../2026-06-26/exit-risk-index.html?v=20260629131259">2026-06-26</a>
       </div>
     </section>
 
@@ -91,25 +91,10 @@ remove AVGO">06/30/2026, MRVL, AVGO, IP, RCL, RTX, BRO, CLX, ED, EQR, GPC, HOOD,
         .filter(Boolean);
     }
 
-    function removeTickersFromRows(rows, removeSet) {
-      return rows
-        .map(row => {
-          const tickers = row.tickers.filter(ticker => !removeSet.has(ticker));
-          return {...row, tickers};
-        })
-        .filter(row => row.tickers.length);
-    }
-
-    function rowToText(row) {
-      if (row.dateFirst) return `${row.date}, ${row.tickers.join(', ')}`;
-      if (row.date) return row.tickers.map(ticker => `${ticker} ${row.date}`).join('\n');
-      return row.tickers.join(', ');
-    }
-
-    function formatInput() {
+    function parseInput(text) {
       const rows = [];
       const removeSet = new Set();
-      for (const rawLine of rawInput.value.split(/\r?\n/)) {
+      for (const rawLine of text.split(/\r?\n/)) {
         const tokens = tokensFromLine(rawLine);
         if (!tokens.length) continue;
         const first = tokens[0];
@@ -135,33 +120,126 @@ remove AVGO">06/30/2026, MRVL, AVGO, IP, RCL, RTX, BRO, CLX, ED, EQR, GPC, HOOD,
         const tickers = tokens.map(token => token.toUpperCase()).filter(token => tickerPattern.test(token));
         if (tickers.length) rows.push({dateFirst: false, date: "", tickers});
       }
-      const cleanedRows = removeTickersFromRows(rows, removeSet);
-      output.value = cleanedRows.map(rowToText).join('\n');
-      const removeText = removeSet.size ? `，已移除 ${Array.from(removeSet).join(', ')}` : '';
-      status.textContent = cleanedRows.length ? `已整理 ${cleanedRows.length} 行${removeText}。` : '没有识别到有效股票代码。';
-      return output.value;
+      return {rows, removeSet};
     }
 
-    async function saveTextFile(value) {
+    function rowKey(row) {
+      return `${row.dateFirst ? 'date-first' : 'ticker-first'}|${row.date || ''}`;
+    }
+
+    function rowToText(row) {
+      if (row.dateFirst) return `${row.date}, ${row.tickers.join(', ')}`;
+      if (row.date) return row.tickers.map(ticker => `${ticker} ${row.date}`).join('\n');
+      return row.tickers.join(', ');
+    }
+
+    function mergeTickerText(existingText, incomingText) {
+      const existing = parseInput(existingText);
+      const incoming = parseInput(incomingText);
+      const removeSet = incoming.removeSet;
+      const rows = [];
+      const known = new Set();
+      let added = 0;
+
+      for (const row of existing.rows) {
+        const tickers = row.tickers.filter(ticker => {
+          if (removeSet.has(ticker) || known.has(ticker)) return false;
+          known.add(ticker);
+          return true;
+        });
+        if (tickers.length) rows.push({...row, tickers});
+      }
+
+      for (const row of incoming.rows) {
+        const tickers = row.tickers.filter(ticker => {
+          if (removeSet.has(ticker) || known.has(ticker)) return false;
+          known.add(ticker);
+          added += 1;
+          return true;
+        });
+        if (!tickers.length) continue;
+        const key = rowKey(row);
+        const target = rows.find(existingRow => rowKey(existingRow) === key);
+        if (target) target.tickers = [...target.tickers, ...tickers];
+        else rows.push({...row, tickers});
+      }
+
+      return {
+        content: rows.map(rowToText).join('\n'),
+        added,
+        removed: removeSet.size,
+      };
+    }
+
+    function formatInput() {
+      const parsed = parseInput(rawInput.value);
+      const content = parsed.rows.map(rowToText).join('\n');
+      output.value = content;
+      const removeText = parsed.removeSet.size ? `，准备移除 ${Array.from(parsed.removeSet).join(', ')}` : '';
+      status.textContent = content || parsed.removeSet.size ? `已整理 ${parsed.rows.length} 行${removeText}。` : '没有识别到有效股票代码。';
+      return content;
+    }
+
+    async function saveViaLocalService() {
       const response = await fetch('http://127.0.0.1:8765/save-exit-risk-tickers', {
         method: 'POST',
         headers: {'Content-Type': 'application/json'},
-        body: JSON.stringify({content: value, raw: rawInput.value}),
+        body: JSON.stringify({raw: rawInput.value}),
       });
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
       const payload = await response.json();
-      output.value = payload.content || value;
-      rawInput.value = payload.content || value;
+      output.value = payload.content || '';
+      rawInput.value = payload.content || rawInput.value;
       return `已合并保存到 Daily Metrics：新增 ${payload.added || 0}，删除 ${payload.removed || 0}`;
     }
 
+    async function saveViaFilePicker() {
+      if (!window.showOpenFilePicker) throw new Error('file picker unavailable');
+      status.textContent = '请选择 daily-metrics-archive/inputs/exit-risk/tickers.txt。';
+      const [handle] = await window.showOpenFilePicker({
+        multiple: false,
+        types: [{description: 'tickers.txt', accept: {'text/plain': ['.txt']}}],
+      });
+      const file = await handle.getFile();
+      const existingText = await file.text();
+      const merged = mergeTickerText(existingText, rawInput.value);
+      if (!merged.content.trim()) throw new Error('merged content is empty');
+      const writable = await handle.createWritable();
+      await writable.write(`${merged.content.trim()}\n`);
+      await writable.close();
+      output.value = merged.content.trim();
+      rawInput.value = merged.content.trim();
+      return `已保存到 ${handle.name}：新增 ${merged.added}，删除 ${merged.removed}`;
+    }
+
+    function downloadFallback() {
+      const merged = mergeTickerText('', rawInput.value);
+      if (!merged.content.trim()) throw new Error('download content is empty');
+      const blob = new Blob([`${merged.content.trim()}\n`], {type: 'text/plain;charset=utf-8'});
+      const link = document.createElement('a');
+      link.href = URL.createObjectURL(blob);
+      link.download = 'tickers.txt';
+      link.click();
+      URL.revokeObjectURL(link.href);
+      output.value = merged.content.trim();
+      return '当前浏览器不支持直接写文件，已下载 tickers.txt。';
+    }
+
     document.querySelector('#save-button').addEventListener('click', async () => {
-      const value = formatInput();
-      if (!value && !/(^|\n)\s*(remove|rm|delete|del|删除|移除)\b/i.test(rawInput.value)) return;
+      formatInput();
+      if (!output.value && !/(^|\n)\s*(remove|rm|delete|del|删除|移除)\b/i.test(rawInput.value)) return;
       try {
-        status.textContent = await saveTextFile(value);
-      } catch (error) {
-        status.innerHTML = '本地保存服务未启动。请在 daily-metrics-archive 根目录运行：<code>python3 inputs/save_tickers_server.py</code>';
+        status.textContent = await saveViaLocalService();
+      } catch (serviceError) {
+        try {
+          status.textContent = await saveViaFilePicker();
+        } catch (fileError) {
+          try {
+            status.textContent = downloadFallback();
+          } catch (downloadError) {
+            status.textContent = '没有识别到有效股票代码。';
+          }
+        }
       }
     });
   </script>
