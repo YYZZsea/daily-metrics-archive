@@ -78,6 +78,9 @@ remove AVGO">06/30/2026, MRVL, AVGO, IP, RCL, RTX, BRO, CLX, ED, EQR, GPC, HOOD,
     const status = document.querySelector('#status');
     const datePattern = /^(\d{4}-\d{1,2}-\d{1,2}|\d{1,2}\/\d{1,2}\/\d{2,4})$/;
     const tickerPattern = /^[A-Z][A-Z0-9.\-]*$/;
+    const handleDbName = 'daily-metrics-exit-risk';
+    const handleStoreName = 'files';
+    const tickerHandleKey = 'tickers.txt';
 
     function cleanToken(token) {
       return token.trim().replace(/^[,，]+|[,，]+$/g, '');
@@ -193,13 +196,59 @@ remove AVGO">06/30/2026, MRVL, AVGO, IP, RCL, RTX, BRO, CLX, ED, EQR, GPC, HOOD,
       return `已合并保存到 Daily Metrics：新增 ${payload.added || 0}，删除 ${payload.removed || 0}`;
     }
 
-    async function saveViaFilePicker() {
+    function openHandleDb() {
+      return new Promise((resolve, reject) => {
+        if (!window.indexedDB) {
+          reject(new Error('indexedDB unavailable'));
+          return;
+        }
+        const request = indexedDB.open(handleDbName, 1);
+        request.onupgradeneeded = () => request.result.createObjectStore(handleStoreName);
+        request.onsuccess = () => resolve(request.result);
+        request.onerror = () => reject(request.error);
+      });
+    }
+
+    async function getStoredTickerHandle() {
+      const db = await openHandleDb();
+      return new Promise((resolve, reject) => {
+        const tx = db.transaction(handleStoreName, 'readonly');
+        const request = tx.objectStore(handleStoreName).get(tickerHandleKey);
+        request.onsuccess = () => resolve(request.result || null);
+        request.onerror = () => reject(request.error);
+      });
+    }
+
+    async function storeTickerHandle(handle) {
+      const db = await openHandleDb();
+      return new Promise((resolve, reject) => {
+        const tx = db.transaction(handleStoreName, 'readwrite');
+        tx.objectStore(handleStoreName).put(handle, tickerHandleKey);
+        tx.oncomplete = () => resolve();
+        tx.onerror = () => reject(tx.error);
+      });
+    }
+
+    async function ensureReadWritePermission(handle) {
+      const options = {mode: 'readwrite'};
+      if ((await handle.queryPermission(options)) === 'granted') return true;
+      return (await handle.requestPermission(options)) === 'granted';
+    }
+
+    async function pickTickerHandle() {
       if (!window.showOpenFilePicker) throw new Error('file picker unavailable');
-      status.textContent = '请选择 daily-metrics-archive/inputs/exit-risk/tickers.txt。';
+      status.textContent = '请选择 Git repo 里的 inputs/exit-risk/tickers.txt；之后会默认覆盖这个文件。';
       const [handle] = await window.showOpenFilePicker({
         multiple: false,
         types: [{description: 'tickers.txt', accept: {'text/plain': ['.txt']}}],
       });
+      if (handle.name !== 'tickers.txt') throw new Error('请选择名为 tickers.txt 的文件');
+      await storeTickerHandle(handle);
+      return handle;
+    }
+
+    async function saveWithHandle(handle) {
+      if (!(await ensureReadWritePermission(handle))) throw new Error('permission denied');
       const file = await handle.getFile();
       const existingText = await file.text();
       const merged = mergeTickerText(existingText, rawInput.value);
@@ -209,20 +258,24 @@ remove AVGO">06/30/2026, MRVL, AVGO, IP, RCL, RTX, BRO, CLX, ED, EQR, GPC, HOOD,
       await writable.close();
       output.value = merged.content.trim();
       rawInput.value = merged.content.trim();
-      return `已保存到 ${handle.name}：新增 ${merged.added}，删除 ${merged.removed}`;
+      return `已覆盖保存到 ${handle.name}：新增 ${merged.added}，删除 ${merged.removed}`;
     }
 
-    function downloadFallback() {
-      const merged = mergeTickerText('', rawInput.value);
-      if (!merged.content.trim()) throw new Error('download content is empty');
-      const blob = new Blob([`${merged.content.trim()}\n`], {type: 'text/plain;charset=utf-8'});
-      const link = document.createElement('a');
-      link.href = URL.createObjectURL(blob);
-      link.download = 'tickers.txt';
-      link.click();
-      URL.revokeObjectURL(link.href);
-      output.value = merged.content.trim();
-      return '当前浏览器不支持直接写文件，已下载 tickers.txt。';
+    async function saveViaFilePicker() {
+      let handle = await getStoredTickerHandle().catch(() => null);
+      if (handle) {
+        try {
+          return await saveWithHandle(handle);
+        } catch (error) {
+          handle = null;
+        }
+      }
+      handle = await pickTickerHandle();
+      return saveWithHandle(handle);
+    }
+
+    function directSaveUnavailableMessage() {
+      return '当前浏览器不能直接替换 Git 里的 tickers.txt。请用 Chrome/Edge 打开本页，第一次选择 inputs/exit-risk/tickers.txt；或者启动本地保存服务。';
     }
 
     document.querySelector('#save-button').addEventListener('click', async () => {
@@ -234,11 +287,7 @@ remove AVGO">06/30/2026, MRVL, AVGO, IP, RCL, RTX, BRO, CLX, ED, EQR, GPC, HOOD,
         try {
           status.textContent = await saveViaFilePicker();
         } catch (fileError) {
-          try {
-            status.textContent = downloadFallback();
-          } catch (downloadError) {
-            status.textContent = '没有识别到有效股票代码。';
-          }
+          status.textContent = directSaveUnavailableMessage();
         }
       }
     });
