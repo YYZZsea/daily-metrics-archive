@@ -1,6 +1,7 @@
-<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>单一趋势 · Trend Relay · 走势图</title><style>:root{--navy:#183B56;--teal:#147D78;--ink:#1F2937;--grid:#CBD5E1;--paper:#F7FAFC}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:14px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;letter-spacing:0}.top{background:var(--navy);color:white;padding:24px 4vw}.top h1{margin:0 0 6px;font-size:26px}.top p{margin:0;color:#DCEEF5}main{display:grid;grid-template-columns:1fr;gap:14px;padding:18px 4vw 40px}.card{background:white;border:1px solid var(--grid);border-radius:6px;overflow:hidden;scroll-margin-top:16px}.card:target{border-color:#0F766E;box-shadow:0 0 0 3px #99F6E4}header{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:12px;padding:12px 14px 4px}.rank{font-weight:800;color:var(--teal)}h2{font-size:20px;margin:0}header p{margin:2px 0 0;color:#64748B}header strong{font-size:20px}.company-intro{margin:4px 14px 8px;color:#475569;font-size:12px;line-height:1.55;max-width:1100px}.company-intro b{color:#334155;font-weight:800}.company-source{display:inline-block;margin-left:6px;color:#0F766E;font-size:10px;font-weight:800;text-decoration:none;white-space:nowrap}.company-source:hover{text-decoration:underline}.source-chips{display:flex;flex-wrap:wrap;gap:6px;margin:0 14px 7px}.source-chips span{display:inline-flex;align-items:center;border:1px solid #99F6E4;background:#ECFDF5;color:#0F766E;border-radius:4px;padding:3px 7px;font-size:10px;font-weight:800}.signal-banner{display:inline-flex;margin:0 14px 7px;padding:4px 8px;border-radius:4px;background:#D1FAE5;color:#065F46;font-size:11px;font-weight:800}.trigger-panel{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:10px;margin:0 14px 10px}.trigger-panel>div,.exit-alert{border:1px solid #BAE6FD;background:#F0F9FF;border-radius:6px;padding:8px 10px;font-size:11px;line-height:1.45}.trigger-panel b,.exit-alert b{display:block;color:#075985;margin-bottom:3px}.trigger-panel span,.exit-alert span{color:#475569}.exit-alert.danger{border-color:#FCA5A5;background:#FEF2F2}.exit-alert.danger b{color:#B91C1C}.exit-alert.danger.history{border-color:#FDBA74;background:#FFF7ED}.exit-alert.danger.history b{color:#C2410C}.exit-alert.danger.realtime{border-color:#F87171;background:#FEF2F2;box-shadow:inset 4px 0 0 #DC2626}.exit-alert.watch{border-color:#FDE68A;background:#FFFBEB}.exit-alert.watch b{color:#92400E}.exit-alert a{display:inline-block;margin-top:5px;color:#0F766E;font-weight:800;text-decoration:none}.event-marker circle,.event-marker rect{stroke:white;stroke-width:2.2;filter:drop-shadow(0 1px 2px rgba(15,23,42,.45))}.event-marker text{fill:white;font-size:7px;font-weight:900;pointer-events:none}.event-buy circle{fill:#0F766E}.event-buy-latest circle{fill:#2563EB}.event-buy-realtime circle{fill:#0284C7;stroke:#FDE68A;stroke-width:2.6}.event-sell rect{fill:#F97316}.event-sell-latest rect{fill:#C2410C}.event-sell-realtime rect{fill:#DC2626;stroke:#FDE68A;stroke-width:2.6}.event-legend{display:flex;gap:14px;padding:0 14px 8px;font-size:10px;font-weight:800}.buy-mark{color:#0F766E}.latest-mark{color:#2563EB}.sell-mark{color:#C2410C}.return-strip{display:flex;flex-wrap:wrap;gap:5px 12px;padding:0 14px 9px;color:#94A3B8;font-size:11px}.return-strip b{color:#64748B;font-weight:800}.chart-pair{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:12px;padding:0 14px 10px}.chart-panel{border:1px solid #E2E8F0;border-radius:6px;background:white;overflow:hidden}.chart-panel h3{margin:0;padding:8px 10px;border-bottom:1px solid #E2E8F0;color:#334155;font-size:12px}svg{display:block;width:100%;height:180px;padding:4px 8px}.before{opacity:.28}.after{opacity:1}.daily-chart .before{opacity:1}.trend-relay .before{opacity:1}.daily-chart .legend span:last-child{display:none}.origin-line{stroke:#0F172A;stroke-width:1.5;stroke-dasharray:5 4}.origin-label{font-size:10px;fill:#0F172A;font-weight:600}.wick{stroke-width:1}.body.up,.wick.up{fill:#16A34A;stroke:#15803D}.body.down,.wick.down{fill:#DC2626;stroke:#B91C1C}.ema,.macd-line,.signal-line,.rsi-line{fill:none;stroke-linecap:round;stroke-linejoin:round}.ema9{stroke:#F59E0B;stroke-width:2}.ema26{stroke:#2563EB;stroke-width:2}.ema50{stroke:#7C3AED;stroke-width:2}.legend{display:flex;gap:14px;padding:0 14px 8px;font-size:11px;color:#64748B}.l9{color:#B45309}.l26{color:#1D4ED8}.l50{color:#6D28D9}.indicator{border-top:1px solid #E2E8F0;padding-top:5px}.indicator svg{height:100px}.indicator-title{display:flex;gap:12px;align-items:center;padding:0 14px;color:#64748B;font-size:11px}.indicator-title b{color:#334155;margin-right:auto}.macd-key{color:#0F766E}.signal-key{color:#D97706}.macd-line{stroke:#0F766E;stroke-width:1.8}.signal-line{stroke:#D97706;stroke-width:1.6}.hist.positive{fill:#86EFAC}.hist.negative{fill:#FCA5A5}.zero{stroke:#94A3B8;stroke-width:1}.rsi-line{stroke:#7C3AED;stroke-width:2}.rsi-limit{stroke-width:1;stroke-dasharray:5 4}.overbought{stroke:#DC2626}.oversold{stroke:#16A34A}.skills{border-top:1px solid #E2E8F0;padding:10px 14px 12px}.skills h3{font-size:12px;margin:0 0 8px;color:#334155}.score-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px 16px}.score-row{display:grid;grid-template-columns:72px 1fr 38px;align-items:center;gap:6px;font-size:11px;color:#475569}.score-row b{text-align:right;color:#1F2937}.meter{height:6px;background:#E2E8F0;border-radius:3px;overflow:hidden}.meter i{display:block;height:100%}.ema-fill{background:#F59E0B}.macd-fill{background:#0F766E}.rsi-fill{background:#7C3AED}.total-fill{background:#0284C7}.comment{display:grid;grid-template-columns:72px 1fr;gap:8px;margin-top:7px;font-size:11px;line-height:1.35}.comment b{color:#475569}.comment span{color:#64748B}footer{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;border-top:1px solid #E2E8F0;padding:8px 14px;color:#475569;font-size:12px}.missing{height:180px;display:grid;place-items:center;color:#94A3B8}@media(max-width:980px){.chart-pair,.trigger-panel{grid-template-columns:1fr}footer{grid-template-columns:repeat(2,1fr)}.score-grid{grid-template-columns:1fr}}</style></head><body class="trend-relay"><section class="top"><h1>单一趋势 · Trend Relay · 走势图</h1><p>截至 2026-07-20 · Top50 · 左侧日线结构，右侧4H timing · EMA 9/26/50 · MACD 12/26/9 · RSI 14</p></section><main><article class="card" id="ticker-ulta">
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>单一趋势 · Trend Relay · 走势图</title><style>:root{--navy:#183B56;--teal:#147D78;--ink:#1F2937;--grid:#CBD5E1;--paper:#F7FAFC}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:14px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;letter-spacing:0}.top{background:var(--navy);color:white;padding:24px 4vw}.top h1{margin:0 0 6px;font-size:26px}.top p{margin:0;color:#DCEEF5}main{display:grid;grid-template-columns:1fr;gap:14px;padding:18px 4vw 40px}.card{background:white;border:1px solid var(--grid);border-radius:6px;overflow:hidden;scroll-margin-top:16px}.card:target{border-color:#0F766E;box-shadow:0 0 0 3px #99F6E4}header{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:12px;padding:12px 14px 4px}.rank{font-weight:800;color:var(--teal)}h2{font-size:20px;margin:0}header p{margin:2px 0 0;color:#64748B}header strong{font-size:20px}.company-intro{margin:4px 14px 8px;color:#475569;font-size:12px;line-height:1.55;max-width:1100px}.company-intro b{color:#334155;font-weight:800}.company-source{display:inline-block;margin-left:6px;color:#0F766E;font-size:10px;font-weight:800;text-decoration:none;white-space:nowrap}.company-source:hover{text-decoration:underline}.source-chips{display:flex;flex-wrap:wrap;gap:6px;margin:0 14px 7px}.source-chips span{display:inline-flex;align-items:center;border:1px solid #99F6E4;background:#ECFDF5;color:#0F766E;border-radius:4px;padding:3px 7px;font-size:10px;font-weight:800}.signal-banner{display:inline-flex;margin:0 14px 7px;padding:4px 8px;border-radius:4px;background:#D1FAE5;color:#065F46;font-size:11px;font-weight:800}.trigger-panel{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:10px;margin:0 14px 10px}.trigger-panel>div,.exit-alert{border:1px solid #BAE6FD;background:#F0F9FF;border-radius:6px;padding:8px 10px;font-size:11px;line-height:1.45}.trigger-panel b,.exit-alert b{display:block;color:#075985;margin-bottom:3px}.trigger-panel span,.exit-alert span{color:#475569}.exit-alert.danger{border-color:#FCA5A5;background:#FEF2F2}.exit-alert.danger b{color:#B91C1C}.exit-alert.danger.history{border-color:#FDBA74;background:#FFF7ED}.exit-alert.danger.history b{color:#C2410C}.exit-alert.danger.realtime{border-color:#F87171;background:#FEF2F2;box-shadow:inset 4px 0 0 #DC2626}.exit-alert.watch{border-color:#FDE68A;background:#FFFBEB}.exit-alert.watch b{color:#92400E}.exit-alert a{display:inline-block;margin-top:5px;color:#0F766E;font-weight:800;text-decoration:none}.event-marker circle,.event-marker rect{stroke:white;stroke-width:2.2;filter:drop-shadow(0 1px 2px rgba(15,23,42,.45))}.event-marker text{fill:white;font-size:7px;font-weight:900;pointer-events:none}.event-buy circle{fill:#0F766E}.event-buy-latest circle{fill:#2563EB}.event-buy-realtime circle{fill:#0284C7;stroke:#FDE68A;stroke-width:2.6}.event-sell rect{fill:#F97316}.event-sell-latest rect{fill:#C2410C}.event-sell-realtime rect{fill:#DC2626;stroke:#FDE68A;stroke-width:2.6}.event-legend{display:flex;gap:14px;padding:0 14px 8px;font-size:10px;font-weight:800}.buy-mark{color:#0F766E}.latest-mark{color:#2563EB}.sell-mark{color:#C2410C}.return-strip{display:flex;flex-wrap:wrap;gap:5px 12px;padding:0 14px 9px;color:#94A3B8;font-size:11px}.return-strip b{color:#64748B;font-weight:800}.chart-pair{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:12px;padding:0 14px 10px}.chart-panel{border:1px solid #E2E8F0;border-radius:6px;background:white;overflow:hidden}.chart-panel h3{margin:0;padding:8px 10px;border-bottom:1px solid #E2E8F0;color:#334155;font-size:12px}svg{display:block;width:100%;height:180px;padding:4px 8px}.before{opacity:.28}.after{opacity:1}.daily-chart .before{opacity:1}.trend-relay .before{opacity:1}.daily-chart .legend span:last-child{display:none}.origin-line{stroke:#0F172A;stroke-width:1.5;stroke-dasharray:5 4}.origin-label{font-size:10px;fill:#0F172A;font-weight:600}.wick{stroke-width:1}.body.up,.wick.up{fill:#16A34A;stroke:#15803D}.body.down,.wick.down{fill:#DC2626;stroke:#B91C1C}.ema,.macd-line,.signal-line,.rsi-line{fill:none;stroke-linecap:round;stroke-linejoin:round}.ema9{stroke:#F59E0B;stroke-width:2}.ema26{stroke:#2563EB;stroke-width:2}.ema50{stroke:#7C3AED;stroke-width:2}.legend{display:flex;gap:14px;padding:0 14px 8px;font-size:11px;color:#64748B}.l9{color:#B45309}.l26{color:#1D4ED8}.l50{color:#6D28D9}.indicator{border-top:1px solid #E2E8F0;padding-top:5px}.indicator svg{height:100px}.indicator-title{display:flex;gap:12px;align-items:center;padding:0 14px;color:#64748B;font-size:11px}.indicator-title b{color:#334155;margin-right:auto}.macd-key{color:#0F766E}.signal-key{color:#D97706}.macd-line{stroke:#0F766E;stroke-width:1.8}.signal-line{stroke:#D97706;stroke-width:1.6}.hist.positive{fill:#86EFAC}.hist.negative{fill:#FCA5A5}.zero{stroke:#94A3B8;stroke-width:1}.rsi-line{stroke:#7C3AED;stroke-width:2}.rsi-limit{stroke-width:1;stroke-dasharray:5 4}.overbought{stroke:#DC2626}.oversold{stroke:#16A34A}.skills{border-top:1px solid #E2E8F0;padding:10px 14px 12px}.skills h3{font-size:12px;margin:0 0 8px;color:#334155}.score-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px 16px}.score-row{display:grid;grid-template-columns:72px 1fr 38px;align-items:center;gap:6px;font-size:11px;color:#475569}.score-row b{text-align:right;color:#1F2937}.meter{height:6px;background:#E2E8F0;border-radius:3px;overflow:hidden}.meter i{display:block;height:100%}.ema-fill{background:#F59E0B}.macd-fill{background:#0F766E}.rsi-fill{background:#7C3AED}.total-fill{background:#0284C7}.comment{display:grid;grid-template-columns:72px 1fr;gap:8px;margin-top:7px;font-size:11px;line-height:1.35}.comment b{color:#475569}.comment span{color:#64748B}footer{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;border-top:1px solid #E2E8F0;padding:8px 14px;color:#475569;font-size:12px}.missing{height:180px;display:grid;place-items:center;color:#94A3B8}@media(max-width:980px){.chart-pair,.trigger-panel{grid-template-columns:1fr}footer{grid-template-columns:repeat(2,1fr)}.score-grid{grid-template-columns:1fr}}.card-actions{display:flex;gap:8px;margin:0 14px 8px}.ta-report-link{display:inline-flex;align-items:center;border:1px solid #99F6E4;background:#ECFDF5;color:#0F766E;border-radius:4px;padding:4px 8px;font-size:11px;font-weight:850;text-decoration:none}.ta-report-link:hover{background:#CCFBF1}</style></head><body class="trend-relay"><section class="top"><h1>单一趋势 · Trend Relay · 走势图</h1><p>截至 2026-07-20 · Top50 · 左侧日线结构，右侧4H timing · EMA 9/26/50 · MACD 12/26/9 · RSI 14</p></section><main><article class="card" id="ticker-ulta">
 <header><span class="rank">#1</span><div><h2>ULTA</h2><p>Ulta Beauty</p></div><strong>100.0</strong></header>
 <div class="signal-banner">优先Call候选</div>
+<div class="card-actions"><a class="ta-report-link" href="tradingagents/ulta.html" title="打开 ULTA TradingAgents 中文研报">TradingAgents 研报 · BUY-WATCH / 偏买入观察</a></div>
 <div class="source-chips"><span>S&amp;P 500</span><span>Consumer Discretionary</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $488.08<br><span>Ulta Beauty is a publicly traded company in the Consumer Discretionary sector.</span></p>
 <div class="return-strip"><span>6月 <b>-27.8%</b></span><span>1月 <b>+8.3%</b></span><span>1周 <b>+3.1%</b></span><span>3日 <b>+4.7%</b></span><span>3块 <b>+1.2%</b></span></div>
@@ -11,6 +12,7 @@
 <article class="card" id="ticker-tmus">
 <header><span class="rank">#2</span><div><h2>TMUS</h2><p>T-Mobile US</p></div><strong>100.0</strong></header>
 <div class="signal-banner">优先Call候选</div>
+<div class="card-actions"><a class="ta-report-link" href="tradingagents/tmus.html" title="打开 TMUS TradingAgents 中文研报">TradingAgents 研报 · BUY-WATCH / 偏买入观察</a></div>
 <div class="source-chips"><span>S&amp;P 500</span><span>Communication Services</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $195.64<br><span>T-Mobile US is a publicly traded company in the Communication Services sector.</span></p>
 <div class="return-strip"><span>6月 <b>+6.5%</b></span><span>1月 <b>+7.9%</b></span><span>1周 <b>+3.8%</b></span><span>3日 <b>+4.3%</b></span><span>3块 <b>+2.8%</b></span></div>
@@ -21,6 +23,7 @@
 <article class="card" id="ticker-dpz">
 <header><span class="rank">#3</span><div><h2>DPZ</h2><p>Domino&#x27;s</p></div><strong>100.0</strong></header>
 <div class="signal-banner">优先Call候选</div>
+<div class="card-actions"><a class="ta-report-link" href="tradingagents/dpz.html" title="打开 DPZ TradingAgents 中文研报">TradingAgents 研报 · WATCH-BUY / 强观察</a></div>
 <div class="source-chips"><span>S&amp;P 500</span><span>Consumer Discretionary</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $328.97<br><span>Domino&#x27;s is a publicly traded company in the Consumer Discretionary sector.</span></p>
 <div class="return-strip"><span>6月 <b>-15.1%</b></span><span>1月 <b>+4.6%</b></span><span>1周 <b>+6.2%</b></span><span>3日 <b>+5.8%</b></span><span>3块 <b>+2.1%</b></span></div>
@@ -31,6 +34,7 @@
 <article class="card" id="ticker-podd">
 <header><span class="rank">#4</span><div><h2>PODD</h2><p>Insulet Corporation</p></div><strong>100.0</strong></header>
 <div class="signal-banner">优先Call候选</div>
+<div class="card-actions"><a class="ta-report-link" href="tradingagents/podd.html" title="打开 PODD TradingAgents 中文研报">TradingAgents 研报 · WATCH-BUY / 强观察</a></div>
 <div class="source-chips"><span>S&amp;P 500</span><span>Health Care</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $167.37<br><span>Insulet Corporation is a publicly traded company in the Health Care sector.</span></p>
 <div class="return-strip"><span>6月 <b>-41.1%</b></span><span>1月 <b>+16.6%</b></span><span>1周 <b>+3.3%</b></span><span>3日 <b>+5.1%</b></span><span>3块 <b>+2.7%</b></span></div>
@@ -41,6 +45,7 @@
 <article class="card" id="ticker-rop">
 <header><span class="rank">#5</span><div><h2>ROP</h2><p>Roper Technologies</p></div><strong>100.0</strong></header>
 <div class="signal-banner">优先Call候选</div>
+<div class="card-actions"><a class="ta-report-link" href="tradingagents/rop.html" title="打开 ROP TradingAgents 中文研报">TradingAgents 研报 · WATCH-BUY / 强观察</a></div>
 <div class="source-chips"><span>S&amp;P 500</span><span>Information Technology</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $362.84<br><span>Roper Technologies is a publicly traded company in the Information Technology sector.</span></p>
 <div class="return-strip"><span>6月 <b>-10.1%</b></span><span>1月 <b>+10.0%</b></span><span>1周 <b>+0.6%</b></span><span>3日 <b>+4.1%</b></span><span>3块 <b>+0.5%</b></span></div>
@@ -51,6 +56,7 @@
 <article class="card" id="ticker-nwsa">
 <header><span class="rank">#6</span><div><h2>NWSA</h2><p>News Corp (Class A)</p></div><strong>100.0</strong></header>
 <div class="signal-banner">优先Call候选</div>
+<div class="card-actions"><a class="ta-report-link" href="tradingagents/nwsa.html" title="打开 NWSA TradingAgents 中文研报">TradingAgents 研报 · BUY-WATCH / 偏买入观察</a></div>
 <div class="source-chips"><span>S&amp;P 500</span><span>Communication Services</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $28.29<br><span>News Corp (Class A) is a publicly traded company in the Communication Services sector.</span></p>
 <div class="return-strip"><span>6月 <b>+9.4%</b></span><span>1月 <b>+8.9%</b></span><span>1周 <b>+2.0%</b></span><span>3日 <b>+1.1%</b></span><span>3块 <b>-0.6%</b></span></div>
@@ -61,6 +67,7 @@
 <article class="card" id="ticker-jbht">
 <header><span class="rank">#7</span><div><h2>JBHT</h2><p>J.B. Hunt</p></div><strong>100.0</strong></header>
 <div class="signal-banner">优先Call候选</div>
+<div class="card-actions"><a class="ta-report-link" href="tradingagents/jbht.html" title="打开 JBHT TradingAgents 中文研报">TradingAgents 研报 · BUY-WATCH / 偏买入观察</a></div>
 <div class="source-chips"><span>S&amp;P 500</span><span>Industrials</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $290.61<br><span>J.B. Hunt Transport Services, Inc. is an American transportation and logistics company based in Lowell, Arkansas. It was founded by Johnnie Bryan Hunt and Johnelle Hunt in Arkansas on August 10, 1961. By 1983, J.B. Hunt had grown into the 80th largest trucking firm in the US, with $623.47 million in revenue. At that time J.B. Hunt operated 550 tractors, 1,049 trailers, and had roughly 1,050 employees.</span> <a class="company-source" href="https://en.wikipedia.org/wiki/J._B._Hunt" target="_blank" rel="noopener">公司资料</a></p>
 <div class="return-strip"><span>6月 <b>+42.8%</b></span><span>1月 <b>+8.7%</b></span><span>1周 <b>+2.7%</b></span><span>3日 <b>+5.2%</b></span><span>3块 <b>-0.4%</b></span></div>
@@ -71,6 +78,7 @@
 <article class="card" id="ticker-trmb">
 <header><span class="rank">#8</span><div><h2>TRMB</h2><p>Trimble Inc.</p></div><strong>100.0</strong></header>
 <div class="signal-banner">优先Call候选</div>
+<div class="card-actions"><a class="ta-report-link" href="tradingagents/trmb.html" title="打开 TRMB TradingAgents 中文研报">TradingAgents 研报 · WATCH-BUY / 强观察</a></div>
 <div class="source-chips"><span>Nasdaq 200</span><span>Information Technology</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $53.21<br><span>Trimble Inc. is an American software, hardware, and services technology company that was founded in 1978. Its headquarters is in Westminster, Colorado. It is publicly traded on the Nasdaq and listed on the S&amp;P 500. Trimble develops hardware and software for a variety of business sectors including architecture, engineering, and construction (AEC); surveying, mapping, and geomatics (geospatial); and transportation and logistics (T&amp;L).</span> <a class="company-source" href="https://en.wikipedia.org/wiki/Trimble_Inc." target="_blank" rel="noopener">公司资料</a></p>
 <div class="return-strip"><span>6月 <b>-23.5%</b></span><span>1月 <b>+8.9%</b></span><span>1周 <b>+1.8%</b></span><span>3日 <b>+2.5%</b></span><span>3块 <b>-1.1%</b></span></div>
@@ -81,6 +89,7 @@
 <article class="card" id="ticker-cmcsa">
 <header><span class="rank">#9</span><div><h2>CMCSA</h2><p>Comcast</p></div><strong>100.0</strong></header>
 <div class="signal-banner">优先Call候选</div>
+<div class="card-actions"><a class="ta-report-link" href="tradingagents/cmcsa.html" title="打开 CMCSA TradingAgents 中文研报">TradingAgents 研报 · WATCH-BUY / 强观察</a></div>
 <div class="source-chips"><span>Nasdaq 200</span><span>Communication Services</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $23.78<br><span>Comcast is a publicly traded company in the Communication Services sector.</span></p>
 <div class="return-strip"><span>6月 <b>-15.6%</b></span><span>1月 <b>+4.8%</b></span><span>1周 <b>-0.8%</b></span><span>3日 <b>+1.2%</b></span><span>3块 <b>+0.0%</b></span></div>
@@ -91,6 +100,7 @@
 <article class="card" id="ticker-fox">
 <header><span class="rank">#10</span><div><h2>FOX</h2><p>Fox Corporation (Class B)</p></div><strong>100.0</strong></header>
 <div class="signal-banner">优先Call候选</div>
+<div class="card-actions"><a class="ta-report-link" href="tradingagents/fox.html" title="打开 FOX TradingAgents 中文研报">TradingAgents 研报 · BUY-WATCH / 偏买入观察</a></div>
 <div class="source-chips"><span>Nasdaq 200</span><span>Communication Services</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $51.55<br><span>Fox Corporation (Class B) is a publicly traded company in the Communication Services sector.</span></p>
 <div class="return-strip"><span>6月 <b>-20.9%</b></span><span>1月 <b>+10.3%</b></span><span>1周 <b>+2.6%</b></span><span>3日 <b>+2.3%</b></span><span>3块 <b>+0.5%</b></span></div>
@@ -101,6 +111,7 @@
 <article class="card" id="ticker-foxa">
 <header><span class="rank">#11</span><div><h2>FOXA</h2><p>Fox Corporation (Class A)</p></div><strong>100.0</strong></header>
 <div class="signal-banner">优先Call候选</div>
+<div class="card-actions"><a class="ta-report-link" href="tradingagents/foxa.html" title="打开 FOXA TradingAgents 中文研报">TradingAgents 研报 · BUY-WATCH / 偏买入观察</a></div>
 <div class="source-chips"><span>Nasdaq 200</span><span>Communication Services</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $57.48<br><span>Fox Corporation, commonly known as Fox Corp or Fox, is an American multinational mass media company headquartered at 1211 Avenue of the Americas in Midtown Manhattan with offices also in Burbank, California. Named after William Fox and incorporated in Delaware, it was formed as a spin-off of 21st Century Fox&#x27;s television broadcasting, news, and sports assets on March 19, 2019. 21CF&#x27;s remaining assets were acquired the next day by The Walt Disney Company. Fox Corp is controlled by Lachlan Murdoch through a family trust with 36% voting shares.</span> <a class="company-source" href="https://en.wikipedia.org/wiki/Fox_Corporation" target="_blank" rel="noopener">公司资料</a></p>
 <div class="return-strip"><span>6月 <b>-20.1%</b></span><span>1月 <b>+12.0%</b></span><span>1周 <b>+2.8%</b></span><span>3日 <b>+2.7%</b></span><span>3块 <b>+0.7%</b></span></div>
@@ -111,6 +122,7 @@
 <article class="card" id="ticker-adp">
 <header><span class="rank">#12</span><div><h2>ADP</h2><p>Automatic Data Processing</p></div><strong>100.0</strong></header>
 <div class="signal-banner">优先Call候选</div>
+<div class="card-actions"><a class="ta-report-link" href="tradingagents/adp.html" title="打开 ADP TradingAgents 中文研报">TradingAgents 研报 · BUY-WATCH / 偏买入观察</a></div>
 <div class="source-chips"><span>Nasdaq 200</span><span>Industrials</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $255.24<br><span>Automatic Data Processing is a publicly traded company in the Industrials sector.</span></p>
 <div class="return-strip"><span>6月 <b>+0.1%</b></span><span>1月 <b>+16.7%</b></span><span>1周 <b>+1.7%</b></span><span>3日 <b>+3.1%</b></span><span>3块 <b>+0.8%</b></span></div>
@@ -121,6 +133,7 @@
 <article class="card" id="ticker-khc">
 <header><span class="rank">#13</span><div><h2>KHC</h2><p>Kraft Heinz</p></div><strong>100.0</strong></header>
 <div class="signal-banner">优先Call候选</div>
+<div class="card-actions"><a class="ta-report-link" href="tradingagents/khc.html" title="打开 KHC TradingAgents 中文研报">TradingAgents 研报 · BUY-WATCH / 偏买入观察</a></div>
 <div class="source-chips"><span>Nasdaq 200</span><span>Consumer Staples</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $25.86<br><span>The Kraft Heinz Company (KHC), commonly known as Kraft Heinz, is an American multinational food company formed by the merger of Kraft Foods Group, Inc. and the H.J. Heinz Company co-headquartered in Chicago and Pittsburgh.</span> <a class="company-source" href="https://en.wikipedia.org/wiki/Kraft_Heinz" target="_blank" rel="noopener">公司资料</a></p>
 <div class="return-strip"><span>6月 <b>+8.8%</b></span><span>1月 <b>+11.5%</b></span><span>1周 <b>+2.5%</b></span><span>3日 <b>+1.6%</b></span><span>3块 <b>+0.0%</b></span></div>
@@ -131,6 +144,7 @@
 <article class="card" id="ticker-chrw">
 <header><span class="rank">#14</span><div><h2>CHRW</h2><p>C.H. Robinson</p></div><strong>100.0</strong></header>
 <div class="signal-banner">优先Call候选</div>
+<div class="card-actions"><a class="ta-report-link" href="tradingagents/chrw.html" title="打开 CHRW TradingAgents 中文研报">TradingAgents 研报 · BUY-WATCH / 偏买入观察</a></div>
 <div class="source-chips"><span>Nasdaq 200</span><span>Industrials</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $205.80<br><span>C.H. Robinson is a publicly traded company in the Industrials sector.</span></p>
 <div class="return-strip"><span>6月 <b>+17.5%</b></span><span>1月 <b>+11.1%</b></span><span>1周 <b>+4.7%</b></span><span>3日 <b>+4.2%</b></span><span>3块 <b>-1.0%</b></span></div>
@@ -141,6 +155,7 @@
 <article class="card" id="ticker-payx">
 <header><span class="rank">#15</span><div><h2>PAYX</h2><p>Paychex</p></div><strong>100.0</strong></header>
 <div class="signal-banner">优先Call候选</div>
+<div class="card-actions"><a class="ta-report-link" href="tradingagents/payx.html" title="打开 PAYX TradingAgents 中文研报">TradingAgents 研报 · BUY-WATCH / 偏买入观察</a></div>
 <div class="source-chips"><span>Nasdaq 200</span><span>Industrials</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $115.20<br><span>Paychex, Inc. is an American company that provides human resources, payroll, and employee benefits outsourcing services for small- to medium-sized businesses. Founded in 1971 and headquartered in Rochester, New York, the company has more than 100 offices serving approximately 800,000 payroll clients in the U.S. and Europe. Paychex is ranked 681st on the Fortune 500 list of largest corporations by revenue.</span> <a class="company-source" href="https://en.wikipedia.org/wiki/Paychex" target="_blank" rel="noopener">公司资料</a></p>
 <div class="return-strip"><span>6月 <b>+7.2%</b></span><span>1月 <b>+18.1%</b></span><span>1周 <b>+4.0%</b></span><span>3日 <b>+4.7%</b></span><span>3块 <b>+1.8%</b></span></div>
@@ -151,6 +166,7 @@
 <article class="card" id="ticker-ctas">
 <header><span class="rank">#16</span><div><h2>CTAS</h2><p>Cintas</p></div><strong>100.0</strong></header>
 <div class="signal-banner">优先Call候选</div>
+<div class="card-actions"><a class="ta-report-link" href="tradingagents/ctas.html" title="打开 CTAS TradingAgents 中文研报">TradingAgents 研报 · BUY-WATCH / 偏买入观察</a></div>
 <div class="source-chips"><span>Nasdaq 200</span><span>Industrials</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $201.80<br><span>Cintas is a publicly traded company in the Industrials sector.</span></p>
 <div class="return-strip"><span>6月 <b>+4.2%</b></span><span>1月 <b>+19.0%</b></span><span>1周 <b>+9.8%</b></span><span>3日 <b>+4.9%</b></span><span>3块 <b>-0.3%</b></span></div>
@@ -161,6 +177,7 @@
 <article class="card" id="ticker-apa">
 <header><span class="rank">#17</span><div><h2>APA</h2><p>APA Corporation</p></div><strong>100.0</strong></header>
 <div class="signal-banner">优先Call候选</div>
+<div class="card-actions"><a class="ta-report-link" href="tradingagents/apa.html" title="打开 APA TradingAgents 中文研报">TradingAgents 研报 · HOLD-WATCH / 继续观察</a></div>
 <div class="source-chips"><span>S&amp;P 500</span><span>Energy</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $34.84<br><span>APA Corporation, a holding company for Apache Corporation, is an American company engaged in hydrocarbon exploration. It is organized in Delaware and headquartered in Houston.</span> <a class="company-source" href="https://en.wikipedia.org/wiki/APA_Corporation" target="_blank" rel="noopener">公司资料</a></p>
 <div class="return-strip"><span>6月 <b>+37.4%</b></span><span>1月 <b>+2.7%</b></span><span>1周 <b>+0.5%</b></span><span>3日 <b>+1.7%</b></span><span>3块 <b>-0.1%</b></span></div>
@@ -171,6 +188,7 @@
 <article class="card" id="ticker-reg">
 <header><span class="rank">#18</span><div><h2>REG</h2><p>Regency Centers</p></div><strong>100.0</strong></header>
 <div class="signal-banner">优先Call候选</div>
+<div class="card-actions"><a class="ta-report-link" href="tradingagents/reg.html" title="打开 REG TradingAgents 中文研报">TradingAgents 研报 · BUY-WATCH / 偏买入观察</a></div>
 <div class="source-chips"><span>S&amp;P 500</span><span>Real Estate</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $82.14<br><span>Regency Centers Corporation is a real estate investment trust based in Jacksonville, Florida, and is one of the largest operators of shopping centers with grocery stores as anchor tenants. As of October 21, 2020, the company owned 415 properties comprising 56-million-square feet of space. Notable properties owned by the company include Serramonte Center and a 30% interest in Village District.</span> <a class="company-source" href="https://en.wikipedia.org/wiki/Regency_Centers" target="_blank" rel="noopener">公司资料</a></p>
 <div class="return-strip"><span>6月 <b>+16.5%</b></span><span>1月 <b>+6.2%</b></span><span>1周 <b>+2.8%</b></span><span>3日 <b>+2.7%</b></span><span>3块 <b>+0.5%</b></span></div>
@@ -181,6 +199,7 @@
 <article class="card" id="ticker-z">
 <header><span class="rank">#19</span><div><h2>Z</h2><p>Zillow Group, Inc. - Class C Capital Stock</p></div><strong>100.0</strong></header>
 <div class="signal-banner">优先Call候选</div>
+<div class="card-actions"><a class="ta-report-link" href="tradingagents/z.html" title="打开 Z TradingAgents 中文研报">TradingAgents 研报 · WATCH-BUY / 强观察</a></div>
 <div class="source-chips"><span>Nasdaq 200</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $33.03<br><span>Zillow Group, Inc. - Class C Capital Stock is a publicly traded company.</span></p>
 <div class="return-strip"><span>6月 <b>-49.9%</b></span><span>1月 <b>+3.2%</b></span><span>1周 <b>+2.6%</b></span><span>3日 <b>-2.4%</b></span><span>3块 <b>-1.3%</b></span></div>
@@ -191,6 +210,7 @@
 <article class="card" id="ticker-docu">
 <header><span class="rank">#20</span><div><h2>DOCU</h2><p>DocuSign, Inc. - Common Stock</p></div><strong>100.0</strong></header>
 <div class="signal-banner">优先Call候选</div>
+<div class="card-actions"><a class="ta-report-link" href="tradingagents/docu.html" title="打开 DOCU TradingAgents 中文研报">TradingAgents 研报 · BUY-WATCH / 偏买入观察</a></div>
 <div class="source-chips"><span>Nasdaq 200</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $52.30<br><span>DocuSign, Inc. - Common Stock is a publicly traded company.</span></p>
 <div class="return-strip"><span>6月 <b>-6.3%</b></span><span>1月 <b>+22.8%</b></span><span>1周 <b>+4.9%</b></span><span>3日 <b>+2.2%</b></span><span>3块 <b>-1.0%</b></span></div>
@@ -201,6 +221,7 @@
 <article class="card" id="ticker-ssnc">
 <header><span class="rank">#21</span><div><h2>SSNC</h2><p>SS&amp;C Technologies Holdings, Inc. - Common Stock</p></div><strong>100.0</strong></header>
 <div class="signal-banner">优先Call候选</div>
+<div class="card-actions"><a class="ta-report-link" href="tradingagents/ssnc.html" title="打开 SSNC TradingAgents 中文研报">TradingAgents 研报 · WATCH-BUY / 强观察</a></div>
 <div class="source-chips"><span>Nasdaq Liquid 500</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $69.51<br><span>SS&amp;C Technologies Holdings, Inc. is an American multinational holding company headquartered in Windsor, Connecticut, that sells software and software as a service to the financial services industry. The company has offices in the Americas, Europe, Asia, Africa and Australia.</span> <a class="company-source" href="https://en.wikipedia.org/wiki/SS%26C_Technologies" target="_blank" rel="noopener">公司资料</a></p>
 <div class="return-strip"><span>6月 <b>-17.5%</b></span><span>1月 <b>+4.7%</b></span><span>1周 <b>+2.1%</b></span><span>3日 <b>+1.3%</b></span><span>3块 <b>-0.1%</b></span></div>
@@ -211,6 +232,7 @@
 <article class="card" id="ticker-sny">
 <header><span class="rank">#22</span><div><h2>SNY</h2><p>Sanofi - American Depositary Shares</p></div><strong>100.0</strong></header>
 <div class="signal-banner">优先Call候选</div>
+<div class="card-actions"><a class="ta-report-link" href="tradingagents/sny.html" title="打开 SNY TradingAgents 中文研报">TradingAgents 研报 · BUY-WATCH / 偏买入观察</a></div>
 <div class="source-chips"><span>Nasdaq Liquid 500</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $43.98<br><span>Sanofi S.A. is a French multinational pharmaceutical and healthcare company headquartered in Paris. The corporation was established in 1973 and merged with Synthélabo in 1999 to form Sanofi-Synthélabo. In 2004, Sanofi-Synthélabo merged with Aventis and renamed to Sanofi-Aventis, which were each the product of several previous mergers. It changed its name back to Sanofi in May 2011.</span> <a class="company-source" href="https://en.wikipedia.org/wiki/Sanofi" target="_blank" rel="noopener">公司资料</a></p>
 <div class="return-strip"><span>6月 <b>-3.8%</b></span><span>1月 <b>+3.5%</b></span><span>1周 <b>-0.0%</b></span><span>3日 <b>+0.7%</b></span><span>3块 <b>-0.0%</b></span></div>
@@ -221,6 +243,7 @@
 <article class="card" id="ticker-team">
 <header><span class="rank">#23</span><div><h2>TEAM</h2><p>Atlassian Corporation  - Class A Common Stock</p></div><strong>100.0</strong></header>
 <div class="signal-banner">优先Call候选</div>
+<div class="card-actions"><a class="ta-report-link" href="tradingagents/team.html" title="打开 TEAM TradingAgents 中文研报">TradingAgents 研报 · BUY-WATCH / 偏买入观察</a></div>
 <div class="source-chips"><span>Nasdaq Liquid 500</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $96.43<br><span>Atlassian Corporation is an international proprietary software company that specialises in collaboration tools designed primarily for software development and project management. Atlassian was founded in Sydney, Australia in 2002 and has been domiciled in the United States since 2022 as a pure holding company of Atlassian Corporation Plc. The company is globally headquartered in Sydney, with US headquarters in San Francisco, and over 12,000 employees across 14 countries. Atlassian currently serves over 300,000 customers in over 200 countries and territories around the world.</span> <a class="company-source" href="https://en.wikipedia.org/wiki/Atlassian" target="_blank" rel="noopener">公司资料</a></p>
 <div class="return-strip"><span>6月 <b>-18.3%</b></span><span>1月 <b>+14.3%</b></span><span>1周 <b>+0.3%</b></span><span>3日 <b>+5.1%</b></span><span>3块 <b>+2.8%</b></span></div>
@@ -231,6 +254,7 @@
 <article class="card" id="ticker-orka">
 <header><span class="rank">#24</span><div><h2>ORKA</h2><p>ORUKA THERAPEUTICS INC</p></div><strong>100.0</strong></header>
 <div class="signal-banner">优先Call候选</div>
+<div class="card-actions"><a class="ta-report-link" href="tradingagents/orka.html" title="打开 ORKA TradingAgents 中文研报">TradingAgents 研报 · WATCH-BUY / 强观察</a></div>
 <div class="source-chips"><span>Nasdaq Liquid 500</span><span>Health Care</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $91.71<br><span>ORUKA THERAPEUTICS INC is a publicly traded company in the Health Care sector.</span></p>
 <div class="return-strip"><span>6月 <b>+176.0%</b></span><span>1月 <b>+29.4%</b></span><span>1周 <b>+8.5%</b></span><span>3日 <b>+5.8%</b></span><span>3块 <b>+0.2%</b></span></div>
@@ -241,6 +265,7 @@
 <article class="card" id="ticker-calm">
 <header><span class="rank">#25</span><div><h2>CALM</h2><p>CAL MAINE FOODS INC</p></div><strong>100.0</strong></header>
 <div class="signal-banner">优先Call候选</div>
+<div class="card-actions"><a class="ta-report-link" href="tradingagents/calm.html" title="打开 CALM TradingAgents 中文研报">TradingAgents 研报 · BUY-WATCH / 偏买入观察</a></div>
 <div class="source-chips"><span>Nasdaq Liquid 500</span><span>Consumer Staples</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $88.42<br><span>CAL MAINE FOODS INC is a publicly traded company in the Consumer Staples sector.</span></p>
 <div class="return-strip"><span>6月 <b>+14.2%</b></span><span>1月 <b>+12.9%</b></span><span>1周 <b>+6.0%</b></span><span>3日 <b>+3.6%</b></span><span>3块 <b>+1.0%</b></span></div>
@@ -251,6 +276,7 @@
 <article class="card" id="ticker-cake">
 <header><span class="rank">#26</span><div><h2>CAKE</h2><p>CHEESECAKE FACTORY INC</p></div><strong>100.0</strong></header>
 <div class="signal-banner">优先Call候选</div>
+<div class="card-actions"><a class="ta-report-link" href="tradingagents/cake.html" title="打开 CAKE TradingAgents 中文研报">TradingAgents 研报 · BUY-WATCH / 偏买入观察</a></div>
 <div class="source-chips"><span>Nasdaq Liquid 500</span><span>Consumer Discretionary</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $86.11<br><span>CHEESECAKE FACTORY INC is a publicly traded company in the Consumer Discretionary sector.</span></p>
 <div class="return-strip"><span>6月 <b>+49.3%</b></span><span>1月 <b>+14.0%</b></span><span>1周 <b>+5.1%</b></span><span>3日 <b>+7.3%</b></span><span>3块 <b>+0.7%</b></span></div>
@@ -261,6 +287,7 @@
 <article class="card" id="ticker-xmtr">
 <header><span class="rank">#27</span><div><h2>XMTR</h2><p>XOMETRY INC CLASS A</p></div><strong>100.0</strong></header>
 <div class="signal-banner">优先Call候选</div>
+<div class="card-actions"><a class="ta-report-link" href="tradingagents/xmtr.html" title="打开 XMTR TradingAgents 中文研报">TradingAgents 研报 · BUY-WATCH / 偏买入观察</a></div>
 <div class="source-chips"><span>Russell</span><span>Industrials</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $100.12<br><span>XOMETRY INC CLASS A is a publicly traded company in the Industrials sector.</span></p>
 <div class="return-strip"><span>6月 <b>+65.2%</b></span><span>1月 <b>+12.7%</b></span><span>1周 <b>+3.6%</b></span><span>3日 <b>+1.5%</b></span><span>3块 <b>-1.2%</b></span></div>
@@ -271,6 +298,7 @@
 <article class="card" id="ticker-dnth">
 <header><span class="rank">#28</span><div><h2>DNTH</h2><p>DIANTHUS THERAPEUTICS INC</p></div><strong>100.0</strong></header>
 <div class="signal-banner">优先Call候选</div>
+<div class="card-actions"><a class="ta-report-link" href="tradingagents/dnth.html" title="打开 DNTH TradingAgents 中文研报">TradingAgents 研报 · BUY-WATCH / 偏买入观察</a></div>
 <div class="source-chips"><span>Russell</span><span>Health Care</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $101.00<br><span>DIANTHUS THERAPEUTICS INC is a publicly traded company in the Health Care sector.</span></p>
 <div class="return-strip"><span>6月 <b>+116.7%</b></span><span>1月 <b>+23.3%</b></span><span>1周 <b>+2.4%</b></span><span>3日 <b>+1.1%</b></span><span>3块 <b>-2.9%</b></span></div>
@@ -281,6 +309,7 @@
 <article class="card" id="ticker-frsh">
 <header><span class="rank">#29</span><div><h2>FRSH</h2><p>FRESHWORKS INC CLASS A</p></div><strong>100.0</strong></header>
 <div class="signal-banner">优先Call候选</div>
+<div class="card-actions"><a class="ta-report-link" href="tradingagents/frsh.html" title="打开 FRSH TradingAgents 中文研报">TradingAgents 研报 · BUY-WATCH / 偏买入观察</a></div>
 <div class="source-chips"><span>Russell</span><span>Information Technology</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $11.05<br><span>FRESHWORKS INC CLASS A is a publicly traded company in the Information Technology sector.</span></p>
 <div class="return-strip"><span>6月 <b>+1.0%</b></span><span>1月 <b>+23.1%</b></span><span>1周 <b>+2.0%</b></span><span>3日 <b>+4.1%</b></span><span>3块 <b>+1.1%</b></span></div>
@@ -291,6 +320,7 @@
 <article class="card" id="ticker-cop">
 <header><span class="rank">#30</span><div><h2>COP</h2><p>ConocoPhillips</p></div><strong>100.0</strong></header>
 <div class="signal-banner">优先Call候选</div>
+<div class="card-actions"><a class="ta-report-link" href="tradingagents/cop.html" title="打开 COP TradingAgents 中文研报">TradingAgents 研报 · BUY-WATCH / 偏买入观察</a></div>
 <div class="source-chips"><span>S&amp;P 500</span><span>Energy</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $115.67<br><span>ConocoPhillips Company is an American multinational corporation engaged in hydrocarbon exploration and production. It is based in the Energy Corridor district of Houston, Texas.</span> <a class="company-source" href="https://en.wikipedia.org/wiki/ConocoPhillips" target="_blank" rel="noopener">公司资料</a></p>
 <div class="return-strip"><span>6月 <b>+21.1%</b></span><span>1月 <b>+4.0%</b></span><span>1周 <b>+2.5%</b></span><span>3日 <b>+3.8%</b></span><span>3块 <b>+1.7%</b></span></div>
@@ -301,6 +331,7 @@
 <article class="card" id="ticker-bg">
 <header><span class="rank">#31</span><div><h2>BG</h2><p>Bunge Global</p></div><strong>100.0</strong></header>
 <div class="signal-banner">优先Call候选</div>
+<div class="card-actions"><a class="ta-report-link" href="tradingagents/bg.html" title="打开 BG TradingAgents 中文研报">TradingAgents 研报 · WATCH-BUY / 强观察</a></div>
 <div class="source-chips"><span>S&amp;P 500</span><span>Consumer Staples</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $120.65<br><span>Bunge Global is a publicly traded company in the Consumer Staples sector.</span></p>
 <div class="return-strip"><span>6月 <b>+9.6%</b></span><span>1月 <b>+3.9%</b></span><span>1周 <b>+2.8%</b></span><span>3日 <b>+4.3%</b></span><span>3块 <b>+1.8%</b></span></div>
@@ -311,6 +342,7 @@
 <article class="card" id="ticker-mdt">
 <header><span class="rank">#32</span><div><h2>MDT</h2><p>Medtronic</p></div><strong>100.0</strong></header>
 <div class="signal-banner">优先Call候选</div>
+<div class="card-actions"><a class="ta-report-link" href="tradingagents/mdt.html" title="打开 MDT TradingAgents 中文研报">TradingAgents 研报 · WATCH-BUY / 强观察</a></div>
 <div class="source-chips"><span>S&amp;P 500</span><span>Health Care</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $83.33<br><span>Medtronic plc is an American-Irish medical device company. The company&#x27;s legal and executive headquarters are in Ireland, while its operational headquarters are in Minneapolis, Minnesota. Medtronic rebased to Ireland following its acquisition of Irish-based Covidien in 2015. While it primarily operates in the United States, it operates in more than 150 countries and employs over 90,000 people.</span> <a class="company-source" href="https://en.wikipedia.org/wiki/Medtronic" target="_blank" rel="noopener">公司资料</a></p>
 <div class="return-strip"><span>6月 <b>-15.5%</b></span><span>1月 <b>+6.6%</b></span><span>1周 <b>-0.3%</b></span><span>3日 <b>+3.6%</b></span><span>3块 <b>+0.6%</b></span></div>
@@ -321,6 +353,7 @@
 <article class="card" id="ticker-tyl">
 <header><span class="rank">#33</span><div><h2>TYL</h2><p>Tyler Technologies</p></div><strong>100.0</strong></header>
 <div class="signal-banner">优先Call候选</div>
+<div class="card-actions"><a class="ta-report-link" href="tradingagents/tyl.html" title="打开 TYL TradingAgents 中文研报">TradingAgents 研报 · WATCH-BUY / 强观察</a></div>
 <div class="source-chips"><span>S&amp;P 500</span><span>Information Technology</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $317.92<br><span>Tyler Technologies, Inc. is an American technology company based in Plano, Texas, that provides proprietary software to the U.S. public sector. Tyler Technologies has offices in 17 states and one in Toronto, Ontario, Canada.</span> <a class="company-source" href="https://en.wikipedia.org/wiki/Tyler_Technologies" target="_blank" rel="noopener">公司资料</a></p>
 <div class="return-strip"><span>6月 <b>-25.8%</b></span><span>1月 <b>+10.5%</b></span><span>1周 <b>+1.2%</b></span><span>3日 <b>+4.7%</b></span><span>3块 <b>+0.1%</b></span></div>
@@ -331,6 +364,7 @@
 <article class="card" id="ticker-it">
 <header><span class="rank">#34</span><div><h2>IT</h2><p>Gartner</p></div><strong>100.0</strong></header>
 <div class="signal-banner">优先Call候选</div>
+<div class="card-actions"><a class="ta-report-link" href="tradingagents/it.html" title="打开 IT TradingAgents 中文研报">TradingAgents 研报 · BUY-WATCH / 偏买入观察</a></div>
 <div class="source-chips"><span>S&amp;P 500</span><span>Information Technology</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $140.99<br><span>Gartner is a publicly traded company in the Information Technology sector.</span></p>
 <div class="return-strip"><span>6月 <b>-36.4%</b></span><span>1月 <b>+5.5%</b></span><span>1周 <b>-0.2%</b></span><span>3日 <b>+5.4%</b></span><span>3块 <b>+0.2%</b></span></div>
@@ -341,6 +375,7 @@
 <article class="card" id="ticker-cpay">
 <header><span class="rank">#35</span><div><h2>CPAY</h2><p>Corpay</p></div><strong>100.0</strong></header>
 <div class="signal-banner">优先Call候选</div>
+<div class="card-actions"><a class="ta-report-link" href="tradingagents/cpay.html" title="打开 CPAY TradingAgents 中文研报">TradingAgents 研报 · BUY-WATCH / 偏买入观察</a></div>
 <div class="source-chips"><span>S&amp;P 500</span><span>Financials</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $369.35<br><span>Corpay is a publicly traded company in the Financials sector.</span></p>
 <div class="return-strip"><span>6月 <b>+21.0%</b></span><span>1月 <b>+4.5%</b></span><span>1周 <b>+2.0%</b></span><span>3日 <b>+1.7%</b></span><span>3块 <b>+1.1%</b></span></div>
@@ -351,6 +386,7 @@
 <article class="card" id="ticker-crm">
 <header><span class="rank">#36</span><div><h2>CRM</h2><p>Salesforce</p></div><strong>100.0</strong></header>
 <div class="signal-banner">优先Call候选</div>
+<div class="card-actions"><a class="ta-report-link" href="tradingagents/crm.html" title="打开 CRM TradingAgents 中文研报">TradingAgents 研报 · BUY-WATCH / 偏买入观察</a></div>
 <div class="source-chips"><span>S&amp;P 500</span><span>Information Technology</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $173.77<br><span>Salesforce, Inc., is an American cloud-based software company headquartered in San Francisco, California. It is primarily known for its customer relationship management software and related applications which it delivers through a software as a service subscription business model. It also provides software for sales, customer service, marketing automation, e-commerce, analytics, artificial intelligence, agentic AI, and application development.</span> <a class="company-source" href="https://en.wikipedia.org/wiki/Salesforce" target="_blank" rel="noopener">公司资料</a></p>
 <div class="return-strip"><span>6月 <b>-21.0%</b></span><span>1月 <b>+12.1%</b></span><span>1周 <b>+1.5%</b></span><span>3日 <b>+4.1%</b></span><span>3块 <b>+1.4%</b></span></div>
@@ -361,6 +397,7 @@
 <article class="card" id="ticker-ivz">
 <header><span class="rank">#37</span><div><h2>IVZ</h2><p>Invesco</p></div><strong>100.0</strong></header>
 <div class="signal-banner">优先Call候选</div>
+<div class="card-actions"><a class="ta-report-link" href="tradingagents/ivz.html" title="打开 IVZ TradingAgents 中文研报">TradingAgents 研报 · BUY-WATCH / 偏买入观察</a></div>
 <div class="source-chips"><span>S&amp;P 500</span><span>Financials</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $29.67<br><span>Invesco is a publicly traded company in the Financials sector.</span></p>
 <div class="return-strip"><span>6月 <b>+6.3%</b></span><span>1月 <b>+3.0%</b></span><span>1周 <b>+4.5%</b></span><span>3日 <b>-2.1%</b></span><span>3块 <b>-0.0%</b></span></div>
@@ -371,6 +408,7 @@
 <article class="card" id="ticker-efx">
 <header><span class="rank">#38</span><div><h2>EFX</h2><p>Equifax</p></div><strong>100.0</strong></header>
 <div class="signal-banner">优先Call候选</div>
+<div class="card-actions"><a class="ta-report-link" href="tradingagents/efx.html" title="打开 EFX TradingAgents 中文研报">TradingAgents 研报 · BUY-WATCH / 偏买入观察</a></div>
 <div class="source-chips"><span>S&amp;P 500</span><span>Industrials</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $180.08<br><span>Equifax Inc. is an American multinational consumer credit reporting agency headquartered in Atlanta, Georgia and is one of the three largest consumer credit reporting agencies, along with Experian and TransUnion. Equifax collects and aggregates information on more than 800 million individual consumers and more than 88 million businesses worldwide. In addition to credit and demographic data and services to business, Equifax sells credit monitoring and fraud prevention services directly to consumers.</span> <a class="company-source" href="https://en.wikipedia.org/wiki/Equifax" target="_blank" rel="noopener">公司资料</a></p>
 <div class="return-strip"><span>6月 <b>-13.6%</b></span><span>1月 <b>+16.3%</b></span><span>1周 <b>+4.3%</b></span><span>3日 <b>+4.9%</b></span><span>3块 <b>+1.8%</b></span></div>
@@ -381,6 +419,7 @@
 <article class="card" id="ticker-frt">
 <header><span class="rank">#39</span><div><h2>FRT</h2><p>Federal Realty Investment Trust</p></div><strong>100.0</strong></header>
 <div class="signal-banner">优先Call候选</div>
+<div class="card-actions"><a class="ta-report-link" href="tradingagents/frt.html" title="打开 FRT TradingAgents 中文研报">TradingAgents 研报 · BUY-WATCH / 偏买入观察</a></div>
 <div class="source-chips"><span>S&amp;P 500</span><span>Real Estate</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $125.57<br><span>Federal Realty Investment Trust is a real estate investment trust that invests in shopping centers in the Northeastern United States, the Mid-Atlantic states, California, and South Florida.</span> <a class="company-source" href="https://en.wikipedia.org/wiki/Federal_Realty_Investment_Trust" target="_blank" rel="noopener">公司资料</a></p>
 <div class="return-strip"><span>6月 <b>+22.4%</b></span><span>1月 <b>+4.2%</b></span><span>1周 <b>+3.1%</b></span><span>3日 <b>+2.7%</b></span><span>3块 <b>+0.5%</b></span></div>
@@ -391,6 +430,7 @@
 <article class="card" id="ticker-aig">
 <header><span class="rank">#40</span><div><h2>AIG</h2><p>American International Group</p></div><strong>100.0</strong></header>
 <div class="signal-banner">优先Call候选</div>
+<div class="card-actions"><a class="ta-report-link" href="tradingagents/aig.html" title="打开 AIG TradingAgents 中文研报">TradingAgents 研报 · BUY-WATCH / 偏买入观察</a></div>
 <div class="source-chips"><span>S&amp;P 500</span><span>Financials</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $79.82<br><span>American International Group is a publicly traded company in the Financials sector.</span></p>
 <div class="return-strip"><span>6月 <b>+10.2%</b></span><span>1月 <b>+6.8%</b></span><span>1周 <b>-0.1%</b></span><span>3日 <b>+4.0%</b></span><span>3块 <b>-0.3%</b></span></div>
@@ -401,6 +441,7 @@
 <article class="card" id="ticker-hrl">
 <header><span class="rank">#41</span><div><h2>HRL</h2><p>Hormel Foods</p></div><strong>100.0</strong></header>
 <div class="signal-banner">优先Call候选</div>
+<div class="card-actions"><a class="ta-report-link" href="tradingagents/hrl.html" title="打开 HRL TradingAgents 中文研报">TradingAgents 研报 · BUY-WATCH / 偏买入观察</a></div>
 <div class="source-chips"><span>S&amp;P 500</span><span>Consumer Staples</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $25.30<br><span>Hormel Foods is a publicly traded company in the Consumer Staples sector.</span></p>
 <div class="return-strip"><span>6月 <b>+3.0%</b></span><span>1月 <b>+4.0%</b></span><span>1周 <b>+3.4%</b></span><span>3日 <b>+0.6%</b></span><span>3块 <b>+0.1%</b></span></div>
@@ -411,6 +452,7 @@
 <article class="card" id="ticker-kim">
 <header><span class="rank">#42</span><div><h2>KIM</h2><p>Kimco Realty</p></div><strong>100.0</strong></header>
 <div class="signal-banner">优先Call候选</div>
+<div class="card-actions"><a class="ta-report-link" href="tradingagents/kim.html" title="打开 KIM TradingAgents 中文研报">TradingAgents 研报 · BUY-WATCH / 偏买入观察</a></div>
 <div class="source-chips"><span>S&amp;P 500</span><span>Real Estate</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $26.04<br><span>Kimco Realty is a publicly traded company in the Real Estate sector.</span></p>
 <div class="return-strip"><span>6月 <b>+24.2%</b></span><span>1月 <b>+6.3%</b></span><span>1周 <b>+3.7%</b></span><span>3日 <b>+3.8%</b></span><span>3块 <b>+0.5%</b></span></div>
@@ -421,6 +463,7 @@
 <article class="card" id="ticker-eog">
 <header><span class="rank">#43</span><div><h2>EOG</h2><p>EOG Resources</p></div><strong>100.0</strong></header>
 <div class="signal-banner">优先Call候选</div>
+<div class="card-actions"><a class="ta-report-link" href="tradingagents/eog.html" title="打开 EOG TradingAgents 中文研报">TradingAgents 研报 · BUY-WATCH / 偏买入观察</a></div>
 <div class="source-chips"><span>S&amp;P 500</span><span>Energy</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $141.08<br><span>EOG Resources is a publicly traded company in the Energy sector.</span></p>
 <div class="return-strip"><span>6月 <b>+32.8%</b></span><span>1月 <b>+5.9%</b></span><span>1周 <b>+1.1%</b></span><span>3日 <b>+2.6%</b></span><span>3块 <b>+1.3%</b></span></div>
@@ -431,6 +474,7 @@
 <article class="card" id="ticker-hig">
 <header><span class="rank">#44</span><div><h2>HIG</h2><p>Hartford (The)</p></div><strong>100.0</strong></header>
 <div class="signal-banner">优先Call候选</div>
+<div class="card-actions"><a class="ta-report-link" href="tradingagents/hig.html" title="打开 HIG TradingAgents 中文研报">TradingAgents 研报 · WATCH-BUY / 强观察</a></div>
 <div class="source-chips"><span>S&amp;P 500</span><span>Financials</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $140.50<br><span>Hartford (The) is a publicly traded company in the Financials sector.</span></p>
 <div class="return-strip"><span>6月 <b>+9.1%</b></span><span>1月 <b>+8.4%</b></span><span>1周 <b>-0.2%</b></span><span>3日 <b>+4.5%</b></span><span>3块 <b>+0.3%</b></span></div>
@@ -441,6 +485,7 @@
 <article class="card" id="ticker-spg">
 <header><span class="rank">#45</span><div><h2>SPG</h2><p>Simon Property Group</p></div><strong>100.0</strong></header>
 <div class="signal-banner">优先Call候选</div>
+<div class="card-actions"><a class="ta-report-link" href="tradingagents/spg.html" title="打开 SPG TradingAgents 中文研报">TradingAgents 研报 · BUY-WATCH / 偏买入观察</a></div>
 <div class="source-chips"><span>S&amp;P 500</span><span>Real Estate</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $228.21<br><span>Simon Property Group is a publicly traded company in the Real Estate sector.</span></p>
 <div class="return-strip"><span>6月 <b>+23.8%</b></span><span>1月 <b>+8.7%</b></span><span>1周 <b>+4.0%</b></span><span>3日 <b>+2.8%</b></span><span>3块 <b>+0.4%</b></span></div>
@@ -451,6 +496,7 @@
 <article class="card" id="ticker-pld">
 <header><span class="rank">#46</span><div><h2>PLD</h2><p>Prologis</p></div><strong>100.0</strong></header>
 <div class="signal-banner">优先Call候选</div>
+<div class="card-actions"><a class="ta-report-link" href="tradingagents/pld.html" title="打开 PLD TradingAgents 中文研报">TradingAgents 研报 · BUY-WATCH / 偏买入观察</a></div>
 <div class="source-chips"><span>S&amp;P 500</span><span>Real Estate</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $147.46<br><span>Prologis is a publicly traded company in the Real Estate sector.</span></p>
 <div class="return-strip"><span>6月 <b>+12.7%</b></span><span>1月 <b>+4.6%</b></span><span>1周 <b>+3.7%</b></span><span>3日 <b>+2.8%</b></span><span>3块 <b>-0.6%</b></span></div>
@@ -461,6 +507,7 @@
 <article class="card" id="ticker-afl">
 <header><span class="rank">#47</span><div><h2>AFL</h2><p>Aflac</p></div><strong>100.0</strong></header>
 <div class="signal-banner">优先Call候选</div>
+<div class="card-actions"><a class="ta-report-link" href="tradingagents/afl.html" title="打开 AFL TradingAgents 中文研报">TradingAgents 研报 · BUY-WATCH / 偏买入观察</a></div>
 <div class="source-chips"><span>S&amp;P 500</span><span>Financials</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $124.06<br><span>Aflac Incorporated is an American insurance company and is the largest provider of supplemental insurance in the United States. It was founded in 1955 and is based in Columbus, Georgia. In the U.S., it underwrites a wide range of insurance policies, but is perhaps more known for its payroll deduction insurance coverage, which pays cash benefits when a policyholder has a covered accident or illness. The company states it &quot;provides financial protection to more than 50 million people worldwide&quot;.</span> <a class="company-source" href="https://en.wikipedia.org/wiki/Aflac" target="_blank" rel="noopener">公司资料</a></p>
 <div class="return-strip"><span>6月 <b>+13.5%</b></span><span>1月 <b>+6.7%</b></span><span>1周 <b>+0.6%</b></span><span>3日 <b>+2.5%</b></span><span>3块 <b>-0.1%</b></span></div>
@@ -471,6 +518,7 @@
 <article class="card" id="ticker-bmy">
 <header><span class="rank">#48</span><div><h2>BMY</h2><p>Bristol Myers Squibb</p></div><strong>100.0</strong></header>
 <div class="signal-banner">优先Call候选</div>
+<div class="card-actions"><a class="ta-report-link" href="tradingagents/bmy.html" title="打开 BMY TradingAgents 中文研报">TradingAgents 研报 · BUY-WATCH / 偏买入观察</a></div>
 <div class="source-chips"><span>S&amp;P 500</span><span>Health Care</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $60.17<br><span>Bristol Myers Squibb is a publicly traded company in the Health Care sector.</span></p>
 <div class="return-strip"><span>6月 <b>+11.0%</b></span><span>1月 <b>+8.8%</b></span><span>1周 <b>+1.4%</b></span><span>3日 <b>+2.5%</b></span><span>3块 <b>-1.0%</b></span></div>
@@ -481,6 +529,7 @@
 <article class="card" id="ticker-pm">
 <header><span class="rank">#49</span><div><h2>PM</h2><p>Philip Morris International</p></div><strong>100.0</strong></header>
 <div class="signal-banner">优先Call候选</div>
+<div class="card-actions"><a class="ta-report-link" href="tradingagents/pm.html" title="打开 PM TradingAgents 中文研报">TradingAgents 研报 · BUY-WATCH / 偏买入观察</a></div>
 <div class="source-chips"><span>S&amp;P 500</span><span>Consumer Staples</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $192.73<br><span>Philip Morris International is a publicly traded company in the Consumer Staples sector.</span></p>
 <div class="return-strip"><span>6月 <b>+15.3%</b></span><span>1月 <b>+7.4%</b></span><span>1周 <b>+7.0%</b></span><span>3日 <b>+6.5%</b></span><span>3块 <b>+0.9%</b></span></div>
@@ -491,6 +540,7 @@
 <article class="card" id="ticker-mo">
 <header><span class="rank">#50</span><div><h2>MO</h2><p>Altria</p></div><strong>100.0</strong></header>
 <div class="signal-banner">优先Call候选</div>
+<div class="card-actions"><a class="ta-report-link" href="tradingagents/mo.html" title="打开 MO TradingAgents 中文研报">TradingAgents 研报 · BUY-WATCH / 偏买入观察</a></div>
 <div class="source-chips"><span>S&amp;P 500</span><span>Consumer Staples</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $74.65<br><span>Altria Group, Inc. is an American corporation and one of the world&#x27;s largest producers and marketers of tobacco, cigarettes, and medical products in the treatment of illnesses caused by tobacco. It operates worldwide and is headquartered in the city of Richmond, Virginia.</span> <a class="company-source" href="https://en.wikipedia.org/wiki/Altria" target="_blank" rel="noopener">公司资料</a></p>
 <div class="return-strip"><span>6月 <b>+22.1%</b></span><span>1月 <b>+8.3%</b></span><span>1周 <b>+3.9%</b></span><span>3日 <b>+5.9%</b></span><span>3块 <b>+1.3%</b></span></div>
