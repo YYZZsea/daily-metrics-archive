@@ -1,7 +1,21 @@
-<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Aster v2 · Balanced Call · 走势图</title><style>:root{--navy:#183B56;--teal:#147D78;--ink:#1F2937;--grid:#CBD5E1;--paper:#F7FAFC}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:14px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;letter-spacing:0}.top{background:var(--navy);color:white;padding:24px 4vw}.top h1{margin:0 0 6px;font-size:26px}.top p{margin:0;color:#DCEEF5}main{display:grid;grid-template-columns:1fr;gap:14px;padding:18px 4vw 40px}.card{background:white;border:1px solid var(--grid);border-radius:6px;overflow:hidden;scroll-margin-top:16px}.card:target{border-color:#0F766E;box-shadow:0 0 0 3px #99F6E4}header{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:12px;padding:12px 14px 4px}.rank{font-weight:800;color:var(--teal)}h2{font-size:20px;margin:0}header p{margin:2px 0 0;color:#64748B}header strong{font-size:20px}.company-intro{margin:4px 14px 8px;color:#475569;font-size:12px;line-height:1.55;max-width:1100px}.company-intro b{color:#334155;font-weight:800}.company-source{display:inline-block;margin-left:6px;color:#0F766E;font-size:10px;font-weight:800;text-decoration:none;white-space:nowrap}.company-source:hover{text-decoration:underline}.source-chips{display:flex;flex-wrap:wrap;gap:6px;margin:0 14px 7px}.source-chips span{display:inline-flex;align-items:center;border:1px solid #99F6E4;background:#ECFDF5;color:#0F766E;border-radius:4px;padding:3px 7px;font-size:10px;font-weight:800}.signal-banner{display:inline-flex;margin:0 14px 7px;padding:4px 8px;border-radius:4px;background:#D1FAE5;color:#065F46;font-size:11px;font-weight:800}.card-actions{display:flex;gap:8px;margin:0 14px 8px}.ta-report-link{display:inline-flex;align-items:center;border:1px solid #99F6E4;background:#ECFDF5;color:#0F766E;border-radius:4px;padding:4px 8px;font-size:11px;font-weight:850;text-decoration:none}.ta-report-link:hover{background:#CCFBF1}.trigger-panel{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:10px;margin:0 14px 10px}.trigger-panel>div,.exit-alert{border:1px solid #BAE6FD;background:#F0F9FF;border-radius:6px;padding:8px 10px;font-size:11px;line-height:1.45}.trigger-panel b,.exit-alert b{display:block;color:#075985;margin-bottom:3px}.trigger-panel span,.exit-alert span{color:#475569}.exit-alert.danger{border-color:#FCA5A5;background:#FEF2F2}.exit-alert.danger b{color:#B91C1C}.exit-alert.danger.history{border-color:#FDBA74;background:#FFF7ED}.exit-alert.danger.history b{color:#C2410C}.exit-alert.danger.realtime{border-color:#F87171;background:#FEF2F2;box-shadow:inset 4px 0 0 #DC2626}.exit-alert.watch{border-color:#FDE68A;background:#FFFBEB}.exit-alert.watch b{color:#92400E}.exit-alert a{display:inline-block;margin-top:5px;color:#0F766E;font-weight:800;text-decoration:none}.event-marker circle,.event-marker rect{stroke:white;stroke-width:2.2;filter:drop-shadow(0 1px 2px rgba(15,23,42,.45))}.event-marker text{fill:white;font-size:7px;font-weight:900;pointer-events:none}.event-buy circle{fill:#0F766E}.event-buy-latest circle{fill:#2563EB}.event-buy-realtime circle{fill:#0284C7;stroke:#FDE68A;stroke-width:2.6}.event-sell rect{fill:#F97316}.event-sell-latest rect{fill:#C2410C}.event-sell-realtime rect{fill:#DC2626;stroke:#FDE68A;stroke-width:2.6}.event-legend{display:flex;gap:14px;padding:0 14px 8px;font-size:10px;font-weight:800}.buy-mark{color:#0F766E}.latest-mark{color:#2563EB}.sell-mark{color:#C2410C}.return-strip{display:flex;flex-wrap:wrap;gap:5px 12px;padding:0 14px 9px;color:#94A3B8;font-size:11px}.return-strip b{color:#64748B;font-weight:800}.chart-pair{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:12px;padding:0 14px 10px}.chart-panel{border:1px solid #E2E8F0;border-radius:6px;background:white;overflow:hidden}.chart-panel h3{margin:0;padding:8px 10px;border-bottom:1px solid #E2E8F0;color:#334155;font-size:12px}svg{display:block;width:100%;height:180px;padding:4px 8px}.before{opacity:.28}.after{opacity:1}.daily-chart .before{opacity:1}.trend-relay .before{opacity:1}.daily-chart .legend span:last-child{display:none}.origin-line{stroke:#0F172A;stroke-width:1.5;stroke-dasharray:5 4}.origin-label{font-size:10px;fill:#0F172A;font-weight:600}.wick{stroke-width:1}.body.up,.wick.up{fill:#16A34A;stroke:#15803D}.body.down,.wick.down{fill:#DC2626;stroke:#B91C1C}.ema,.macd-line,.signal-line,.rsi-line{fill:none;stroke-linecap:round;stroke-linejoin:round}.ema9{stroke:#F59E0B;stroke-width:2}.ema26{stroke:#2563EB;stroke-width:2}.ema50{stroke:#7C3AED;stroke-width:2}.legend{display:flex;gap:14px;padding:0 14px 8px;font-size:11px;color:#64748B}.l9{color:#B45309}.l26{color:#1D4ED8}.l50{color:#6D28D9}.indicator{border-top:1px solid #E2E8F0;padding-top:5px}.indicator svg{height:100px}.indicator-title{display:flex;gap:12px;align-items:center;padding:0 14px;color:#64748B;font-size:11px}.indicator-title b{color:#334155;margin-right:auto}.macd-key{color:#0F766E}.signal-key{color:#D97706}.macd-line{stroke:#0F766E;stroke-width:1.8}.signal-line{stroke:#D97706;stroke-width:1.6}.hist.positive{fill:#86EFAC}.hist.negative{fill:#FCA5A5}.zero{stroke:#94A3B8;stroke-width:1}.rsi-line{stroke:#7C3AED;stroke-width:2}.rsi-limit{stroke-width:1;stroke-dasharray:5 4}.overbought{stroke:#DC2626}.oversold{stroke:#16A34A}.skills{border-top:1px solid #E2E8F0;padding:10px 14px 12px}.skills h3{font-size:12px;margin:0 0 8px;color:#334155}.score-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px 16px}.score-row{display:grid;grid-template-columns:72px 1fr 38px;align-items:center;gap:6px;font-size:11px;color:#475569}.score-row b{text-align:right;color:#1F2937}.meter{height:6px;background:#E2E8F0;border-radius:3px;overflow:hidden}.meter i{display:block;height:100%}.ema-fill{background:#F59E0B}.macd-fill{background:#0F766E}.rsi-fill{background:#7C3AED}.total-fill{background:#0284C7}.comment{display:grid;grid-template-columns:72px 1fr;gap:8px;margin-top:7px;font-size:11px;line-height:1.35}.comment b{color:#475569}.comment span{color:#64748B}footer{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;border-top:1px solid #E2E8F0;padding:8px 14px;color:#475569;font-size:12px}.missing{height:180px;display:grid;place-items:center;color:#94A3B8}@media(max-width:980px){.chart-pair,.trigger-panel{grid-template-columns:1fr}footer{grid-template-columns:repeat(2,1fr)}.score-grid{grid-template-columns:1fr}}</style></head><body class=""><section class="top"><h1>Aster v2 · Balanced Call · 走势图</h1><p>截至 2026-07-21 · Top50 · 左侧日线结构，右侧4H timing · EMA 9/26/50 · MACD 12/26/9 · RSI 14</p></section><main><article class="card" id="ticker-pmts">
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Aster v2 · Balanced Call · 走势图</title><style>:root{--navy:#183B56;--teal:#147D78;--ink:#1F2937;--grid:#CBD5E1;--paper:#F7FAFC}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:14px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;letter-spacing:0}.top{background:var(--navy);color:white;padding:24px 4vw}.top h1{margin:0 0 6px;font-size:26px}.top p{margin:0;color:#DCEEF5}main{display:grid;grid-template-columns:1fr;gap:14px;padding:18px 4vw 40px}.card{background:white;border:1px solid var(--grid);border-radius:6px;overflow:hidden;scroll-margin-top:16px}.card:target{border-color:#0F766E;box-shadow:0 0 0 3px #99F6E4}header{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:12px;padding:12px 14px 4px}.rank{font-weight:800;color:var(--teal)}h2{font-size:20px;margin:0}header p{margin:2px 0 0;color:#64748B}header strong{font-size:20px}.company-intro{margin:4px 14px 8px;color:#475569;font-size:12px;line-height:1.55;max-width:1100px}.company-intro b{color:#334155;font-weight:800}.company-source{display:inline-block;margin-left:6px;color:#0F766E;font-size:10px;font-weight:800;text-decoration:none;white-space:nowrap}.company-source:hover{text-decoration:underline}.source-chips{display:flex;flex-wrap:wrap;gap:6px;margin:0 14px 7px}.source-chips span{display:inline-flex;align-items:center;border:1px solid #99F6E4;background:#ECFDF5;color:#0F766E;border-radius:4px;padding:3px 7px;font-size:10px;font-weight:800}.signal-banner{display:inline-flex;margin:0 14px 7px;padding:4px 8px;border-radius:4px;background:#D1FAE5;color:#065F46;font-size:11px;font-weight:800}.card-actions{display:flex;gap:8px;margin:0 14px 8px}.ta-report-link{display:inline-flex;align-items:center;border:1px solid #99F6E4;background:#ECFDF5;color:#0F766E;border-radius:4px;padding:4px 8px;font-size:11px;font-weight:850;text-decoration:none}.ta-report-link:hover{background:#CCFBF1}.trigger-panel{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:10px;margin:0 14px 10px}.trigger-panel>div,.exit-alert{border:1px solid #BAE6FD;background:#F0F9FF;border-radius:6px;padding:8px 10px;font-size:11px;line-height:1.45}.trigger-panel b,.exit-alert b{display:block;color:#075985;margin-bottom:3px}.trigger-panel span,.exit-alert span{color:#475569}.exit-alert.danger{border-color:#FCA5A5;background:#FEF2F2}.exit-alert.danger b{color:#B91C1C}.exit-alert.danger.history{border-color:#FDBA74;background:#FFF7ED}.exit-alert.danger.history b{color:#C2410C}.exit-alert.danger.realtime{border-color:#F87171;background:#FEF2F2;box-shadow:inset 4px 0 0 #DC2626}.exit-alert.watch{border-color:#FDE68A;background:#FFFBEB}.exit-alert.watch b{color:#92400E}.exit-alert a{display:inline-block;margin-top:5px;color:#0F766E;font-weight:800;text-decoration:none}.event-marker circle,.event-marker rect{stroke:white;stroke-width:2.2;filter:drop-shadow(0 1px 2px rgba(15,23,42,.45))}.event-marker text{fill:white;font-size:7px;font-weight:900;pointer-events:none}.event-buy circle{fill:#0F766E}.event-buy-latest circle{fill:#2563EB}.event-buy-realtime circle{fill:#0284C7;stroke:#FDE68A;stroke-width:2.6}.event-sell rect{fill:#F97316}.event-sell-latest rect{fill:#C2410C}.event-sell-realtime rect{fill:#DC2626;stroke:#FDE68A;stroke-width:2.6}.event-legend{display:flex;gap:14px;padding:0 14px 8px;font-size:10px;font-weight:800}.buy-mark{color:#0F766E}.latest-mark{color:#2563EB}.sell-mark{color:#C2410C}.return-strip{display:flex;flex-wrap:wrap;gap:5px 12px;padding:0 14px 9px;color:#94A3B8;font-size:11px}.return-strip b{color:#64748B;font-weight:800}.chart-pair{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:12px;padding:0 14px 10px}.chart-panel{border:1px solid #E2E8F0;border-radius:6px;background:white;overflow:hidden}.chart-panel h3{margin:0;padding:8px 10px;border-bottom:1px solid #E2E8F0;color:#334155;font-size:12px}svg{display:block;width:100%;height:180px;padding:4px 8px}.before{opacity:.28}.after{opacity:1}.daily-chart .before{opacity:1}.trend-relay .before{opacity:1}.daily-chart .legend span:last-child{display:none}.origin-line{stroke:#0F172A;stroke-width:1.5;stroke-dasharray:5 4}.origin-label{font-size:10px;fill:#0F172A;font-weight:600}.wick{stroke-width:1}.body.up,.wick.up{fill:#16A34A;stroke:#15803D}.body.down,.wick.down{fill:#DC2626;stroke:#B91C1C}.ema,.macd-line,.signal-line,.rsi-line{fill:none;stroke-linecap:round;stroke-linejoin:round}.ema9{stroke:#F59E0B;stroke-width:2}.ema26{stroke:#2563EB;stroke-width:2}.ema50{stroke:#7C3AED;stroke-width:2}.legend{display:flex;gap:14px;padding:0 14px 8px;font-size:11px;color:#64748B}.l9{color:#B45309}.l26{color:#1D4ED8}.l50{color:#6D28D9}.indicator{border-top:1px solid #E2E8F0;padding-top:5px}.indicator svg{height:100px}.indicator-title{display:flex;gap:12px;align-items:center;padding:0 14px;color:#64748B;font-size:11px}.indicator-title b{color:#334155;margin-right:auto}.macd-key{color:#0F766E}.signal-key{color:#D97706}.macd-line{stroke:#0F766E;stroke-width:1.8}.signal-line{stroke:#D97706;stroke-width:1.6}.hist.positive{fill:#86EFAC}.hist.negative{fill:#FCA5A5}.zero{stroke:#94A3B8;stroke-width:1}.rsi-line{stroke:#7C3AED;stroke-width:2}.rsi-limit{stroke-width:1;stroke-dasharray:5 4}.overbought{stroke:#DC2626}.oversold{stroke:#16A34A}.skills{border-top:1px solid #E2E8F0;padding:10px 14px 12px}.skills h3{font-size:12px;margin:0 0 8px;color:#334155}.score-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px 16px}.score-row{display:grid;grid-template-columns:72px 1fr 38px;align-items:center;gap:6px;font-size:11px;color:#475569}.score-row b{text-align:right;color:#1F2937}.meter{height:6px;background:#E2E8F0;border-radius:3px;overflow:hidden}.meter i{display:block;height:100%}.ema-fill{background:#F59E0B}.macd-fill{background:#0F766E}.rsi-fill{background:#7C3AED}.total-fill{background:#0284C7}.comment{display:grid;grid-template-columns:72px 1fr;gap:8px;margin-top:7px;font-size:11px;line-height:1.35}.comment b{color:#475569}.comment span{color:#64748B}footer{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;border-top:1px solid #E2E8F0;padding:8px 14px;color:#475569;font-size:12px}.missing{height:180px;display:grid;place-items:center;color:#94A3B8}@media(max-width:980px){.chart-pair,.trigger-panel{grid-template-columns:1fr}footer{grid-template-columns:repeat(2,1fr)}.score-grid{grid-template-columns:1fr}}.card-actions{display:flex;gap:8px;margin:0 14px 8px;flex-wrap:wrap}.ta-report-link{display:inline-flex;align-items:center;gap:4px;border:1px solid #14B8A6;background:#D1FAE5;color:#065F46;border-radius:5px;padding:5px 9px;font-size:11px;font-weight:900;text-decoration:none;box-shadow:0 1px 0 rgba(15,23,42,.12);cursor:pointer}.ta-report-link::after{content:"↗";font-size:10px;opacity:.8}.ta-report-link:hover{background:#A7F3D0;transform:translateY(-1px)}.public-summary{margin:0 14px 10px;border:1px solid #BAE6FD;border-radius:6px;background:#F0F9FF;overflow:hidden}.public-summary>summary{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:8px 10px;cursor:pointer;color:#075985;font-size:11px}.public-summary>summary span{font-weight:900}.public-summary>summary b{color:#475569;text-align:right;font-weight:800}.public-summary-body{padding:0 10px 10px;color:#475569;font-size:11px;line-height:1.5}.public-summary-body p{margin:6px 0}.public-summary-body p>b,.public-news>b{display:inline-block;min-width:72px;color:#0F3B57}.public-meta{color:#64748B}.public-metrics{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:6px;margin:8px 0}.public-metrics span{border:1px solid #D8E1EA;background:white;border-radius:4px;padding:5px 6px;min-width:0}.public-metrics small,.public-metrics b{display:block;overflow-wrap:anywhere}.public-metrics small{color:#64748B}.public-metrics b{color:#1F2937}.public-analysis{display:grid;grid-template-columns:1fr 1fr;gap:0 14px}.public-news ul{margin:5px 0 0;padding-left:18px}.public-news li{margin:3px 0}.public-news small{color:#64748B}.public-source{white-space:nowrap;color:#0F766E;font-weight:800}.public-empty{color:#94A3B8}@media(max-width:760px){.public-summary>summary{align-items:flex-start;flex-direction:column}.public-summary>summary b{text-align:left}.public-metrics{grid-template-columns:repeat(2,minmax(0,1fr))}.public-analysis{grid-template-columns:1fr}}</style></head><body class=""><section class="top"><h1>Aster v2 · Balanced Call · 走势图</h1><p>截至 2026-07-21 · Top50 · 左侧日线结构，右侧4H timing · EMA 9/26/50 · MACD 12/26/9 · RSI 14</p></section><main><article class="card" id="ticker-pmts">
 <header><span class="rank">#1</span><div><h2>PMTS</h2><p>CPI CARD GROUP INC</p></div><strong>87.9</strong></header>
 <div class="signal-banner">优先Call候选</div>
 <div class="card-actions"><a class="ta-report-link" href="tradingagents/pmts.html" title="打开 TradingAgents 研报与买卖建议">TradingAgents 研报 · BUY-WATCH / 偏买入观察</a></div>
+<details class="public-summary"><summary><span>免费综合摘要</span><b>BUY-WATCH / 偏买入观察 · 收入 +0.0%</b></summary>
+<div class="public-summary-body">
+  <p class="public-business"><b>业务</b>暂无可用公司业务简介。 </p>
+  <p class="public-meta">Information Technology</p>
+  <div class="public-metrics"><span><small>当前价</small><b>$20.19</b></span><span><small>榜单排名</small><b>2</b></span><span><small>综合分</small><b>94.2 · Aster Call</b></span><span><small>收入增长</small><b>+0.0%</b></span><span><small>盈利增长</small><b>+0.0%</b></span><span><small>RSI 14</small><b>59.21</b></span><span><small>成交量比</small><b>1.28</b></span><span><small>近3块/短线</small><b>+5.1%</b></span><span><small>近1周</small><b>+7.8%</b></span><span><small>近1月</small><b>+10.4%</b></span></div>
+  <div class="public-analysis"><p><b>当前判断</b>可进入优先观察池；如果走势与成交量继续确认，可考虑分批买入或短期 call 候选。</p>
+  <p><b>正向依据</b>综合分 94.2 来自 Aster Call；EMA structure 偏多：fresh_bullish_cross；MACD momentum 支持：fresh_below_zero_cross；RSI 冷却/健康区间：59.2；近3块/短线动量为正：+5.1%</p>
+  <p><b>风险观察</b>未发现主要规则风险项，仍需结合大盘与仓位控制</p>
+  <p><b>公开一致预期</b>本次未取得或覆盖不足</p></div>
+  
+</div></details>
+
+
+
 <div class="source-chips"><span>Russell</span><span>Information Technology</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $20.19<br><span>CPI CARD GROUP INC is a publicly traded company in the Information Technology sector.</span></p>
 <div class="return-strip"><span>6月 <b>+51.9%</b></span><span>1月 <b>+10.6%</b></span><span>1周 <b>+7.6%</b></span><span>3日 <b>+5.3%</b></span><span>3块 <b>+5.1%</b></span></div>
@@ -13,6 +27,20 @@
 <header><span class="rank">#2</span><div><h2>PAGS</h2><p>PAGSEGURO DIGITAL LTD CLASS A</p></div><strong>87.7</strong></header>
 <div class="signal-banner">优先Call候选</div>
 <div class="card-actions"><a class="ta-report-link" href="tradingagents/pags.html" title="打开 TradingAgents 研报与买卖建议">TradingAgents 研报 · WATCH-BUY / 强观察</a></div>
+<details class="public-summary"><summary><span>免费综合摘要</span><b>WATCH-BUY / 强观察 · 收入 +0.0%</b></summary>
+<div class="public-summary-body">
+  <p class="public-business"><b>业务</b>暂无可用公司业务简介。 </p>
+  <p class="public-meta">Financials</p>
+  <div class="public-metrics"><span><small>当前价</small><b>$9.57</b></span><span><small>榜单排名</small><b>15</b></span><span><small>综合分</small><b>89.3 · Aster Call</b></span><span><small>收入增长</small><b>+0.0%</b></span><span><small>盈利增长</small><b>+0.0%</b></span><span><small>RSI 14</small><b>67.10</b></span><span><small>成交量比</small><b>1.39</b></span><span><small>近3块/短线</small><b>+3.2%</b></span><span><small>近1周</small><b>+3.1%</b></span><span><small>近1月</small><b>+8.7%</b></span></div>
+  <div class="public-analysis"><p><b>当前判断</b>信号偏强但仍需等价格确认；适合放入 watchlist，等待回踩不破或放量继续。</p>
+  <p><b>正向依据</b>综合分 89.3 来自 Aster Call；EMA structure 偏多：confirmed_bullish_trend；MACD momentum 支持：fresh_above_zero_cross；RSI 冷却/健康区间：67.1；近3块/短线动量为正：+3.2%</p>
+  <p><b>风险观察</b>MACD snapshot proxy; double-cross history unavailable</p>
+  <p><b>公开一致预期</b>本次未取得或覆盖不足</p></div>
+  
+</div></details>
+
+
+
 <div class="source-chips"><span>Russell</span><span>Financials</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $9.57<br><span>PAGSEGURO DIGITAL LTD CLASS A is a publicly traded company in the Financials sector.</span></p>
 <div class="return-strip"><span>6月 <b>-6.7%</b></span><span>1月 <b>+8.6%</b></span><span>1周 <b>+3.2%</b></span><span>3日 <b>+4.6%</b></span><span>3块 <b>+3.2%</b></span></div>
@@ -24,6 +52,20 @@
 <header><span class="rank">#3</span><div><h2>COIN</h2><p>Coinbase</p></div><strong>87.4</strong></header>
 <div class="signal-banner">优先Call候选</div>
 <div class="card-actions"><a class="ta-report-link" href="tradingagents/coin.html" title="打开 TradingAgents 研报与买卖建议">TradingAgents 研报 · BUY-WATCH / 偏买入观察</a></div>
+<details class="public-summary"><summary><span>免费综合摘要</span><b>BUY-WATCH / 偏买入观察 · 收入 +0.0%</b></summary>
+<div class="public-summary-body">
+  <p class="public-business"><b>业务</b>Coinbase Global, Inc. is an American cryptocurrency exchange. It was founded in 2012 by Brian Armstrong and Fred Ehrsam. Coinbase has over 100 million users, and is the largest U.S. based cryptocurrency exchange as well as the world&#x27;s biggest bitcoin custodian, as of 2024. <a class="public-source" href="https://en.wikipedia.org/wiki/Coinbase" target="_blank" rel="noopener">公开来源</a></p>
+  <p class="public-meta">Financial Exchanges &amp; Data · Financials</p>
+  <div class="public-metrics"><span><small>当前价</small><b>$175.85</b></span><span><small>榜单排名</small><b>1</b></span><span><small>综合分</small><b>94.5 · Aster Call</b></span><span><small>收入增长</small><b>+0.0%</b></span><span><small>盈利增长</small><b>+0.0%</b></span><span><small>RSI 14</small><b>62.49</b></span><span><small>成交量比</small><b>1.34</b></span><span><small>近3块/短线</small><b>+8.1%</b></span><span><small>近1周</small><b>+8.9%</b></span><span><small>近1月</small><b>+7.7%</b></span></div>
+  <div class="public-analysis"><p><b>当前判断</b>可进入优先观察池；如果走势与成交量继续确认，可考虑分批买入或短期 call 候选。</p>
+  <p><b>正向依据</b>综合分 94.5 来自 Aster Call；EMA structure 偏多：early_transition；MACD momentum 支持：fresh_above_zero_cross；RSI 冷却/健康区间：62.5；近3块/短线动量为正：+8.1%</p>
+  <p><b>风险观察</b>MACD snapshot proxy; double-cross history unavailable</p>
+  <p><b>公开一致预期</b>本次未取得或覆盖不足</p></div>
+  <div class="public-news"><b>近期公开动态</b><ul><li><a href="https://finance.yahoo.com/m/3c447391-5a47-394e-bb9c-cdb08d851e05/bp%2C-lahontan-gold%2C-coinbase%3A.html" target="_blank" rel="noopener">BP, Lahontan Gold, Coinbase: Corrections Open Up Rare Opportunities</a> <small>InvestorsHub</small></li><li><a href="https://finance.yahoo.com/m/94118d70-7d21-3361-89bf-69e74d7ee93c/coinbase-global-has-big-plans.html" target="_blank" rel="noopener">Coinbase Global Has Big Plans For The Canadian Market</a> <small>CryptoProwl</small></li><li><a href="https://finance.yahoo.com/m/96f48cc6-ccfe-307c-8a22-00ccdb75d130/trump-oversees-ethics.html" target="_blank" rel="noopener">Trump Oversees Ethics Provisions As Clarity Act Nears Vote</a> <small>Investor&#x27;s Business Daily</small></li></ul></div>
+</div></details>
+
+
+
 <div class="source-chips"><span>Nasdaq Liquid 500</span><span>Financials</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $175.85<br><span>Coinbase is a publicly traded company in the Financials sector.</span></p>
 <div class="return-strip"><span>6月 <b>-22.8%</b></span><span>1月 <b>+7.7%</b></span><span>1周 <b>+8.9%</b></span><span>3日 <b>+9.6%</b></span><span>3块 <b>+8.1%</b></span></div>
@@ -35,6 +77,20 @@
 <header><span class="rank">#4</span><div><h2>LNTH</h2><p>LANTHEUS HOLDINGS INC</p></div><strong>87.4</strong></header>
 <div class="signal-banner">优先Call候选</div>
 <div class="card-actions"><a class="ta-report-link" href="tradingagents/lnth.html" title="打开 TradingAgents 研报与买卖建议">TradingAgents 研报 · BUY-WATCH / 偏买入观察</a></div>
+<details class="public-summary"><summary><span>免费综合摘要</span><b>BUY-WATCH / 偏买入观察 · 收入 +0.0%</b></summary>
+<div class="public-summary-body">
+  <p class="public-business"><b>业务</b>Lantheus, headquartered in Billerica, Massachusetts, is a company in the radiopharmaceuticals business. It has strategic partnerships with Bayer, Novartis, Regeneron as well as GE Healthcare and Siemens Healthineers. Lantheus Holding, which became a NASDAQ company in 2015, is the parent company of Lantheus Medical Imaging, Inc. (formerly BMS Medical Imaging), Progenics Pharmaceuticals (acquired 2020), Inc. <a class="public-source" href="https://en.wikipedia.org/wiki/Lantheus_Holdings" target="_blank" rel="noopener">公开来源</a></p>
+  <p class="public-meta">Health Care</p>
+  <div class="public-metrics"><span><small>当前价</small><b>$107.95</b></span><span><small>榜单排名</small><b>5</b></span><span><small>综合分</small><b>90.8 · Aster Call</b></span><span><small>收入增长</small><b>+0.0%</b></span><span><small>盈利增长</small><b>+0.0%</b></span><span><small>RSI 14</small><b>56.60</b></span><span><small>成交量比</small><b>1.17</b></span><span><small>近3块/短线</small><b>+1.2%</b></span><span><small>近1周</small><b>+5.5%</b></span><span><small>近1月</small><b>+3.9%</b></span></div>
+  <div class="public-analysis"><p><b>当前判断</b>可进入优先观察池；如果走势与成交量继续确认，可考虑分批买入或短期 call 候选。</p>
+  <p><b>正向依据</b>综合分 90.8 来自 Aster Call；EMA structure 偏多：fresh_bullish_cross；MACD momentum 支持：bullish_above_signal；RSI 冷却/健康区间：56.6；近3块/短线动量为正：+1.2%</p>
+  <p><b>风险观察</b>未发现主要规则风险项，仍需结合大盘与仓位控制</p>
+  <p><b>公开一致预期</b>本次未取得或覆盖不足</p></div>
+  
+</div></details>
+
+
+
 <div class="source-chips"><span>Russell</span><span>Health Care</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $107.95<br><span>LANTHEUS HOLDINGS INC is a publicly traded company in the Health Care sector.</span></p>
 <div class="return-strip"><span>6月 <b>+63.9%</b></span><span>1月 <b>+3.9%</b></span><span>1周 <b>+5.5%</b></span><span>3日 <b>+2.7%</b></span><span>3块 <b>+1.2%</b></span></div>
@@ -46,6 +102,20 @@
 <header><span class="rank">#5</span><div><h2>MSGE</h2><p>MADISON SQUARE GARDEN ENTERTAINMEN</p></div><strong>87.3</strong></header>
 <div class="signal-banner">优先Call候选</div>
 <div class="card-actions"><a class="ta-report-link" href="tradingagents/msge.html" title="打开 TradingAgents 研报与买卖建议">TradingAgents 研报 · BUY-WATCH / 偏买入观察</a></div>
+<details class="public-summary"><summary><span>免费综合摘要</span><b>BUY-WATCH / 偏买入观察 · 收入 +0.0%</b></summary>
+<div class="public-summary-body">
+  <p class="public-business"><b>业务</b>暂无可用公司业务简介。 </p>
+  <p class="public-meta">Communication</p>
+  <div class="public-metrics"><span><small>当前价</small><b>$76.47</b></span><span><small>榜单排名</small><b>7</b></span><span><small>综合分</small><b>90.8 · Aster Call</b></span><span><small>收入增长</small><b>+0.0%</b></span><span><small>盈利增长</small><b>+0.0%</b></span><span><small>RSI 14</small><b>55.29</b></span><span><small>成交量比</small><b>1.35</b></span><span><small>近3块/短线</small><b>+0.0%</b></span><span><small>近1周</small><b>+3.8%</b></span><span><small>近1月</small><b>+4.2%</b></span></div>
+  <div class="public-analysis"><p><b>当前判断</b>可进入优先观察池；如果走势与成交量继续确认，可考虑分批买入或短期 call 候选。</p>
+  <p><b>正向依据</b>综合分 90.8 来自 Aster Call；EMA structure 偏多：fresh_bullish_cross；MACD momentum 支持：bullish_above_signal；RSI 冷却/健康区间：55.3；近3块/短线动量为正：+0.0%</p>
+  <p><b>风险观察</b>未发现主要规则风险项，仍需结合大盘与仓位控制</p>
+  <p><b>公开一致预期</b>本次未取得或覆盖不足</p></div>
+  
+</div></details>
+
+
+
 <div class="source-chips"><span>Russell</span><span>Communication</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $76.47<br><span>MADISON SQUARE GARDEN ENTERTAINMEN is a publicly traded company in the Communication sector.</span></p>
 <div class="return-strip"><span>6月 <b>+30.4%</b></span><span>1月 <b>+4.1%</b></span><span>1周 <b>+3.8%</b></span><span>3日 <b>+3.3%</b></span><span>3块 <b>+0.0%</b></span></div>
@@ -57,6 +127,20 @@
 <header><span class="rank">#6</span><div><h2>ILPT</h2><p>INDUSTRIAL LOGISTICS PROPERTIES TR</p></div><strong>87.3</strong></header>
 <div class="signal-banner">优先Call候选</div>
 <div class="card-actions"><a class="ta-report-link" href="tradingagents/ilpt.html" title="打开 TradingAgents 研报与买卖建议">TradingAgents 研报 · BUY-WATCH / 偏买入观察</a></div>
+<details class="public-summary"><summary><span>免费综合摘要</span><b>BUY-WATCH / 偏买入观察 · 收入 +0.0%</b></summary>
+<div class="public-summary-body">
+  <p class="public-business"><b>业务</b>暂无可用公司业务简介。 </p>
+  <p class="public-meta">Real Estate</p>
+  <div class="public-metrics"><span><small>当前价</small><b>$9.20</b></span><span><small>榜单排名</small><b>3</b></span><span><small>综合分</small><b>93.3 · Aster Call</b></span><span><small>收入增长</small><b>+0.0%</b></span><span><small>盈利增长</small><b>+0.0%</b></span><span><small>RSI 14</small><b>59.73</b></span><span><small>成交量比</small><b>1.91</b></span><span><small>近3块/短线</small><b>+6.8%</b></span><span><small>近1周</small><b>+3.1%</b></span><span><small>近1月</small><b>+13.6%</b></span></div>
+  <div class="public-analysis"><p><b>当前判断</b>可进入优先观察池；如果走势与成交量继续确认，可考虑分批买入或短期 call 候选。</p>
+  <p><b>正向依据</b>综合分 93.3 来自 Aster Call；EMA structure 偏多：fresh_bullish_cross；MACD momentum 支持：fresh_above_zero_cross；RSI 冷却/健康区间：59.7；近3块/短线动量为正：+6.8%</p>
+  <p><b>风险观察</b>未发现主要规则风险项，仍需结合大盘与仓位控制</p>
+  <p><b>公开一致预期</b>本次未取得或覆盖不足</p></div>
+  
+</div></details>
+
+
+
 <div class="source-chips"><span>Russell</span><span>Real Estate</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $9.20<br><span>INDUSTRIAL LOGISTICS PROPERTIES TR is a publicly traded company in the Real Estate sector.</span></p>
 <div class="return-strip"><span>6月 <b>+62.3%</b></span><span>1月 <b>+13.6%</b></span><span>1周 <b>+3.0%</b></span><span>3日 <b>+2.6%</b></span><span>3块 <b>+6.8%</b></span></div>
@@ -68,6 +152,20 @@
 <header><span class="rank">#7</span><div><h2>HIG</h2><p>Hartford (The)</p></div><strong>86.8</strong></header>
 <div class="signal-banner">优先Call候选</div>
 <div class="card-actions"><a class="ta-report-link" href="tradingagents/hig.html" title="打开 TradingAgents 研报与买卖建议">TradingAgents 研报 · WATCH-BUY / 强观察</a></div>
+<details class="public-summary"><summary><span>免费综合摘要</span><b>WATCH-BUY / 强观察 · 收入 +0.0%</b></summary>
+<div class="public-summary-body">
+  <p class="public-business"><b>业务</b>暂无可用公司业务简介。 <a class="public-source" href="https://query1.finance.yahoo.com/v1/finance/search?q=HIG&amp;quotesCount=1&amp;newsCount=8" target="_blank" rel="noopener">公开来源</a></p>
+  <p class="public-meta">Property &amp; Casualty Insurance · Financials</p>
+  <div class="public-metrics"><span><small>当前价</small><b>$141.97</b></span><span><small>榜单排名</small><b>16</b></span><span><small>综合分</small><b>89.2 · Aster Call</b></span><span><small>收入增长</small><b>+0.0%</b></span><span><small>盈利增长</small><b>+0.0%</b></span><span><small>RSI 14</small><b>65.94</b></span><span><small>成交量比</small><b>1.48</b></span><span><small>近3块/短线</small><b>+0.9%</b></span><span><small>近1周</small><b>+2.8%</b></span><span><small>近1月</small><b>+10.7%</b></span></div>
+  <div class="public-analysis"><p><b>当前判断</b>信号偏强但仍需等价格确认；适合放入 watchlist，等待回踩不破或放量继续。</p>
+  <p><b>正向依据</b>综合分 89.2 来自 Aster Call；EMA structure 偏多：confirmed_bullish_trend；MACD momentum 支持：fresh_above_zero_cross；RSI 冷却/健康区间：65.9；近3块/短线动量为正：+0.9%</p>
+  <p><b>风险观察</b>MACD snapshot proxy; double-cross history unavailable</p>
+  <p><b>公开一致预期</b>本次未取得或覆盖不足</p></div>
+  <div class="public-news"><b>近期公开动态</b><ul><li><a href="https://finance.yahoo.com/markets/stocks/articles/chubb-cb-tops-q2-earnings-213003903.html" target="_blank" rel="noopener">Chubb (CB) Tops Q2 Earnings Estimates</a> <small>Zacks</small></li><li><a href="https://finance.yahoo.com/markets/stocks/articles/analyst-projections-key-metrics-reveal-131511998.html" target="_blank" rel="noopener">What Analyst Projections for Key Metrics Reveal About The Hartford Insurance Group (HIG) Q2 Earnings</a> <small>Zacks</small></li><li><a href="https://finance.yahoo.com/markets/stocks/articles/jpmorgan-adjusts-price-target-hartford-095550248.html" target="_blank" rel="noopener">JPMorgan Adjusts Price Target on Hartford Insurance to $152 From $149, Maintains Neutral Rating</a> <small>MT Newswires</small></li></ul></div>
+</div></details>
+
+
+
 <div class="source-chips"><span>S&amp;P 500</span><span>Financials</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $141.97<br><span>Hartford (The) is a publicly traded company in the Financials sector.</span></p>
 <div class="return-strip"><span>6月 <b>+10.2%</b></span><span>1月 <b>+10.7%</b></span><span>1周 <b>+2.8%</b></span><span>3日 <b>+3.9%</b></span><span>3块 <b>+0.9%</b></span></div>
@@ -79,6 +177,20 @@
 <header><span class="rank">#8</span><div><h2>AIG</h2><p>American International Group</p></div><strong>86.7</strong></header>
 <div class="signal-banner">优先Call候选</div>
 <div class="card-actions"><a class="ta-report-link" href="tradingagents/aig.html" title="打开 TradingAgents 研报与买卖建议">TradingAgents 研报 · WATCH-BUY / 强观察</a></div>
+<details class="public-summary"><summary><span>免费综合摘要</span><b>WATCH-BUY / 强观察 · 收入 +0.0%</b></summary>
+<div class="public-summary-body">
+  <p class="public-business"><b>业务</b>暂无可用公司业务简介。 </p>
+  <p class="public-meta">Multi-line Insurance · Financials</p>
+  <div class="public-metrics"><span><small>当前价</small><b>$80.23</b></span><span><small>榜单排名</small><b>17</b></span><span><small>综合分</small><b>89.2 · Aster Call</b></span><span><small>收入增长</small><b>+0.0%</b></span><span><small>盈利增长</small><b>+0.0%</b></span><span><small>RSI 14</small><b>59.33</b></span><span><small>成交量比</small><b>1.68</b></span><span><small>近3块/短线</small><b>+0.2%</b></span><span><small>近1周</small><b>+1.6%</b></span><span><small>近1月</small><b>+8.4%</b></span></div>
+  <div class="public-analysis"><p><b>当前判断</b>信号偏强但仍需等价格确认；适合放入 watchlist，等待回踩不破或放量继续。</p>
+  <p><b>正向依据</b>综合分 89.2 来自 Aster Call；EMA structure 偏多：confirmed_bullish_trend；MACD momentum 支持：fresh_above_zero_cross；RSI 冷却/健康区间：59.3；近3块/短线动量为正：+0.2%</p>
+  <p><b>风险观察</b>MACD snapshot proxy; double-cross history unavailable</p>
+  <p><b>公开一致预期</b>本次未取得或覆盖不足</p></div>
+  
+</div></details>
+
+
+
 <div class="source-chips"><span>S&amp;P 500</span><span>Financials</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $80.23<br><span>American International Group is a publicly traded company in the Financials sector.</span></p>
 <div class="return-strip"><span>6月 <b>+10.8%</b></span><span>1月 <b>+8.4%</b></span><span>1周 <b>+1.6%</b></span><span>3日 <b>+2.8%</b></span><span>3块 <b>+0.2%</b></span></div>
@@ -90,6 +202,20 @@
 <header><span class="rank">#9</span><div><h2>INSW</h2><p>INTERNATIONAL SEAWAYS INC</p></div><strong>86.7</strong></header>
 <div class="signal-banner">优先Call候选</div>
 <div class="card-actions"><a class="ta-report-link" href="tradingagents/insw.html" title="打开 TradingAgents 研报与买卖建议">TradingAgents 研报 · WATCH-BUY / 强观察</a></div>
+<details class="public-summary"><summary><span>免费综合摘要</span><b>WATCH-BUY / 强观察 · 收入 +0.0%</b></summary>
+<div class="public-summary-body">
+  <p class="public-business"><b>业务</b>暂无可用公司业务简介。 </p>
+  <p class="public-meta">Energy</p>
+  <div class="public-metrics"><span><small>当前价</small><b>$90.45</b></span><span><small>榜单排名</small><b>18</b></span><span><small>综合分</small><b>89.1 · Aster Call</b></span><span><small>收入增长</small><b>+0.0%</b></span><span><small>盈利增长</small><b>+0.0%</b></span><span><small>RSI 14</small><b>61.54</b></span><span><small>成交量比</small><b>2.18</b></span><span><small>近3块/短线</small><b>+2.2%</b></span><span><small>近1周</small><b>+2.6%</b></span><span><small>近1月</small><b>+7.2%</b></span></div>
+  <div class="public-analysis"><p><b>当前判断</b>信号偏强但仍需等价格确认；适合放入 watchlist，等待回踩不破或放量继续。</p>
+  <p><b>正向依据</b>综合分 89.1 来自 Aster Call；EMA structure 偏多：confirmed_bullish_trend；MACD momentum 支持：fresh_above_zero_cross；RSI 冷却/健康区间：61.5；近3块/短线动量为正：+2.2%</p>
+  <p><b>风险观察</b>未发现主要规则风险项，仍需结合大盘与仓位控制</p>
+  <p><b>公开一致预期</b>本次未取得或覆盖不足</p></div>
+  
+</div></details>
+
+
+
 <div class="source-chips"><span>Russell</span><span>Energy</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $90.45<br><span>INTERNATIONAL SEAWAYS INC is a publicly traded company in the Energy sector.</span></p>
 <div class="return-strip"><span>6月 <b>+60.8%</b></span><span>1月 <b>+7.1%</b></span><span>1周 <b>+2.6%</b></span><span>3日 <b>+2.5%</b></span><span>3块 <b>+2.2%</b></span></div>
@@ -101,6 +227,20 @@
 <header><span class="rank">#10</span><div><h2>FRPT</h2><p>Freshpet, Inc. - Common Stock</p></div><strong>86.4</strong></header>
 <div class="signal-banner">优先Call候选</div>
 <div class="card-actions"><a class="ta-report-link" href="tradingagents/frpt.html" title="打开 TradingAgents 研报与买卖建议">TradingAgents 研报 · BUY-WATCH / 偏买入观察</a></div>
+<details class="public-summary"><summary><span>免费综合摘要</span><b>BUY-WATCH / 偏买入观察 · 收入 +0.0%</b></summary>
+<div class="public-summary-body">
+  <p class="public-business"><b>业务</b>暂无可用公司业务简介。 </p>
+  
+  <div class="public-metrics"><span><small>当前价</small><b>$58.62</b></span><span><small>榜单排名</small><b>29</b></span><span><small>综合分</small><b>100.0 · Aster Call</b></span><span><small>收入增长</small><b>+0.0%</b></span><span><small>盈利增长</small><b>+0.0%</b></span><span><small>RSI 14</small><b>61.52</b></span><span><small>成交量比</small><b>1.39</b></span><span><small>近3块/短线</small><b>+3.1%</b></span><span><small>近1周</small><b>+8.0%</b></span><span><small>近1月</small><b>+6.6%</b></span></div>
+  <div class="public-analysis"><p><b>当前判断</b>可进入优先观察池；如果走势与成交量继续确认，可考虑分批买入或短期 call 候选。</p>
+  <p><b>正向依据</b>综合分 100.0 来自 Aster Call；EMA structure 偏多：confirmed_bullish_trend；MACD momentum 支持：bullish_above_signal；RSI 冷却/健康区间：61.5；近3块/短线动量为正：+3.1%</p>
+  <p><b>风险观察</b>MACD snapshot proxy; double-cross history unavailable</p>
+  <p><b>公开一致预期</b>本次未取得或覆盖不足</p></div>
+  
+</div></details>
+
+
+
 <div class="source-chips"><span>Nasdaq Liquid 500</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $58.62<br><span>Freshpet, Inc. - Common Stock is a publicly traded company.</span></p>
 <div class="return-strip"><span>6月 <b>-13.4%</b></span><span>1月 <b>+6.6%</b></span><span>1周 <b>+8.1%</b></span><span>3日 <b>+3.0%</b></span><span>3块 <b>+3.1%</b></span></div>
@@ -112,6 +252,20 @@
 <header><span class="rank">#11</span><div><h2>DBD</h2><p>DIEBOLD NIXDORF INC</p></div><strong>86.1</strong></header>
 <div class="signal-banner">优先Call候选</div>
 <div class="card-actions"><a class="ta-report-link" href="tradingagents/dbd.html" title="打开 TradingAgents 研报与买卖建议">TradingAgents 研报 · WATCH-BUY / 强观察</a></div>
+<details class="public-summary"><summary><span>免费综合摘要</span><b>WATCH-BUY / 强观察 · 收入 +0.0%</b></summary>
+<div class="public-summary-body">
+  <p class="public-business"><b>业务</b>暂无可用公司业务简介。 </p>
+  <p class="public-meta">Information Technology</p>
+  <div class="public-metrics"><span><small>当前价</small><b>$88.27</b></span><span><small>榜单排名</small><b>24</b></span><span><small>综合分</small><b>88.5 · Aster Call</b></span><span><small>收入增长</small><b>+0.0%</b></span><span><small>盈利增长</small><b>+0.0%</b></span><span><small>RSI 14</small><b>65.25</b></span><span><small>成交量比</small><b>1.19</b></span><span><small>近3块/短线</small><b>+4.3%</b></span><span><small>近1周</small><b>+3.1%</b></span><span><small>近1月</small><b>+5.4%</b></span></div>
+  <div class="public-analysis"><p><b>当前判断</b>信号偏强但仍需等价格确认；适合放入 watchlist，等待回踩不破或放量继续。</p>
+  <p><b>正向依据</b>综合分 88.5 来自 Aster Call；EMA structure 偏多：confirmed_bullish_trend；MACD momentum 支持：fresh_above_zero_cross；RSI 冷却/健康区间：65.2；近3块/短线动量为正：+4.3%</p>
+  <p><b>风险观察</b>MACD snapshot proxy; double-cross history unavailable</p>
+  <p><b>公开一致预期</b>本次未取得或覆盖不足</p></div>
+  
+</div></details>
+
+
+
 <div class="source-chips"><span>Russell</span><span>Information Technology</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $88.27<br><span>DIEBOLD NIXDORF INC is a publicly traded company in the Information Technology sector.</span></p>
 <div class="return-strip"><span>6月 <b>+28.7%</b></span><span>1月 <b>+5.3%</b></span><span>1周 <b>+3.2%</b></span><span>3日 <b>+3.6%</b></span><span>3块 <b>+4.3%</b></span></div>
@@ -123,6 +277,20 @@
 <header><span class="rank">#12</span><div><h2>TNK</h2><p>TEEKAY TANKERS LTD CLASS A</p></div><strong>86.0</strong></header>
 <div class="signal-banner">优先Call候选</div>
 <div class="card-actions"><a class="ta-report-link" href="tradingagents/tnk.html" title="打开 TradingAgents 研报与买卖建议">TradingAgents 研报 · BUY-WATCH / 偏买入观察</a></div>
+<details class="public-summary"><summary><span>免费综合摘要</span><b>BUY-WATCH / 偏买入观察 · 收入 +0.0%</b></summary>
+<div class="public-summary-body">
+  <p class="public-business"><b>业务</b>Teekay is a Canadian shipping corporation which specialises in shipping crude oil. <a class="public-source" href="https://en.wikipedia.org/wiki/Teekay" target="_blank" rel="noopener">公开来源</a></p>
+  <p class="public-meta">Energy</p>
+  <div class="public-metrics"><span><small>当前价</small><b>$75.67</b></span><span><small>榜单排名</small><b>9</b></span><span><small>综合分</small><b>91.2 · 4H calibrated</b></span><span><small>收入增长</small><b>+0.0%</b></span><span><small>盈利增长</small><b>+0.0%</b></span><span><small>RSI 14</small><b>62.85</b></span><span><small>成交量比</small><b>1.68</b></span><span><small>近3块/短线</small><b>+4.7%</b></span><span><small>近1周</small><b>+4.7%</b></span><span><small>近1月</small><b>+1.6%</b></span></div>
+  <div class="public-analysis"><p><b>当前判断</b>可进入优先观察池；如果走势与成交量继续确认，可考虑分批买入或短期 call 候选。</p>
+  <p><b>正向依据</b>综合分 91.2 来自 4H calibrated；EMA structure 偏多：early_transition；MACD momentum 支持：bullish_above_signal；RSI 冷却/健康区间：62.9；近3块/短线动量为正：+4.7%</p>
+  <p><b>风险观察</b>4H 相对 EMA26 超过 2 ATR，短线偏追高</p>
+  <p><b>公开一致预期</b>本次未取得或覆盖不足</p></div>
+  
+</div></details>
+
+
+
 <div class="source-chips"><span>Russell</span><span>Energy</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $75.67<br><span>TEEKAY TANKERS LTD CLASS A is a publicly traded company in the Energy sector.</span></p>
 <div class="return-strip"><span>6月 <b>+24.4%</b></span><span>1月 <b>+1.6%</b></span><span>1周 <b>+4.7%</b></span><span>3日 <b>+5.4%</b></span><span>3块 <b>+4.7%</b></span></div>
@@ -134,6 +302,20 @@
 <header><span class="rank">#13</span><div><h2>REPX</h2><p>RILEY EXPLORATION PERMIAN INC</p></div><strong>86.0</strong></header>
 <div class="signal-banner">优先Call候选</div>
 <div class="card-actions"><a class="ta-report-link" href="tradingagents/repx.html" title="打开 TradingAgents 研报与买卖建议">TradingAgents 研报 · BUY-WATCH / 偏买入观察</a></div>
+<details class="public-summary"><summary><span>免费综合摘要</span><b>BUY-WATCH / 偏买入观察 · 收入 +0.0%</b></summary>
+<div class="public-summary-body">
+  <p class="public-business"><b>业务</b>暂无可用公司业务简介。 </p>
+  <p class="public-meta">Energy</p>
+  <div class="public-metrics"><span><small>当前价</small><b>$35.27</b></span><span><small>榜单排名</small><b>46</b></span><span><small>综合分</small><b>100.0 · Aster Call</b></span><span><small>收入增长</small><b>+0.0%</b></span><span><small>盈利增长</small><b>+0.0%</b></span><span><small>RSI 14</small><b>64.06</b></span><span><small>成交量比</small><b>1.34</b></span><span><small>近3块/短线</small><b>-0.0%</b></span><span><small>近1周</small><b>+2.8%</b></span><span><small>近1月</small><b>+7.5%</b></span></div>
+  <div class="public-analysis"><p><b>当前判断</b>可进入优先观察池；如果走势与成交量继续确认，可考虑分批买入或短期 call 候选。</p>
+  <p><b>正向依据</b>综合分 100.0 来自 Aster Call；EMA structure 偏多：confirmed_bullish_trend；MACD momentum 支持：bullish_above_signal；RSI 冷却/健康区间：64.1；近1周趋势为正：+2.8%</p>
+  <p><b>风险观察</b>未发现主要规则风险项，仍需结合大盘与仓位控制</p>
+  <p><b>公开一致预期</b>本次未取得或覆盖不足</p></div>
+  
+</div></details>
+
+
+
 <div class="source-chips"><span>Russell</span><span>Energy</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $35.27<br><span>RILEY EXPLORATION PERMIAN INC is a publicly traded company in the Energy sector.</span></p>
 <div class="return-strip"><span>6月 <b>+29.9%</b></span><span>1月 <b>+7.5%</b></span><span>1周 <b>+2.6%</b></span><span>3日 <b>+1.5%</b></span><span>3块 <b>-0.0%</b></span></div>
@@ -145,6 +327,20 @@
 <header><span class="rank">#14</span><div><h2>CB</h2><p>Chubb Limited</p></div><strong>85.8</strong></header>
 <div class="signal-banner">优先Call候选</div>
 <div class="card-actions"><a class="ta-report-link" href="tradingagents/cb.html" title="打开 TradingAgents 研报与买卖建议">TradingAgents 研报 · WATCH-BUY / 强观察</a></div>
+<details class="public-summary"><summary><span>免费综合摘要</span><b>WATCH-BUY / 强观察 · 收入 +0.0%</b></summary>
+<div class="public-summary-body">
+  <p class="public-business"><b>业务</b>Chubb Limited is an American–Swiss company incorporated in Zürich and listed on the New York Stock Exchange (NYSE), where it is a component of the S&amp;P 500. <a class="public-source" href="https://en.wikipedia.org/wiki/Chubb_Limited" target="_blank" rel="noopener">公开来源</a></p>
+  <p class="public-meta">Property &amp; Casualty Insurance · Financials</p>
+  <div class="public-metrics"><span><small>当前价</small><b>$354.64</b></span><span><small>榜单排名</small><b>25</b></span><span><small>综合分</small><b>88.5 · Aster Call</b></span><span><small>收入增长</small><b>+0.0%</b></span><span><small>盈利增长</small><b>+0.0%</b></span><span><small>RSI 14</small><b>58.98</b></span><span><small>成交量比</small><b>1.32</b></span><span><small>近3块/短线</small><b>+0.4%</b></span><span><small>近1周</small><b>+2.4%</b></span><span><small>近1月</small><b>+9.6%</b></span></div>
+  <div class="public-analysis"><p><b>当前判断</b>信号偏强但仍需等价格确认；适合放入 watchlist，等待回踩不破或放量继续。</p>
+  <p><b>正向依据</b>综合分 88.5 来自 Aster Call；EMA structure 偏多：confirmed_bullish_trend；MACD momentum 支持：fresh_above_zero_cross；RSI 冷却/健康区间：59.0；近3块/短线动量为正：+0.4%</p>
+  <p><b>风险观察</b>未发现主要规则风险项，仍需结合大盘与仓位控制</p>
+  <p><b>公开一致预期</b>本次未取得或覆盖不足</p></div>
+  <div class="public-news"><b>近期公开动态</b><ul><li><a href="https://finance.yahoo.com/markets/stocks/articles/chubb-cb-reports-q2-earnings-223002689.html" target="_blank" rel="noopener">Chubb (CB) Reports Q2 Earnings: What Key Metrics Have to Say</a> <small>Zacks</small></li><li><a href="https://finance.yahoo.com/markets/stocks/articles/chubb-cb-tops-q2-earnings-213003903.html" target="_blank" rel="noopener">Chubb (CB) Tops Q2 Earnings Estimates</a> <small>Zacks</small></li><li><a href="https://finance.yahoo.com/markets/stocks/articles/chubb-q2-core-operating-earnings-201412087.html" target="_blank" rel="noopener">Chubb Q2 Core Operating Earnings Rise</a> <small>MT Newswires</small></li></ul></div>
+</div></details>
+
+
+
 <div class="source-chips"><span>S&amp;P 500</span><span>Financials</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $354.64<br><span>Chubb Limited is a publicly traded company in the Financials sector.</span></p>
 <div class="return-strip"><span>6月 <b>+17.8%</b></span><span>1月 <b>+9.7%</b></span><span>1周 <b>+2.4%</b></span><span>3日 <b>+3.2%</b></span><span>3块 <b>+0.4%</b></span></div>
@@ -156,6 +352,20 @@
 <header><span class="rank">#15</span><div><h2>VTRS</h2><p>Viatris</p></div><strong>85.7</strong></header>
 <div class="signal-banner">优先Call候选</div>
 <div class="card-actions"><a class="ta-report-link" href="tradingagents/vtrs.html" title="打开 TradingAgents 研报与买卖建议">TradingAgents 研报 · BUY-WATCH / 偏买入观察</a></div>
+<details class="public-summary"><summary><span>免费综合摘要</span><b>BUY-WATCH / 偏买入观察 · 收入 +0.0%</b></summary>
+<div class="public-summary-body">
+  <p class="public-business"><b>业务</b>Viatris Inc. is an American global pharmaceutical and healthcare corporation headquartered in Canonsburg, Pennsylvania. The corporation was formed through the merger of Mylan and Upjohn, a legacy division of Pfizer, on November 16, 2020. <a class="public-source" href="https://en.wikipedia.org/wiki/Viatris" target="_blank" rel="noopener">公开来源</a></p>
+  <p class="public-meta">Pharmaceuticals · Health Care</p>
+  <div class="public-metrics"><span><small>当前价</small><b>$17.59</b></span><span><small>榜单排名</small><b>7</b></span><span><small>综合分</small><b>100.0 · Aster Call</b></span><span><small>收入增长</small><b>+0.0%</b></span><span><small>盈利增长</small><b>+0.0%</b></span><span><small>RSI 14</small><b>67.98</b></span><span><small>成交量比</small><b>1.16</b></span><span><small>近3块/短线</small><b>+2.6%</b></span><span><small>近1周</small><b>+7.8%</b></span><span><small>近1月</small><b>+14.4%</b></span></div>
+  <div class="public-analysis"><p><b>当前判断</b>可进入优先观察池；如果走势与成交量继续确认，可考虑分批买入或短期 call 候选。</p>
+  <p><b>正向依据</b>综合分 100.0 来自 Aster Call；EMA structure 偏多：confirmed_bullish_trend；MACD momentum 支持：bullish_above_signal；RSI 冷却/健康区间：68.0；近3块/短线动量为正：+2.6%</p>
+  <p><b>风险观察</b>4H 相对 EMA26 超过 2 ATR，短线偏追高</p>
+  <p><b>公开一致预期</b>本次未取得或覆盖不足</p></div>
+  <div class="public-news"><b>近期公开动态</b><ul><li><a href="https://finance.yahoo.com/markets/stocks/articles/3-unpopular-stocks-skeptical-112733594.html" target="_blank" rel="noopener">3 Unpopular Stocks We’re Skeptical Of</a> <small>StockStory</small></li><li><a href="https://finance.yahoo.com/m/50635956-8721-3fe7-98c9-9a91ff5c6c5a/financial-stocks-rally-to-new.html" target="_blank" rel="noopener">Financial Stocks Rally To New Highs. JPMorgan Is One Of Them.</a> <small>Investor&#x27;s Business Daily</small></li><li><a href="https://finance.yahoo.com/markets/stocks/articles/vtrs-dhr-better-value-stock-154004575.html" target="_blank" rel="noopener">VTRS or DHR: Which Is the Better Value Stock Right Now?</a> <small>Zacks</small></li></ul></div>
+</div></details>
+
+
+
 <div class="source-chips"><span>S&amp;P 500</span><span>Health Care</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $17.59<br><span>Viatris Inc. is an American global pharmaceutical and healthcare corporation headquartered in Canonsburg, Pennsylvania. The corporation was formed through the merger of Mylan and Upjohn, a legacy division of Pfizer, on November 16, 2020.</span> <a class="company-source" href="https://en.wikipedia.org/wiki/Viatris" target="_blank" rel="noopener">公司资料</a></p>
 <div class="return-strip"><span>6月 <b>+38.9%</b></span><span>1月 <b>+14.4%</b></span><span>1周 <b>+7.8%</b></span><span>3日 <b>+1.5%</b></span><span>3块 <b>+2.6%</b></span></div>
@@ -167,6 +377,20 @@
 <header><span class="rank">#16</span><div><h2>AKAM</h2><p>Akamai Technologies</p></div><strong>85.7</strong></header>
 <div class="signal-banner">优先Call候选</div>
 <div class="card-actions"><a class="ta-report-link" href="tradingagents/akam.html" title="打开 TradingAgents 研报与买卖建议">TradingAgents 研报 · BUY-WATCH / 偏买入观察</a></div>
+<details class="public-summary"><summary><span>免费综合摘要</span><b>BUY-WATCH / 偏买入观察 · 收入 +0.0%</b></summary>
+<div class="public-summary-body">
+  <p class="public-business"><b>业务</b>Akamai Technologies, Inc. is an American company specializing in content delivery network (CDN), cybersecurity, DDoS mitigation, and cloud services. It is headquartered in Cambridge, Massachusetts. <a class="public-source" href="https://en.wikipedia.org/wiki/Akamai_Technologies" target="_blank" rel="noopener">公开来源</a></p>
+  <p class="public-meta">Internet Services &amp; Infrastructure · Information Technology</p>
+  <div class="public-metrics"><span><small>当前价</small><b>$124.91</b></span><span><small>榜单排名</small><b>4</b></span><span><small>综合分</small><b>92.4 · Aster Call</b></span><span><small>收入增长</small><b>+0.0%</b></span><span><small>盈利增长</small><b>+0.0%</b></span><span><small>RSI 14</small><b>55.35</b></span><span><small>成交量比</small><b>1.64</b></span><span><small>近3块/短线</small><b>+0.6%</b></span><span><small>近1周</small><b>-0.9%</b></span><span><small>近1月</small><b>+0.0%</b></span></div>
+  <div class="public-analysis"><p><b>当前判断</b>可进入优先观察池；如果走势与成交量继续确认，可考虑分批买入或短期 call 候选。</p>
+  <p><b>正向依据</b>综合分 92.4 来自 Aster Call；EMA structure 偏多：fresh_bullish_cross；MACD momentum 支持：fresh_above_zero_cross；RSI 冷却/健康区间：55.4；近3块/短线动量为正：+0.6%</p>
+  <p><b>风险观察</b>MACD snapshot proxy; double-cross history unavailable</p>
+  <p><b>公开一致预期</b>本次未取得或覆盖不足</p></div>
+  
+</div></details>
+
+
+
 <div class="source-chips"><span>Nasdaq 200</span><span>Information Technology</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $124.91<br><span>Akamai Technologies is a publicly traded company in the Information Technology sector.</span></p>
 <div class="return-strip"><span>6月 <b>+39.4%</b></span><span>1月 <b>+0.0%</b></span><span>1周 <b>-1.0%</b></span><span>3日 <b>+5.1%</b></span><span>3块 <b>+0.6%</b></span></div>
@@ -178,6 +402,20 @@
 <header><span class="rank">#17</span><div><h2>NBIX</h2><p>Neurocrine Biosciences, Inc. - Common Stock</p></div><strong>85.5</strong></header>
 <div class="signal-banner">优先Call候选</div>
 <div class="card-actions"><a class="ta-report-link" href="tradingagents/nbix.html" title="打开 TradingAgents 研报与买卖建议">TradingAgents 研报 · WATCH-BUY / 强观察</a></div>
+<details class="public-summary"><summary><span>免费综合摘要</span><b>WATCH-BUY / 强观察 · 收入 +0.0%</b></summary>
+<div class="public-summary-body">
+  <p class="public-business"><b>业务</b>暂无可用公司业务简介。 </p>
+  
+  <div class="public-metrics"><span><small>当前价</small><b>$179.05</b></span><span><small>榜单排名</small><b>28</b></span><span><small>综合分</small><b>88.2 · Aster Call</b></span><span><small>收入增长</small><b>+0.0%</b></span><span><small>盈利增长</small><b>+0.0%</b></span><span><small>RSI 14</small><b>65.33</b></span><span><small>成交量比</small><b>1.09</b></span><span><small>近3块/短线</small><b>+2.9%</b></span><span><small>近1周</small><b>+4.1%</b></span><span><small>近1月</small><b>+13.1%</b></span></div>
+  <div class="public-analysis"><p><b>当前判断</b>信号偏强但仍需等价格确认；适合放入 watchlist，等待回踩不破或放量继续。</p>
+  <p><b>正向依据</b>综合分 88.2 来自 Aster Call；EMA structure 偏多：confirmed_bullish_trend；MACD momentum 支持：fresh_above_zero_cross；RSI 冷却/健康区间：65.3；近3块/短线动量为正：+2.9%</p>
+  <p><b>风险观察</b>MACD snapshot proxy; double-cross history unavailable</p>
+  <p><b>公开一致预期</b>本次未取得或覆盖不足</p></div>
+  
+</div></details>
+
+
+
 <div class="source-chips"><span>Nasdaq 200</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $179.05<br><span>Neurocrine Biosciences, Inc. - Common Stock is a publicly traded company.</span></p>
 <div class="return-strip"><span>6月 <b>+33.1%</b></span><span>1月 <b>+13.1%</b></span><span>1周 <b>+4.1%</b></span><span>3日 <b>+4.4%</b></span><span>3块 <b>+2.9%</b></span></div>
@@ -189,6 +427,20 @@
 <header><span class="rank">#18</span><div><h2>NLOP</h2><p>NET LEASE OFFICE PROPERTIES</p></div><strong>85.3</strong></header>
 <div class="signal-banner">优先Call候选</div>
 <div class="card-actions"><a class="ta-report-link" href="tradingagents/nlop.html" title="打开 TradingAgents 研报与买卖建议">TradingAgents 研报 · BUY-WATCH / 偏买入观察</a></div>
+<details class="public-summary"><summary><span>免费综合摘要</span><b>BUY-WATCH / 偏买入观察 · 收入 +0.0%</b></summary>
+<div class="public-summary-body">
+  <p class="public-business"><b>业务</b>暂无可用公司业务简介。 </p>
+  <p class="public-meta">Real Estate</p>
+  <div class="public-metrics"><span><small>当前价</small><b>$11.82</b></span><span><small>榜单排名</small><b>19</b></span><span><small>综合分</small><b>91.7 · 4H calibrated</b></span><span><small>收入增长</small><b>+0.0%</b></span><span><small>盈利增长</small><b>+0.0%</b></span><span><small>RSI 14</small><b>64.86</b></span><span><small>成交量比</small><b>2.00</b></span><span><small>近3块/短线</small><b>+0.3%</b></span><span><small>近1周</small><b>+4.0%</b></span><span><small>近1月</small><b>+1.4%</b></span></div>
+  <div class="public-analysis"><p><b>当前判断</b>可进入优先观察池；如果走势与成交量继续确认，可考虑分批买入或短期 call 候选。</p>
+  <p><b>正向依据</b>综合分 91.7 来自 4H calibrated；EMA structure 偏多：early_transition；MACD momentum 支持：bullish_above_signal；RSI 冷却/健康区间：64.9；近3块/短线动量为正：+0.3%</p>
+  <p><b>风险观察</b>未发现主要规则风险项，仍需结合大盘与仓位控制</p>
+  <p><b>公开一致预期</b>本次未取得或覆盖不足</p></div>
+  
+</div></details>
+
+
+
 <div class="source-chips"><span>Russell</span><span>Real Estate</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $11.82<br><span>NET LEASE OFFICE PROPERTIES is a publicly traded company in the Real Estate sector.</span></p>
 <div class="return-strip"><span>6月 <b>-40.4%</b></span><span>1月 <b>+1.9%</b></span><span>1周 <b>+4.0%</b></span><span>3日 <b>+0.9%</b></span><span>3块 <b>+0.3%</b></span></div>
@@ -200,6 +452,20 @@
 <header><span class="rank">#19</span><div><h2>MATV</h2><p>MATIV HOLDINGS INC</p></div><strong>85.2</strong></header>
 <div class="signal-banner">优先Call候选</div>
 <div class="card-actions"><a class="ta-report-link" href="tradingagents/matv.html" title="打开 TradingAgents 研报与买卖建议">TradingAgents 研报 · BUY-WATCH / 偏买入观察</a></div>
+<details class="public-summary"><summary><span>免费综合摘要</span><b>BUY-WATCH / 偏买入观察 · 收入 +0.0%</b></summary>
+<div class="public-summary-body">
+  <p class="public-business"><b>业务</b>暂无可用公司业务简介。 </p>
+  <p class="public-meta">Materials</p>
+  <div class="public-metrics"><span><small>当前价</small><b>$8.05</b></span><span><small>榜单排名</small><b>20</b></span><span><small>综合分</small><b>91.1 · 4H calibrated</b></span><span><small>收入增长</small><b>+0.0%</b></span><span><small>盈利增长</small><b>+0.0%</b></span><span><small>RSI 14</small><b>57.10</b></span><span><small>成交量比</small><b>1.12</b></span><span><small>近3块/短线</small><b>+1.1%</b></span><span><small>近1周</small><b>+4.5%</b></span><span><small>近1月</small><b>+1.4%</b></span></div>
+  <div class="public-analysis"><p><b>当前判断</b>可进入优先观察池；如果走势与成交量继续确认，可考虑分批买入或短期 call 候选。</p>
+  <p><b>正向依据</b>综合分 91.1 来自 4H calibrated；EMA structure 偏多：early_transition；MACD momentum 支持：bullish_above_signal；RSI 冷却/健康区间：57.1；近3块/短线动量为正：+1.1%</p>
+  <p><b>风险观察</b>未发现主要规则风险项，仍需结合大盘与仓位控制</p>
+  <p><b>公开一致预期</b>本次未取得或覆盖不足</p></div>
+  
+</div></details>
+
+
+
 <div class="source-chips"><span>Russell</span><span>Materials</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $8.05<br><span>MATIV HOLDINGS INC is a publicly traded company in the Materials sector.</span></p>
 <div class="return-strip"><span>6月 <b>-33.8%</b></span><span>1月 <b>+1.7%</b></span><span>1周 <b>+4.2%</b></span><span>3日 <b>-1.9%</b></span><span>3块 <b>+1.1%</b></span></div>
@@ -211,6 +477,20 @@
 <header><span class="rank">#20</span><div><h2>SIGI</h2><p>SELECTIVE INSURANCE GROUP INC</p></div><strong>85.2</strong></header>
 <div class="signal-banner">优先Call候选</div>
 <div class="card-actions"><a class="ta-report-link" href="tradingagents/sigi.html" title="打开 TradingAgents 研报与买卖建议">TradingAgents 研报 · WATCH-BUY / 强观察</a></div>
+<details class="public-summary"><summary><span>免费综合摘要</span><b>WATCH-BUY / 强观察 · 收入 +0.0%</b></summary>
+<div class="public-summary-body">
+  <p class="public-business"><b>业务</b>暂无可用公司业务简介。 </p>
+  <p class="public-meta">Financials</p>
+  <div class="public-metrics"><span><small>当前价</small><b>$98.76</b></span><span><small>榜单排名</small><b>31</b></span><span><small>综合分</small><b>87.8 · Aster Call</b></span><span><small>收入增长</small><b>+0.0%</b></span><span><small>盈利增长</small><b>+0.0%</b></span><span><small>RSI 14</small><b>62.37</b></span><span><small>成交量比</small><b>2.03</b></span><span><small>近3块/短线</small><b>+1.7%</b></span><span><small>近1周</small><b>+2.5%</b></span><span><small>近1月</small><b>+7.0%</b></span></div>
+  <div class="public-analysis"><p><b>当前判断</b>信号偏强但仍需等价格确认；适合放入 watchlist，等待回踩不破或放量继续。</p>
+  <p><b>正向依据</b>综合分 87.8 来自 Aster Call；EMA structure 偏多：confirmed_bullish_trend；MACD momentum 支持：fresh_above_zero_cross；RSI 冷却/健康区间：62.4；近3块/短线动量为正：+1.7%</p>
+  <p><b>风险观察</b>未发现主要规则风险项，仍需结合大盘与仓位控制</p>
+  <p><b>公开一致预期</b>本次未取得或覆盖不足</p></div>
+  
+</div></details>
+
+
+
 <div class="source-chips"><span>Russell</span><span>Financials</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $98.76<br><span>SELECTIVE INSURANCE GROUP INC is a publicly traded company in the Financials sector.</span></p>
 <div class="return-strip"><span>6月 <b>+21.4%</b></span><span>1月 <b>+7.0%</b></span><span>1周 <b>+2.5%</b></span><span>3日 <b>+3.7%</b></span><span>3块 <b>+1.7%</b></span></div>
@@ -222,6 +502,20 @@
 <header><span class="rank">#21</span><div><h2>FSBC</h2><p>FIVE STAR BANCORP</p></div><strong>85.2</strong></header>
 <div class="signal-banner">优先Call候选</div>
 <div class="card-actions"><a class="ta-report-link" href="tradingagents/fsbc.html" title="打开 TradingAgents 研报与买卖建议">TradingAgents 研报 · WATCH-BUY / 强观察</a></div>
+<details class="public-summary"><summary><span>免费综合摘要</span><b>WATCH-BUY / 强观察 · 收入 +0.0%</b></summary>
+<div class="public-summary-body">
+  <p class="public-business"><b>业务</b>暂无可用公司业务简介。 </p>
+  <p class="public-meta">Financials</p>
+  <div class="public-metrics"><span><small>当前价</small><b>$49.33</b></span><span><small>榜单排名</small><b>32</b></span><span><small>综合分</small><b>87.8 · Aster Call</b></span><span><small>收入增长</small><b>+0.0%</b></span><span><small>盈利增长</small><b>+0.0%</b></span><span><small>RSI 14</small><b>57.86</b></span><span><small>成交量比</small><b>1.17</b></span><span><small>近3块/短线</small><b>+1.9%</b></span><span><small>近1周</small><b>+3.7%</b></span><span><small>近1月</small><b>+9.9%</b></span></div>
+  <div class="public-analysis"><p><b>当前判断</b>信号偏强但仍需等价格确认；适合放入 watchlist，等待回踩不破或放量继续。</p>
+  <p><b>正向依据</b>综合分 87.8 来自 Aster Call；EMA structure 偏多：confirmed_bullish_trend；MACD momentum 支持：fresh_above_zero_cross；RSI 冷却/健康区间：57.9；近3块/短线动量为正：+1.9%</p>
+  <p><b>风险观察</b>未发现主要规则风险项，仍需结合大盘与仓位控制</p>
+  <p><b>公开一致预期</b>本次未取得或覆盖不足</p></div>
+  
+</div></details>
+
+
+
 <div class="source-chips"><span>Russell</span><span>Financials</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $49.33<br><span>FIVE STAR BANCORP is a publicly traded company in the Financials sector.</span></p>
 <div class="return-strip"><span>6月 <b>+32.0%</b></span><span>1月 <b>+9.9%</b></span><span>1周 <b>+3.5%</b></span><span>3日 <b>-0.7%</b></span><span>3块 <b>+1.9%</b></span></div>
@@ -233,6 +527,20 @@
 <header><span class="rank">#22</span><div><h2>F</h2><p>Ford Motor Company</p></div><strong>85.1</strong></header>
 <div class="signal-banner">优先Call候选</div>
 <div class="card-actions"><a class="ta-report-link" href="tradingagents/f.html" title="打开 TradingAgents 研报与买卖建议">TradingAgents 研报 · BUY-WATCH / 偏买入观察</a></div>
+<details class="public-summary"><summary><span>免费综合摘要</span><b>BUY-WATCH / 偏买入观察 · 收入 +0.0%</b></summary>
+<div class="public-summary-body">
+  <p class="public-business"><b>业务</b>The Ford Motor Company is an American multinational automobile manufacturer headquartered in Dearborn, Michigan, United States. It was founded by Henry Ford and incorporated on June 16, 1903. The company sells automobiles and commercial vehicles under the Ford brand, and luxury cars under its Lincoln brand. The company is listed on the New York Stock Exchange under the single-letter ticker symbol F and is controlled by the Ford family. <a class="public-source" href="https://en.wikipedia.org/wiki/Ford_Motor_Company" target="_blank" rel="noopener">公开来源</a></p>
+  <p class="public-meta">Automobile Manufacturers · Consumer Discretionary</p>
+  <div class="public-metrics"><span><small>当前价</small><b>$14.27</b></span><span><small>榜单排名</small><b>22</b></span><span><small>综合分</small><b>90.4 · 4H calibrated</b></span><span><small>收入增长</small><b>+0.0%</b></span><span><small>盈利增长</small><b>+0.0%</b></span><span><small>RSI 14</small><b>55.02</b></span><span><small>成交量比</small><b>1.05</b></span><span><small>近3块/短线</small><b>+1.8%</b></span><span><small>近1周</small><b>+2.5%</b></span><span><small>近1月</small><b>+1.7%</b></span></div>
+  <div class="public-analysis"><p><b>当前判断</b>可进入优先观察池；如果走势与成交量继续确认，可考虑分批买入或短期 call 候选。</p>
+  <p><b>正向依据</b>综合分 90.4 来自 4H calibrated；EMA structure 偏多：early_transition；MACD momentum 支持：bullish_above_signal；RSI 冷却/健康区间：55.0；近3块/短线动量为正：+1.8%</p>
+  <p><b>风险观察</b>MACD snapshot proxy; double-cross history unavailable</p>
+  <p><b>公开一致预期</b>本次未取得或覆盖不足</p></div>
+  
+</div></details>
+
+
+
 <div class="source-chips"><span>S&amp;P 500</span><span>Consumer Discretionary</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $14.27<br><span>Ford Motor Company is a publicly traded company in the Consumer Discretionary sector.</span></p>
 <div class="return-strip"><span>6月 <b>+7.5%</b></span><span>1月 <b>+1.5%</b></span><span>1周 <b>+2.4%</b></span><span>3日 <b>+0.6%</b></span><span>3块 <b>+1.8%</b></span></div>
@@ -244,6 +552,20 @@
 <header><span class="rank">#23</span><div><h2>ISSC</h2><p>INNOVATIVE SOLUTIONS AND SUPPORT I</p></div><strong>85.1</strong></header>
 <div class="signal-banner">优先Call候选</div>
 <div class="card-actions"><a class="ta-report-link" href="tradingagents/issc.html" title="打开 TradingAgents 研报与买卖建议">TradingAgents 研报 · WATCH-BUY / 强观察</a></div>
+<details class="public-summary"><summary><span>免费综合摘要</span><b>WATCH-BUY / 强观察 · 收入 +0.0%</b></summary>
+<div class="public-summary-body">
+  <p class="public-business"><b>业务</b>暂无可用公司业务简介。 </p>
+  <p class="public-meta">Industrials</p>
+  <div class="public-metrics"><span><small>当前价</small><b>$19.22</b></span><span><small>榜单排名</small><b>38</b></span><span><small>综合分</small><b>87.3 · Aster Call</b></span><span><small>收入增长</small><b>+0.0%</b></span><span><small>盈利增长</small><b>+0.0%</b></span><span><small>RSI 14</small><b>63.78</b></span><span><small>成交量比</small><b>0.80</b></span><span><small>近3块/短线</small><b>+4.2%</b></span><span><small>近1周</small><b>+4.6%</b></span><span><small>近1月</small><b>+11.6%</b></span></div>
+  <div class="public-analysis"><p><b>当前判断</b>信号偏强但仍需等价格确认；适合放入 watchlist，等待回踩不破或放量继续。</p>
+  <p><b>正向依据</b>综合分 87.3 来自 Aster Call；EMA structure 偏多：confirmed_bullish_trend；MACD momentum 支持：fresh_above_zero_cross；RSI 冷却/健康区间：63.8；近3块/短线动量为正：+4.2%</p>
+  <p><b>风险观察</b>未发现主要规则风险项，仍需结合大盘与仓位控制</p>
+  <p><b>公开一致预期</b>本次未取得或覆盖不足</p></div>
+  
+</div></details>
+
+
+
 <div class="source-chips"><span>Russell</span><span>Industrials</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $19.22<br><span>INNOVATIVE SOLUTIONS AND SUPPORT I is a publicly traded company in the Industrials sector.</span></p>
 <div class="return-strip"><span>6月 <b>-10.2%</b></span><span>1月 <b>+11.7%</b></span><span>1周 <b>+4.6%</b></span><span>3日 <b>+5.2%</b></span><span>3块 <b>+4.2%</b></span></div>
@@ -255,6 +577,20 @@
 <header><span class="rank">#24</span><div><h2>BLBD</h2><p>BLUE BIRD CORP</p></div><strong>84.7</strong></header>
 <div class="signal-banner">优先Call候选</div>
 <div class="card-actions"><a class="ta-report-link" href="tradingagents/blbd.html" title="打开 TradingAgents 研报与买卖建议">TradingAgents 研报 · WATCH-BUY / 强观察</a></div>
+<details class="public-summary"><summary><span>免费综合摘要</span><b>WATCH-BUY / 强观察 · 收入 +0.0%</b></summary>
+<div class="public-summary-body">
+  <p class="public-business"><b>业务</b>暂无可用公司业务简介。 </p>
+  <p class="public-meta">Industrials</p>
+  <div class="public-metrics"><span><small>当前价</small><b>$81.28</b></span><span><small>榜单排名</small><b>24</b></span><span><small>综合分</small><b>84.7 · Aster Call</b></span><span><small>收入增长</small><b>+0.0%</b></span><span><small>盈利增长</small><b>+0.0%</b></span><span><small>RSI 14</small><b>64.18</b></span><span><small>成交量比</small><b>1.08</b></span><span><small>近3块/短线</small><b>+0.2%</b></span><span><small>近1周</small><b>+5.1%</b></span><span><small>近1月</small><b>+9.8%</b></span></div>
+  <div class="public-analysis"><p><b>当前判断</b>信号偏强但仍需等价格确认；适合放入 watchlist，等待回踩不破或放量继续。</p>
+  <p><b>正向依据</b>综合分 84.7 来自 Aster Call；EMA structure 偏多：confirmed_bullish_trend；MACD momentum 支持：bullish_above_signal；RSI 冷却/健康区间：64.2；近3块/短线动量为正：+0.2%</p>
+  <p><b>风险观察</b>MACD snapshot proxy; double-cross history unavailable</p>
+  <p><b>公开一致预期</b>本次未取得或覆盖不足</p></div>
+  
+</div></details>
+
+
+
 <div class="source-chips"><span>Russell</span><span>Industrials</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $81.28<br><span>BLUE BIRD CORP is a publicly traded company in the Industrials sector.</span></p>
 <div class="return-strip"><span>6月 <b>+65.6%</b></span><span>1月 <b>+9.9%</b></span><span>1周 <b>+5.2%</b></span><span>3日 <b>+4.6%</b></span><span>3块 <b>+0.2%</b></span></div>
@@ -266,6 +602,20 @@
 <header><span class="rank">#25</span><div><h2>PNRG</h2><p>PRIMEENERGY RESOURCES CORP</p></div><strong>84.6</strong></header>
 <div class="signal-banner">优先Call候选</div>
 <div class="card-actions"><a class="ta-report-link" href="tradingagents/pnrg.html" title="打开 TradingAgents 研报与买卖建议">TradingAgents 研报 · WATCH-BUY / 强观察</a></div>
+<details class="public-summary"><summary><span>免费综合摘要</span><b>WATCH-BUY / 强观察 · 收入 +0.0%</b></summary>
+<div class="public-summary-body">
+  <p class="public-business"><b>业务</b>暂无可用公司业务简介。 </p>
+  <p class="public-meta">Energy</p>
+  <div class="public-metrics"><span><small>当前价</small><b>$189.86</b></span><span><small>榜单排名</small><b>23</b></span><span><small>综合分</small><b>88.5 · Aster Call</b></span><span><small>收入增长</small><b>+0.0%</b></span><span><small>盈利增长</small><b>+0.0%</b></span><span><small>RSI 14</small><b>62.84</b></span><span><small>成交量比</small><b>0.79</b></span><span><small>近3块/短线</small><b>+1.4%</b></span><span><small>近1周</small><b>+1.3%</b></span><span><small>近1月</small><b>+8.6%</b></span></div>
+  <div class="public-analysis"><p><b>当前判断</b>信号偏强但仍需等价格确认；适合放入 watchlist，等待回踩不破或放量继续。</p>
+  <p><b>正向依据</b>综合分 88.5 来自 Aster Call；EMA structure 偏多：early_transition；MACD momentum 支持：bullish_above_signal；RSI 冷却/健康区间：62.8；近3块/短线动量为正：+1.4%</p>
+  <p><b>风险观察</b>MACD snapshot proxy; double-cross history unavailable</p>
+  <p><b>公开一致预期</b>本次未取得或覆盖不足</p></div>
+  
+</div></details>
+
+
+
 <div class="source-chips"><span>Russell</span><span>Energy</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $189.86<br><span>PRIMEENERGY RESOURCES CORP is a publicly traded company in the Energy sector.</span></p>
 <div class="return-strip"><span>6月 <b>+10.5%</b></span><span>1月 <b>+8.3%</b></span><span>1周 <b>+0.9%</b></span><span>3日 <b>+1.9%</b></span><span>3块 <b>+1.4%</b></span></div>
@@ -277,6 +627,20 @@
 <header><span class="rank">#26</span><div><h2>TXNM</h2><p>TXNM ENERGY INC</p></div><strong>84.3</strong></header>
 <div class="signal-banner">优先Call候选</div>
 <div class="card-actions"><a class="ta-report-link" href="tradingagents/txnm.html" title="打开 TradingAgents 研报与买卖建议">TradingAgents 研报 · BUY-WATCH / 偏买入观察</a></div>
+<details class="public-summary"><summary><span>免费综合摘要</span><b>BUY-WATCH / 偏买入观察 · 收入 +0.0%</b></summary>
+<div class="public-summary-body">
+  <p class="public-business"><b>业务</b>暂无可用公司业务简介。 </p>
+  <p class="public-meta">Utilities</p>
+  <div class="public-metrics"><span><small>当前价</small><b>$58.07</b></span><span><small>榜单排名</small><b>27</b></span><span><small>综合分</small><b>90.7 · 4H calibrated</b></span><span><small>收入增长</small><b>+0.0%</b></span><span><small>盈利增长</small><b>+0.0%</b></span><span><small>RSI 14</small><b>66.95</b></span><span><small>成交量比</small><b>1.02</b></span><span><small>近3块/短线</small><b>+0.7%</b></span><span><small>近1周</small><b>+1.9%</b></span><span><small>近1月</small><b>+1.9%</b></span></div>
+  <div class="public-analysis"><p><b>当前判断</b>可进入优先观察池；如果走势与成交量继续确认，可考虑分批买入或短期 call 候选。</p>
+  <p><b>正向依据</b>综合分 90.7 来自 4H calibrated；EMA structure 偏多：early_transition；MACD momentum 支持：bullish_above_signal；RSI 冷却/健康区间：67.0；近3块/短线动量为正：+0.7%</p>
+  <p><b>风险观察</b>未发现主要规则风险项，仍需结合大盘与仓位控制</p>
+  <p><b>公开一致预期</b>本次未取得或覆盖不足</p></div>
+  
+</div></details>
+
+
+
 <div class="source-chips"><span>Russell</span><span>Utilities</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $58.07<br><span>TXNM ENERGY INC is a publicly traded company in the Utilities sector.</span></p>
 <div class="return-strip"><span>6月 <b>-2.1%</b></span><span>1月 <b>+1.8%</b></span><span>1周 <b>+1.9%</b></span><span>3日 <b>+0.9%</b></span><span>3块 <b>+0.7%</b></span></div>
@@ -288,6 +652,20 @@
 <header><span class="rank">#27</span><div><h2>CNX</h2><p>CNX RESOURCES CORP</p></div><strong>84.2</strong></header>
 <div class="signal-banner">优先Call候选</div>
 <div class="card-actions"><a class="ta-report-link" href="tradingagents/cnx.html" title="打开 TradingAgents 研报与买卖建议">TradingAgents 研报 · WATCH-BUY / 强观察</a></div>
+<details class="public-summary"><summary><span>免费综合摘要</span><b>WATCH-BUY / 强观察 · 收入 +0.0%</b></summary>
+<div class="public-summary-body">
+  <p class="public-business"><b>业务</b>暂无可用公司业务简介。 </p>
+  <p class="public-meta">Energy</p>
+  <div class="public-metrics"><span><small>当前价</small><b>$33.64</b></span><span><small>榜单排名</small><b>29</b></span><span><small>综合分</small><b>88.2 · Aster Call</b></span><span><small>收入增长</small><b>+0.0%</b></span><span><small>盈利增长</small><b>+0.0%</b></span><span><small>RSI 14</small><b>57.18</b></span><span><small>成交量比</small><b>1.39</b></span><span><small>近3块/短线</small><b>+1.6%</b></span><span><small>近1周</small><b>+4.0%</b></span><span><small>近1月</small><b>+3.1%</b></span></div>
+  <div class="public-analysis"><p><b>当前判断</b>信号偏强但仍需等价格确认；适合放入 watchlist，等待回踩不破或放量继续。</p>
+  <p><b>正向依据</b>综合分 88.2 来自 Aster Call；EMA structure 偏多：fresh_bullish_cross；MACD momentum 支持：bullish_above_signal；RSI 冷却/健康区间：57.2；近3块/短线动量为正：+1.6%</p>
+  <p><b>风险观察</b>未发现主要规则风险项，仍需结合大盘与仓位控制</p>
+  <p><b>公开一致预期</b>本次未取得或覆盖不足</p></div>
+  
+</div></details>
+
+
+
 <div class="source-chips"><span>Russell</span><span>Energy</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $33.64<br><span>CNX RESOURCES CORP is a publicly traded company in the Energy sector.</span></p>
 <div class="return-strip"><span>6月 <b>-8.2%</b></span><span>1月 <b>+3.0%</b></span><span>1周 <b>+3.9%</b></span><span>3日 <b>+0.5%</b></span><span>3块 <b>+1.6%</b></span></div>
@@ -299,6 +677,20 @@
 <header><span class="rank">#28</span><div><h2>GM</h2><p>General Motors</p></div><strong>84.2</strong></header>
 <div class="signal-banner">优先Call候选</div>
 <div class="card-actions"><a class="ta-report-link" href="tradingagents/gm.html" title="打开 TradingAgents 研报与买卖建议">TradingAgents 研报 · BUY-WATCH / 偏买入观察</a></div>
+<details class="public-summary"><summary><span>免费综合摘要</span><b>BUY-WATCH / 偏买入观察 · 收入 +0.0%</b></summary>
+<div class="public-summary-body">
+  <p class="public-business"><b>业务</b>General Motors Company (GM) is an American multinational automotive manufacturing company headquartered in Detroit, Michigan, United States. The company is most known for owning and manufacturing four automobile brands: Chevrolet, Buick, GMC, and Cadillac, each a separate division of GM. By total sales, it has continuously been the largest automaker in the United States, and was the largest in the world for 77 years before losing the title to Toyota in 2008. <a class="public-source" href="https://en.wikipedia.org/wiki/General_Motors" target="_blank" rel="noopener">公开来源</a></p>
+  <p class="public-meta">Automobile Manufacturers · Consumer Discretionary</p>
+  <div class="public-metrics"><span><small>当前价</small><b>$79.51</b></span><span><small>榜单排名</small><b>8</b></span><span><small>综合分</small><b>90.7 · Aster Call</b></span><span><small>收入增长</small><b>+0.0%</b></span><span><small>盈利增长</small><b>+0.0%</b></span><span><small>RSI 14</small><b>58.97</b></span><span><small>成交量比</small><b>1.73</b></span><span><small>近3块/短线</small><b>+5.2%</b></span><span><small>近1周</small><b>+3.4%</b></span><span><small>近1月</small><b>+0.3%</b></span></div>
+  <div class="public-analysis"><p><b>当前判断</b>可进入优先观察池；如果走势与成交量继续确认，可考虑分批买入或短期 call 候选。</p>
+  <p><b>正向依据</b>综合分 90.7 来自 Aster Call；EMA structure 偏多：fresh_bullish_cross；MACD momentum 支持：fresh_below_zero_cross；RSI 冷却/健康区间：59.0；近3块/短线动量为正：+5.2%</p>
+  <p><b>风险观察</b>未发现主要规则风险项，仍需结合大盘与仓位控制</p>
+  <p><b>公开一致预期</b>本次未取得或覆盖不足</p></div>
+  
+</div></details>
+
+
+
 <div class="source-chips"><span>S&amp;P 500</span><span>Consumer Discretionary</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $79.51<br><span>General Motors is a publicly traded company in the Consumer Discretionary sector.</span></p>
 <div class="return-strip"><span>6月 <b>+2.2%</b></span><span>1月 <b>+0.3%</b></span><span>1周 <b>+3.4%</b></span><span>3日 <b>+2.3%</b></span><span>3块 <b>+5.2%</b></span></div>
@@ -310,6 +702,20 @@
 <header><span class="rank">#29</span><div><h2>SVC</h2><p>SERVICE PROPERTIES TRUST</p></div><strong>83.8</strong></header>
 <div class="signal-banner">优先Call候选</div>
 <div class="card-actions"><a class="ta-report-link" href="tradingagents/svc.html" title="打开 TradingAgents 研报与买卖建议">TradingAgents 研报 · WATCH-BUY / 强观察</a></div>
+<details class="public-summary"><summary><span>免费综合摘要</span><b>WATCH-BUY / 强观察 · 收入 +0.0%</b></summary>
+<div class="public-summary-body">
+  <p class="public-business"><b>业务</b>暂无可用公司业务简介。 </p>
+  <p class="public-meta">Real Estate</p>
+  <div class="public-metrics"><span><small>当前价</small><b>$8.84</b></span><span><small>榜单排名</small><b>29</b></span><span><small>综合分</small><b>83.8 · Aster Call</b></span><span><small>收入增长</small><b>+0.0%</b></span><span><small>盈利增长</small><b>+0.0%</b></span><span><small>RSI 14</small><b>57.46</b></span><span><small>成交量比</small><b>1.00</b></span><span><small>近3块/短线</small><b>+0.3%</b></span><span><small>近1周</small><b>+3.4%</b></span><span><small>近1月</small><b>+4.6%</b></span></div>
+  <div class="public-analysis"><p><b>当前判断</b>信号偏强但仍需等价格确认；适合放入 watchlist，等待回踩不破或放量继续。</p>
+  <p><b>正向依据</b>综合分 83.8 来自 Aster Call；EMA structure 偏多：confirmed_bullish_trend；MACD momentum 支持：fresh_above_zero_cross；RSI 冷却/健康区间：57.5；近3块/短线动量为正：+0.3%</p>
+  <p><b>风险观察</b>MACD snapshot proxy; double-cross history unavailable</p>
+  <p><b>公开一致预期</b>本次未取得或覆盖不足</p></div>
+  
+</div></details>
+
+
+
 <div class="source-chips"><span>Russell</span><span>Real Estate</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $8.84<br><span>SERVICE PROPERTIES TRUST is a publicly traded company in the Real Estate sector.</span></p>
 <div class="return-strip"><span>6月 <b>+325.0%</b></span><span>1月 <b>+423.1%</b></span><span>1周 <b>+3.5%</b></span><span>3日 <b>+1.6%</b></span><span>3块 <b>+0.3%</b></span></div>
@@ -321,6 +727,20 @@
 <header><span class="rank">#30</span><div><h2>BFH</h2><p>BREAD FINANCIAL HOLDINGS INC</p></div><strong>83.8</strong></header>
 <div class="signal-banner">优先Call候选</div>
 <div class="card-actions"><a class="ta-report-link" href="tradingagents/bfh.html" title="打开 TradingAgents 研报与买卖建议">TradingAgents 研报 · WATCH-BUY / 强观察</a></div>
+<details class="public-summary"><summary><span>免费综合摘要</span><b>WATCH-BUY / 强观察 · 收入 +0.0%</b></summary>
+<div class="public-summary-body">
+  <p class="public-business"><b>业务</b>暂无可用公司业务简介。 </p>
+  <p class="public-meta">Financials</p>
+  <div class="public-metrics"><span><small>当前价</small><b>$101.68</b></span><span><small>榜单排名</small><b>39</b></span><span><small>综合分</small><b>87.3 · Aster Call</b></span><span><small>收入增长</small><b>+0.0%</b></span><span><small>盈利增长</small><b>+0.0%</b></span><span><small>RSI 14</small><b>57.36</b></span><span><small>成交量比</small><b>1.59</b></span><span><small>近3块/短线</small><b>+1.5%</b></span><span><small>近1周</small><b>+3.2%</b></span><span><small>近1月</small><b>-0.7%</b></span></div>
+  <div class="public-analysis"><p><b>当前判断</b>信号偏强但仍需等价格确认；适合放入 watchlist，等待回踩不破或放量继续。</p>
+  <p><b>正向依据</b>综合分 87.3 来自 Aster Call；EMA structure 偏多：fresh_bullish_cross；MACD momentum 支持：bullish_above_signal；RSI 冷却/健康区间：57.4；近3块/短线动量为正：+1.5%</p>
+  <p><b>风险观察</b>未发现主要规则风险项，仍需结合大盘与仓位控制</p>
+  <p><b>公开一致预期</b>本次未取得或覆盖不足</p></div>
+  
+</div></details>
+
+
+
 <div class="source-chips"><span>Russell</span><span>Financials</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $101.68<br><span>BREAD FINANCIAL HOLDINGS INC is a publicly traded company in the Financials sector.</span></p>
 <div class="return-strip"><span>6月 <b>+45.4%</b></span><span>1月 <b>-0.7%</b></span><span>1周 <b>+3.2%</b></span><span>3日 <b>+3.6%</b></span><span>3块 <b>+1.5%</b></span></div>
@@ -332,6 +752,20 @@
 <header><span class="rank">#31</span><div><h2>AVT</h2><p>Avnet, Inc. - Common Stock</p></div><strong>83.8</strong></header>
 <div class="signal-banner">优先Call候选</div>
 <div class="card-actions"><a class="ta-report-link" href="tradingagents/avt.html" title="打开 TradingAgents 研报与买卖建议">TradingAgents 研报 · BUY-WATCH / 偏买入观察</a></div>
+<details class="public-summary"><summary><span>免费综合摘要</span><b>BUY-WATCH / 偏买入观察 · 收入 +0.0%</b></summary>
+<div class="public-summary-body">
+  <p class="public-business"><b>业务</b>暂无可用公司业务简介。 </p>
+  
+  <div class="public-metrics"><span><small>当前价</small><b>$89.85</b></span><span><small>榜单排名</small><b>45</b></span><span><small>综合分</small><b>92.0 · 4H calibrated</b></span><span><small>收入增长</small><b>+0.0%</b></span><span><small>盈利增长</small><b>+0.0%</b></span><span><small>RSI 14</small><b>61.81</b></span><span><small>成交量比</small><b>0.90</b></span><span><small>近3块/短线</small><b>+5.1%</b></span><span><small>近1周</small><b>+4.4%</b></span><span><small>近1月</small><b>-1.8%</b></span></div>
+  <div class="public-analysis"><p><b>当前判断</b>可进入优先观察池；如果走势与成交量继续确认，可考虑分批买入或短期 call 候选。</p>
+  <p><b>正向依据</b>综合分 92.0 来自 4H calibrated；EMA structure 偏多：fresh_bullish_cross；MACD momentum 支持：bullish_above_signal；RSI 冷却/健康区间：61.8；近3块/短线动量为正：+5.1%</p>
+  <p><b>风险观察</b>MACD snapshot proxy; double-cross history unavailable</p>
+  <p><b>公开一致预期</b>本次未取得或覆盖不足</p></div>
+  
+</div></details>
+
+
+
 <div class="source-chips"><span>Nasdaq Liquid 500</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $89.85<br><span>Avnet, Inc. - Common Stock is a publicly traded company.</span></p>
 <div class="return-strip"><span>6月 <b>+82.8%</b></span><span>1月 <b>-1.8%</b></span><span>1周 <b>+4.4%</b></span><span>3日 <b>+6.0%</b></span><span>3块 <b>+5.1%</b></span></div>
@@ -343,6 +777,20 @@
 <header><span class="rank">#32</span><div><h2>PLBC</h2><p>PLUMAS BANCORP</p></div><strong>83.7</strong></header>
 <div class="signal-banner">优先Call候选</div>
 <div class="card-actions"><a class="ta-report-link" href="tradingagents/plbc.html" title="打开 TradingAgents 研报与买卖建议">TradingAgents 研报 · WATCH-BUY / 强观察</a></div>
+<details class="public-summary"><summary><span>免费综合摘要</span><b>WATCH-BUY / 强观察 · 收入 +0.0%</b></summary>
+<div class="public-summary-body">
+  <p class="public-business"><b>业务</b>暂无可用公司业务简介。 </p>
+  <p class="public-meta">Financials</p>
+  <div class="public-metrics"><span><small>当前价</small><b>$61.43</b></span><span><small>榜单排名</small><b>32</b></span><span><small>综合分</small><b>83.7 · Aster Call</b></span><span><small>收入增长</small><b>+0.0%</b></span><span><small>盈利增长</small><b>+0.0%</b></span><span><small>RSI 14</small><b>63.09</b></span><span><small>成交量比</small><b>1.32</b></span><span><small>近3块/短线</small><b>+1.1%</b></span><span><small>近1周</small><b>+5.3%</b></span><span><small>近1月</small><b>+10.6%</b></span></div>
+  <div class="public-analysis"><p><b>当前判断</b>信号偏强但仍需等价格确认；适合放入 watchlist，等待回踩不破或放量继续。</p>
+  <p><b>正向依据</b>综合分 83.7 来自 Aster Call；EMA structure 偏多：confirmed_bullish_trend；MACD momentum 支持：bullish_above_signal；RSI 冷却/健康区间：63.1；近3块/短线动量为正：+1.1%</p>
+  <p><b>风险观察</b>MACD snapshot proxy; double-cross history unavailable</p>
+  <p><b>公开一致预期</b>本次未取得或覆盖不足</p></div>
+  
+</div></details>
+
+
+
 <div class="source-chips"><span>Russell</span><span>Financials</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $61.43<br><span>PLUMAS BANCORP is a publicly traded company in the Financials sector.</span></p>
 <div class="return-strip"><span>6月 <b>+38.0%</b></span><span>1月 <b>+10.6%</b></span><span>1周 <b>+5.3%</b></span><span>3日 <b>-0.9%</b></span><span>3块 <b>+1.1%</b></span></div>
@@ -354,6 +802,20 @@
 <header><span class="rank">#33</span><div><h2>WRB</h2><p>W. R. Berkley Corporation</p></div><strong>83.7</strong></header>
 <div class="signal-banner">优先Call候选</div>
 <div class="card-actions"><a class="ta-report-link" href="tradingagents/wrb.html" title="打开 TradingAgents 研报与买卖建议">TradingAgents 研报 · BUY-WATCH / 偏买入观察</a></div>
+<details class="public-summary"><summary><span>免费综合摘要</span><b>BUY-WATCH / 偏买入观察 · 收入 +0.0%</b></summary>
+<div class="public-summary-body">
+  <p class="public-business"><b>业务</b>暂无可用公司业务简介。 <a class="public-source" href="https://query1.finance.yahoo.com/v1/finance/search?q=WRB&amp;quotesCount=1&amp;newsCount=8" target="_blank" rel="noopener">公开来源</a></p>
+  <p class="public-meta">Property &amp; Casualty Insurance · Financials</p>
+  <div class="public-metrics"><span><small>当前价</small><b>$72.18</b></span><span><small>榜单排名</small><b>21</b></span><span><small>综合分</small><b>100.0 · Aster Call</b></span><span><small>收入增长</small><b>+0.0%</b></span><span><small>盈利增长</small><b>+0.0%</b></span><span><small>RSI 14</small><b>54.48</b></span><span><small>成交量比</small><b>1.59</b></span><span><small>近3块/短线</small><b>-0.2%</b></span><span><small>近1周</small><b>+0.2%</b></span><span><small>近1月</small><b>+7.4%</b></span></div>
+  <div class="public-analysis"><p><b>当前判断</b>可进入优先观察池；如果走势与成交量继续确认，可考虑分批买入或短期 call 候选。</p>
+  <p><b>正向依据</b>综合分 100.0 来自 Aster Call；EMA structure 偏多：confirmed_bullish_trend；MACD momentum 支持：fresh_above_zero_cross；RSI 冷却/健康区间：54.5；近1周趋势为正：+0.2%</p>
+  <p><b>风险观察</b>未发现主要规则风险项，仍需结合大盘与仓位控制</p>
+  <p><b>公开一致预期</b>本次未取得或覆盖不足</p></div>
+  <div class="public-news"><b>近期公开动态</b><ul><li><a href="https://finance.yahoo.com/markets/stocks/articles/wrb-q2-earnings-beat-estimates-172400485.html" target="_blank" rel="noopener">WRB Q2 Earnings Beat Estimates on Higher Premiums, Investment Income</a> <small>Zacks</small></li><li><a href="https://finance.yahoo.com/markets/stocks/articles/truist-raises-price-target-w-111915967.html" target="_blank" rel="noopener">Truist Raises Price Target on W. R. Berkley to $83 From $78, Keeps Buy Rating</a> <small>MT Newswires</small></li><li><a href="https://finance.yahoo.com/markets/stocks/articles/wells-fargo-adjusts-price-target-101706322.html" target="_blank" rel="noopener">Wells Fargo Adjusts Price Target on W. R. Berkley to $68 From $67, Maintains Underweight Rating</a> <small>MT Newswires</small></li></ul></div>
+</div></details>
+
+
+
 <div class="source-chips"><span>S&amp;P 500</span><span>Financials</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $72.18<br><span>W. R. Berkley Corporation is a publicly traded company in the Financials sector.</span></p>
 <div class="return-strip"><span>6月 <b>+6.6%</b></span><span>1月 <b>+7.4%</b></span><span>1周 <b>+0.3%</b></span><span>3日 <b>+3.3%</b></span><span>3块 <b>-0.2%</b></span></div>
@@ -365,6 +827,20 @@
 <header><span class="rank">#34</span><div><h2>REPL</h2><p>REPLIMUNE GROUP INC</p></div><strong>83.7</strong></header>
 <div class="signal-banner">优先Call候选</div>
 <div class="card-actions"><a class="ta-report-link" href="tradingagents/repl.html" title="打开 TradingAgents 研报与买卖建议">TradingAgents 研报 · WATCH-BUY / 强观察</a></div>
+<details class="public-summary"><summary><span>免费综合摘要</span><b>WATCH-BUY / 强观察 · 收入 +0.0%</b></summary>
+<div class="public-summary-body">
+  <p class="public-business"><b>业务</b>暂无可用公司业务简介。 </p>
+  <p class="public-meta">Health Care</p>
+  <div class="public-metrics"><span><small>当前价</small><b>$11.00</b></span><span><small>榜单排名</small><b>13</b></span><span><small>综合分</small><b>89.5 · Aster Call</b></span><span><small>收入增长</small><b>+0.0%</b></span><span><small>盈利增长</small><b>+0.0%</b></span><span><small>RSI 14</small><b>58.71</b></span><span><small>成交量比</small><b>1.08</b></span><span><small>近3块/短线</small><b>+4.6%</b></span><span><small>近1周</small><b>+11.4%</b></span><span><small>近1月</small><b>+8.3%</b></span></div>
+  <div class="public-analysis"><p><b>当前判断</b>信号偏强但仍需等价格确认；适合放入 watchlist，等待回踩不破或放量继续。</p>
+  <p><b>正向依据</b>综合分 89.5 来自 Aster Call；EMA structure 偏多：fresh_bullish_cross；MACD momentum 支持：fresh_below_zero_cross；RSI 冷却/健康区间：58.7；近3块/短线动量为正：+4.6%</p>
+  <p><b>风险观察</b>未发现主要规则风险项，仍需结合大盘与仓位控制</p>
+  <p><b>公开一致预期</b>本次未取得或覆盖不足</p></div>
+  
+</div></details>
+
+
+
 <div class="source-chips"><span>Russell</span><span>Health Care</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $11.00<br><span>REPLIMUNE GROUP INC is a publicly traded company in the Health Care sector.</span></p>
 <div class="return-strip"><span>6月 <b>+56.9%</b></span><span>1月 <b>+7.9%</b></span><span>1周 <b>+11.4%</b></span><span>3日 <b>+15.5%</b></span><span>3块 <b>+4.6%</b></span></div>
@@ -376,6 +852,20 @@
 <header><span class="rank">#35</span><div><h2>TDY</h2><p>Teledyne Technologies</p></div><strong>83.7</strong></header>
 <div class="signal-banner">优先Call候选</div>
 <div class="card-actions"><a class="ta-report-link" href="tradingagents/tdy.html" title="打开 TradingAgents 研报与买卖建议">TradingAgents 研报 · WATCH-BUY / 强观察</a></div>
+<details class="public-summary"><summary><span>免费综合摘要</span><b>WATCH-BUY / 强观察 · 收入 +0.0%</b></summary>
+<div class="public-summary-body">
+  <p class="public-business"><b>业务</b>Teledyne Technologies Incorporated is an American industrial conglomerate. It was founded in 1960, as Teledyne, Inc. by Henry Singleton and George Kozmetsky. <a class="public-source" href="https://en.wikipedia.org/wiki/Teledyne_Technologies" target="_blank" rel="noopener">公开来源</a></p>
+  <p class="public-meta">Electronic Equipment &amp; Instruments · Information Technology</p>
+  <div class="public-metrics"><span><small>当前价</small><b>$646.88</b></span><span><small>榜单排名</small><b>14</b></span><span><small>综合分</small><b>89.5 · Aster Call</b></span><span><small>收入增长</small><b>+0.0%</b></span><span><small>盈利增长</small><b>+0.0%</b></span><span><small>RSI 14</small><b>56.71</b></span><span><small>成交量比</small><b>2.84</b></span><span><small>近3块/短线</small><b>+3.0%</b></span><span><small>近1周</small><b>+3.8%</b></span><span><small>近1月</small><b>+4.4%</b></span></div>
+  <div class="public-analysis"><p><b>当前判断</b>信号偏强但仍需等价格确认；适合放入 watchlist，等待回踩不破或放量继续。</p>
+  <p><b>正向依据</b>综合分 89.5 来自 Aster Call；EMA structure 偏多：fresh_bullish_cross；MACD momentum 支持：fresh_below_zero_cross；RSI 冷却/健康区间：56.7；近3块/短线动量为正：+3.0%</p>
+  <p><b>风险观察</b>未发现主要规则风险项，仍需结合大盘与仓位控制</p>
+  <p><b>公开一致预期</b>本次未取得或覆盖不足</p></div>
+  
+</div></details>
+
+
+
 <div class="source-chips"><span>S&amp;P 500</span><span>Information Technology</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $646.88<br><span>Teledyne Technologies is a publicly traded company in the Information Technology sector.</span></p>
 <div class="return-strip"><span>6月 <b>+14.2%</b></span><span>1月 <b>+4.4%</b></span><span>1周 <b>+3.8%</b></span><span>3日 <b>+2.5%</b></span><span>3块 <b>+3.0%</b></span></div>
@@ -387,6 +877,20 @@
 <header><span class="rank">#36</span><div><h2>CHCT</h2><p>COMMUNITY HEALTHCARE TRUST INC</p></div><strong>83.6</strong></header>
 <div class="signal-banner">优先Call候选</div>
 <div class="card-actions"><a class="ta-report-link" href="tradingagents/chct.html" title="打开 TradingAgents 研报与买卖建议">TradingAgents 研报 · WATCH-BUY / 强观察</a></div>
+<details class="public-summary"><summary><span>免费综合摘要</span><b>WATCH-BUY / 强观察 · 收入 +0.0%</b></summary>
+<div class="public-summary-body">
+  <p class="public-business"><b>业务</b>暂无可用公司业务简介。 </p>
+  <p class="public-meta">Real Estate</p>
+  <div class="public-metrics"><span><small>当前价</small><b>$18.95</b></span><span><small>榜单排名</small><b>36</b></span><span><small>综合分</small><b>83.6 · Aster Call</b></span><span><small>收入增长</small><b>+0.0%</b></span><span><small>盈利增长</small><b>+0.0%</b></span><span><small>RSI 14</small><b>65.49</b></span><span><small>成交量比</small><b>1.41</b></span><span><small>近3块/短线</small><b>+2.0%</b></span><span><small>近1周</small><b>+7.1%</b></span><span><small>近1月</small><b>+8.9%</b></span></div>
+  <div class="public-analysis"><p><b>当前判断</b>信号偏强但仍需等价格确认；适合放入 watchlist，等待回踩不破或放量继续。</p>
+  <p><b>正向依据</b>综合分 83.6 来自 Aster Call；EMA structure 偏多：confirmed_bullish_trend；MACD momentum 支持：bullish_above_signal；RSI 冷却/健康区间：65.5；近3块/短线动量为正：+2.0%</p>
+  <p><b>风险观察</b>未发现主要规则风险项，仍需结合大盘与仓位控制</p>
+  <p><b>公开一致预期</b>本次未取得或覆盖不足</p></div>
+  
+</div></details>
+
+
+
 <div class="source-chips"><span>Russell</span><span>Real Estate</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $18.95<br><span>COMMUNITY HEALTHCARE TRUST INC is a publicly traded company in the Real Estate sector.</span></p>
 <div class="return-strip"><span>6月 <b>+10.5%</b></span><span>1月 <b>+8.7%</b></span><span>1周 <b>+7.1%</b></span><span>3日 <b>+2.0%</b></span><span>3块 <b>+2.0%</b></span></div>
@@ -398,6 +902,20 @@
 <header><span class="rank">#37</span><div><h2>NTGR</h2><p>NETGEAR INC</p></div><strong>83.6</strong></header>
 <div class="signal-banner">优先Call候选</div>
 <div class="card-actions"><a class="ta-report-link" href="tradingagents/ntgr.html" title="打开 TradingAgents 研报与买卖建议">TradingAgents 研报 · WATCH-BUY / 强观察</a></div>
+<details class="public-summary"><summary><span>免费综合摘要</span><b>WATCH-BUY / 强观察 · 收入 +0.0%</b></summary>
+<div class="public-summary-body">
+  <p class="public-business"><b>业务</b>暂无可用公司业务简介。 </p>
+  <p class="public-meta">Information Technology</p>
+  <div class="public-metrics"><span><small>当前价</small><b>$24.24</b></span><span><small>榜单排名</small><b>37</b></span><span><small>综合分</small><b>87.3 · Aster Call</b></span><span><small>收入增长</small><b>+0.0%</b></span><span><small>盈利增长</small><b>+0.0%</b></span><span><small>RSI 14</small><b>63.97</b></span><span><small>成交量比</small><b>1.76</b></span><span><small>近3块/短线</small><b>+3.7%</b></span><span><small>近1周</small><b>+5.3%</b></span><span><small>近1月</small><b>+5.3%</b></span></div>
+  <div class="public-analysis"><p><b>当前判断</b>信号偏强但仍需等价格确认；适合放入 watchlist，等待回踩不破或放量继续。</p>
+  <p><b>正向依据</b>综合分 87.3 来自 Aster Call；EMA structure 偏多：fresh_bullish_cross；MACD momentum 支持：bullish_above_signal；RSI 冷却/健康区间：64.0；近3块/短线动量为正：+3.7%</p>
+  <p><b>风险观察</b>4H 相对 EMA26 超过 2 ATR，短线偏追高</p>
+  <p><b>公开一致预期</b>本次未取得或覆盖不足</p></div>
+  
+</div></details>
+
+
+
 <div class="source-chips"><span>Russell</span><span>Information Technology</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $24.24<br><span>NETGEAR INC is a publicly traded company in the Information Technology sector.</span></p>
 <div class="return-strip"><span>6月 <b>+12.6%</b></span><span>1月 <b>+5.1%</b></span><span>1周 <b>+5.4%</b></span><span>3日 <b>+8.0%</b></span><span>3块 <b>+3.7%</b></span></div>
@@ -409,6 +927,20 @@
 <header><span class="rank">#38</span><div><h2>JAKK</h2><p>JAKKS PACIFIC INC</p></div><strong>83.6</strong></header>
 <div class="signal-banner">优先Call候选</div>
 <div class="card-actions"><a class="ta-report-link" href="tradingagents/jakk.html" title="打开 TradingAgents 研报与买卖建议">TradingAgents 研报 · WATCH-BUY / 强观察</a></div>
+<details class="public-summary"><summary><span>免费综合摘要</span><b>WATCH-BUY / 强观察 · 收入 +0.0%</b></summary>
+<div class="public-summary-body">
+  <p class="public-business"><b>业务</b>暂无可用公司业务简介。 </p>
+  <p class="public-meta">Consumer Discretionary</p>
+  <div class="public-metrics"><span><small>当前价</small><b>$24.41</b></span><span><small>榜单排名</small><b>38</b></span><span><small>综合分</small><b>83.6 · Aster Call</b></span><span><small>收入增长</small><b>+0.0%</b></span><span><small>盈利增长</small><b>+0.0%</b></span><span><small>RSI 14</small><b>62.75</b></span><span><small>成交量比</small><b>1.08</b></span><span><small>近3块/短线</small><b>+1.0%</b></span><span><small>近1周</small><b>+7.0%</b></span><span><small>近1月</small><b>+10.4%</b></span></div>
+  <div class="public-analysis"><p><b>当前判断</b>信号偏强但仍需等价格确认；适合放入 watchlist，等待回踩不破或放量继续。</p>
+  <p><b>正向依据</b>综合分 83.6 来自 Aster Call；EMA structure 偏多：confirmed_bullish_trend；MACD momentum 支持：bullish_above_signal；RSI 冷却/健康区间：62.8；近3块/短线动量为正：+1.0%</p>
+  <p><b>风险观察</b>未发现主要规则风险项，仍需结合大盘与仓位控制</p>
+  <p><b>公开一致预期</b>本次未取得或覆盖不足</p></div>
+  
+</div></details>
+
+
+
 <div class="source-chips"><span>Russell</span><span>Consumer Discretionary</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $24.41<br><span>JAKKS PACIFIC INC is a publicly traded company in the Consumer Discretionary sector.</span></p>
 <div class="return-strip"><span>6月 <b>+31.9%</b></span><span>1月 <b>+10.2%</b></span><span>1周 <b>+7.1%</b></span><span>3日 <b>-1.7%</b></span><span>3块 <b>+1.0%</b></span></div>
@@ -420,6 +952,20 @@
 <header><span class="rank">#39</span><div><h2>COFS</h2><p>CHOICEONE FINANCIAL SERVICES INC</p></div><strong>83.6</strong></header>
 <div class="signal-banner">优先Call候选</div>
 <div class="card-actions"><a class="ta-report-link" href="tradingagents/cofs.html" title="打开 TradingAgents 研报与买卖建议">TradingAgents 研报 · WATCH-BUY / 强观察</a></div>
+<details class="public-summary"><summary><span>免费综合摘要</span><b>WATCH-BUY / 强观察 · 收入 +0.0%</b></summary>
+<div class="public-summary-body">
+  <p class="public-business"><b>业务</b>暂无可用公司业务简介。 </p>
+  <p class="public-meta">Financials</p>
+  <div class="public-metrics"><span><small>当前价</small><b>$34.59</b></span><span><small>榜单排名</small><b>39</b></span><span><small>综合分</small><b>83.6 · Aster Call</b></span><span><small>收入增长</small><b>+0.0%</b></span><span><small>盈利增长</small><b>+0.0%</b></span><span><small>RSI 14</small><b>62.88</b></span><span><small>成交量比</small><b>1.65</b></span><span><small>近3块/短线</small><b>+2.0%</b></span><span><small>近1周</small><b>+5.4%</b></span><span><small>近1月</small><b>+8.7%</b></span></div>
+  <div class="public-analysis"><p><b>当前判断</b>信号偏强但仍需等价格确认；适合放入 watchlist，等待回踩不破或放量继续。</p>
+  <p><b>正向依据</b>综合分 83.6 来自 Aster Call；EMA structure 偏多：confirmed_bullish_trend；MACD momentum 支持：bullish_above_signal；RSI 冷却/健康区间：62.9；近3块/短线动量为正：+2.0%</p>
+  <p><b>风险观察</b>未发现主要规则风险项，仍需结合大盘与仓位控制</p>
+  <p><b>公开一致预期</b>本次未取得或覆盖不足</p></div>
+  
+</div></details>
+
+
+
 <div class="source-chips"><span>Russell</span><span>Financials</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $34.59<br><span>CHOICEONE FINANCIAL SERVICES INC is a publicly traded company in the Financials sector.</span></p>
 <div class="return-strip"><span>6月 <b>+23.1%</b></span><span>1月 <b>+8.5%</b></span><span>1周 <b>+5.2%</b></span><span>3日 <b>-0.1%</b></span><span>3块 <b>+2.0%</b></span></div>
@@ -431,6 +977,20 @@
 <header><span class="rank">#40</span><div><h2>IIIN</h2><p>INSTEEL INDUSTRIES INC</p></div><strong>83.6</strong></header>
 <div class="signal-banner">优先Call候选</div>
 <div class="card-actions"><a class="ta-report-link" href="tradingagents/iiin.html" title="打开 TradingAgents 研报与买卖建议">TradingAgents 研报 · WATCH-BUY / 强观察</a></div>
+<details class="public-summary"><summary><span>免费综合摘要</span><b>WATCH-BUY / 强观察 · 收入 +0.0%</b></summary>
+<div class="public-summary-body">
+  <p class="public-business"><b>业务</b>暂无可用公司业务简介。 </p>
+  <p class="public-meta">Industrials</p>
+  <div class="public-metrics"><span><small>当前价</small><b>$31.46</b></span><span><small>榜单排名</small><b>40</b></span><span><small>综合分</small><b>83.6 · Aster Call</b></span><span><small>收入增长</small><b>+0.0%</b></span><span><small>盈利增长</small><b>+0.0%</b></span><span><small>RSI 14</small><b>58.84</b></span><span><small>成交量比</small><b>1.66</b></span><span><small>近3块/短线</small><b>-0.4%</b></span><span><small>近1周</small><b>+6.0%</b></span><span><small>近1月</small><b>+7.7%</b></span></div>
+  <div class="public-analysis"><p><b>当前判断</b>信号偏强但仍需等价格确认；适合放入 watchlist，等待回踩不破或放量继续。</p>
+  <p><b>正向依据</b>综合分 83.6 来自 Aster Call；EMA structure 偏多：confirmed_bullish_trend；MACD momentum 支持：bullish_above_signal；RSI 冷却/健康区间：58.8；近1周趋势为正：+6.0%</p>
+  <p><b>风险观察</b>未发现主要规则风险项，仍需结合大盘与仓位控制</p>
+  <p><b>公开一致预期</b>本次未取得或覆盖不足</p></div>
+  
+</div></details>
+
+
+
 <div class="source-chips"><span>Russell</span><span>Industrials</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $31.46<br><span>INSTEEL INDUSTRIES INC is a publicly traded company in the Industrials sector.</span></p>
 <div class="return-strip"><span>6月 <b>-7.1%</b></span><span>1月 <b>+8.1%</b></span><span>1周 <b>+6.0%</b></span><span>3日 <b>+4.8%</b></span><span>3块 <b>-0.4%</b></span></div>
@@ -442,6 +1002,20 @@
 <header><span class="rank">#41</span><div><h2>CURB</h2><p>CURBLINE PROPERTIES</p></div><strong>83.5</strong></header>
 <div class="signal-banner">优先Call候选</div>
 <div class="card-actions"><a class="ta-report-link" href="tradingagents/curb.html" title="打开 TradingAgents 研报与买卖建议">TradingAgents 研报 · WATCH-BUY / 强观察</a></div>
+<details class="public-summary"><summary><span>免费综合摘要</span><b>WATCH-BUY / 强观察 · 收入 +0.0%</b></summary>
+<div class="public-summary-body">
+  <p class="public-business"><b>业务</b>暂无可用公司业务简介。 </p>
+  <p class="public-meta">Real Estate</p>
+  <div class="public-metrics"><span><small>当前价</small><b>$31.75</b></span><span><small>榜单排名</small><b>41</b></span><span><small>综合分</small><b>83.5 · Aster Call</b></span><span><small>收入增长</small><b>+0.0%</b></span><span><small>盈利增长</small><b>+0.0%</b></span><span><small>RSI 14</small><b>66.82</b></span><span><small>成交量比</small><b>1.10</b></span><span><small>近3块/短线</small><b>+1.1%</b></span><span><small>近1周</small><b>+4.8%</b></span><span><small>近1月</small><b>+6.4%</b></span></div>
+  <div class="public-analysis"><p><b>当前判断</b>信号偏强但仍需等价格确认；适合放入 watchlist，等待回踩不破或放量继续。</p>
+  <p><b>正向依据</b>综合分 83.5 来自 Aster Call；EMA structure 偏多：confirmed_bullish_trend；MACD momentum 支持：bullish_above_signal；RSI 冷却/健康区间：66.8；近3块/短线动量为正：+1.1%</p>
+  <p><b>风险观察</b>未发现主要规则风险项，仍需结合大盘与仓位控制</p>
+  <p><b>公开一致预期</b>本次未取得或覆盖不足</p></div>
+  
+</div></details>
+
+
+
 <div class="source-chips"><span>Russell</span><span>Real Estate</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $31.75<br><span>CURBLINE PROPERTIES is a publicly traded company in the Real Estate sector.</span></p>
 <div class="return-strip"><span>6月 <b>+29.5%</b></span><span>1月 <b>+6.3%</b></span><span>1周 <b>+4.7%</b></span><span>3日 <b>+2.5%</b></span><span>3块 <b>+1.1%</b></span></div>
@@ -453,6 +1027,20 @@
 <header><span class="rank">#42</span><div><h2>GEF</h2><p>GREIF INC CLASS A</p></div><strong>83.5</strong></header>
 <div class="signal-banner">优先Call候选</div>
 <div class="card-actions"><a class="ta-report-link" href="tradingagents/gef.html" title="打开 TradingAgents 研报与买卖建议">TradingAgents 研报 · WATCH-BUY / 强观察</a></div>
+<details class="public-summary"><summary><span>免费综合摘要</span><b>WATCH-BUY / 强观察 · 收入 +0.0%</b></summary>
+<div class="public-summary-body">
+  <p class="public-business"><b>业务</b>暂无可用公司业务简介。 </p>
+  <p class="public-meta">Materials</p>
+  <div class="public-metrics"><span><small>当前价</small><b>$75.68</b></span><span><small>榜单排名</small><b>42</b></span><span><small>综合分</small><b>83.5 · Aster Call</b></span><span><small>收入增长</small><b>+0.0%</b></span><span><small>盈利增长</small><b>+0.0%</b></span><span><small>RSI 14</small><b>59.38</b></span><span><small>成交量比</small><b>1.06</b></span><span><small>近3块/短线</small><b>+0.1%</b></span><span><small>近1周</small><b>+5.5%</b></span><span><small>近1月</small><b>+9.8%</b></span></div>
+  <div class="public-analysis"><p><b>当前判断</b>信号偏强但仍需等价格确认；适合放入 watchlist，等待回踩不破或放量继续。</p>
+  <p><b>正向依据</b>综合分 83.5 来自 Aster Call；EMA structure 偏多：confirmed_bullish_trend；MACD momentum 支持：bullish_above_signal；RSI 冷却/健康区间：59.4；近3块/短线动量为正：+0.1%</p>
+  <p><b>风险观察</b>未发现主要规则风险项，仍需结合大盘与仓位控制</p>
+  <p><b>公开一致预期</b>本次未取得或覆盖不足</p></div>
+  
+</div></details>
+
+
+
 <div class="source-chips"><span>Russell</span><span>Materials</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $75.68<br><span>GREIF INC CLASS A is a publicly traded company in the Materials sector.</span></p>
 <div class="return-strip"><span>6月 <b>+7.8%</b></span><span>1月 <b>+9.8%</b></span><span>1周 <b>+5.6%</b></span><span>3日 <b>-0.6%</b></span><span>3块 <b>+0.1%</b></span></div>
@@ -464,6 +1052,20 @@
 <header><span class="rank">#43</span><div><h2>IVZ</h2><p>Invesco</p></div><strong>83.5</strong></header>
 <div class="signal-banner">优先Call候选</div>
 <div class="card-actions"><a class="ta-report-link" href="tradingagents/ivz.html" title="打开 TradingAgents 研报与买卖建议">TradingAgents 研报 · BUY-WATCH / 偏买入观察</a></div>
+<details class="public-summary"><summary><span>免费综合摘要</span><b>BUY-WATCH / 偏买入观察 · 收入 +0.0%</b></summary>
+<div class="public-summary-body">
+  <p class="public-business"><b>业务</b>暂无可用公司业务简介。 </p>
+  <p class="public-meta">Asset Management &amp; Custody Banks · Financials</p>
+  <div class="public-metrics"><span><small>当前价</small><b>$30.09</b></span><span><small>榜单排名</small><b>17</b></span><span><small>综合分</small><b>100.0 · Aster Call</b></span><span><small>收入增长</small><b>+0.0%</b></span><span><small>盈利增长</small><b>+0.0%</b></span><span><small>RSI 14</small><b>63.57</b></span><span><small>成交量比</small><b>1.11</b></span><span><small>近3块/短线</small><b>+1.5%</b></span><span><small>近1周</small><b>+4.8%</b></span><span><small>近1月</small><b>+7.0%</b></span></div>
+  <div class="public-analysis"><p><b>当前判断</b>可进入优先观察池；如果走势与成交量继续确认，可考虑分批买入或短期 call 候选。</p>
+  <p><b>正向依据</b>综合分 100.0 来自 Aster Call；EMA structure 偏多：confirmed_bullish_trend；MACD momentum 支持：bullish_above_signal；RSI 冷却/健康区间：63.6；近3块/短线动量为正：+1.5%</p>
+  <p><b>风险观察</b>MACD snapshot proxy; double-cross history unavailable</p>
+  <p><b>公开一致预期</b>本次未取得或覆盖不足</p></div>
+  
+</div></details>
+
+
+
 <div class="source-chips"><span>S&amp;P 500</span><span>Financials</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $30.09<br><span>Invesco is a publicly traded company in the Financials sector.</span></p>
 <div class="return-strip"><span>6月 <b>+7.8%</b></span><span>1月 <b>+6.9%</b></span><span>1周 <b>+4.8%</b></span><span>3日 <b>-0.7%</b></span><span>3块 <b>+1.5%</b></span></div>
@@ -475,6 +1077,20 @@
 <header><span class="rank">#44</span><div><h2>CMCO</h2><p>COLUMBUS MCKINNON CORP</p></div><strong>83.5</strong></header>
 <div class="signal-banner">优先Call候选</div>
 <div class="card-actions"><a class="ta-report-link" href="tradingagents/cmco.html" title="打开 TradingAgents 研报与买卖建议">TradingAgents 研报 · BUY-WATCH / 偏买入观察</a></div>
+<details class="public-summary"><summary><span>免费综合摘要</span><b>BUY-WATCH / 偏买入观察 · 收入 +0.0%</b></summary>
+<div class="public-summary-body">
+  <p class="public-business"><b>业务</b>暂无可用公司业务简介。 </p>
+  <p class="public-meta">Industrials</p>
+  <div class="public-metrics"><span><small>当前价</small><b>$14.79</b></span><span><small>榜单排名</small><b>43</b></span><span><small>综合分</small><b>91.5 · 4H calibrated</b></span><span><small>收入增长</small><b>+0.0%</b></span><span><small>盈利增长</small><b>+0.0%</b></span><span><small>RSI 14</small><b>59.94</b></span><span><small>成交量比</small><b>1.11</b></span><span><small>近3块/短线</small><b>+1.6%</b></span><span><small>近1周</small><b>+12.1%</b></span><span><small>近1月</small><b>+0.7%</b></span></div>
+  <div class="public-analysis"><p><b>当前判断</b>可进入优先观察池；如果走势与成交量继续确认，可考虑分批买入或短期 call 候选。</p>
+  <p><b>正向依据</b>综合分 91.5 来自 4H calibrated；EMA structure 偏多：early_transition；MACD momentum 支持：bullish_above_signal；RSI 冷却/健康区间：59.9；近3块/短线动量为正：+1.6%</p>
+  <p><b>风险观察</b>未发现主要规则风险项，仍需结合大盘与仓位控制</p>
+  <p><b>公开一致预期</b>本次未取得或覆盖不足</p></div>
+  
+</div></details>
+
+
+
 <div class="source-chips"><span>Russell</span><span>Industrials</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $14.79<br><span>COLUMBUS MCKINNON CORP is a publicly traded company in the Industrials sector.</span></p>
 <div class="return-strip"><span>6月 <b>-26.1%</b></span><span>1月 <b>+0.7%</b></span><span>1周 <b>+12.2%</b></span><span>3日 <b>+0.2%</b></span><span>3块 <b>+1.6%</b></span></div>
@@ -486,6 +1102,20 @@
 <header><span class="rank">#45</span><div><h2>PECO</h2><p>PHILLIPS EDISON AND COMPANY INC</p></div><strong>83.5</strong></header>
 <div class="signal-banner">优先Call候选</div>
 <div class="card-actions"><a class="ta-report-link" href="tradingagents/peco.html" title="打开 TradingAgents 研报与买卖建议">TradingAgents 研报 · WATCH-BUY / 强观察</a></div>
+<details class="public-summary"><summary><span>免费综合摘要</span><b>WATCH-BUY / 强观察 · 收入 +0.0%</b></summary>
+<div class="public-summary-body">
+  <p class="public-business"><b>业务</b>暂无可用公司业务简介。 </p>
+  <p class="public-meta">Real Estate</p>
+  <div class="public-metrics"><span><small>当前价</small><b>$43.58</b></span><span><small>榜单排名</small><b>45</b></span><span><small>综合分</small><b>83.5 · Aster Call</b></span><span><small>收入增长</small><b>+0.0%</b></span><span><small>盈利增长</small><b>+0.0%</b></span><span><small>RSI 14</small><b>64.09</b></span><span><small>成交量比</small><b>1.44</b></span><span><small>近3块/短线</small><b>-0.4%</b></span><span><small>近1周</small><b>+2.7%</b></span><span><small>近1月</small><b>+7.2%</b></span></div>
+  <div class="public-analysis"><p><b>当前判断</b>信号偏强但仍需等价格确认；适合放入 watchlist，等待回踩不破或放量继续。</p>
+  <p><b>正向依据</b>综合分 83.5 来自 Aster Call；EMA structure 偏多：confirmed_bullish_trend；MACD momentum 支持：bullish_above_signal；RSI 冷却/健康区间：64.1；近1周趋势为正：+2.7%</p>
+  <p><b>风险观察</b>未发现主要规则风险项，仍需结合大盘与仓位控制</p>
+  <p><b>公开一致预期</b>本次未取得或覆盖不足</p></div>
+  
+</div></details>
+
+
+
 <div class="source-chips"><span>Russell</span><span>Real Estate</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $43.58<br><span>PHILLIPS EDISON AND COMPANY INC is a publicly traded company in the Real Estate sector.</span></p>
 <div class="return-strip"><span>6月 <b>+22.0%</b></span><span>1月 <b>+7.1%</b></span><span>1周 <b>+2.6%</b></span><span>3日 <b>-0.3%</b></span><span>3块 <b>-0.4%</b></span></div>
@@ -497,6 +1127,20 @@
 <header><span class="rank">#46</span><div><h2>REG</h2><p>Regency Centers</p></div><strong>83.4</strong></header>
 <div class="signal-banner">优先Call候选</div>
 <div class="card-actions"><a class="ta-report-link" href="tradingagents/reg.html" title="打开 TradingAgents 研报与买卖建议">TradingAgents 研报 · BUY-WATCH / 偏买入观察</a></div>
+<details class="public-summary"><summary><span>免费综合摘要</span><b>BUY-WATCH / 偏买入观察 · 收入 +0.0%</b></summary>
+<div class="public-summary-body">
+  <p class="public-business"><b>业务</b>Regency Centers Corporation is a real estate investment trust based in Jacksonville, Florida, and is one of the largest operators of shopping centers with grocery stores as anchor tenants. As of October 21, 2020, the company owned 415 properties comprising 56-million-square feet of space. Notable properties owned by the company include Serramonte Center and a 30% interest in Village District. <a class="public-source" href="https://en.wikipedia.org/wiki/Regency_Centers" target="_blank" rel="noopener">公开来源</a></p>
+  <p class="public-meta">Retail REITs · Real Estate</p>
+  <div class="public-metrics"><span><small>当前价</small><b>$82.09</b></span><span><small>榜单排名</small><b>10</b></span><span><small>综合分</small><b>100.0 · Aster Call</b></span><span><small>收入增长</small><b>+0.0%</b></span><span><small>盈利增长</small><b>+0.0%</b></span><span><small>RSI 14</small><b>59.44</b></span><span><small>成交量比</small><b>1.31</b></span><span><small>近3块/短线</small><b>-0.1%</b></span><span><small>近1周</small><b>+2.2%</b></span><span><small>近1月</small><b>+6.8%</b></span></div>
+  <div class="public-analysis"><p><b>当前判断</b>可进入优先观察池；如果走势与成交量继续确认，可考虑分批买入或短期 call 候选。</p>
+  <p><b>正向依据</b>综合分 100.0 来自 Aster Call；EMA structure 偏多：confirmed_bullish_trend；MACD momentum 支持：bullish_above_signal；RSI 冷却/健康区间：59.4；近1周趋势为正：+2.2%</p>
+  <p><b>风险观察</b>MACD snapshot proxy; double-cross history unavailable</p>
+  <p><b>公开一致预期</b>本次未取得或覆盖不足</p></div>
+  
+</div></details>
+
+
+
 <div class="source-chips"><span>Nasdaq Liquid 500</span><span>Real Estate</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $82.09<br><span>Regency Centers Corporation is a real estate investment trust based in Jacksonville, Florida, and is one of the largest operators of shopping centers with grocery stores as anchor tenants. As of October 21, 2020, the company owned 415 properties comprising 56-million-square feet of space. Notable properties owned by the company include Serramonte Center and a 30% interest in Village District.</span> <a class="company-source" href="https://en.wikipedia.org/wiki/Regency_Centers" target="_blank" rel="noopener">公司资料</a></p>
 <div class="return-strip"><span>6月 <b>+16.4%</b></span><span>1月 <b>+6.8%</b></span><span>1周 <b>+2.2%</b></span><span>3日 <b>-0.4%</b></span><span>3块 <b>-0.1%</b></span></div>
@@ -508,6 +1152,20 @@
 <header><span class="rank">#47</span><div><h2>IVT</h2><p>INVENTRUST PROPERTIES CORP</p></div><strong>83.4</strong></header>
 <div class="signal-banner">优先Call候选</div>
 <div class="card-actions"><a class="ta-report-link" href="tradingagents/ivt.html" title="打开 TradingAgents 研报与买卖建议">TradingAgents 研报 · WATCH-BUY / 强观察</a></div>
+<details class="public-summary"><summary><span>免费综合摘要</span><b>WATCH-BUY / 强观察 · 收入 +0.0%</b></summary>
+<div class="public-summary-body">
+  <p class="public-business"><b>业务</b>暂无可用公司业务简介。 </p>
+  <p class="public-meta">Real Estate</p>
+  <div class="public-metrics"><span><small>当前价</small><b>$36.51</b></span><span><small>榜单排名</small><b>47</b></span><span><small>综合分</small><b>83.4 · Aster Call</b></span><span><small>收入增长</small><b>+0.0%</b></span><span><small>盈利增长</small><b>+0.0%</b></span><span><small>RSI 14</small><b>60.66</b></span><span><small>成交量比</small><b>1.40</b></span><span><small>近3块/短线</small><b>+0.2%</b></span><span><small>近1周</small><b>+2.7%</b></span><span><small>近1月</small><b>+6.4%</b></span></div>
+  <div class="public-analysis"><p><b>当前判断</b>信号偏强但仍需等价格确认；适合放入 watchlist，等待回踩不破或放量继续。</p>
+  <p><b>正向依据</b>综合分 83.4 来自 Aster Call；EMA structure 偏多：confirmed_bullish_trend；MACD momentum 支持：bullish_above_signal；RSI 冷却/健康区间：60.7；近3块/短线动量为正：+0.2%</p>
+  <p><b>风险观察</b>未发现主要规则风险项，仍需结合大盘与仓位控制</p>
+  <p><b>公开一致预期</b>本次未取得或覆盖不足</p></div>
+  
+</div></details>
+
+
+
 <div class="source-chips"><span>Russell</span><span>Real Estate</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $36.51<br><span>INVENTRUST PROPERTIES CORP is a publicly traded company in the Real Estate sector.</span></p>
 <div class="return-strip"><span>6月 <b>+25.8%</b></span><span>1月 <b>+6.4%</b></span><span>1周 <b>+2.7%</b></span><span>3日 <b>-0.5%</b></span><span>3块 <b>+0.2%</b></span></div>
@@ -519,6 +1177,20 @@
 <header><span class="rank">#48</span><div><h2>UE</h2><p>URBAN EDGE PROPERTIES</p></div><strong>83.4</strong></header>
 <div class="signal-banner">优先Call候选</div>
 <div class="card-actions"><a class="ta-report-link" href="tradingagents/ue.html" title="打开 TradingAgents 研报与买卖建议">TradingAgents 研报 · WATCH-BUY / 强观察</a></div>
+<details class="public-summary"><summary><span>免费综合摘要</span><b>WATCH-BUY / 强观察 · 收入 +0.0%</b></summary>
+<div class="public-summary-body">
+  <p class="public-business"><b>业务</b>暂无可用公司业务简介。 </p>
+  <p class="public-meta">Real Estate</p>
+  <div class="public-metrics"><span><small>当前价</small><b>$23.58</b></span><span><small>榜单排名</small><b>48</b></span><span><small>综合分</small><b>83.4 · Aster Call</b></span><span><small>收入增长</small><b>+0.0%</b></span><span><small>盈利增长</small><b>+0.0%</b></span><span><small>RSI 14</small><b>60.70</b></span><span><small>成交量比</small><b>1.07</b></span><span><small>近3块/短线</small><b>+0.4%</b></span><span><small>近1周</small><b>+2.9%</b></span><span><small>近1月</small><b>+6.0%</b></span></div>
+  <div class="public-analysis"><p><b>当前判断</b>信号偏强但仍需等价格确认；适合放入 watchlist，等待回踩不破或放量继续。</p>
+  <p><b>正向依据</b>综合分 83.4 来自 Aster Call；EMA structure 偏多：confirmed_bullish_trend；MACD momentum 支持：bullish_above_signal；RSI 冷却/健康区间：60.7；近3块/短线动量为正：+0.4%</p>
+  <p><b>风险观察</b>未发现主要规则风险项，仍需结合大盘与仓位控制</p>
+  <p><b>公开一致预期</b>本次未取得或覆盖不足</p></div>
+  
+</div></details>
+
+
+
 <div class="source-chips"><span>Russell</span><span>Real Estate</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $23.58<br><span>URBAN EDGE PROPERTIES is a publicly traded company in the Real Estate sector.</span></p>
 <div class="return-strip"><span>6月 <b>+22.2%</b></span><span>1月 <b>+5.9%</b></span><span>1周 <b>+2.9%</b></span><span>3日 <b>-0.2%</b></span><span>3块 <b>+0.4%</b></span></div>
@@ -530,6 +1202,20 @@
 <header><span class="rank">#49</span><div><h2>OIS</h2><p>OIL STATES INTERNATIONAL INC</p></div><strong>83.4</strong></header>
 <div class="signal-banner">优先Call候选</div>
 <div class="card-actions"><a class="ta-report-link" href="tradingagents/ois.html" title="打开 TradingAgents 研报与买卖建议">TradingAgents 研报 · WATCH-BUY / 强观察</a></div>
+<details class="public-summary"><summary><span>免费综合摘要</span><b>WATCH-BUY / 强观察 · 收入 +0.0%</b></summary>
+<div class="public-summary-body">
+  <p class="public-business"><b>业务</b>暂无可用公司业务简介。 </p>
+  <p class="public-meta">Energy</p>
+  <div class="public-metrics"><span><small>当前价</small><b>$8.58</b></span><span><small>榜单排名</small><b>49</b></span><span><small>综合分</small><b>83.4 · Aster Call</b></span><span><small>收入增长</small><b>+0.0%</b></span><span><small>盈利增长</small><b>+0.0%</b></span><span><small>RSI 14</small><b>59.56</b></span><span><small>成交量比</small><b>1.09</b></span><span><small>近3块/短线</small><b>+3.0%</b></span><span><small>近1周</small><b>+1.9%</b></span><span><small>近1月</small><b>+8.1%</b></span></div>
+  <div class="public-analysis"><p><b>当前判断</b>信号偏强但仍需等价格确认；适合放入 watchlist，等待回踩不破或放量继续。</p>
+  <p><b>正向依据</b>综合分 83.4 来自 Aster Call；MACD momentum 支持：fresh_above_zero_cross；RSI 冷却/健康区间：59.6；近3块/短线动量为正：+3.0%；近1周趋势为正：+1.9%</p>
+  <p><b>风险观察</b>4H EMA 仍偏震荡</p>
+  <p><b>公开一致预期</b>本次未取得或覆盖不足</p></div>
+  
+</div></details>
+
+
+
 <div class="source-chips"><span>Russell</span><span>Energy</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $8.58<br><span>OIL STATES INTERNATIONAL INC is a publicly traded company in the Energy sector.</span></p>
 <div class="return-strip"><span>6月 <b>+6.5%</b></span><span>1月 <b>+7.9%</b></span><span>1周 <b>+1.9%</b></span><span>3日 <b>+1.4%</b></span><span>3块 <b>+3.0%</b></span></div>
@@ -541,6 +1227,20 @@
 <header><span class="rank">#50</span><div><h2>FRT</h2><p>Federal Realty Investment Trust</p></div><strong>83.4</strong></header>
 <div class="signal-banner">优先Call候选</div>
 <div class="card-actions"><a class="ta-report-link" href="tradingagents/frt.html" title="打开 TradingAgents 研报与买卖建议">TradingAgents 研报 · BUY-WATCH / 偏买入观察</a></div>
+<details class="public-summary"><summary><span>免费综合摘要</span><b>BUY-WATCH / 偏买入观察 · 收入 +0.0%</b></summary>
+<div class="public-summary-body">
+  <p class="public-business"><b>业务</b>Federal Realty Investment Trust is a real estate investment trust that invests in shopping centers in the Northeastern United States, the Mid-Atlantic states, California, and South Florida. <a class="public-source" href="https://en.wikipedia.org/wiki/Federal_Realty_Investment_Trust" target="_blank" rel="noopener">公开来源</a></p>
+  <p class="public-meta">Retail REITs · Real Estate</p>
+  <div class="public-metrics"><span><small>当前价</small><b>$125.54</b></span><span><small>榜单排名</small><b>14</b></span><span><small>综合分</small><b>100.0 · Aster Call</b></span><span><small>收入增长</small><b>+0.0%</b></span><span><small>盈利增长</small><b>+0.0%</b></span><span><small>RSI 14</small><b>63.62</b></span><span><small>成交量比</small><b>1.50</b></span><span><small>近3块/短线</small><b>-0.1%</b></span><span><small>近1周</small><b>+2.8%</b></span><span><small>近1月</small><b>+4.3%</b></span></div>
+  <div class="public-analysis"><p><b>当前判断</b>可进入优先观察池；如果走势与成交量继续确认，可考虑分批买入或短期 call 候选。</p>
+  <p><b>正向依据</b>综合分 100.0 来自 Aster Call；EMA structure 偏多：confirmed_bullish_trend；MACD momentum 支持：bullish_above_signal；RSI 冷却/健康区间：63.6；近1周趋势为正：+2.8%</p>
+  <p><b>风险观察</b>MACD snapshot proxy; double-cross history unavailable</p>
+  <p><b>公开一致预期</b>本次未取得或覆盖不足</p></div>
+  
+</div></details>
+
+
+
 <div class="source-chips"><span>S&amp;P 500</span><span>Real Estate</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $125.54<br><span>Federal Realty Investment Trust is a real estate investment trust that invests in shopping centers in the Northeastern United States, the Mid-Atlantic states, California, and South Florida.</span> <a class="company-source" href="https://en.wikipedia.org/wiki/Federal_Realty_Investment_Trust" target="_blank" rel="noopener">公司资料</a></p>
 <div class="return-strip"><span>6月 <b>+22.4%</b></span><span>1月 <b>+4.3%</b></span><span>1周 <b>+2.8%</b></span><span>3日 <b>+0.1%</b></span><span>3块 <b>-0.1%</b></span></div>
