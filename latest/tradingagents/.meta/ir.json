@@ -1,14 +1,16 @@
 {
   "ticker": "IR",
-  "date": "2026-07-21",
-  "generated_at": "2026-07-22 03:02:14",
+  "date": "2026-07-22",
+  "generated_at": "2026-07-22 13:20:02",
   "mode": "enhanced-fallback",
   "decision": "WAIT / 暂不追",
   "provider": "",
   "error": "",
   "sources": [
+    "spx-yahoo-rankings",
     "early-spx-4h-signal-ranking",
+    "prism-spx-4h-signal-ranking",
     "spx-early-signal-ranking"
   ],
-  "public_data_fetched_at": "2026-07-22 03:02:14"
+  "public_data_fetched_at": "2026-07-22T13:20:35-07:00"
 }

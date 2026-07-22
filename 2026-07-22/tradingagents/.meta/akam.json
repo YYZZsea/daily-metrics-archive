@@ -1,18 +1,15 @@
 {
   "ticker": "AKAM",
-  "date": "2026-07-21",
-  "generated_at": "2026-07-22 03:02:14",
+  "date": "2026-07-22",
+  "generated_at": "2026-07-22 13:20:02",
   "mode": "enhanced-fallback",
   "decision": "BUY-WATCH / 偏买入观察",
   "provider": "",
   "error": "",
   "sources": [
     "nasdaq200-rankings",
-    "aster-call-ranking",
-    "aster-ema-cross-ranking",
-    "aster-v2-balanced-ranking",
-    "aster-v4-tactical-breakout-ranking",
-    "aster-v5-risk-adjusted-ranking",
+    "aster-trend-relay-ranking",
+    "aster-v3-quality-momentum-ranking",
     "nasdaq200-early-signal-ranking",
     "early-nasdaq200-4h-signal-ranking",
     "early-nasdaq500-4h-signal-ranking",
@@ -21,5 +18,5 @@
     "prism-nasdaq500-4h-signal-ranking",
     "prism-spx-4h-signal-ranking"
   ],
-  "public_data_fetched_at": "2026-07-22 03:02:14"
+  "public_data_fetched_at": "2026-07-22 13:20:02"
 }
