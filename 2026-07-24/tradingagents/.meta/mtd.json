@@ -1,14 +1,16 @@
 {
   "ticker": "MTD",
-  "date": "2026-07-23",
-  "generated_at": "2026-07-23 13:20:12",
+  "date": "2026-07-24",
+  "generated_at": "2026-07-24 13:19:27",
   "mode": "enhanced-fallback",
-  "decision": "WAIT / 暂不追",
+  "decision": "BUY-WATCH / 偏买入观察",
   "provider": "",
   "error": "",
   "sources": [
     "spx-yahoo-rankings",
-    "spx-early-signal-ranking"
+    "aster-trend-relay-ranking",
+    "aster-v4-tactical-breakout-ranking",
+    "prism-spx-4h-signal-ranking"
   ],
-  "public_data_fetched_at": "2026-07-23T13:20:29-07:00"
+  "public_data_fetched_at": "2026-07-24T13:19:39-07:00"
 }
