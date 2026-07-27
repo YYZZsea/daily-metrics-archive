@@ -1,13 +1,16 @@
 {
   "ticker": "BLKB",
-  "date": "2026-07-24",
-  "generated_at": "2026-07-24 13:19:27",
+  "date": "2026-07-27",
+  "generated_at": "2026-07-27 13:19:41",
   "mode": "enhanced-fallback",
-  "decision": "HOLD-WATCH / 继续观察",
+  "decision": "WATCH-BUY / 强观察",
   "provider": "",
   "error": "",
   "sources": [
+    "russell2000-rankings",
+    "aster-v2-balanced-ranking",
+    "aster-v5-risk-adjusted-ranking",
     "russell2000-early-signal-ranking"
   ],
-  "public_data_fetched_at": "2026-07-24 13:19:27"
+  "public_data_fetched_at": "2026-07-27 13:19:41"
 }
