@@ -1,18 +1,25 @@
 {
   "ticker": "KDP",
-  "date": "2026-07-29",
-  "generated_at": "2026-07-29 13:20:11",
+  "date": "2026-07-30",
+  "generated_at": "2026-07-30 16:11:12",
   "mode": "enhanced-fallback",
-  "decision": "BUY-WATCH / 偏买入观察",
+  "decision": "WATCH-BUY / 强观察",
   "provider": "",
   "error": "",
   "sources": [
     "nasdaq200-rankings",
+    "aster-call-ranking",
+    "aster-consensus-agent-ranking",
+    "aster-ema-cross-ranking",
+    "aster-v2-balanced-ranking",
     "aster-v4-tactical-breakout-ranking",
+    "aster-v5-risk-adjusted-ranking",
+    "nasdaq200-early-signal-ranking",
     "early-nasdaq200-4h-signal-ranking",
+    "early-nasdaq500-4h-signal-ranking",
     "prism-nasdaq200-4h-signal-ranking",
     "prism-nasdaq500-4h-signal-ranking",
     "prism-spx-4h-signal-ranking"
   ],
-  "public_data_fetched_at": "2026-07-29 13:20:11"
+  "public_data_fetched_at": "2026-07-30 16:11:12"
 }
