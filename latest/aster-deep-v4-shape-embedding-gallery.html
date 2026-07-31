@@ -1,7 +1,7 @@
 <!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Deep v4 Shape Embedding</title><style>:root{--navy:#183B56;--teal:#147D78;--ink:#1F2937;--grid:#CBD5E1;--paper:#F7FAFC}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:14px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;letter-spacing:0}.top{background:var(--navy);color:white;padding:24px 4vw}.top h1{margin:0 0 6px;font-size:26px}.top p{margin:0;color:#DCEEF5}main{display:grid;grid-template-columns:1fr;gap:14px;padding:18px 4vw 40px}.card{background:white;border:1px solid var(--grid);border-radius:6px;overflow:hidden;scroll-margin-top:16px}.card:target{border-color:#0F766E;box-shadow:0 0 0 3px #99F6E4}header{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:12px;padding:12px 14px 4px}.rank{font-weight:800;color:var(--teal)}h2{font-size:20px;margin:0}header p{margin:2px 0 0;color:#64748B}header strong{font-size:20px}.company-intro{margin:4px 14px 8px;color:#475569;font-size:12px;line-height:1.55;max-width:1100px}.company-intro b{color:#334155;font-weight:800}.company-source{display:inline-block;margin-left:6px;color:#0F766E;font-size:10px;font-weight:800;text-decoration:none;white-space:nowrap}.company-source:hover{text-decoration:underline}.source-chips{display:flex;flex-wrap:wrap;gap:6px;margin:0 14px 7px}.source-chips span{display:inline-flex;align-items:center;border:1px solid #99F6E4;background:#ECFDF5;color:#0F766E;border-radius:4px;padding:3px 7px;font-size:10px;font-weight:800}.signal-banner{display:inline-flex;margin:0 14px 7px;padding:4px 8px;border-radius:4px;background:#D1FAE5;color:#065F46;font-size:11px;font-weight:800}.trigger-panel{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:10px;margin:0 14px 10px}.trigger-panel>div,.exit-alert{border:1px solid #BAE6FD;background:#F0F9FF;border-radius:6px;padding:8px 10px;font-size:11px;line-height:1.45}.trigger-panel b,.exit-alert b{display:block;color:#075985;margin-bottom:3px}.trigger-panel span,.exit-alert span{color:#475569}.exit-alert.danger{border-color:#FCA5A5;background:#FEF2F2}.exit-alert.danger b{color:#B91C1C}.exit-alert.danger.history{border-color:#FDBA74;background:#FFF7ED}.exit-alert.danger.history b{color:#C2410C}.exit-alert.danger.realtime{border-color:#F87171;background:#FEF2F2;box-shadow:inset 4px 0 0 #DC2626}.exit-alert.watch{border-color:#FDE68A;background:#FFFBEB}.exit-alert.watch b{color:#92400E}.exit-alert a{display:inline-block;margin-top:5px;color:#0F766E;font-weight:800;text-decoration:none}.event-marker circle,.event-marker rect{stroke:white;stroke-width:2.2;filter:drop-shadow(0 1px 2px rgba(15,23,42,.45))}.event-marker text{fill:white;font-size:7px;font-weight:900;pointer-events:none}.event-buy circle{fill:#0F766E}.event-buy-latest circle{fill:#2563EB}.event-buy-realtime circle{fill:#0284C7;stroke:#FDE68A;stroke-width:2.6}.event-sell rect{fill:#F97316}.event-sell-latest rect{fill:#C2410C}.event-sell-realtime rect{fill:#DC2626;stroke:#FDE68A;stroke-width:2.6}.event-legend{display:flex;gap:14px;padding:0 14px 8px;font-size:10px;font-weight:800}.buy-mark{color:#0F766E}.latest-mark{color:#2563EB}.sell-mark{color:#C2410C}.return-strip{display:flex;flex-wrap:wrap;gap:5px 12px;padding:0 14px 9px;color:#94A3B8;font-size:11px}.return-strip b{color:#64748B;font-weight:800}.chart-pair{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:12px;padding:0 14px 10px}.chart-panel{border:1px solid #E2E8F0;border-radius:6px;background:white;overflow:hidden}.chart-panel h3{margin:0;padding:8px 10px;border-bottom:1px solid #E2E8F0;color:#334155;font-size:12px}svg{display:block;width:100%;height:180px;padding:4px 8px}.before{opacity:.28}.after{opacity:1}.daily-chart .before{opacity:1}.trend-relay .before{opacity:1}.daily-chart .legend span:last-child{display:none}.origin-line{stroke:#0F172A;stroke-width:1.5;stroke-dasharray:5 4}.origin-label{font-size:10px;fill:#0F172A;font-weight:600}.wick{stroke-width:1}.body.up,.wick.up{fill:#16A34A;stroke:#15803D}.body.down,.wick.down{fill:#DC2626;stroke:#B91C1C}.ema,.macd-line,.signal-line,.rsi-line{fill:none;stroke-linecap:round;stroke-linejoin:round}.ema9{stroke:#F59E0B;stroke-width:2}.ema26{stroke:#2563EB;stroke-width:2}.ema50{stroke:#7C3AED;stroke-width:2}.legend{display:flex;gap:14px;padding:0 14px 8px;font-size:11px;color:#64748B}.l9{color:#B45309}.l26{color:#1D4ED8}.l50{color:#6D28D9}.indicator{border-top:1px solid #E2E8F0;padding-top:5px}.indicator svg{height:100px}.indicator-title{display:flex;gap:12px;align-items:center;padding:0 14px;color:#64748B;font-size:11px}.indicator-title b{color:#334155;margin-right:auto}.macd-key{color:#0F766E}.signal-key{color:#D97706}.macd-line{stroke:#0F766E;stroke-width:1.8}.signal-line{stroke:#D97706;stroke-width:1.6}.hist.positive{fill:#86EFAC}.hist.negative{fill:#FCA5A5}.zero{stroke:#94A3B8;stroke-width:1}.rsi-line{stroke:#7C3AED;stroke-width:2}.rsi-limit{stroke-width:1;stroke-dasharray:5 4}.overbought{stroke:#DC2626}.oversold{stroke:#16A34A}.skills{border-top:1px solid #E2E8F0;padding:10px 14px 12px}.skills h3{font-size:12px;margin:0 0 8px;color:#334155}.score-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px 16px}.score-row{display:grid;grid-template-columns:72px 1fr 38px;align-items:center;gap:6px;font-size:11px;color:#475569}.score-row b{text-align:right;color:#1F2937}.meter{height:6px;background:#E2E8F0;border-radius:3px;overflow:hidden}.meter i{display:block;height:100%}.ema-fill{background:#F59E0B}.macd-fill{background:#0F766E}.rsi-fill{background:#7C3AED}.total-fill{background:#0284C7}.comment{display:grid;grid-template-columns:72px 1fr;gap:8px;margin-top:7px;font-size:11px;line-height:1.35}.comment b{color:#475569}.comment span{color:#64748B}footer{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;border-top:1px solid #E2E8F0;padding:8px 14px;color:#475569;font-size:12px}.missing{height:180px;display:grid;place-items:center;color:#94A3B8}@media(max-width:980px){.chart-pair,.trigger-panel{grid-template-columns:1fr}footer{grid-template-columns:repeat(2,1fr)}.score-grid{grid-template-columns:1fr}}.card-actions{display:flex;gap:8px;margin:0 14px 8px}.ta-report-link{display:inline-flex;align-items:center;border:1px solid #99F6E4;background:#ECFDF5;color:#0F766E;border-radius:4px;padding:4px 8px;font-size:11px;font-weight:850;text-decoration:none}.ta-report-link:hover{background:#CCFBF1}</style></head><body class="trend-relay"><section class="top"><h1>Deep v4 Shape Embedding</h1><p>截至 2026-07-20 · Top50 · 左侧日线结构，右侧4H timing · EMA 9/26/50 · MACD 12/26/9 · RSI 14</p></section><main><article class="card" id="ticker-cop">
 <header><span class="rank">#1</span><div><h2>COP</h2><p>ConocoPhillips</p></div><strong>81.3</strong></header>
 <div class="signal-banner">Deep v4 Shape Embedding 未确认</div>
-<div class="card-actions"><a class="ta-report-link" href="tradingagents/cop.html" title="打开 COP TradingAgents 中文研报">TradingAgents 研报 · HOLD-WATCH / 继续观察</a></div>
+<div class="card-actions"><a class="ta-report-link" href="tradingagents/cop.html" title="打开 COP TradingAgents 中文研报">TradingAgents 研报 · WAIT / 暂不追</a></div>
 <div class="source-chips"><span>Deep v4 Shape Embedding Watch</span><span>Energy</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $115.67<br><span>ConocoPhillips Company is an American multinational corporation engaged in hydrocarbon exploration and production. It is based in the Energy Corridor district of Houston, Texas.</span> <a class="company-source" href="https://en.wikipedia.org/wiki/ConocoPhillips" target="_blank" rel="noopener">公司资料</a></p>
 <div class="return-strip"><span>6月 <b>+21.1%</b></span><span>1月 <b>+4.0%</b></span><span>1周 <b>+2.5%</b></span><span>3日 <b>+3.8%</b></span><span>3块 <b>+1.7%</b></span></div>
@@ -12,7 +12,7 @@
 <article class="card" id="ticker-mur">
 <header><span class="rank">#2</span><div><h2>MUR</h2><p>MURPHY OIL CORP</p></div><strong>81.1</strong></header>
 <div class="signal-banner">Deep v4 Shape Embedding 未确认</div>
-<div class="card-actions"><a class="ta-report-link" href="tradingagents/mur.html" title="打开 MUR TradingAgents 中文研报">TradingAgents 研报 · WAIT / 暂不追</a></div>
+<div class="card-actions"><a class="ta-report-link" href="tradingagents/mur.html" title="打开 MUR TradingAgents 中文研报">TradingAgents 研报 · WATCH-BUY / 强观察</a></div>
 <div class="source-chips"><span>Deep v4 Shape Embedding Watch</span><span>Energy</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $36.83<br><span>MURPHY OIL CORP is a publicly traded company in the Energy sector.</span></p>
 <div class="return-strip"><span>6月 <b>+21.1%</b></span><span>1月 <b>+4.4%</b></span><span>1周 <b>+5.5%</b></span><span>3日 <b>+6.3%</b></span><span>3块 <b>+1.0%</b></span></div>
@@ -67,7 +67,7 @@
 <article class="card" id="ticker-ulta">
 <header><span class="rank">#7</span><div><h2>ULTA</h2><p>Ulta Beauty</p></div><strong>78.8</strong></header>
 <div class="signal-banner">Deep v4 Shape Embedding 未确认</div>
-<div class="card-actions"><a class="ta-report-link" href="tradingagents/ulta.html" title="打开 ULTA TradingAgents 中文研报">TradingAgents 研报 · HOLD-WATCH / 继续观察</a></div>
+<div class="card-actions"><a class="ta-report-link" href="tradingagents/ulta.html" title="打开 ULTA TradingAgents 中文研报">TradingAgents 研报 · BUY-WATCH / 偏买入观察</a></div>
 <div class="source-chips"><span>Deep v4 Shape Embedding Watch</span><span>Consumer Discretionary</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $488.08<br><span>Ulta Beauty is a publicly traded company in the Consumer Discretionary sector.</span></p>
 <div class="return-strip"><span>6月 <b>-27.8%</b></span><span>1月 <b>+8.3%</b></span><span>1周 <b>+3.1%</b></span><span>3日 <b>+4.7%</b></span><span>3块 <b>+1.2%</b></span></div>
@@ -78,7 +78,7 @@
 <article class="card" id="ticker-foxa">
 <header><span class="rank">#8</span><div><h2>FOXA</h2><p>Fox Corporation (Class A)</p></div><strong>78.7</strong></header>
 <div class="signal-banner">Deep v4 Shape Embedding 未确认</div>
-<div class="card-actions"><a class="ta-report-link" href="tradingagents/foxa.html" title="打开 FOXA TradingAgents 中文研报">TradingAgents 研报 · HOLD-WATCH / 继续观察</a></div>
+<div class="card-actions"><a class="ta-report-link" href="tradingagents/foxa.html" title="打开 FOXA TradingAgents 中文研报">TradingAgents 研报 · WATCH-BUY / 强观察</a></div>
 <div class="source-chips"><span>Deep v4 Shape Embedding Watch</span><span>Communication Services</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $57.48<br><span>Fox Corporation, commonly known as Fox Corp or Fox, is an American multinational mass media company headquartered at 1211 Avenue of the Americas in Midtown Manhattan with offices also in Burbank, California. Named after William Fox and incorporated in Delaware, it was formed as a spin-off of 21st Century Fox&#x27;s television broadcasting, news, and sports assets on March 19, 2019. 21CF&#x27;s remaining assets were acquired the next day by The Walt Disney Company. Fox Corp is controlled by Lachlan Murdoch through a family trust with 36% voting shares.</span> <a class="company-source" href="https://en.wikipedia.org/wiki/Fox_Corporation" target="_blank" rel="noopener">公司资料</a></p>
 <div class="return-strip"><span>6月 <b>-20.1%</b></span><span>1月 <b>+12.0%</b></span><span>1周 <b>+2.8%</b></span><span>3日 <b>+2.7%</b></span><span>3块 <b>+0.7%</b></span></div>
@@ -89,7 +89,7 @@
 <article class="card" id="ticker-fox">
 <header><span class="rank">#9</span><div><h2>FOX</h2><p>Fox Corporation (Class B)</p></div><strong>78.6</strong></header>
 <div class="signal-banner">Deep v4 Shape Embedding 未确认</div>
-<div class="card-actions"><a class="ta-report-link" href="tradingagents/fox.html" title="打开 FOX TradingAgents 中文研报">TradingAgents 研报 · BUY-WATCH / 偏买入观察</a></div>
+<div class="card-actions"><a class="ta-report-link" href="tradingagents/fox.html" title="打开 FOX TradingAgents 中文研报">TradingAgents 研报 · HOLD-WATCH / 继续观察</a></div>
 <div class="source-chips"><span>Deep v4 Shape Embedding Watch</span><span>Communication Services</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $51.55<br><span>Fox Corporation (Class B) is a publicly traded company in the Communication Services sector.</span></p>
 <div class="return-strip"><span>6月 <b>-20.9%</b></span><span>1月 <b>+10.3%</b></span><span>1周 <b>+2.6%</b></span><span>3日 <b>+2.3%</b></span><span>3块 <b>+0.5%</b></span></div>
@@ -100,7 +100,7 @@
 <article class="card" id="ticker-nog">
 <header><span class="rank">#10</span><div><h2>NOG</h2><p>NORTHERN OIL AND GAS INC</p></div><strong>78.6</strong></header>
 <div class="signal-banner">Deep v4 Shape Embedding 未确认</div>
-<div class="card-actions"><a class="ta-report-link" href="tradingagents/nog.html" title="打开 NOG TradingAgents 中文研报">TradingAgents 研报 · WAIT / 暂不追</a></div>
+<div class="card-actions"><a class="ta-report-link" href="tradingagents/nog.html" title="打开 NOG TradingAgents 中文研报">TradingAgents 研报 · HOLD-WATCH / 继续观察</a></div>
 <div class="source-chips"><span>Deep v4 Shape Embedding Watch</span><span>Energy</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $21.20<br><span>NORTHERN OIL AND GAS INC is a publicly traded company in the Energy sector.</span></p>
 <div class="return-strip"><span>6月 <b>-4.2%</b></span><span>1月 <b>+9.7%</b></span><span>1周 <b>+4.1%</b></span><span>3日 <b>+4.1%</b></span><span>3块 <b>+1.1%</b></span></div>
@@ -122,7 +122,7 @@
 <article class="card" id="ticker-fisv">
 <header><span class="rank">#12</span><div><h2>FISV</h2><p>Fiserv</p></div><strong>77.7</strong></header>
 <div class="signal-banner">Deep v4 Shape Embedding 未确认</div>
-<div class="card-actions"><a class="ta-report-link" href="tradingagents/fisv.html" title="打开 FISV TradingAgents 中文研报">TradingAgents 研报 · BUY-WATCH / 偏买入观察</a></div>
+<div class="card-actions"><a class="ta-report-link" href="tradingagents/fisv.html" title="打开 FISV TradingAgents 中文研报">TradingAgents 研报 · WATCH-BUY / 强观察</a></div>
 <div class="source-chips"><span>Deep v4 Shape Embedding Watch</span><span>Financials</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $51.68<br><span>Fiserv is a publicly traded company in the Financials sector.</span></p>
 <div class="return-strip"><span>6月 <b>-19.9%</b></span><span>1月 <b>+6.0%</b></span><span>1周 <b>+1.0%</b></span><span>3日 <b>+2.6%</b></span><span>3块 <b>+1.4%</b></span></div>
@@ -133,7 +133,7 @@
 <article class="card" id="ticker-trmb">
 <header><span class="rank">#13</span><div><h2>TRMB</h2><p>Trimble Inc.</p></div><strong>77.5</strong></header>
 <div class="signal-banner">Deep v4 Shape Embedding 未确认</div>
-<div class="card-actions"><a class="ta-report-link" href="tradingagents/trmb.html" title="打开 TRMB TradingAgents 中文研报">TradingAgents 研报 · BUY-WATCH / 偏买入观察</a></div>
+<div class="card-actions"><a class="ta-report-link" href="tradingagents/trmb.html" title="打开 TRMB TradingAgents 中文研报">TradingAgents 研报 · HOLD-WATCH / 继续观察</a></div>
 <div class="source-chips"><span>Deep v4 Shape Embedding Watch</span><span>Information Technology</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $53.21<br><span>Trimble Inc. is an American software, hardware, and services technology company that was founded in 1978. Its headquarters is in Westminster, Colorado. It is publicly traded on the Nasdaq and listed on the S&amp;P 500. Trimble develops hardware and software for a variety of business sectors including architecture, engineering, and construction (AEC); surveying, mapping, and geomatics (geospatial); and transportation and logistics (T&amp;L).</span> <a class="company-source" href="https://en.wikipedia.org/wiki/Trimble_Inc." target="_blank" rel="noopener">公司资料</a></p>
 <div class="return-strip"><span>6月 <b>-23.5%</b></span><span>1月 <b>+8.9%</b></span><span>1周 <b>+1.8%</b></span><span>3日 <b>+2.5%</b></span><span>3块 <b>-1.1%</b></span></div>
@@ -188,7 +188,7 @@
 <article class="card" id="ticker-lh">
 <header><span class="rank">#18</span><div><h2>LH</h2><p>Labcorp</p></div><strong>76.2</strong></header>
 <div class="signal-banner">Deep v4 Shape Embedding 未确认</div>
-<div class="card-actions"><a class="ta-report-link" href="tradingagents/lh.html" title="打开 LH TradingAgents 中文研报">TradingAgents 研报 · WAIT / 暂不追</a></div>
+<div class="card-actions"><a class="ta-report-link" href="tradingagents/lh.html" title="打开 LH TradingAgents 中文研报">TradingAgents 研报 · BUY-WATCH / 偏买入观察</a></div>
 <div class="source-chips"><span>Deep v4 Shape Embedding Watch</span><span>Health Care</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $281.53<br><span>Labcorp Holdings Inc., operating under the brand name Labcorp, headquartered in Burlington, North Carolina, provides laboratory services used for diagnosis and healthcare decisions. It operates one of the largest clinical laboratory networks in the world and has operations in over 100 countries; although its operations are primarily in the U.S.</span> <a class="company-source" href="https://en.wikipedia.org/wiki/Labcorp" target="_blank" rel="noopener">公司资料</a></p>
 <div class="return-strip"><span>6月 <b>+3.8%</b></span><span>1月 <b>+8.5%</b></span><span>1周 <b>+1.8%</b></span><span>3日 <b>+3.5%</b></span><span>3块 <b>-0.3%</b></span></div>
@@ -221,7 +221,7 @@
 <article class="card" id="ticker-rop">
 <header><span class="rank">#21</span><div><h2>ROP</h2><p>Roper Technologies</p></div><strong>75.7</strong></header>
 <div class="signal-banner">Deep v4 Shape Embedding 未确认</div>
-<div class="card-actions"><a class="ta-report-link" href="tradingagents/rop.html" title="打开 ROP TradingAgents 中文研报">TradingAgents 研报 · BUY-WATCH / 偏买入观察</a></div>
+<div class="card-actions"><a class="ta-report-link" href="tradingagents/rop.html" title="打开 ROP TradingAgents 中文研报">TradingAgents 研报 · HOLD-WATCH / 继续观察</a></div>
 <div class="source-chips"><span>Deep v4 Shape Embedding Watch</span><span>Information Technology</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $362.84<br><span>Roper Technologies is a publicly traded company in the Information Technology sector.</span></p>
 <div class="return-strip"><span>6月 <b>-10.1%</b></span><span>1月 <b>+10.0%</b></span><span>1周 <b>+0.6%</b></span><span>3日 <b>+4.1%</b></span><span>3块 <b>+0.5%</b></span></div>
@@ -243,7 +243,7 @@
 <article class="card" id="ticker-tyl">
 <header><span class="rank">#23</span><div><h2>TYL</h2><p>Tyler Technologies</p></div><strong>75.5</strong></header>
 <div class="signal-banner">Deep v4 Shape Embedding 未确认</div>
-<div class="card-actions"><a class="ta-report-link" href="tradingagents/tyl.html" title="打开 TYL TradingAgents 中文研报">TradingAgents 研报 · HOLD-WATCH / 继续观察</a></div>
+<div class="card-actions"><a class="ta-report-link" href="tradingagents/tyl.html" title="打开 TYL TradingAgents 中文研报">TradingAgents 研报 · WAIT / 暂不追</a></div>
 <div class="source-chips"><span>Deep v4 Shape Embedding Watch</span><span>Information Technology</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $317.92<br><span>Tyler Technologies, Inc. is an American technology company based in Plano, Texas, that provides proprietary software to the U.S. public sector. Tyler Technologies has offices in 17 states and one in Toronto, Ontario, Canada.</span> <a class="company-source" href="https://en.wikipedia.org/wiki/Tyler_Technologies" target="_blank" rel="noopener">公司资料</a></p>
 <div class="return-strip"><span>6月 <b>-25.8%</b></span><span>1月 <b>+10.5%</b></span><span>1周 <b>+1.2%</b></span><span>3日 <b>+4.7%</b></span><span>3块 <b>+0.1%</b></span></div>
@@ -331,7 +331,7 @@
 <article class="card" id="ticker-spok">
 <header><span class="rank">#31</span><div><h2>SPOK</h2><p>SPOK HOLDINGS INC</p></div><strong>74.4</strong></header>
 <div class="signal-banner">Deep v4 Shape Embedding 未确认</div>
-<div class="card-actions"><a class="ta-report-link" href="tradingagents/spok.html" title="打开 SPOK TradingAgents 中文研报">TradingAgents 研报 · HOLD-WATCH / 继续观察</a></div>
+<div class="card-actions"><a class="ta-report-link" href="tradingagents/spok.html" title="打开 SPOK TradingAgents 中文研报">TradingAgents 研报 · BUY-WATCH / 偏买入观察</a></div>
 <div class="source-chips"><span>Deep v4 Shape Embedding Watch</span><span>Communication</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $10.65<br><span>SPOK HOLDINGS INC is a publicly traded company in the Communication sector.</span></p>
 <div class="return-strip"><span>6月 <b>-19.8%</b></span><span>1月 <b>+3.3%</b></span><span>1周 <b>+0.9%</b></span><span>3日 <b>+1.1%</b></span><span>3块 <b>+1.0%</b></span></div>
@@ -342,7 +342,7 @@
 <article class="card" id="ticker-sdrl">
 <header><span class="rank">#32</span><div><h2>SDRL</h2><p>SEADRILL LTD</p></div><strong>74.4</strong></header>
 <div class="signal-banner">Deep v4 Shape Embedding 未确认</div>
-<div class="card-actions"><a class="ta-report-link" href="tradingagents/sdrl.html" title="打开 SDRL TradingAgents 中文研报">TradingAgents 研报 · WATCH-BUY / 强观察</a></div>
+<div class="card-actions"><a class="ta-report-link" href="tradingagents/sdrl.html" title="打开 SDRL TradingAgents 中文研报">TradingAgents 研报 · BUY-WATCH / 偏买入观察</a></div>
 <div class="source-chips"><span>Deep v4 Shape Embedding Watch</span><span>Energy</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $42.46<br><span>SEADRILL LTD is a publicly traded company in the Energy sector.</span></p>
 <div class="return-strip"><span>6月 <b>+21.2%</b></span><span>1月 <b>+5.6%</b></span><span>1周 <b>+0.5%</b></span><span>3日 <b>-0.9%</b></span><span>3块 <b>-1.4%</b></span></div>
@@ -364,7 +364,7 @@
 <article class="card" id="ticker-cmcsa">
 <header><span class="rank">#34</span><div><h2>CMCSA</h2><p>Comcast</p></div><strong>74.3</strong></header>
 <div class="signal-banner">Deep v4 Shape Embedding 未确认</div>
-<div class="card-actions"><a class="ta-report-link" href="tradingagents/cmcsa.html" title="打开 CMCSA TradingAgents 中文研报">TradingAgents 研报 · WATCH-BUY / 强观察</a></div>
+<div class="card-actions"><a class="ta-report-link" href="tradingagents/cmcsa.html" title="打开 CMCSA TradingAgents 中文研报">TradingAgents 研报 · BUY-WATCH / 偏买入观察</a></div>
 <div class="source-chips"><span>Deep v4 Shape Embedding Watch</span><span>Communication Services</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $23.78<br><span>Comcast is a publicly traded company in the Communication Services sector.</span></p>
 <div class="return-strip"><span>6月 <b>-15.6%</b></span><span>1月 <b>+4.8%</b></span><span>1周 <b>-0.8%</b></span><span>3日 <b>+1.2%</b></span><span>3块 <b>+0.0%</b></span></div>
@@ -375,7 +375,7 @@
 <article class="card" id="ticker-sam">
 <header><span class="rank">#35</span><div><h2>SAM</h2><p>BOSTON BEER INC CLASS A</p></div><strong>74.2</strong></header>
 <div class="signal-banner">Deep v4 Shape Embedding 未确认</div>
-<div class="card-actions"><a class="ta-report-link" href="tradingagents/sam.html" title="打开 SAM TradingAgents 中文研报">TradingAgents 研报 · WATCH-BUY / 强观察</a></div>
+<div class="card-actions"><a class="ta-report-link" href="tradingagents/sam.html" title="打开 SAM TradingAgents 中文研报">TradingAgents 研报 · HOLD-WATCH / 继续观察</a></div>
 <div class="source-chips"><span>Deep v4 Shape Embedding Watch</span><span>Consumer Staples</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $180.67<br><span>BOSTON BEER INC CLASS A is a publicly traded company in the Consumer Staples sector.</span></p>
 <div class="return-strip"><span>6月 <b>-17.0%</b></span><span>1月 <b>+5.1%</b></span><span>1周 <b>+4.8%</b></span><span>3日 <b>+6.3%</b></span><span>3块 <b>+0.3%</b></span></div>
@@ -386,7 +386,7 @@
 <article class="card" id="ticker-dpz">
 <header><span class="rank">#36</span><div><h2>DPZ</h2><p>Domino&#x27;s</p></div><strong>74.2</strong></header>
 <div class="signal-banner">Deep v4 Shape Embedding 未确认</div>
-<div class="card-actions"><a class="ta-report-link" href="tradingagents/dpz.html" title="打开 DPZ TradingAgents 中文研报">TradingAgents 研报 · HOLD-WATCH / 继续观察</a></div>
+<div class="card-actions"><a class="ta-report-link" href="tradingagents/dpz.html" title="打开 DPZ TradingAgents 中文研报">TradingAgents 研报 · WAIT / 暂不追</a></div>
 <div class="source-chips"><span>Deep v4 Shape Embedding Watch</span><span>Consumer Discretionary</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $328.97<br><span>Domino&#x27;s is a publicly traded company in the Consumer Discretionary sector.</span></p>
 <div class="return-strip"><span>6月 <b>-15.1%</b></span><span>1月 <b>+4.6%</b></span><span>1周 <b>+6.2%</b></span><span>3日 <b>+5.8%</b></span><span>3块 <b>+2.1%</b></span></div>
@@ -419,7 +419,7 @@
 <article class="card" id="ticker-orka">
 <header><span class="rank">#39</span><div><h2>ORKA</h2><p>ORUKA THERAPEUTICS INC</p></div><strong>74.0</strong></header>
 <div class="signal-banner">Deep v4 Shape Embedding 未确认</div>
-<div class="card-actions"><a class="ta-report-link" href="tradingagents/orka.html" title="打开 ORKA TradingAgents 中文研报">TradingAgents 研报 · WAIT / 暂不追</a></div>
+<div class="card-actions"><a class="ta-report-link" href="tradingagents/orka.html" title="打开 ORKA TradingAgents 中文研报">TradingAgents 研报 · HOLD-WATCH / 继续观察</a></div>
 <div class="source-chips"><span>Deep v4 Shape Embedding Watch</span><span>Health Care</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $91.71<br><span>ORUKA THERAPEUTICS INC is a publicly traded company in the Health Care sector.</span></p>
 <div class="return-strip"><span>6月 <b>+176.0%</b></span><span>1月 <b>+29.4%</b></span><span>1周 <b>+8.5%</b></span><span>3日 <b>+5.8%</b></span><span>3块 <b>+0.2%</b></span></div>
@@ -496,7 +496,7 @@
 <article class="card" id="ticker-aort">
 <header><span class="rank">#46</span><div><h2>AORT</h2><p>ARTIVION INC</p></div><strong>73.3</strong></header>
 <div class="signal-banner">Deep v4 Shape Embedding 未确认</div>
-<div class="card-actions"><a class="ta-report-link" href="tradingagents/aort.html" title="打开 AORT TradingAgents 中文研报">TradingAgents 研报 · WAIT / 暂不追</a></div>
+<div class="card-actions"><a class="ta-report-link" href="tradingagents/aort.html" title="打开 AORT TradingAgents 中文研报">TradingAgents 研报 · WATCH-BUY / 强观察</a></div>
 <div class="source-chips"><span>Deep v4 Shape Embedding Watch</span><span>Health Care</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $25.35<br><span>Artivion, Inc. is a distributor of cryogenically preserved human tissues for cardiac and vascular transplant applications and develops medical devices. Among its products are human heart valves, which are treated to remove excess cellular material and antigens, and BioGlue surgical adhesive.</span> <a class="company-source" href="https://en.wikipedia.org/wiki/Artivion" target="_blank" rel="noopener">公司资料</a></p>
 <div class="return-strip"><span>6月 <b>-41.7%</b></span><span>1月 <b>+19.6%</b></span><span>1周 <b>+5.5%</b></span><span>3日 <b>+4.3%</b></span><span>3块 <b>+1.4%</b></span></div>
@@ -518,7 +518,7 @@
 <article class="card" id="ticker-z">
 <header><span class="rank">#48</span><div><h2>Z</h2><p>Zillow Group, Inc. - Class C Capital Stock</p></div><strong>73.3</strong></header>
 <div class="signal-banner">Deep v4 Shape Embedding 未确认</div>
-<div class="card-actions"><a class="ta-report-link" href="tradingagents/z.html" title="打开 Z TradingAgents 中文研报">TradingAgents 研报 · WATCH-BUY / 强观察</a></div>
+<div class="card-actions"><a class="ta-report-link" href="tradingagents/z.html" title="打开 Z TradingAgents 中文研报">TradingAgents 研报 · BUY-WATCH / 偏买入观察</a></div>
 <div class="source-chips"><span>Deep v4 Shape Embedding Watch</span></div>
 <p class="company-intro"><b>Aster 独立评分</b> · 最新 $33.03<br><span>Zillow Group, Inc. - Class C Capital Stock is a publicly traded company.</span></p>
 <div class="return-strip"><span>6月 <b>-49.9%</b></span><span>1月 <b>+3.2%</b></span><span>1周 <b>+2.6%</b></span><span>3日 <b>-2.4%</b></span><span>3块 <b>-1.3%</b></span></div>
