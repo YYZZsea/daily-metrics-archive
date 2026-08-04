@@ -1,13 +1,14 @@
 {
   "ticker": "CRI",
-  "date": "2026-08-03",
-  "generated_at": "2026-08-03 13:20:09",
+  "date": "2026-08-04",
+  "generated_at": "2026-08-04 13:20:27",
   "mode": "enhanced-fallback",
-  "decision": "HOLD-WATCH / 继续观察",
+  "decision": "BUY-WATCH / 偏买入观察",
   "provider": "",
   "error": "",
   "sources": [
-    "prism-russell2000-4h-signal-ranking"
+    "aster-ema-candle-capture-ranking",
+    "aster-ema-cross-ranking"
   ],
-  "public_data_fetched_at": "2026-08-03 13:20:09"
+  "public_data_fetched_at": "2026-08-04 13:20:27"
 }
