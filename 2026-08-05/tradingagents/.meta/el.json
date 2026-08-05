@@ -1,19 +1,15 @@
 {
   "ticker": "EL",
-  "date": "2026-08-04",
-  "generated_at": "2026-08-04 13:20:27",
+  "date": "2026-08-05",
+  "generated_at": "2026-08-05 13:20:19",
   "mode": "enhanced-fallback",
-  "decision": "WATCH-BUY / 强观察",
+  "decision": "BUY-WATCH / 偏买入观察",
   "provider": "",
   "error": "",
   "sources": [
-    "aster-consensus-agent-ranking",
     "aster-trend-relay-ranking",
-    "aster-v3-quality-momentum-ranking",
-    "aster-v5-risk-adjusted-ranking",
     "early-spx-4h-signal-ranking",
-    "prism-spx-4h-signal-ranking",
-    "spx-early-signal-ranking"
+    "prism-spx-4h-signal-ranking"
   ],
-  "public_data_fetched_at": "2026-08-04 13:20:27"
+  "public_data_fetched_at": "2026-08-05 13:20:19"
 }
