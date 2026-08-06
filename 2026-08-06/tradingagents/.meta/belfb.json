@@ -1,17 +1,13 @@
 {
   "ticker": "BELFB",
-  "date": "2026-08-05",
-  "generated_at": "2026-08-05 13:20:19",
+  "date": "2026-08-06",
+  "generated_at": "2026-08-06 13:20:29",
   "mode": "enhanced-fallback",
   "decision": "WATCH-BUY / 强观察",
   "provider": "",
   "error": "",
   "sources": [
-    "nasdaq500-early-signal-ranking",
-    "russell2000-early-signal-ranking",
-    "early-nasdaq500-4h-signal-ranking",
-    "early-russell2000-4h-signal-ranking",
-    "prism-nasdaq500-4h-signal-ranking"
+    "aster-ema-cross-ranking"
   ],
-  "public_data_fetched_at": "2026-08-05 13:20:19"
+  "public_data_fetched_at": "2026-08-06 13:20:29"
 }

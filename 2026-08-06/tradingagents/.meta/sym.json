@@ -1,22 +1,13 @@
 {
   "ticker": "SYM",
-  "date": "2026-08-05",
-  "generated_at": "2026-08-05 13:20:19",
+  "date": "2026-08-06",
+  "generated_at": "2026-08-06 13:20:29",
   "mode": "enhanced-fallback",
-  "decision": "WATCH-BUY / 强观察",
+  "decision": "WAIT / 暂不追",
   "provider": "",
   "error": "",
   "sources": [
-    "nasdaq200-rankings",
-    "aster-consensus-agent-ranking",
-    "aster-trend-relay-ranking",
-    "aster-v3-quality-momentum-ranking",
-    "aster-v5-risk-adjusted-ranking",
-    "nasdaq200-early-signal-ranking",
-    "nasdaq500-early-signal-ranking",
-    "early-nasdaq200-4h-signal-ranking",
-    "early-nasdaq500-4h-signal-ranking",
-    "prism-nasdaq200-4h-signal-ranking"
+    "nasdaq200-early-signal-ranking"
   ],
-  "public_data_fetched_at": "2026-08-05 13:20:19"
+  "public_data_fetched_at": "2026-08-06 13:20:29"
 }
