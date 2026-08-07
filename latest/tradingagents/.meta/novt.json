@@ -1,16 +1,15 @@
 {
   "ticker": "NOVT",
-  "date": "2026-08-06",
-  "generated_at": "2026-08-06 13:20:29",
+  "date": "2026-08-07",
+  "generated_at": "2026-08-07 13:20:37",
   "mode": "enhanced-fallback",
-  "decision": "BUY-WATCH / 偏买入观察",
+  "decision": "WATCH-BUY / 强观察",
   "provider": "",
   "error": "",
   "sources": [
     "aster-ema-cross-ranking",
-    "nasdaq500-early-signal-ranking",
-    "russell2000-early-signal-ranking",
-    "early-nasdaq500-4h-signal-ranking"
+    "aster-trend-relay-ranking",
+    "nasdaq500-early-signal-ranking"
   ],
-  "public_data_fetched_at": "2026-08-06 13:20:29"
+  "public_data_fetched_at": "2026-08-07 13:20:37"
 }
