@@ -1,14 +1,22 @@
 {
   "ticker": "MDV",
-  "date": "2026-08-07",
-  "generated_at": "2026-08-07 13:20:37",
+  "date": "2026-08-10",
+  "generated_at": "2026-08-10 13:20:03",
   "mode": "enhanced-fallback",
-  "decision": "WATCH-BUY / 强观察",
+  "decision": "BUY-WATCH / 偏买入观察",
   "provider": "",
   "error": "",
   "sources": [
-    "aster-ema-candle-capture-ranking",
+    "aster-call-ranking",
+    "aster-consensus-agent-ranking",
+    "aster-ema-cross-ranking",
+    "aster-v2-balanced-ranking",
+    "aster-v3-quality-momentum-ranking",
+    "aster-v4-tactical-breakout-ranking",
+    "aster-v5-risk-adjusted-ranking",
+    "russell2000-early-signal-ranking",
+    "early-russell2000-4h-signal-ranking",
     "prism-russell2000-4h-signal-ranking"
   ],
-  "public_data_fetched_at": "2026-08-07 13:20:37"
+  "public_data_fetched_at": "2026-08-10 13:20:03"
 }
