@@ -3,8 +3,8 @@
   "tickers": {
     "HOOD": {
       "first_seen": "2026-06-26",
-      "consecutive_signal_days": 2,
-      "last_signal": true,
+      "consecutive_signal_days": 0,
+      "last_signal": false,
       "last_seen_date": "2026-08-19",
       "last_signal_date": "2026-08-19"
     },
@@ -31,10 +31,10 @@
     },
     "ED": {
       "first_seen": "2026-06-26",
-      "consecutive_signal_days": 0,
-      "last_signal": false,
+      "consecutive_signal_days": 1,
+      "last_signal": true,
       "last_seen_date": "2026-08-19",
-      "last_signal_date": "2026-08-18"
+      "last_signal_date": "2026-08-19"
     },
     "EQR": {
       "first_seen": "2026-06-26",
@@ -218,9 +218,9 @@
     },
     "NOW": {
       "first_seen": "2026-07-02",
-      "consecutive_signal_days": 3,
+      "consecutive_signal_days": 0,
       "last_signal_date": "2026-08-19",
-      "last_signal": true,
+      "last_signal": false,
       "last_seen_date": "2026-08-19"
     },
     "GOOG": {
@@ -295,10 +295,10 @@
     },
     "AME": {
       "first_seen": "2026-07-02",
-      "consecutive_signal_days": 0,
-      "last_signal": false,
+      "consecutive_signal_days": 1,
+      "last_signal": true,
       "last_seen_date": "2026-08-19",
-      "last_signal_date": "2026-07-15"
+      "last_signal_date": "2026-08-19"
     },
     "AXP": {
       "first_seen": "2026-07-02",
@@ -356,10 +356,10 @@
     },
     "TDY": {
       "first_seen": "2026-07-02",
-      "consecutive_signal_days": 0,
-      "last_signal": false,
+      "consecutive_signal_days": 1,
+      "last_signal": true,
       "last_seen_date": "2026-08-19",
-      "last_signal_date": "2026-07-29"
+      "last_signal_date": "2026-08-19"
     },
     "TSM": {
       "first_seen": "2026-07-02",
@@ -376,10 +376,10 @@
     },
     "WFC": {
       "first_seen": "2026-07-02",
-      "consecutive_signal_days": 0,
-      "last_signal": false,
+      "consecutive_signal_days": 1,
+      "last_signal": true,
       "last_seen_date": "2026-08-19",
-      "last_signal_date": "2026-07-29"
+      "last_signal_date": "2026-08-19"
     },
     "XE": {
       "first_seen": "2026-07-02",
@@ -418,8 +418,8 @@
     },
     "COR": {
       "first_seen": "2026-07-06",
-      "consecutive_signal_days": 1,
-      "last_signal": true,
+      "consecutive_signal_days": 0,
+      "last_signal": false,
       "last_seen_date": "2026-08-19",
       "last_signal_date": "2026-08-19"
     },
