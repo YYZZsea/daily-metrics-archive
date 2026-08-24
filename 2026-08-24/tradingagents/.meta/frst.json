@@ -1,17 +1,13 @@
 {
   "ticker": "FRST",
-  "date": "2026-08-12",
-  "generated_at": "2026-08-12 13:20:22",
+  "date": "2026-08-24",
+  "generated_at": "2026-08-24 13:20:35",
   "mode": "enhanced-fallback",
-  "decision": "WATCH-BUY / 强观察",
+  "decision": "BUY-WATCH / 偏买入观察",
   "provider": "",
   "error": "",
   "sources": [
-    "aster-call-ranking",
-    "aster-consensus-agent-ranking",
-    "aster-v2-balanced-ranking",
-    "aster-v4-tactical-breakout-ranking",
-    "aster-v5-risk-adjusted-ranking"
+    "aster-ema-candle-capture-ranking"
   ],
-  "public_data_fetched_at": "2026-08-12 13:20:22"
+  "public_data_fetched_at": "2026-08-24 13:20:35"
 }

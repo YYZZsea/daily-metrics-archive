@@ -1,13 +1,14 @@
 {
   "ticker": "PPHC",
-  "date": "2026-08-12",
-  "generated_at": "2026-08-12 13:20:22",
+  "date": "2026-08-24",
+  "generated_at": "2026-08-24 13:20:35",
   "mode": "enhanced-fallback",
   "decision": "HOLD-WATCH / 继续观察",
   "provider": "",
   "error": "",
   "sources": [
-    "russell2000-early-signal-ranking"
+    "early-russell2000-4h-signal-ranking",
+    "prism-russell2000-4h-signal-ranking"
   ],
-  "public_data_fetched_at": "2026-08-12 13:20:22"
+  "public_data_fetched_at": "2026-08-24 13:20:35"
 }

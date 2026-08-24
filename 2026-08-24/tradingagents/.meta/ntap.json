@@ -1,18 +1,15 @@
 {
   "ticker": "NTAP",
-  "date": "2026-08-12",
-  "generated_at": "2026-08-12 13:20:22",
+  "date": "2026-08-24",
+  "generated_at": "2026-08-24 13:20:35",
   "mode": "enhanced-fallback",
-  "decision": "HOLD-WATCH / 继续观察",
+  "decision": "WAIT / 暂不追",
   "provider": "",
   "error": "",
   "sources": [
     "spx-yahoo-rankings",
     "nasdaq200-rankings",
-    "nasdaq500-rankings",
-    "nasdaq200-early-signal-ranking",
-    "early-nasdaq200-4h-signal-ranking",
-    "prism-nasdaq200-4h-signal-ranking"
+    "nasdaq500-rankings"
   ],
-  "public_data_fetched_at": "2026-08-12T13:20:42-07:00"
+  "public_data_fetched_at": "2026-08-24T13:21:17-07:00"
 }

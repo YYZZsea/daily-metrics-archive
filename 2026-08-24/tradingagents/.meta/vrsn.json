@@ -1,13 +1,29 @@
 {
   "ticker": "VRSN",
-  "date": "2026-08-12",
-  "generated_at": "2026-08-12 13:20:22",
+  "date": "2026-08-24",
+  "generated_at": "2026-08-24 13:20:35",
   "mode": "enhanced-fallback",
-  "decision": "WAIT / 暂不追",
+  "decision": "BUY-WATCH / 偏买入观察",
   "provider": "",
   "error": "",
   "sources": [
-    "nasdaq200-rankings"
+    "nasdaq200-rankings",
+    "aster-call-ranking",
+    "aster-consensus-agent-ranking",
+    "aster-trend-relay-ranking",
+    "aster-v2-balanced-ranking",
+    "aster-v3-quality-momentum-ranking",
+    "aster-v4-tactical-breakout-ranking",
+    "aster-v5-risk-adjusted-ranking",
+    "nasdaq200-early-signal-ranking",
+    "nasdaq500-early-signal-ranking",
+    "early-nasdaq200-4h-signal-ranking",
+    "early-nasdaq500-4h-signal-ranking",
+    "early-spx-4h-signal-ranking",
+    "prism-nasdaq200-4h-signal-ranking",
+    "prism-nasdaq500-4h-signal-ranking",
+    "prism-spx-4h-signal-ranking",
+    "spx-early-signal-ranking"
   ],
-  "public_data_fetched_at": "2026-08-12 13:20:22"
+  "public_data_fetched_at": "2026-08-24 13:20:35"
 }
