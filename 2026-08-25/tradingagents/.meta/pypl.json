@@ -1,15 +1,16 @@
 {
   "ticker": "PYPL",
-  "date": "2026-08-24",
-  "generated_at": "2026-08-24 13:20:35",
+  "date": "2026-08-25",
+  "generated_at": "2026-08-25 13:21:43",
   "mode": "enhanced-fallback",
-  "decision": "WAIT / 暂不追",
+  "decision": "HOLD-WATCH / 继续观察",
   "provider": "",
   "error": "",
   "sources": [
+    "spx-yahoo-rankings",
     "nasdaq200-rankings",
     "early-nasdaq200-4h-signal-ranking",
     "prism-nasdaq200-4h-signal-ranking"
   ],
-  "public_data_fetched_at": "2026-08-24 13:20:35"
+  "public_data_fetched_at": "2026-08-25T13:22:36-07:00"
 }
