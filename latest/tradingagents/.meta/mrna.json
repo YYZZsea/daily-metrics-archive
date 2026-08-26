@@ -1,7 +1,7 @@
 {
   "ticker": "MRNA",
-  "date": "2026-08-25",
-  "generated_at": "2026-08-25 13:21:43",
+  "date": "2026-08-26",
+  "generated_at": "2026-08-26 13:21:23",
   "mode": "enhanced-fallback",
   "decision": "HOLD-WATCH / 继续观察",
   "provider": "",
@@ -9,7 +9,10 @@
   "sources": [
     "spx-yahoo-rankings",
     "nasdaq500-rankings",
-    "prism-nasdaq500-4h-signal-ranking"
+    "nasdaq500-early-signal-ranking",
+    "prism-nasdaq500-4h-signal-ranking",
+    "prism-spx-4h-signal-ranking",
+    "spx-early-signal-ranking"
   ],
-  "public_data_fetched_at": "2026-08-25T13:21:43-07:00"
+  "public_data_fetched_at": "2026-08-26T13:21:24-07:00"
 }

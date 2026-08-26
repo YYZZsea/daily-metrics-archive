@@ -1,13 +1,15 @@
 {
   "ticker": "INTC",
-  "date": "2026-08-25",
-  "generated_at": "2026-08-25 13:21:43",
+  "date": "2026-08-26",
+  "generated_at": "2026-08-26 13:21:23",
   "mode": "enhanced-fallback",
   "decision": "WAIT / 暂不追",
   "provider": "",
   "error": "",
   "sources": [
-    "nasdaq200-rankings"
+    "spx-yahoo-rankings",
+    "nasdaq200-rankings",
+    "nasdaq500-rankings"
   ],
-  "public_data_fetched_at": "2026-08-25 13:21:43"
+  "public_data_fetched_at": "2026-08-26T13:21:39-07:00"
 }
