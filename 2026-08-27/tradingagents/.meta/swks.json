@@ -1,14 +1,16 @@
 {
   "ticker": "SWKS",
-  "date": "2026-08-26",
-  "generated_at": "2026-08-26 13:21:23",
+  "date": "2026-08-27",
+  "generated_at": "2026-08-27 13:21:23",
   "mode": "enhanced-fallback",
-  "decision": "WAIT / 暂不追",
+  "decision": "BUY-WATCH / 偏买入观察",
   "provider": "",
   "error": "",
   "sources": [
     "spx-yahoo-rankings",
-    "nasdaq500-rankings"
+    "nasdaq500-rankings",
+    "aster-ema-candle-capture-ranking",
+    "prism-spx-4h-signal-ranking"
   ],
-  "public_data_fetched_at": "2026-08-26T13:21:36-07:00"
+  "public_data_fetched_at": "2026-08-27T13:21:32-07:00"
 }
