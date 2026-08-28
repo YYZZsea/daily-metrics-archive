@@ -1,14 +1,16 @@
 {
   "ticker": "ASST",
-  "date": "2026-08-27",
-  "generated_at": "2026-08-27 13:21:23",
+  "date": "2026-08-28",
+  "generated_at": "2026-08-28 13:20:30",
   "mode": "enhanced-fallback",
-  "decision": "WAIT / 暂不追",
+  "decision": "HOLD-WATCH / 继续观察",
   "provider": "",
   "error": "",
   "sources": [
     "russell2000-rankings",
-    "nasdaq500-rankings"
+    "nasdaq500-rankings",
+    "nasdaq500-early-signal-ranking",
+    "prism-nasdaq500-4h-signal-ranking"
   ],
-  "public_data_fetched_at": "2026-08-27 13:21:23"
+  "public_data_fetched_at": "2026-08-28 13:20:30"
 }

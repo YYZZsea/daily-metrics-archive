@@ -1,19 +1,15 @@
 {
   "ticker": "NVRI",
-  "date": "2026-08-27",
-  "generated_at": "2026-08-27 13:21:23",
+  "date": "2026-08-28",
+  "generated_at": "2026-08-28 13:20:30",
   "mode": "enhanced-fallback",
-  "decision": "BUY-WATCH / 偏买入观察",
+  "decision": "WATCH-BUY / 强观察",
   "provider": "",
   "error": "",
   "sources": [
-    "aster-call-ranking",
-    "aster-consensus-agent-ranking",
     "aster-ema-cross-ranking",
-    "aster-v2-balanced-ranking",
-    "aster-v5-risk-adjusted-ranking",
     "early-russell2000-4h-signal-ranking",
     "prism-russell2000-4h-signal-ranking"
   ],
-  "public_data_fetched_at": "2026-08-27 13:21:23"
+  "public_data_fetched_at": "2026-08-28 13:20:30"
 }
