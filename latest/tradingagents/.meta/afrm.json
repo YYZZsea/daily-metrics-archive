@@ -1,18 +1,14 @@
 {
   "ticker": "AFRM",
-  "date": "2026-08-28",
-  "generated_at": "2026-08-28 13:20:30",
+  "date": "2026-08-31",
+  "generated_at": "2026-08-31 13:21:30",
   "mode": "enhanced-fallback",
-  "decision": "HOLD-WATCH / 继续观察",
+  "decision": "WAIT / 暂不追",
   "provider": "",
   "error": "",
   "sources": [
     "nasdaq200-rankings",
-    "aster-ema-candle-capture-ranking",
-    "nasdaq200-early-signal-ranking",
-    "nasdaq500-early-signal-ranking",
-    "early-nasdaq200-4h-signal-ranking",
-    "prism-nasdaq200-4h-signal-ranking"
+    "nasdaq200-early-signal-ranking"
   ],
-  "public_data_fetched_at": "2026-08-28 13:20:30"
+  "public_data_fetched_at": "2026-08-31 13:21:30"
 }

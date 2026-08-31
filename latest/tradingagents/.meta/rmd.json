@@ -1,7 +1,7 @@
 {
   "ticker": "RMD",
-  "date": "2026-08-28",
-  "generated_at": "2026-08-28 13:20:30",
+  "date": "2026-08-31",
+  "generated_at": "2026-08-31 13:21:30",
   "mode": "enhanced-fallback",
   "decision": "BUY-WATCH / 偏买入观察",
   "provider": "",
@@ -9,7 +9,9 @@
   "sources": [
     "spx-yahoo-rankings",
     "aster-trend-relay-ranking",
-    "prism-spx-4h-signal-ranking"
+    "aster-v3-quality-momentum-ranking",
+    "prism-spx-4h-signal-ranking",
+    "spx-early-signal-ranking"
   ],
-  "public_data_fetched_at": "2026-08-28T13:20:37-07:00"
+  "public_data_fetched_at": "2026-08-31T13:21:40-07:00"
 }
