@@ -1,19 +1,14 @@
 {
   "ticker": "KHC",
-  "date": "2026-08-31",
-  "generated_at": "2026-08-31 13:21:30",
+  "date": "2026-09-01",
+  "generated_at": "2026-09-01 13:20:49",
   "mode": "enhanced-fallback",
-  "decision": "BUY-WATCH / 偏买入观察",
+  "decision": "WATCH-BUY / 强观察",
   "provider": "",
   "error": "",
   "sources": [
     "nasdaq200-rankings",
-    "aster-call-ranking",
-    "aster-consensus-agent-ranking",
     "aster-ema-cross-ranking",
-    "aster-v2-balanced-ranking",
-    "aster-v4-tactical-breakout-ranking",
-    "aster-v5-risk-adjusted-ranking",
     "nasdaq200-early-signal-ranking",
     "nasdaq500-early-signal-ranking",
     "early-nasdaq200-4h-signal-ranking",
@@ -24,5 +19,5 @@
     "prism-spx-4h-signal-ranking",
     "spx-early-signal-ranking"
   ],
-  "public_data_fetched_at": "2026-08-31 13:21:30"
+  "public_data_fetched_at": "2026-09-01 13:20:49"
 }

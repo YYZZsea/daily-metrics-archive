@@ -1,15 +1,22 @@
 {
   "ticker": "NESR",
-  "date": "2026-08-31",
-  "generated_at": "2026-08-31 13:21:30",
+  "date": "2026-09-01",
+  "generated_at": "2026-09-01 13:20:49",
   "mode": "enhanced-fallback",
-  "decision": "HOLD-WATCH / 继续观察",
+  "decision": "WATCH-BUY / 强观察",
   "provider": "",
   "error": "",
   "sources": [
     "nasdaq500-rankings",
+    "aster-call-ranking",
+    "aster-consensus-agent-ranking",
+    "aster-trend-relay-ranking",
+    "aster-v2-balanced-ranking",
+    "aster-v4-tactical-breakout-ranking",
+    "aster-v5-risk-adjusted-ranking",
     "nasdaq500-early-signal-ranking",
+    "early-nasdaq500-4h-signal-ranking",
     "prism-nasdaq500-4h-signal-ranking"
   ],
-  "public_data_fetched_at": "2026-08-31 13:21:30"
+  "public_data_fetched_at": "2026-09-01 13:20:49"
 }

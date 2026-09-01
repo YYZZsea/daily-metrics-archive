@@ -1,7 +1,7 @@
 {
   "ticker": "FFIV",
-  "date": "2026-08-31",
-  "generated_at": "2026-08-31 13:21:30",
+  "date": "2026-09-01",
+  "generated_at": "2026-09-01 13:20:49",
   "mode": "enhanced-fallback",
   "decision": "WATCH-BUY / 强观察",
   "provider": "",
@@ -9,13 +9,7 @@
   "sources": [
     "spx-yahoo-rankings",
     "nasdaq200-rankings",
-    "aster-call-ranking",
-    "aster-consensus-agent-ranking",
     "aster-ema-candle-capture-ranking",
-    "aster-v2-balanced-ranking",
-    "aster-v4-tactical-breakout-ranking",
-    "aster-v5-risk-adjusted-ranking",
-    "nasdaq200-early-signal-ranking",
     "early-nasdaq200-4h-signal-ranking",
     "early-nasdaq500-4h-signal-ranking",
     "early-spx-4h-signal-ranking",
@@ -23,5 +17,5 @@
     "prism-nasdaq500-4h-signal-ranking",
     "prism-spx-4h-signal-ranking"
   ],
-  "public_data_fetched_at": "2026-08-31T13:22:20-07:00"
+  "public_data_fetched_at": "2026-09-01T13:21:44-07:00"
 }
