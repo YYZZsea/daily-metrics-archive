@@ -1,7 +1,7 @@
 {
   "ticker": "NVDA",
-  "date": "2026-09-01",
-  "generated_at": "2026-09-01 13:20:49",
+  "date": "2026-09-02",
+  "generated_at": "2026-09-02 13:21:23",
   "mode": "enhanced-fallback",
   "decision": "WAIT / 暂不追",
   "provider": "",
@@ -11,8 +11,14 @@
     "nasdaq200-rankings",
     "nasdaq500-rankings",
     "nasdaq200-early-signal-ranking",
+    "nasdaq500-early-signal-ranking",
     "early-nasdaq200-4h-signal-ranking",
-    "prism-nasdaq200-4h-signal-ranking"
+    "early-nasdaq500-4h-signal-ranking",
+    "early-spx-4h-signal-ranking",
+    "prism-nasdaq200-4h-signal-ranking",
+    "prism-nasdaq500-4h-signal-ranking",
+    "prism-spx-4h-signal-ranking",
+    "spx-early-signal-ranking"
   ],
-  "public_data_fetched_at": "2026-09-01T13:20:53-07:00"
+  "public_data_fetched_at": "2026-09-02T13:21:26-07:00"
 }

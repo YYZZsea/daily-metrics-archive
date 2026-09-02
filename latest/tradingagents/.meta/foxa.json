@@ -1,14 +1,20 @@
 {
   "ticker": "FOXA",
-  "date": "2026-09-01",
-  "generated_at": "2026-09-01 13:20:49",
+  "date": "2026-09-02",
+  "generated_at": "2026-09-02 13:21:23",
   "mode": "enhanced-fallback",
   "decision": "WAIT / 暂不追",
   "provider": "",
   "error": "",
   "sources": [
+    "spx-yahoo-rankings",
     "nasdaq200-rankings",
-    "nasdaq200-early-signal-ranking"
+    "nasdaq500-rankings",
+    "nasdaq200-early-signal-ranking",
+    "nasdaq500-early-signal-ranking",
+    "early-nasdaq200-4h-signal-ranking",
+    "prism-nasdaq200-4h-signal-ranking",
+    "spx-early-signal-ranking"
   ],
-  "public_data_fetched_at": "2026-09-01 13:20:49"
+  "public_data_fetched_at": "2026-09-02T13:22:08-07:00"
 }
