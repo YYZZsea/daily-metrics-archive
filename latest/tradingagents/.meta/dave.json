@@ -1,16 +1,15 @@
 {
   "ticker": "DAVE",
-  "date": "2026-09-03",
-  "generated_at": "2026-09-03 13:20:58",
+  "date": "2026-09-08",
+  "generated_at": "2026-09-08 13:21:31",
   "mode": "enhanced-fallback",
-  "decision": "BUY-WATCH / 偏买入观察",
+  "decision": "WAIT / 暂不追",
   "provider": "",
   "error": "",
   "sources": [
-    "aster-ema-cross-ranking",
+    "nasdaq500-rankings",
     "nasdaq500-early-signal-ranking",
-    "early-nasdaq500-4h-signal-ranking",
-    "early-russell2000-4h-signal-ranking"
+    "early-nasdaq500-4h-signal-ranking"
   ],
-  "public_data_fetched_at": "2026-09-03 13:20:58"
+  "public_data_fetched_at": "2026-09-08 13:21:31"
 }

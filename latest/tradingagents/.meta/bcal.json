@@ -1,18 +1,14 @@
 {
   "ticker": "BCAL",
-  "date": "2026-09-03",
-  "generated_at": "2026-09-03 13:20:58",
+  "date": "2026-09-08",
+  "generated_at": "2026-09-08 13:21:31",
   "mode": "enhanced-fallback",
   "decision": "WATCH-BUY / 强观察",
   "provider": "",
   "error": "",
   "sources": [
-    "aster-call-ranking",
-    "aster-consensus-agent-ranking",
-    "aster-v2-balanced-ranking",
-    "aster-v5-risk-adjusted-ranking",
-    "early-russell2000-4h-signal-ranking",
-    "prism-russell2000-4h-signal-ranking"
+    "aster-chan-kline-pattern-ranking",
+    "aster-v3-quality-momentum-ranking"
   ],
-  "public_data_fetched_at": "2026-09-03 13:20:58"
+  "public_data_fetched_at": "2026-09-08 13:21:31"
 }
