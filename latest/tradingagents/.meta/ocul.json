@@ -1,13 +1,23 @@
 {
   "ticker": "OCUL",
-  "date": "2026-09-08",
-  "generated_at": "2026-09-08 13:21:31",
+  "date": "2026-09-09",
+  "generated_at": "2026-09-09 13:30:24",
   "mode": "enhanced-fallback",
-  "decision": "WAIT / 暂不追",
+  "decision": "WATCH-BUY / 强观察",
   "provider": "",
   "error": "",
   "sources": [
-    "russell2000-rankings"
+    "russell2000-rankings",
+    "aster-call-ranking",
+    "aster-consensus-agent-ranking",
+    "aster-deep-v3-daily-cnn-ranking",
+    "aster-deep-v4-shape-embedding-ranking",
+    "aster-trend-relay-ranking",
+    "aster-v2-balanced-ranking",
+    "aster-v4-tactical-breakout-ranking",
+    "aster-v5-risk-adjusted-ranking",
+    "russell2000-early-signal-ranking",
+    "early-russell2000-4h-signal-ranking"
   ],
-  "public_data_fetched_at": "2026-09-08 13:21:31"
+  "public_data_fetched_at": "2026-09-09 13:30:24"
 }

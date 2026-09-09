@@ -1,631 +1,624 @@
 ﻿buy_date,latest_date,strategy,universe,ticker,name,sector,original_rank,current_rank,return,buy_close,latest_close,selection_reason,signal_reason
-2026-08-28,2026-09-08,Early,S&P 500,SMCI,Supermicro,Information Technology,1,1,0.08576041,37.080002,40.259998,当日前50,
-2026-08-28,2026-09-08,Early,S&P 500,BG,Bunge Global,Consumer Staples,2,8,0.07327854,115.449997,123.910004,当日前50,连续至少3个快照收益为正
-2026-08-28,2026-09-08,Early,S&P 500,HAL,Halliburton,Energy,3,9,0.01727713,36.174999,36.799999,当日前50,
-2026-08-28,2026-09-08,Early,S&P 500,ORCL,Oracle Corporation,Information Technology,4,36,0.07829089,150.720001,162.520004,当日前50,
-2026-08-28,2026-09-08,Early,S&P 500,ALB,Albemarle Corporation,Materials,5,47,-0.05650619,137.330002,129.570007,当日前50,
-2026-08-28,2026-09-08,Early,S&P 500,SNPS,Synopsys,Information Technology,6,358,-0.11427665,442.609985,392.029999,当日前50,
-2026-08-28,2026-09-08,Early,S&P 500,HOOD,Robinhood Markets,Financials,7,5,0.12545553,104.260002,117.339996,当日前50,
-2026-08-28,2026-09-08,Early,S&P 500,CVNA,Carvana,Consumer Discretionary,8,27,0.00945568,74.029999,74.730003,当日前50,
-2026-08-28,2026-09-08,Early,S&P 500,APD,Air Products,Materials,9,263,-0.03328030,307.989990,297.739990,当日前50,
-2026-08-28,2026-09-08,Early,S&P 500,NFLX,Netflix,Communication Services,10,157,-0.06057274,81.720001,76.769997,当日前50,
-2026-08-28,2026-09-08,Early,S&P 500,TGT,Target Corporation,Consumer Staples,11,121,-0.00266567,163.184998,162.750000,当日前50,
-2026-08-28,2026-09-08,Early,S&P 500,MRK,Merck & Co.,Health Care,12,107,0.00114623,148.309998,148.479996,当日前50,
-2026-08-28,2026-09-08,Early,S&P 500,ADSK,Autodesk,Information Technology,13,486,-0.18587430,260.660004,212.210007,当日前50,
-2026-08-28,2026-09-08,Early,S&P 500,A,Agilent Technologies,Health Care,14,162,-0.04565262,153.770004,146.750000,当日前50,
-2026-08-28,2026-09-08,Early,S&P 500,NWS,News Corp (Class B),Communication Services,15,154,-0.04332850,34.849998,33.340000,当日前50,
-2026-08-28,2026-09-08,Early,S&P 500,TSLA,"Tesla, Inc.",Consumer Discretionary,16,4,0.05565593,348.750000,368.160004,当日前50,
-2026-08-28,2026-09-08,Early,S&P 500,CMCSA,Comcast,Communication Services,17,158,-0.02697705,27.059999,26.330000,当日前50,
-2026-08-28,2026-09-08,Early,S&P 500,DIS,Walt Disney Company (The),Communication Services,18,228,-0.02770970,108.084999,105.089996,当日前50,
-2026-08-28,2026-09-08,Early,S&P 500,SBAC,SBA Communications,Real Estate,19,17,-0.01183553,190.949997,188.690002,当日前50,
-2026-08-28,2026-09-08,Early,S&P 500,PFE,Pfizer,Health Care,20,188,-0.00590125,27.959999,27.795000,当日前50,连续至少3个快照收益为正
-2026-08-28,2026-09-08,Early,S&P 500,VRTX,Vertex Pharmaceuticals,Health Care,21,127,-0.02361125,541.690002,528.900024,当日前50,连续至少3个快照收益为正；连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,S&P 500,UBER,Uber,Industrials,22,197,-0.07205916,78.820000,73.140297,当日前50,
-2026-08-28,2026-09-08,Early,S&P 500,MRNA,Moderna,Health Care,23,49,0.01695773,137.990005,140.330002,当日前50,
-2026-08-28,2026-09-08,Early,S&P 500,GILD,Gilead Sciences,Health Care,24,124,0.00658983,145.679993,146.639999,当日前50,
-2026-08-28,2026-09-08,Early,S&P 500,CPRT,Copart,Industrials,25,119,-0.01182188,32.990002,32.599998,当日前50,
-2026-08-28,2026-09-08,Early,S&P 500,JKHY,Jack Henry & Associates,Financials,26,173,-0.05832790,169.729996,159.830002,当日前50,
-2026-08-28,2026-09-08,Early,S&P 500,PEP,PepsiCo,Consumer Staples,27,311,-0.01857241,141.070007,138.449997,当日前50,
-2026-08-28,2026-09-08,Early,S&P 500,EFX,Equifax,Industrials,28,341,-0.11591745,194.190002,171.679993,当日前50,
-2026-08-28,2026-09-08,Early,S&P 500,DHR,Danaher Corporation,Health Care,29,220,-0.05033324,216.059998,205.184998,当日前50,
-2026-08-28,2026-09-08,Early,S&P 500,SNDK,Sandisk,Information Technology,30,2,0.17037941,1484.979980,1737.989990,当日前50,
-2026-08-28,2026-09-08,Early,S&P 500,AAPL,Apple Inc.,Information Technology,31,96,-0.01088524,319.700012,316.220001,当日前50,
-2026-08-28,2026-09-08,Early,S&P 500,PLTR,Palantir Technologies,Information Technology,32,236,-0.08583386,186.289993,170.300003,当日前50,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,S&P 500,PSKY,Paramount Skydance Corporation,Communication Services,33,6,-0.00735294,10.880000,10.800000,当日前50,
-2026-08-28,2026-09-08,Early,S&P 500,FTNT,Fortinet,Information Technology,34,241,-0.05138554,166.000000,157.470001,当日前50,
-2026-08-28,2026-09-08,Early,S&P 500,AMT,American Tower,Real Estate,35,79,-0.00289342,176.259995,175.750000,当日前50,
-2026-08-28,2026-09-08,Early,S&P 500,TRMB,Trimble Inc.,Information Technology,36,219,-0.03655137,61.009998,58.779999,当日前50,
-2026-08-28,2026-09-08,Early,S&P 500,IBKR,Interactive Brokers,Financials,37,140,-0.05081381,95.839996,90.970001,当日前50,
-2026-08-28,2026-09-08,Early,S&P 500,OKE,Oneok,Energy,38,14,0.02918359,94.745003,97.510002,当日前50,
-2026-08-28,2026-09-08,Early,S&P 500,HLT,Hilton Worldwide,Consumer Discretionary,39,376,-0.05474298,322.049988,304.420013,当日前50,
-2026-08-28,2026-09-08,Early,S&P 500,MCO,Moody's Corporation,Financials,40,206,-0.06528794,514.950012,481.329987,当日前50,
-2026-08-28,2026-09-08,Early,S&P 500,RSG,Republic Services,Industrials,41,82,-0.00209354,222.110001,221.645004,当日前50,
-2026-08-28,2026-09-08,Early,S&P 500,SPGI,S&P Global,Financials,42,77,-0.03059455,442.890015,429.339996,当日前50,
-2026-08-28,2026-09-08,Early,S&P 500,FDX,FedEx,Industrials,43,316,-0.05029700,330.734985,314.100006,当日前50,
-2026-08-28,2026-09-08,Early,S&P 500,UNP,Union Pacific Corporation,Industrials,44,329,-0.05994342,307.290009,288.869995,当日前50,
-2026-08-28,2026-09-08,Early,S&P 500,EXE,Expand Energy,Energy,45,78,0.00030560,98.160004,98.190002,当日前50,
-2026-08-28,2026-09-08,Early,S&P 500,DVN,Devon Energy,Energy,46,54,0.02217538,47.349998,48.400002,当日前50,
-2026-08-28,2026-09-08,Early,S&P 500,DE,Deere & Company,Industrials,47,56,0.08030909,630.190002,680.799988,当日前50,连续至少3个快照收益为正
-2026-08-28,2026-09-08,Early,S&P 500,COIN,Coinbase,Financials,48,63,0.00167937,178.639999,178.940002,当日前50,
-2026-08-28,2026-09-08,Early,S&P 500,WMB,Williams Companies,Energy,49,18,0.02892351,73.708099,75.839996,当日前50,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,S&P 500,HUM,Humana,Health Care,50,26,0.04537088,385.709991,403.209991,当日前50,
-2026-08-28,2026-09-08,Early,S&P 500,MCK,McKesson Corporation,Health Care,59,89,-0.00518054,893.729980,889.099976,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,S&P 500,MOS,Mosaic Company (The),Materials,61,51,0.12341231,23.620001,26.535000,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,S&P 500,CDW,CDW Corporation,Information Technology,68,76,-0.02173475,147.690002,144.479996,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,S&P 500,ZTS,Zoetis,Health Care,70,333,-0.04886875,77.349998,73.570000,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,S&P 500,KDP,Keurig Dr Pepper,Consumer Staples,72,20,0.01149779,32.180000,32.549999,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,S&P 500,PGR,Progressive Corporation,Financials,74,275,-0.01710492,218.649994,214.910004,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,S&P 500,CF,CF Industries,Materials,76,7,0.06866528,125.754997,134.389999,加粗信号,连续至少3个快照收益为正
-2026-08-28,2026-09-08,Early,S&P 500,EG,Everest Group,Financials,78,86,-0.02016895,377.609985,369.993988,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,S&P 500,GDDY,GoDaddy,Information Technology,79,171,-0.04957284,97.735001,92.889999,加粗信号,连续至少3个快照收益为正
-2026-08-28,2026-09-08,Early,S&P 500,YUM,Yum! Brands,Consumer Discretionary,80,75,-0.02798276,153.845001,149.539993,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,S&P 500,VEEV,Veeva Systems,Health Care,82,112,-0.04232629,276.660004,264.950012,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,S&P 500,CTVA,Corteva,Materials,84,11,0.02371021,83.930000,85.919998,加粗信号,连续至少3个快照收益为正
-2026-08-28,2026-09-08,Early,S&P 500,CRM,Salesforce,Information Technology,88,34,-0.02793167,256.339996,249.179993,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,S&P 500,NOW,ServiceNow,Information Technology,89,141,-0.07235661,144.699997,134.229996,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,S&P 500,APA,APA Corporation,Energy,90,38,0.02374231,42.540001,43.549999,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,S&P 500,HPQ,HP Inc.,Information Technology,91,83,0.02228781,30.510000,31.190001,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,S&P 500,FDS,FactSet,Financials,98,190,-0.06432384,308.750000,288.890015,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,S&P 500,EL,Estée Lauder Companies (The),Consumer Staples,105,43,-0.01596518,103.349998,101.699997,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,S&P 500,ACN,Accenture,Information Technology,108,211,-0.05534747,189.529999,179.039993,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,S&P 500,ADBE,Adobe Inc.,Information Technology,125,265,-0.11752189,291.519989,257.260010,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,S&P 500,IQV,IQVIA,Health Care,126,115,-0.00953289,261.725006,259.230011,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,S&P 500,COP,ConocoPhillips,Energy,128,40,0.03609791,130.339996,135.044998,加粗信号,连续至少3个快照收益为正
-2026-08-28,2026-09-08,Early,S&P 500,RVTY,Revvity,Health Care,129,53,-0.01323811,128.794998,127.089996,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,S&P 500,TYL,Tyler Technologies,Information Technology,130,117,-0.07945495,377.950012,347.920013,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,S&P 500,GEN,Gen Digital,Information Technology,136,210,-0.03900712,31.020000,29.809999,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,S&P 500,GIS,General Mills,Consumer Staples,138,125,-0.09242980,41.544998,37.705002,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,S&P 500,CVX,Chevron Corporation,Energy,139,59,0.04022189,201.880005,210.000000,加粗信号,连续至少3个快照收益为正
-2026-08-28,2026-09-08,Early,S&P 500,VZ,Verizon,Communication Services,145,66,0.00638978,50.080002,50.400002,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,S&P 500,TRGP,Targa Resources,Energy,151,42,0.02265469,287.799988,294.320007,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,S&P 500,COR,Cencora,Health Care,152,90,0.00784099,322.024994,324.549988,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Nasdaq 200,SMCI,Supermicro,Information Technology,1,2,0.08576041,37.080002,40.259998,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq 200,SNPS,Synopsys,Information Technology,2,154,-0.11427665,442.609985,392.029999,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq 200,CHKP,Check Point Software Technologies Ltd. - Ordinary Shares,,3,31,-0.03918459,138.320007,132.899994,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq 200,NFLX,Netflix,Communication Services,4,66,-0.06057274,81.720001,76.769997,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq 200,DKNG,DraftKings Inc. - Class A Common Stock,,5,143,-0.05502767,25.260000,23.870001,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq 200,ADSK,Autodesk,Information Technology,6,194,-0.18587430,260.660004,212.210007,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq 200,IONS,"Ionis Pharmaceuticals, Inc. - Common Stock",,7,146,-0.07108927,61.049999,56.709999,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq 200,HTHT,H World Group Limited - American Depositary Shares,,8,57,-0.07611878,47.820000,44.180000,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq 200,Z,"Zillow Group, Inc. - Class C Capital Stock",,9,137,-0.09254063,35.660000,32.360001,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq 200,TEM,"Tempus AI, Inc. - Class A Common Stock",,10,24,0.00390381,64.040001,64.290001,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq 200,NWS,News Corp (Class B),Communication Services,11,64,-0.04332850,34.849998,33.340000,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq 200,TSLA,"Tesla, Inc.",Consumer Discretionary,12,6,0.05565593,348.750000,368.160004,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq 200,CMCSA,Comcast,Communication Services,13,67,-0.02697705,27.059999,26.330000,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq 200,VRTX,Vertex Pharmaceuticals,Health Care,14,53,-0.02361125,541.690002,528.900024,当日前50,连续至少3个快照收益为正；连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Nasdaq 200,GILD,Gilead Sciences,Health Care,15,50,0.00658983,145.679993,146.639999,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq 200,CPRT,Copart,Industrials,16,47,-0.01182188,32.990002,32.599998,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq 200,PEP,PepsiCo,Consumer Staples,17,135,-0.01857241,141.070007,138.449997,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq 200,SNDK,Sandisk,Information Technology,18,3,0.17037941,1484.979980,1737.989990,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq 200,AFRM,"Affirm Holdings, Inc. - Class A Common Stock",,19,145,-0.07304527,77.760002,72.080002,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq 200,AAPL,Apple Inc.,Information Technology,20,39,-0.01088524,319.700012,316.220001,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq 200,PLTR,Palantir Technologies,Information Technology,21,92,-0.08583386,186.289993,170.300003,当日前50,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Nasdaq 200,PSKY,Paramount Skydance Corporation,Communication Services,22,7,-0.00735294,10.880000,10.800000,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq 200,FTNT,Fortinet,Information Technology,23,98,-0.05138554,166.000000,157.470001,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq 200,TRMB,Trimble Inc.,Information Technology,24,86,-0.03655137,61.009998,58.779999,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq 200,MSTR,Strategy Inc - Class A Common Stock,,25,19,0.07234315,127.309998,136.520004,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq 200,ZG,"Zillow Group, Inc. - Class A Common Stock",,26,142,-0.09778754,36.610001,33.029999,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq 200,EXE,Expand Energy,Energy,27,32,0.00030560,98.160004,98.190002,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq 200,MELI,"MercadoLibre, Inc. - Common Stock",,28,65,-0.02034329,1966.250000,1926.250000,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq 200,CEG,Constellation Energy,Utilities,29,25,0.08057810,276.750000,299.049988,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq 200,CRWD,CrowdStrike,Information Technology,30,127,-0.03836992,218.399994,210.020004,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq 200,BIIB,Biogen,Health Care,31,96,-0.02745995,218.500000,212.500000,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq 200,SBUX,Starbucks,Consumer Discretionary,32,153,-0.05414925,107.849998,102.010002,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq 200,CDW,CDW Corporation,Information Technology,33,30,-0.02173475,147.690002,144.479996,当日前50,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Nasdaq 200,VRSN,Verisign,Information Technology,34,123,-0.03332984,291.929993,282.200012,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq 200,SHOP,Shopify Inc. - Class A Subordinate Voting Shares,,35,125,-0.12295611,152.899994,134.100006,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq 200,KDP,Keurig Dr Pepper,Consumer Staples,36,16,0.01149779,32.180000,32.549999,当日前50,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Nasdaq 200,DXCM,Dexcom,Health Care,37,59,-0.06925788,90.820000,84.529999,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq 200,MDGL,"Madrigal Pharmaceuticals, Inc. - Common Stock",,38,34,0.00074933,533.760010,534.159973,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq 200,DOCU,"DocuSign, Inc. - Common Stock",,39,13,0.01687503,64.000000,65.080002,当日前50,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Nasdaq 200,RIVN,"Rivian Automotive, Inc. - Class A Common Stock",,40,87,0.00622278,16.070000,16.170000,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq 200,NVDA,Nvidia,Information Technology,41,20,0.03760052,217.550003,225.729996,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq 200,LITE,Lumentum,Information Technology,42,5,0.09333517,895.000000,978.534973,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq 200,OKTA,"Okta, Inc. - Class A Common Stock",,43,12,0.00821154,166.229996,167.595001,当日前50,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Nasdaq 200,FISV,Fiserv,Financials,44,136,-0.04362540,53.180000,50.860001,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq 200,ADP,Automatic Data Processing,Industrials,45,90,-0.06790044,287.480011,267.959991,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq 200,INTU,Intuit,Information Technology,46,101,-0.10928337,358.059998,318.929993,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq 200,TEAM,Atlassian Corporation  - Class A Common Stock,,47,41,-0.07349734,190.414993,176.419998,当日前50,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Nasdaq 200,NTRA,"Natera, Inc. - Common Stock",,48,80,-0.00649787,326.260010,324.140015,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq 200,AMZN,Amazon,Consumer Discretionary,49,126,-0.03550648,266.429993,256.970001,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq 200,RGLD,"Royal Gold, Inc. - Common Stock",,50,42,-0.00563063,262.850006,261.369995,当日前50,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Nasdaq 200,ARGX,argenx SE - American Depositary Shares,,53,45,-0.01577390,1023.210022,1007.070007,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Nasdaq 200,MDB,"MongoDB, Inc. - Class A Common Stock",,58,173,-0.20290179,446.619995,356.000000,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Nasdaq 200,ADBE,Adobe Inc.,Information Technology,61,105,-0.11752189,291.519989,257.260010,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Nasdaq 200,TRI,Thomson Reuters Corp - Common Shares,,62,78,-0.06980466,106.224998,98.809998,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Nasdaq 200,GEN,Gen Digital,Information Technology,65,83,-0.03900712,31.020000,29.809999,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Nasdaq 200,NWSA,News Corp (Class A),Communication Services,67,55,-0.03713268,30.969999,29.820000,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Nasdaq 200,ROP,Roper Technologies,Information Technology,73,93,-0.07168000,426.200012,395.649994,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Nasdaq 200,RPRX,Royalty Pharma plc - Class A Ordinary Shares,,77,33,-0.00427277,60.849998,60.590000,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Nasdaq 200,ZBRA,Zebra Technologies,Information Technology,80,118,-0.01096929,356.450012,352.540009,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Nasdaq 200,ABNB,Airbnb,Consumer Discretionary,83,71,-0.07860424,189.429993,174.539993,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Nasdaq 200,ALNY,"Alnylam Pharmaceuticals, Inc. - Common Stock",,84,9,0.09700548,237.100006,260.100006,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Nasdaq 200,TSCO,Tractor Supply,Consumer Discretionary,85,28,0.01641705,34.720001,35.290001,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Nasdaq 200,QCOM,Qualcomm,Information Technology,89,15,0.06029596,164.190002,174.089996,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Nasdaq 200,AMGN,Amgen,Health Care,91,79,-0.09076823,432.420013,393.170013,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Nasdaq 200,REGN,Regeneron Pharmaceuticals,Health Care,93,61,0.02029740,794.190002,810.309998,加粗信号,连续至少3个快照收益为正
-2026-08-28,2026-09-08,Early,Nasdaq 200,RVMD,"Revolution Medicines, Inc. - Common Stock",,97,82,-0.00269385,207.880005,207.320007,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Nasdaq 200,BKR,Baker Hughes,Energy,100,27,0.02419481,62.410000,63.919998,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Nasdaq 200,TMUS,T-Mobile US,Communication Services,102,14,0.00176439,181.369995,181.690002,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Nasdaq 200,ULTA,Ulta Beauty,Consumer Discretionary,105,22,0.06131397,517.500000,549.229980,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Nasdaq 200,MSFT,Microsoft,Information Technology,106,104,-0.03812828,513.530029,493.950012,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Nasdaq 200,ECHO,EchoStar,Communication Services,108,38,0.07577156,86.839996,93.419998,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Nasdaq 200,DLTR,Dollar Tree,Consumer Staples,109,117,-0.03290187,128.259995,124.040001,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Nasdaq 200,ROIV,Roivant Sciences Ltd. - Common Shares,,114,10,0.19504469,34.709999,41.480000,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Nasdaq 200,FWONK,Liberty Media Corporation - Series C Liberty Formula One Common Stock,,115,169,-0.06728886,101.800003,94.949997,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Nasdaq 200,FWONA,Liberty Media Corporation - Series A Liberty Formula One Common Stock,,116,149,-0.06604579,93.419998,87.250000,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Nasdaq 200,FANG,Diamondback Energy,Energy,118,48,0.01001667,197.669998,199.649994,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Nasdaq 200,SMMT,Summit Therapeutics Inc.  - Common Stock,,119,21,0.25855798,13.730000,17.280001,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Nasdaq 200,LIN,Linde plc,Materials,122,159,-0.04316562,489.510010,468.380005,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Nasdaq 200,INCY,Incyte,Health Care,123,58,0.00024121,124.370003,124.400002,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Nasdaq 200,NXPI,NXP Semiconductors,Information Technology,129,108,0.00129704,223.580002,223.869995,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Nasdaq Liquid 500,WAY,WAYSTAR HOLDING,Health Care,1,250,-0.07621951,26.240000,24.240000,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq Liquid 500,TWST,TWIST BIOSCIENCE,Health Care,2,180,-0.09421422,141.380005,128.059998,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq Liquid 500,ALM,Almonty Industries Inc. - Common Shares,,3,2,0.05986696,18.040001,19.120001,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq Liquid 500,RZLV,Rezolve AI PLC - Ordinary Shares,,6,467,-0.22222222,2.970000,2.310000,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq Liquid 500,FROG,JFROG,Information Technology,7,333,-0.12163252,98.739998,86.730003,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq Liquid 500,SMCI,Supermicro,Information Technology,8,3,0.08576041,37.080002,40.259998,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq Liquid 500,USAR,USA RARE EARTH CLASS A,Materials,9,442,-0.01834352,17.990000,17.660000,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq Liquid 500,BZ,KANZHUN LIMITED - American Depository Shares,,10,175,-0.06629203,17.799999,16.620001,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq Liquid 500,SNPS,Synopsys,Information Technology,11,390,-0.11427665,442.609985,392.029999,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq Liquid 500,CRML,CRITICAL METALS CORP,Materials,12,61,0.02808989,7.120000,7.320000,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq Liquid 500,LKQ,LKQ Corporation - Common Stock,,14,355,-0.02467689,25.530001,24.900000,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq Liquid 500,TENB,TENABLE HOLDINGS,Information Technology,15,463,-0.10538883,37.669998,33.700001,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq Liquid 500,HOOD,Robinhood Markets,Financials,16,17,0.12545553,104.260002,117.339996,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq Liquid 500,SRRK,SCHOLAR ROCK HOLDING,Health Care,17,82,-0.00657441,57.799999,57.419998,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq Liquid 500,AUGO,Aura Minerals Inc. - Common Shares,,18,69,0.00922748,84.529999,85.309998,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq Liquid 500,CHKP,Check Point Software Technologies Ltd. - Ordinary Shares,,19,102,-0.03918459,138.320007,132.899994,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq Liquid 500,NFLX,Netflix,Communication Services,20,200,-0.06057274,81.720001,76.769997,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq Liquid 500,GTLB,GitLab Inc. - Class A Common Stock,,21,11,0.05081353,44.869999,47.150002,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq Liquid 500,DKNG,DraftKings Inc. - Class A Common Stock,,22,364,-0.05502767,25.260000,23.870001,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq Liquid 500,IOVA,IOVANCE BIOTHERAPEUTICS INC,Health Care,23,110,0.08614232,8.010000,8.700000,当日前50,连续至少3个快照收益为正
-2026-08-28,2026-09-08,Early,Nasdaq Liquid 500,ADSK,Autodesk,Information Technology,24,460,-0.18587430,260.660004,212.210007,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq Liquid 500,MNDY,monday.com Ltd. - Ordinary Shares,,25,356,-0.16919870,100.709999,83.669998,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq Liquid 500,ABCL,AbCellera Biologics Inc. - Common Shares,,26,21,0.00792952,11.350000,11.440000,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq Liquid 500,IONS,"Ionis Pharmaceuticals, Inc. - Common Stock",,27,371,-0.07108927,61.049999,56.709999,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq Liquid 500,TVTX,TRAVERE THERAPEUTICS,Health Care,28,84,0.00609109,65.669998,66.070000,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq Liquid 500,URBN,URBAN OUTFITTERS,Consumer Discretionary,29,105,-0.02047103,81.089996,79.430000,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq Liquid 500,SMTC,Semtech Corporation - Common Stock,,30,91,0.23976517,131.169998,162.619995,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq Liquid 500,RELY,REMITLY GLOBAL,Financials,31,156,-0.06478339,26.549999,24.830000,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq Liquid 500,HTHT,H World Group Limited - American Depositary Shares,,32,182,-0.07611878,47.820000,44.180000,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq Liquid 500,Z,"Zillow Group, Inc. - Class C Capital Stock",,33,358,-0.09254063,35.660000,32.360001,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq Liquid 500,TEM,"Tempus AI, Inc. - Class A Common Stock",,34,77,0.00390381,64.040001,64.290001,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq Liquid 500,TSLA,"Tesla, Inc.",Consumer Discretionary,35,16,0.05565593,348.750000,368.160004,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq Liquid 500,CMCSA,Comcast,Communication Services,36,201,-0.02697705,27.059999,26.330000,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq Liquid 500,DAVE,DAVE CLASS A,Financials,37,34,-0.00573236,378.549988,376.380005,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq Liquid 500,DAIC,"CID HoldCo, Inc. - Common Stock",,39,25,-0.36206897,4.640000,2.960000,当日前50,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Nasdaq Liquid 500,CELH,"Celsius Holdings, Inc. - Common Stock",,40,154,-0.10369924,32.980000,29.559999,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq Liquid 500,CART,Maplebear Inc. - Common Stock,,41,273,-0.05025724,50.540001,48.000000,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq Liquid 500,PURR,HYPERLIQUID STRATEGIES INC,Health Care,42,4,0.02756245,11.610000,11.930000,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq Liquid 500,SBAC,SBA Communications,Real Estate,43,35,-0.01183553,190.949997,188.690002,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq Liquid 500,CAI,"Caris Life Sciences, Inc. - Common Stock",,44,174,-0.03160355,25.629999,24.820000,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq Liquid 500,VRTX,Vertex Pharmaceuticals,Health Care,45,168,-0.02361125,541.690002,528.900024,当日前50,连续至少3个快照收益为正
-2026-08-28,2026-09-08,Early,Nasdaq Liquid 500,MRNA,Moderna,Health Care,46,74,0.01695773,137.990005,140.330002,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq Liquid 500,GILD,Gilead Sciences,Health Care,47,159,0.00658983,145.679993,146.639999,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq Liquid 500,TW,Tradeweb Markets Inc. - Class A Common Stock,,48,219,-0.05391754,108.870003,103.000000,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq Liquid 500,CPRT,Copart,Industrials,49,151,-0.01182188,32.990002,32.599998,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq Liquid 500,CDNA,CAREDX,Health Care,50,80,0.01044386,49.790001,50.310001,当日前50,
-2026-08-28,2026-09-08,Early,Nasdaq Liquid 500,SRPT,SAREPTA THERAPEUTICS,Health Care,60,62,0.00383509,20.860001,20.940001,加粗信号,连续至少3个快照收益为正
-2026-08-28,2026-09-08,Early,Nasdaq Liquid 500,PLTR,Palantir Technologies,Information Technology,64,255,-0.08583386,186.289993,170.300003,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Nasdaq Liquid 500,VERA,VERA THERAPEUTICS CLASS A,Health Care,75,39,0.03188067,34.189999,35.279999,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Nasdaq Liquid 500,XP,XP Inc. - Class A Common Stock,,84,73,0.13193658,17.660000,19.990000,加粗信号,连续至少3个快照收益为正
-2026-08-28,2026-09-08,Early,Nasdaq Liquid 500,WIX,Wix.com Ltd. - Ordinary Shares,,85,126,-0.17005252,87.620003,72.720001,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Nasdaq Liquid 500,PTEN,PATTERSON UTI ENERGY INC,Energy,87,12,0.01850362,12.430000,12.660000,加粗信号,连续至少3个快照收益为正
-2026-08-28,2026-09-08,Early,Nasdaq Liquid 500,CDW,CDW Corporation,Information Technology,90,100,-0.02173475,147.690002,144.479996,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Nasdaq Liquid 500,KDP,Keurig Dr Pepper,Consumer Staples,96,41,0.01149779,32.180000,32.549999,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Nasdaq Liquid 500,TGTX,TG THERAPEUTICS,Health Care,98,28,0.03356206,53.930000,55.740002,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Nasdaq Liquid 500,BULL,WEBULL CORP CLASS A,Financials,101,13,0.02134472,9.370000,9.570000,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Nasdaq Liquid 500,SOUN,SOUNDHOUND AI CLASS A,Information Technology,102,466,-0.07594937,7.110000,6.570000,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Nasdaq Liquid 500,MDGL,"Madrigal Pharmaceuticals, Inc. - Common Stock",,104,112,0.00074933,533.760010,534.159973,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Nasdaq Liquid 500,SLAB,SILICON LABORATORIES,Information Technology,105,52,0.00668073,218.539993,220.000000,加粗信号,连续至少3个快照收益为正
-2026-08-28,2026-09-08,Early,Nasdaq Liquid 500,DOCU,"DocuSign, Inc. - Common Stock",,108,29,0.01687503,64.000000,65.080002,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Nasdaq Liquid 500,SBET,SHARPLINK INC,Financials,110,53,0.07560976,8.200000,8.820000,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Nasdaq Liquid 500,OKTA,"Okta, Inc. - Class A Common Stock",,116,27,0.00821154,166.229996,167.595001,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Nasdaq Liquid 500,WFRD,Weatherford International plc - Ordinary shares,,119,96,-0.00095963,93.790001,93.699997,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Nasdaq Liquid 500,KRYS,KRYSTAL BIOTECH,Health Care,120,99,-0.00056900,351.459991,351.260010,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Nasdaq Liquid 500,APA,APA Corporation,Energy,121,68,0.02374231,42.540001,43.549999,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Nasdaq Liquid 500,NCNO,NCINO,Information Technology,122,78,-0.03697264,22.990000,22.139999,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Nasdaq Liquid 500,APPF,"AppFolio, Inc. - Class A Common Stock",,126,186,-0.12143377,234.490005,206.014999,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Nasdaq Liquid 500,CAPR,CAPRICOR THERAPEUTICS,Health Care,129,65,-0.05526590,9.590000,9.060000,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Nasdaq Liquid 500,RGLD,"Royal Gold, Inc. - Common Stock",,132,139,-0.00563063,262.850006,261.369995,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Nasdaq Liquid 500,CSGP,CoStar Group,Real Estate,138,83,-0.05834888,32.220001,30.340000,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Nasdaq Liquid 500,ARGX,argenx SE - American Depositary Shares,,139,143,-0.01577390,1023.210022,1007.070007,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Nasdaq Liquid 500,PEGA,Pegasystems Inc. - Common Stock,,141,86,-0.01022944,36.169998,35.799999,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Nasdaq Liquid 500,MDB,"MongoDB, Inc. - Class A Common Stock",,151,419,-0.20290179,446.619995,356.000000,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Nasdaq Liquid 500,CHYM,"Chime Financial, Inc. - Class A Common Stock",,153,144,-0.02680723,33.200001,32.310001,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Nasdaq Liquid 500,ADBE,Adobe Inc.,Information Technology,164,282,-0.11752189,291.519989,257.260010,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Nasdaq Liquid 500,TRI,Thomson Reuters Corp - Common Shares,,165,220,-0.06980466,106.224998,98.809998,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Russell,IVVD,INVIVYD,Health Care,1,356,-0.14380508,0.964500,0.825800,当日前50,
-2026-08-28,2026-09-08,Early,Russell,RPD,RAPID7,Information Technology,2,1786,-0.21294206,13.290000,10.460000,当日前50,
-2026-08-28,2026-09-08,Early,Russell,VRNS,VARONIS SYSTEMS,Information Technology,3,148,0.03506378,43.919998,45.459999,当日前50,
-2026-08-28,2026-09-08,Early,Russell,WAY,WAYSTAR HOLDING,Health Care,4,912,-0.07621951,26.240000,24.240000,当日前50,
-2026-08-28,2026-09-08,Early,Russell,REPL,REPLIMUNE GROUP,Health Care,5,560,-0.04709677,15.500000,14.770000,当日前50,
-2026-08-28,2026-09-08,Early,Russell,SGMT,SAGIMET BIOSCIENCES SERIES A,Health Care,6,268,0.01516588,10.550000,10.710000,当日前50,
-2026-08-28,2026-09-08,Early,Russell,TWST,TWIST BIOSCIENCE,Health Care,7,745,-0.09421422,141.380005,128.059998,当日前50,
-2026-08-28,2026-09-08,Early,Russell,CTEV,CLARITEV CORP CLASS A,Health Care,8,665,-0.03986795,39.380001,37.810001,当日前50,
-2026-08-28,2026-09-08,Early,Russell,RUM,RUM GROUP CLASS A,Communication,9,522,-0.06570156,8.980000,8.390000,当日前50,
-2026-08-28,2026-09-08,Early,Russell,KRO,KRONOS WORLDWIDE,Materials,10,454,-0.02154195,8.820000,8.630000,当日前50,
-2026-08-28,2026-09-08,Early,Russell,CLB,CORE LABORATORIES,Energy,11,80,0.01050930,12.370000,12.500000,当日前50,
-2026-08-28,2026-09-08,Early,Russell,FENC,FENNEC PHARMACEUTICALS,Health Care,12,127,0.01466993,12.270000,12.450000,当日前50,
-2026-08-28,2026-09-08,Early,Russell,VHI,VALHI INC,Materials,13,246,0.04413413,17.900000,18.690001,当日前50,
-2026-08-28,2026-09-08,Early,Russell,METC,RAMACO RESOURCES INC CLASS A,Materials,14,363,-0.05789474,13.300000,12.530000,当日前50,
-2026-08-28,2026-09-08,Early,Russell,MASS,908 DEVICES,Information Technology,15,655,-0.08574091,10.730000,9.810000,当日前50,
-2026-08-28,2026-09-08,Early,Russell,BBNX,BETA BIONICS,Health Care,16,528,-0.01977683,19.719999,19.330000,当日前50,
-2026-08-28,2026-09-08,Early,Russell,TNXP,TONIX PHARMACEUTICALS HOLDING,Health Care,17,670,-0.03164091,13.590000,13.160000,当日前50,
-2026-08-28,2026-09-08,Early,Russell,AI,C3 AI CLASS A,Information Technology,18,168,-0.00237192,10.540000,10.515000,当日前50,
-2026-08-28,2026-09-08,Early,Russell,USGO,US GOLDMINING INC,Materials,19,1427,-0.07173913,9.200000,8.540000,当日前50,
-2026-08-28,2026-09-08,Early,Russell,NKTX,NKARTA,Health Care,20,251,0.17028986,2.760000,3.230000,当日前50,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Russell,KURA,KURA ONCOLOGY,Health Care,21,192,-0.01105845,12.660000,12.520000,当日前50,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Russell,NVAX,NOVAVAX,Health Care,22,21,0.10043197,9.260000,10.190000,当日前50,连续至少3个快照收益为正
-2026-08-28,2026-09-08,Early,Russell,GENC,GENCOR INDUSTRIES INC,Industrials,23,75,0.01382979,18.799999,19.059999,当日前50,
-2026-08-28,2026-09-08,Early,Russell,LZM,LIFEZONE METALS LTD,Materials,24,1182,-0.03810624,4.330000,4.165000,当日前50,
-2026-08-28,2026-09-08,Early,Russell,NMAX,NEWSMAX CLASS B,Communication,25,265,0.00000000,10.720000,10.720000,当日前50,
-2026-08-28,2026-09-08,Early,Russell,TH,TARGET HOSPITALITY,Consumer Discretionary,26,282,0.09164426,18.549999,20.250000,当日前50,
-2026-08-28,2026-09-08,Early,Russell,ZYME,ZYMEWORKS,Health Care,27,344,-0.00565967,28.270000,28.110001,当日前50,连续至少3个快照收益为正
-2026-08-28,2026-09-08,Early,Russell,ALEC,ALECTOR,Health Care,28,13,0.05555556,2.340000,2.470000,当日前50,
-2026-08-28,2026-09-08,Early,Russell,CDZI,CADIZ INC,Utilities,29,247,0.08020050,3.990000,4.310000,当日前50,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Russell,MEI,METHODE ELECTRONICS,Information Technology,30,1586,-0.22807018,18.240000,14.080000,当日前50,
-2026-08-28,2026-09-08,Early,Russell,OBIO,ORCHESTRA BIOMED HOLDINGS INC,Health Care,31,144,0.04725169,5.185000,5.430000,当日前50,
-2026-08-28,2026-09-08,Early,Russell,ABUS,ARBUTUS BIOPHARMA CORP,Health Care,32,93,0.02169625,5.070000,5.180000,当日前50,连续至少3个快照收益为正
-2026-08-28,2026-09-08,Early,Russell,ACDC,PROFRAC HOLDING CLASS A,Energy,33,25,0.08617234,4.990000,5.420000,当日前50,
-2026-08-28,2026-09-08,Early,Russell,FROG,JFROG,Information Technology,34,1222,-0.12163252,98.739998,86.730003,当日前50,
-2026-08-28,2026-09-08,Early,Russell,SBMT,SILVER BOW MINING CORP,Materials,35,567,-0.04307869,8.705000,8.330000,当日前50,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Russell,SDGR,SCHRODINGER INC,Health Care,36,686,0.01675127,19.700001,20.030001,当日前50,
-2026-08-28,2026-09-08,Early,Russell,ASMB,ASSEMBLY BIOSCIENCES INC,Health Care,37,5,0.03551509,34.070000,35.279999,当日前50,
-2026-08-28,2026-09-08,Early,Russell,CRBP,CORBUS PHARMACEUTICALS HOLDINGS,Health Care,38,681,-0.02887259,10.910000,10.595000,当日前50,
-2026-08-28,2026-09-08,Early,Russell,IBEX,IBEX LTD,Industrials,39,504,-0.03200412,38.119999,36.900002,当日前50,
-2026-08-28,2026-09-08,Early,Russell,ACHV,ACHIEVE LIFE SCIENCES,Health Care,40,579,-0.03209877,8.100000,7.840000,当日前50,
-2026-08-28,2026-09-08,Early,Russell,BDTX,BLACK DIAMOND THERAPEUTICS INC,Health Care,41,719,-0.05829596,2.230000,2.100000,当日前50,
-2026-08-28,2026-09-08,Early,Russell,OPTU,OPTIMUM COMMUNICATIONS INC CLASS A,Communication,42,26,-0.02729064,1.015000,0.987300,当日前50,
-2026-08-28,2026-09-08,Early,Russell,CSTL,CASTLE BIOSCIENCES,Health Care,43,809,-0.02208961,33.500000,32.759998,当日前50,
-2026-08-28,2026-09-08,Early,Russell,OPTX,SYNTEC OPTICS HOLDINGS INC CLASS A,Information Technology,44,1632,-0.08920188,8.520000,7.760000,当日前50,
-2026-08-28,2026-09-08,Early,Russell,AMPY,AMPLIFY ENERGY,Energy,45,276,0.03571429,4.760000,4.930000,当日前50,连续至少3个快照收益为正
-2026-08-28,2026-09-08,Early,Russell,UUUU,ENERGY FUELS,Energy,46,381,-0.00327310,14.665000,14.617000,当日前50,
-2026-08-28,2026-09-08,Early,Russell,GLOB,GLOBANT,Information Technology,47,844,-0.08199565,40.490002,37.169998,当日前50,
-2026-08-28,2026-09-08,Early,Russell,RES,RPC INC,Energy,48,116,0.01873536,6.405000,6.525000,当日前50,连续至少3个快照收益为正
-2026-08-28,2026-09-08,Early,Russell,USAR,USA RARE EARTH CLASS A,Materials,49,1658,-0.01834352,17.990000,17.660000,当日前50,
-2026-08-28,2026-09-08,Early,Russell,RDVT,RED VIOLET INC,Information Technology,50,81,0.01937241,73.300003,74.720001,当日前50,
-2026-08-28,2026-09-08,Early,Russell,PRTA,PROTHENA PLC,Health Care,74,152,0.02250804,9.330000,9.540000,加粗信号,连续至少3个快照收益为正
-2026-08-28,2026-09-08,Early,Russell,FUBO,FUBOTV CLASS A,Communication,80,91,0.09033511,10.295000,11.225000,加粗信号,连续至少3个快照收益为正
-2026-08-28,2026-09-08,Early,Russell,FET,FORUM ENERGY TECHNOLOGIES INC,Energy,82,673,-0.00961122,80.635002,79.860001,加粗信号,连续至少3个快照收益为正
-2026-08-28,2026-09-08,Early,Russell,VYGR,VOYAGER THERAPEUTICS,Health Care,88,119,-0.03954802,3.540000,3.400000,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Russell,SM,SM ENERGY,Energy,94,123,0.03084064,36.639999,37.770000,加粗信号,连续至少3个快照收益为正
-2026-08-28,2026-09-08,Early,Russell,BORR,BORR DRILLING,Energy,95,36,-0.00112360,4.450000,4.445000,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Russell,AMTX,AEMETIS INC,Energy,96,442,-0.05376344,1.860000,1.760000,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Russell,LAND,GLADSTONE LAND REIT CORP,Real Estate,97,315,0.07357860,8.970000,9.630000,加粗信号,连续至少3个快照收益为正
-2026-08-28,2026-09-08,Early,Russell,ZVRA,ZEVRA THERAPEUTICS INC,Health Care,99,101,0.09597925,11.565000,12.675000,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Russell,PAHC,PHIBRO ANIMAL HEALTH CORP CLASS A,Health Care,103,384,-0.00955660,37.669998,37.310001,加粗信号,连续至少3个快照收益为正
-2026-08-28,2026-09-08,Early,Russell,IMXI,INTERNATIONAL MONEY EXPRESS INC,Financials,105,68,-0.00414651,14.470000,14.410000,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Russell,JANX,JANUX THERAPEUTICS,Health Care,107,295,0.11148086,18.030001,20.040001,加粗信号,连续至少3个快照收益为正
-2026-08-28,2026-09-08,Early,Russell,GEVO,GEVO,Energy,110,191,-0.01197605,1.670000,1.650000,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Russell,REFI,CHICAGO ATLANTIC REAL ESTATE FINAN,Financials,113,102,0.01404494,10.680000,10.830000,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Russell,IOVA,IOVANCE BIOTHERAPEUTICS INC,Health Care,115,499,0.08614232,8.010000,8.700000,加粗信号,连续至少3个快照收益为正
-2026-08-28,2026-09-08,Early,Russell,GALT,GALECTIN THERAPEUTICS INC,Health Care,116,342,0.02985075,4.020000,4.140000,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Russell,NTLA,INTELLIA THERAPEUTICS,Health Care,117,65,-0.01010101,12.870000,12.740000,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Russell,REI,RING ENERGY INC,Energy,121,49,0.05902778,1.440000,1.525000,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Russell,DNUT,KRISPY KREME,Consumer Discretionary,125,377,-0.04610951,3.470000,3.310000,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Russell,REPX,RILEY EXPLORATION PERMIAN INC,Energy,127,305,0.12072117,38.270000,42.889999,加粗信号,连续至少3个快照收益为正
-2026-08-28,2026-09-08,Early,Russell,AKTS,AKTIS ONCOLOGY INC,Health Care,128,540,-0.02948025,25.780001,25.020000,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Russell,CFFI,C AND F FINANCIAL CORP,Financials,131,62,0.01907357,91.750000,93.500000,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Russell,SLDB,SOLID BIOSCIENCES INC,Health Care,133,328,0.01637666,9.770000,9.930000,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Russell,PLX,PROTALIX BIOTHERAPEUTICS,Health Care,134,110,0.04940711,2.530000,2.655000,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Russell,EMBC,EMBECTA,Health Care,136,24,0.09900990,5.050000,5.550000,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Russell,ALCO,ALICO INC,Consumer Staples,143,346,-0.01682326,40.419998,39.740002,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Russell,EPSN,EPSILON ENERGY LTD,Energy,150,136,0.04152824,6.020000,6.270000,加粗信号,连续至少3个快照收益为正
-2026-08-28,2026-09-08,Early,Russell,PRME,PRIME MEDICINE,Health Care,155,364,-0.01385042,3.610000,3.560000,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Russell,PSNL,PERSONALIS,Health Care,160,661,-0.02753368,17.070000,16.600000,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Early,Russell,BHVN,BIOHAVEN,Health Care,161,651,-0.04285714,15.400000,14.740000,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,S&P 500,MRNA,Moderna,Health Care,1,1,0.01695773,137.990005,140.330002,当日前50,
-2026-08-28,2026-09-08,Prism,S&P 500,VRT,Vertiv,Industrials,2,4,0.13179707,256.910004,290.769989,当日前50,
-2026-08-28,2026-09-08,Prism,S&P 500,VEEV,Veeva Systems,Health Care,3,41,-0.04232629,276.660004,264.950012,当日前50,
-2026-08-28,2026-09-08,Prism,S&P 500,PLTR,Palantir Technologies,Information Technology,4,294,-0.08583386,186.289993,170.300003,当日前50,
-2026-08-28,2026-09-08,Prism,S&P 500,CRM,Salesforce,Information Technology,5,11,-0.02793167,256.339996,249.179993,当日前50,
-2026-08-28,2026-09-08,Prism,S&P 500,NVDA,Nvidia,Information Technology,6,15,0.03760052,217.550003,225.729996,当日前50,
-2026-08-28,2026-09-08,Prism,S&P 500,MRVL,Marvell Technology,Information Technology,7,21,0.04057801,216.619995,225.410004,当日前50,
-2026-08-28,2026-09-08,Prism,S&P 500,PSKY,Paramount Skydance Corporation,Communication Services,8,36,-0.00735294,10.880000,10.800000,当日前50,
-2026-08-28,2026-09-08,Prism,S&P 500,DXCM,Dexcom,Health Care,9,43,-0.06925788,90.820000,84.529999,当日前50,
-2026-08-28,2026-09-08,Prism,S&P 500,MU,Micron Technology,Information Technology,10,2,0.07225096,932.859985,1000.260010,当日前50,
-2026-08-28,2026-09-08,Prism,S&P 500,ZBRA,Zebra Technologies,Information Technology,11,119,-0.01096929,356.450012,352.540009,当日前50,
-2026-08-28,2026-09-08,Prism,S&P 500,LITE,Lumentum,Information Technology,12,40,0.09333517,895.000000,978.534973,当日前50,
-2026-08-28,2026-09-08,Prism,S&P 500,RMD,ResMed|,Health Care,13,24,-0.07983686,240.240005,221.059998,当日前50,
-2026-08-28,2026-09-08,Prism,S&P 500,QCOM,Qualcomm,Information Technology,14,9,0.06029596,164.190002,174.089996,当日前50,
-2026-08-28,2026-09-08,Prism,S&P 500,NEM,Newmont,Materials,15,75,-0.00613263,127.839996,127.056000,当日前50,
-2026-08-28,2026-09-08,Prism,S&P 500,RVTY,Revvity,Health Care,16,7,-0.01323811,128.794998,127.089996,当日前50,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,S&P 500,SLB,Schlumberger,Energy,17,18,-0.00401193,57.330002,57.099998,当日前50,
-2026-08-28,2026-09-08,Prism,S&P 500,SWKS,Skyworks Solutions,Information Technology,18,5,0.14576677,65.790001,75.379997,当日前50,连续至少3个快照收益为正；连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,S&P 500,BDX,Becton Dickinson,Health Care,19,38,-0.05436218,189.470001,179.169998,当日前50,
-2026-08-28,2026-09-08,Prism,S&P 500,NOW,ServiceNow,Information Technology,20,124,-0.07235661,144.699997,134.229996,当日前50,
-2026-08-28,2026-09-08,Prism,S&P 500,WDAY,"Workday, Inc.",Information Technology,21,204,-0.09007426,204.720001,186.279999,当日前50,
-2026-08-28,2026-09-08,Prism,S&P 500,HAL,Halliburton,Energy,22,10,0.01727713,36.174999,36.799999,当日前50,
-2026-08-28,2026-09-08,Prism,S&P 500,IT,Gartner,Information Technology,23,436,-0.12924947,198.259995,172.634995,当日前50,
-2026-08-28,2026-09-08,Prism,S&P 500,CRL,Charles River Laboratories,Health Care,24,104,-0.03653399,291.510010,280.859985,当日前50,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,S&P 500,EMR,Emerson Electric,Industrials,25,28,-0.01933239,155.179993,152.179993,当日前50,
-2026-08-28,2026-09-08,Prism,S&P 500,ETN,Eaton Corporation,Industrials,26,37,0.04784717,402.845001,422.119995,当日前50,
-2026-08-28,2026-09-08,Prism,S&P 500,AVGO,Broadcom,Information Technology,27,22,-0.00062369,368.790009,368.559998,当日前50,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,S&P 500,EL,Estée Lauder Companies (The),Consumer Staples,28,29,-0.01596518,103.349998,101.699997,当日前50,
-2026-08-28,2026-09-08,Prism,S&P 500,ANET,Arista Networks,Information Technology,29,47,-0.00163839,195.309998,194.990005,当日前50,
-2026-08-28,2026-09-08,Prism,S&P 500,MSI,Motorola Solutions,Information Technology,30,59,-0.04669301,485.940002,463.250000,当日前50,
-2026-08-28,2026-09-08,Prism,S&P 500,LRCX,Lam Research,Information Technology,31,14,0.06134488,301.899994,320.420013,当日前50,
-2026-08-28,2026-09-08,Prism,S&P 500,ABNB,Airbnb,Consumer Discretionary,32,274,-0.07860424,189.429993,174.539993,当日前50,
-2026-08-28,2026-09-08,Prism,S&P 500,SMCI,Supermicro,Information Technology,33,16,0.08576041,37.080002,40.259998,当日前50,
-2026-08-28,2026-09-08,Prism,S&P 500,ADI,Analog Devices,Information Technology,34,32,0.00392507,361.779999,363.200012,当日前50,
-2026-08-28,2026-09-08,Prism,S&P 500,FSLR,First Solar,Information Technology,35,70,0.04299126,204.460007,213.250000,当日前50,
-2026-08-28,2026-09-08,Prism,S&P 500,INTC,Intel,Information Technology,36,12,0.16765396,89.470001,104.470001,当日前50,
-2026-08-28,2026-09-08,Prism,S&P 500,MDT,Medtronic,Health Care,37,20,0.01299268,91.205002,92.389999,当日前50,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,S&P 500,AME,Ametek,Industrials,38,31,0.00654134,236.190002,237.735001,当日前50,
-2026-08-28,2026-09-08,Prism,S&P 500,CRWD,CrowdStrike,Information Technology,39,390,-0.03836992,218.399994,210.020004,当日前50,
-2026-08-28,2026-09-08,Prism,S&P 500,ABT,Abbott Laboratories,Health Care,40,51,-0.06097130,112.430000,105.574997,当日前50,
-2026-08-28,2026-09-08,Prism,S&P 500,GNRC,Generac,Industrials,41,60,0.03509057,183.809998,190.259995,当日前50,
-2026-08-28,2026-09-08,Prism,S&P 500,MCHP,Microchip Technology,Information Technology,42,69,0.00617026,72.930000,73.379997,当日前50,
-2026-08-28,2026-09-08,Prism,S&P 500,LDOS,Leidos,Industrials,43,414,-0.08088314,140.634995,129.259995,当日前50,
-2026-08-28,2026-09-08,Prism,S&P 500,ZBH,Zimmer Biomet,Health Care,44,50,-0.06634296,100.915001,94.220001,当日前50,
-2026-08-28,2026-09-08,Prism,S&P 500,ROP,Roper Technologies,Information Technology,45,82,-0.07168000,426.200012,395.649994,当日前50,
-2026-08-28,2026-09-08,Prism,S&P 500,KLAC,KLA Corporation,Information Technology,46,27,0.07656377,175.539993,188.979996,当日前50,
-2026-08-28,2026-09-08,Prism,S&P 500,FCX,Freeport-McMoRan,Materials,47,97,0.00228927,76.445000,76.620003,当日前50,
-2026-08-28,2026-09-08,Prism,S&P 500,SNPS,Synopsys,Information Technology,48,359,-0.11427665,442.609985,392.029999,当日前50,
-2026-08-28,2026-09-08,Prism,S&P 500,ISRG,Intuitive Surgical,Health Care,49,93,-0.06022545,372.600006,350.160004,当日前50,
-2026-08-28,2026-09-08,Prism,S&P 500,BSX,Boston Scientific,Health Care,50,91,-0.03950033,46.834999,44.985001,当日前50,
-2026-08-28,2026-09-08,Prism,S&P 500,EW,Edwards Lifesciences,Health Care,52,64,-0.03863852,90.195000,86.709999,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,S&P 500,TXN,Texas Instruments,Information Technology,62,45,0.00108258,258.640015,258.920013,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,S&P 500,MPC,Marathon Petroleum,Energy,65,6,0.07884782,368.875000,397.959991,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,S&P 500,GIS,General Mills,Consumer Staples,66,116,-0.09242980,41.544998,37.705002,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,S&P 500,BKR,Baker Hughes,Energy,68,42,0.02419481,62.410000,63.919998,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,S&P 500,TYL,Tyler Technologies,Information Technology,69,81,-0.07945495,377.950012,347.920013,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,S&P 500,APA,APA Corporation,Energy,71,53,0.02374231,42.540001,43.549999,加粗信号,连续至少3个快照收益为正
-2026-08-28,2026-09-08,Prism,S&P 500,NXPI,NXP Semiconductors,Information Technology,75,34,0.00129704,223.580002,223.869995,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,S&P 500,PSX,Phillips 66,Energy,82,19,0.06122030,244.199997,259.149994,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,S&P 500,AES,AES Corporation,Utilities,83,52,0.00611205,14.725000,14.815000,加粗信号,连续至少3个快照收益为正
-2026-08-28,2026-09-08,Prism,S&P 500,BG,Bunge Global,Consumer Staples,86,30,0.07327854,115.449997,123.910004,加粗信号,连续至少3个快照收益为正
-2026-08-28,2026-09-08,Prism,S&P 500,PFE,Pfizer,Health Care,89,115,-0.00590125,27.959999,27.795000,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,S&P 500,SJM,J.M. Smucker Company (The),Consumer Staples,92,107,-0.05751645,132.309998,124.699997,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,S&P 500,VRTX,Vertex Pharmaceuticals,Health Care,94,98,-0.02361125,541.690002,528.900024,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,S&P 500,IQV,IQVIA,Health Care,96,66,-0.00953289,261.725006,259.230011,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,S&P 500,GILD,Gilead Sciences,Health Care,100,63,0.00658983,145.679993,146.639999,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,S&P 500,ON,ON Semiconductor,Information Technology,115,55,-0.02107146,72.610001,71.080002,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,S&P 500,VLO,Valero Energy,Energy,116,13,0.08691236,352.309906,382.929993,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,S&P 500,ERIE,Erie Indemnity,Financials,121,358,-0.06547615,260.399994,243.350006,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,S&P 500,REGN,Regeneron Pharmaceuticals,Health Care,127,121,0.02029740,794.190002,810.309998,加粗信号,连续至少3个快照收益为正
-2026-08-28,2026-09-08,Prism,S&P 500,LH,Labcorp,Health Care,128,134,-0.03058721,335.269989,325.015015,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,S&P 500,NWSA,News Corp (Class A),Communication Services,134,159,-0.03713268,30.969999,29.820000,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,S&P 500,CPB,Campbell's Company (The),Consumer Staples,136,99,0.00000000,21.110001,21.110001,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,S&P 500,COP,ConocoPhillips,Energy,142,58,0.03609791,130.339996,135.044998,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,S&P 500,POOL,Pool Corporation,Consumer Discretionary,149,100,0.00000000,194.339996,194.339996,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,S&P 500,HUM,Humana,Health Care,154,113,0.04537088,385.709991,403.209991,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,S&P 500,MCK,McKesson Corporation,Health Care,168,131,-0.00518054,893.729980,889.099976,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,S&P 500,TRGP,Targa Resources,Energy,172,65,0.02265469,287.799988,294.320007,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,S&P 500,BIIB,Biogen,Health Care,173,139,-0.02745995,218.500000,212.500000,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,S&P 500,TRMB,Trimble Inc.,Information Technology,176,277,-0.03655137,61.009998,58.779999,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Nasdaq 200,PLTR,Palantir Technologies,Information Technology,1,114,-0.08583386,186.289993,170.300003,当日前50,
-2026-08-28,2026-09-08,Prism,Nasdaq 200,TEAM,Atlassian Corporation  - Class A Common Stock,,2,23,-0.07349734,190.414993,176.419998,当日前50,
-2026-08-28,2026-09-08,Prism,Nasdaq 200,NVDA,Nvidia,Information Technology,3,8,0.03760052,217.550003,225.729996,当日前50,
-2026-08-28,2026-09-08,Prism,Nasdaq 200,TEM,"Tempus AI, Inc. - Class A Common Stock",,4,46,0.00390381,64.040001,64.290001,当日前50,
-2026-08-28,2026-09-08,Prism,Nasdaq 200,MRVL,Marvell Technology,Information Technology,5,11,0.04057801,216.619995,225.410004,当日前50,
-2026-08-28,2026-09-08,Prism,Nasdaq 200,PSKY,Paramount Skydance Corporation,Communication Services,6,20,-0.00735294,10.880000,10.800000,当日前50,
-2026-08-28,2026-09-08,Prism,Nasdaq 200,DXCM,Dexcom,Health Care,7,25,-0.06925788,90.820000,84.529999,当日前50,
-2026-08-28,2026-09-08,Prism,Nasdaq 200,MU,Micron Technology,Information Technology,8,1,0.07225096,932.859985,1000.260010,当日前50,
-2026-08-28,2026-09-08,Prism,Nasdaq 200,MDB,"MongoDB, Inc. - Class A Common Stock",,9,163,-0.20290179,446.619995,356.000000,当日前50,
-2026-08-28,2026-09-08,Prism,Nasdaq 200,ZBRA,Zebra Technologies,Information Technology,10,56,-0.01096929,356.450012,352.540009,当日前50,
-2026-08-28,2026-09-08,Prism,Nasdaq 200,LITE,Lumentum,Information Technology,11,22,0.09333517,895.000000,978.534973,当日前50,
-2026-08-28,2026-09-08,Prism,Nasdaq 200,QCOM,Qualcomm,Information Technology,12,5,0.06029596,164.190002,174.089996,当日前50,
-2026-08-28,2026-09-08,Prism,Nasdaq 200,WDAY,"Workday, Inc.",Information Technology,13,92,-0.09007426,204.720001,186.279999,当日前50,
-2026-08-28,2026-09-08,Prism,Nasdaq 200,RGLD,"Royal Gold, Inc. - Common Stock",,14,34,-0.00563063,262.850006,261.369995,当日前50,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Nasdaq 200,AVGO,Broadcom,Information Technology,15,12,-0.00062369,368.790009,368.559998,当日前50,
-2026-08-28,2026-09-08,Prism,Nasdaq 200,MSTR,Strategy Inc - Class A Common Stock,,16,3,0.07234315,127.309998,136.520004,当日前50,
-2026-08-28,2026-09-08,Prism,Nasdaq 200,LRCX,Lam Research,Information Technology,17,7,0.06134488,301.899994,320.420013,当日前50,
-2026-08-28,2026-09-08,Prism,Nasdaq 200,ABNB,Airbnb,Consumer Discretionary,18,104,-0.07860424,189.429993,174.539993,当日前50,
-2026-08-28,2026-09-08,Prism,Nasdaq 200,OKTA,"Okta, Inc. - Class A Common Stock",,19,31,0.00821154,166.229996,167.595001,当日前50,
-2026-08-28,2026-09-08,Prism,Nasdaq 200,SMCI,Supermicro,Information Technology,20,9,0.08576041,37.080002,40.259998,当日前50,
-2026-08-28,2026-09-08,Prism,Nasdaq 200,ADI,Analog Devices,Information Technology,21,17,0.00392507,361.779999,363.200012,当日前50,
-2026-08-28,2026-09-08,Prism,Nasdaq 200,FSLR,First Solar,Information Technology,22,36,0.04299126,204.460007,213.250000,当日前50,
-2026-08-28,2026-09-08,Prism,Nasdaq 200,INTC,Intel,Information Technology,23,6,0.16765396,89.470001,104.470001,当日前50,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Nasdaq 200,CRWD,CrowdStrike,Information Technology,24,149,-0.03836992,218.399994,210.020004,当日前50,
-2026-08-28,2026-09-08,Prism,Nasdaq 200,SHOP,Shopify Inc. - Class A Subordinate Voting Shares,,25,177,-0.12295611,152.899994,134.100006,当日前50,
-2026-08-28,2026-09-08,Prism,Nasdaq 200,MCHP,Microchip Technology,Information Technology,26,35,0.00617026,72.930000,73.379997,当日前50,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Nasdaq 200,ROP,Roper Technologies,Information Technology,27,39,-0.07168000,426.200012,395.649994,当日前50,
-2026-08-28,2026-09-08,Prism,Nasdaq 200,KLAC,KLA Corporation,Information Technology,28,15,0.07656377,175.539993,188.979996,当日前50,
-2026-08-28,2026-09-08,Prism,Nasdaq 200,SNPS,Synopsys,Information Technology,29,138,-0.11427665,442.609985,392.029999,当日前50,
-2026-08-28,2026-09-08,Prism,Nasdaq 200,ISRG,Intuitive Surgical,Health Care,30,44,-0.06022545,372.600006,350.160004,当日前50,
-2026-08-28,2026-09-08,Prism,Nasdaq 200,AMD,Advanced Micro Devices,Information Technology,31,4,0.08625801,465.579987,505.739990,当日前50,
-2026-08-28,2026-09-08,Prism,Nasdaq 200,NTRA,"Natera, Inc. - Common Stock",,32,101,-0.00649787,326.260010,324.140015,当日前50,
-2026-08-28,2026-09-08,Prism,Nasdaq 200,MPWR,Monolithic Power Systems,Information Technology,33,37,-0.03005748,1256.260010,1218.500000,当日前50,
-2026-08-28,2026-09-08,Prism,Nasdaq 200,DASH,DoorDash,Consumer Discretionary,34,155,-0.15333278,236.740005,200.440002,当日前50,
-2026-08-28,2026-09-08,Prism,Nasdaq 200,NTNX,"Nutanix, Inc. - Class A Common Stock",,35,61,-0.02414699,69.160004,67.489998,当日前50,
-2026-08-28,2026-09-08,Prism,Nasdaq 200,GEHC,GE HealthCare,Health Care,36,42,-0.06901354,71.724998,66.775002,当日前50,
-2026-08-28,2026-09-08,Prism,Nasdaq 200,TXN,Texas Instruments,Information Technology,37,26,0.00108258,258.640015,258.920013,当日前50,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Nasdaq 200,DOCU,"DocuSign, Inc. - Common Stock",,38,40,0.01687503,64.000000,65.080002,当日前50,
-2026-08-28,2026-09-08,Prism,Nasdaq 200,AMAT,Applied Materials,Information Technology,39,32,0.02408646,461.670013,472.790009,当日前50,
-2026-08-28,2026-09-08,Prism,Nasdaq 200,BKR,Baker Hughes,Energy,40,24,0.02419481,62.410000,63.919998,当日前50,连续至少3个快照收益为正；连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Nasdaq 200,ARGX,argenx SE - American Depositary Shares,,41,28,-0.01577390,1023.210022,1007.070007,当日前50,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Nasdaq 200,CTSH,Cognizant,Information Technology,42,95,-0.06433484,64.040001,59.919998,当日前50,
-2026-08-28,2026-09-08,Prism,Nasdaq 200,NXPI,NXP Semiconductors,Information Technology,43,18,0.00129704,223.580002,223.869995,当日前50,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Nasdaq 200,LECO,"Lincoln Electric Holdings, Inc. - Common Shares",,44,112,-0.02753647,284.894989,277.049988,当日前50,
-2026-08-28,2026-09-08,Prism,Nasdaq 200,INTU,Intuit,Information Technology,45,126,-0.10928337,358.059998,318.929993,当日前50,
-2026-08-28,2026-09-08,Prism,Nasdaq 200,ADBE,Adobe Inc.,Information Technology,46,132,-0.11752189,291.519989,257.260010,当日前50,
-2026-08-28,2026-09-08,Prism,Nasdaq 200,IDXX,Idexx Laboratories,Health Care,47,54,-0.06266774,554.989990,520.210022,当日前50,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Nasdaq 200,ALNY,"Alnylam Pharmaceuticals, Inc. - Common Stock",,48,16,0.09700548,237.100006,260.100006,当日前50,连续至少3个快照收益为正
-2026-08-28,2026-09-08,Prism,Nasdaq 200,TER,Teradyne,Information Technology,49,13,0.04814491,354.970001,372.059998,当日前50,
-2026-08-28,2026-09-08,Prism,Nasdaq 200,GEN,Gen Digital,Information Technology,50,81,-0.03900712,31.020000,29.809999,当日前50,
-2026-08-28,2026-09-08,Prism,Nasdaq 200,FFIV,"F5, Inc.",Information Technology,54,43,-0.01171874,394.239990,389.619995,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Nasdaq 200,VRTX,Vertex Pharmaceuticals,Health Care,55,49,-0.02361125,541.690002,528.900024,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Nasdaq 200,BNTX,BioNTech SE - American Depositary Shares,,56,113,-0.03345572,102.074997,98.660004,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Nasdaq 200,GILD,Gilead Sciences,Health Care,59,33,0.00658983,145.679993,146.639999,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Nasdaq 200,ON,ON Semiconductor,Information Technology,70,29,-0.02107146,72.610001,71.080002,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Nasdaq 200,REGN,Regeneron Pharmaceuticals,Health Care,74,59,0.02029740,794.190002,810.309998,加粗信号,连续至少3个快照收益为正
-2026-08-28,2026-09-08,Prism,Nasdaq 200,NWSA,News Corp (Class A),Communication Services,79,70,-0.03713268,30.969999,29.820000,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Nasdaq 200,RVMD,"Revolution Medicines, Inc. - Common Stock",,82,102,-0.00269385,207.880005,207.320007,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Nasdaq 200,CHKP,Check Point Software Technologies Ltd. - Ordinary Shares,,89,74,-0.03918459,138.320007,132.899994,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Nasdaq 200,PODD,Insulet Corporation,Health Care,92,19,-0.01963761,145.130005,142.279999,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Nasdaq 200,BIIB,Biogen,Health Care,93,65,-0.02745995,218.500000,212.500000,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Nasdaq 200,TRMB,Trimble Inc.,Information Technology,95,106,-0.03655137,61.009998,58.779999,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Nasdaq 200,PCAR,Paccar,Industrials,97,62,-0.02265834,125.339996,122.500000,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Nasdaq 200,DLTR,Dollar Tree,Consumer Staples,101,124,-0.03290187,128.259995,124.040001,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Nasdaq 200,PEP,PepsiCo,Consumer Staples,110,71,-0.01857241,141.070007,138.449997,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Nasdaq 200,KHC,Kraft Heinz,Consumer Staples,112,64,-0.03112844,25.700001,24.900000,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Nasdaq 200,KDP,Keurig Dr Pepper,Consumer Staples,113,41,0.01149779,32.180000,32.549999,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Nasdaq 200,ULTA,Ulta Beauty,Consumer Discretionary,114,121,0.06131397,517.500000,549.229980,加粗信号,连续至少3个快照收益为正
-2026-08-28,2026-09-08,Prism,Nasdaq 200,TMUS,T-Mobile US,Communication Services,115,82,0.00176439,181.369995,181.690002,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Nasdaq 200,INCY,Incyte,Health Care,118,55,0.00024121,124.370003,124.400002,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Nasdaq 200,KMB,Kimberly-Clark,Consumer Staples,119,109,-0.06042905,109.550003,102.930000,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Nasdaq 200,MDLZ,Mondelez International,Consumer Staples,120,88,-0.01170622,62.360001,61.630001,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Nasdaq 200,COST,Costco,Consumer Staples,121,98,-0.03732533,945.469971,910.179993,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Nasdaq 200,EVRG,Evergy,Utilities,127,72,0.01971477,80.650002,82.239998,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Nasdaq 200,ROIV,Roivant Sciences Ltd. - Common Shares,,131,21,0.19504469,34.709999,41.480000,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Nasdaq 200,RPRX,Royalty Pharma plc - Class A Ordinary Shares,,132,47,-0.00427277,60.849998,60.590000,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Nasdaq 200,CDW,CDW Corporation,Information Technology,133,60,-0.02173475,147.690002,144.479996,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Nasdaq 200,LNT,Alliant Energy,Utilities,145,75,0.00852568,68.029999,68.610001,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Nasdaq 200,WMT,Walmart,Consumer Staples,146,103,0.02871284,103.089996,106.050003,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Nasdaq 200,AEP,American Electric Power,Utilities,147,80,0.02542719,122.309998,125.419998,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Nasdaq Liquid 500,MRNA,Moderna,Health Care,1,1,0.01695773,137.990005,140.330002,当日前50,
-2026-08-28,2026-09-08,Prism,Nasdaq Liquid 500,AMLX,AMYLYX PHARMACEUTICALS,Health Care,2,7,-0.02475535,34.740002,33.880001,当日前50,
-2026-08-28,2026-09-08,Prism,Nasdaq Liquid 500,ASST,STRIVE INC CLASS A,Health Care,3,2,0.24931003,21.740000,27.160000,当日前50,
-2026-08-28,2026-09-08,Prism,Nasdaq Liquid 500,CAPR,CAPRICOR THERAPEUTICS,Health Care,4,3,-0.05526590,9.590000,9.060000,当日前50,
-2026-08-28,2026-09-08,Prism,Nasdaq Liquid 500,HTFL,HEARTFLOW,Health Care,5,4,-0.00062786,47.779999,47.750000,当日前50,
-2026-08-28,2026-09-08,Prism,Nasdaq Liquid 500,IOVA,IOVANCE BIOTHERAPEUTICS INC,Health Care,6,20,0.08614232,8.010000,8.700000,当日前50,连续至少3个快照收益为正
-2026-08-28,2026-09-08,Prism,Nasdaq Liquid 500,PURR,HYPERLIQUID STRATEGIES INC,Health Care,7,5,0.02756245,11.610000,11.930000,当日前50,
-2026-08-28,2026-09-08,Prism,Nasdaq Liquid 500,TWST,TWIST BIOSCIENCE,Health Care,8,121,-0.09421422,141.380005,128.059998,当日前50,
-2026-08-28,2026-09-08,Prism,Nasdaq Liquid 500,PLTR,Palantir Technologies,Information Technology,10,259,-0.08583386,186.289993,170.300003,当日前50,
-2026-08-28,2026-09-08,Prism,Nasdaq Liquid 500,TEAM,Atlassian Corporation  - Class A Common Stock,,11,54,-0.07349734,190.414993,176.419998,当日前50,
-2026-08-28,2026-09-08,Prism,Nasdaq Liquid 500,ABCL,AbCellera Biologics Inc. - Common Shares,,12,9,0.00792952,11.350000,11.440000,当日前50,
-2026-08-28,2026-09-08,Prism,Nasdaq Liquid 500,ALM,Almonty Industries Inc. - Common Shares,,13,24,0.05986696,18.040001,19.120001,当日前50,
-2026-08-28,2026-09-08,Prism,Nasdaq Liquid 500,AUGO,Aura Minerals Inc. - Common Shares,,14,66,0.00922748,84.529999,85.309998,当日前50,
-2026-08-28,2026-09-08,Prism,Nasdaq Liquid 500,CAI,"Caris Life Sciences, Inc. - Common Stock",,16,153,-0.03160355,25.629999,24.820000,当日前50,
-2026-08-28,2026-09-08,Prism,Nasdaq Liquid 500,CHYM,"Chime Financial, Inc. - Class A Common Stock",,17,100,-0.02680723,33.200001,32.310001,当日前50,
-2026-08-28,2026-09-08,Prism,Nasdaq Liquid 500,DAIC,"CID HoldCo, Inc. - Common Stock",,18,12,-0.36206897,4.640000,2.960000,当日前50,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Nasdaq Liquid 500,USDE,StablecoinX Inc. - Class A Common Stock,,21,14,0.18198225,6.760000,7.990200,当日前50,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Nasdaq Liquid 500,WIX,Wix.com Ltd. - Ordinary Shares,,22,57,-0.17005252,87.620003,72.720001,当日前50,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Nasdaq Liquid 500,NVDA,Nvidia,Information Technology,25,32,0.03760052,217.550003,225.729996,当日前50,
-2026-08-28,2026-09-08,Prism,Nasdaq Liquid 500,BRZE,BRAZE CLASS A,Information Technology,26,62,-0.12221257,34.529999,30.309999,当日前50,
-2026-08-28,2026-09-08,Prism,Nasdaq Liquid 500,TEM,"Tempus AI, Inc. - Class A Common Stock",,27,106,0.00390381,64.040001,64.290001,当日前50,
-2026-08-28,2026-09-08,Prism,Nasdaq Liquid 500,MRVL,Marvell Technology,Information Technology,28,40,0.04057801,216.619995,225.410004,当日前50,
-2026-08-28,2026-09-08,Prism,Nasdaq Liquid 500,PSKY,Paramount Skydance Corporation,Communication Services,29,51,-0.00735294,10.880000,10.800000,当日前50,
-2026-08-28,2026-09-08,Prism,Nasdaq Liquid 500,DXCM,Dexcom,Health Care,30,59,-0.06925788,90.820000,84.529999,当日前50,
-2026-08-28,2026-09-08,Prism,Nasdaq Liquid 500,SRPT,SAREPTA THERAPEUTICS,Health Care,31,42,0.00383509,20.860001,20.940001,当日前50,连续至少3个快照收益为正
-2026-08-28,2026-09-08,Prism,Nasdaq Liquid 500,SSRM,SSR MINING,Materials,32,61,-0.00938595,37.290001,36.939999,当日前50,
-2026-08-28,2026-09-08,Prism,Nasdaq Liquid 500,MU,Micron Technology,Information Technology,33,6,0.07225096,932.859985,1000.260010,当日前50,
-2026-08-28,2026-09-08,Prism,Nasdaq Liquid 500,MDB,"MongoDB, Inc. - Class A Common Stock",,34,387,-0.20290179,446.619995,356.000000,当日前50,
-2026-08-28,2026-09-08,Prism,Nasdaq Liquid 500,ZBRA,Zebra Technologies,Information Technology,35,127,-0.01096929,356.450012,352.540009,当日前50,
-2026-08-28,2026-09-08,Prism,Nasdaq Liquid 500,CDNA,CAREDX,Health Care,36,83,0.01044386,49.790001,50.310001,当日前50,
-2026-08-28,2026-09-08,Prism,Nasdaq Liquid 500,LITE,Lumentum,Information Technology,37,53,0.09333517,895.000000,978.534973,当日前50,
-2026-08-28,2026-09-08,Prism,Nasdaq Liquid 500,RZLV,Rezolve AI PLC - Ordinary Shares,,38,455,-0.22222222,2.970000,2.310000,当日前50,
-2026-08-28,2026-09-08,Prism,Nasdaq Liquid 500,QCOM,Qualcomm,Information Technology,39,26,0.06029596,164.190002,174.089996,当日前50,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Nasdaq Liquid 500,FIGR,"Figure Technology Solutions, Inc. - Class A Common Stock",,40,35,0.06144244,36.049999,38.264999,当日前50,
-2026-08-28,2026-09-08,Prism,Nasdaq Liquid 500,APPF,"AppFolio, Inc. - Class A Common Stock",,41,176,-0.12143377,234.490005,206.014999,当日前50,
-2026-08-28,2026-09-08,Prism,Nasdaq Liquid 500,GTLB,GitLab Inc. - Class A Common Stock,,42,22,0.05081353,44.869999,47.150002,当日前50,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Nasdaq Liquid 500,SWKS,Skyworks Solutions,Information Technology,43,18,0.14576677,65.790001,75.379997,当日前50,连续至少3个快照收益为正；连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Nasdaq Liquid 500,WAY,WAYSTAR HOLDING,Health Care,44,199,-0.07621951,26.240000,24.240000,当日前50,
-2026-08-28,2026-09-08,Prism,Nasdaq Liquid 500,WDAY,"Workday, Inc.",Information Technology,45,200,-0.09007426,204.720001,186.279999,当日前50,
-2026-08-28,2026-09-08,Prism,Nasdaq Liquid 500,QLYS,QUALYS,Information Technology,46,365,-0.08944130,187.050003,170.320007,当日前50,
-2026-08-28,2026-09-08,Prism,Nasdaq Liquid 500,RGLD,"Royal Gold, Inc. - Common Stock",,47,77,-0.00563063,262.850006,261.369995,当日前50,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Nasdaq Liquid 500,NESR,NATIONAL ENERGY SERVICES REUNITED,Energy,48,55,0.00450064,34.439999,34.595001,当日前50,
-2026-08-28,2026-09-08,Prism,Nasdaq Liquid 500,TXG,10X GENOMICS CLASS A,Health Care,49,30,0.06597330,61.540001,65.599998,当日前50,
-2026-08-28,2026-09-08,Prism,Nasdaq Liquid 500,BULL,WEBULL CORP CLASS A,Financials,50,37,0.02134472,9.370000,9.570000,当日前50,
-2026-08-28,2026-09-08,Prism,Nasdaq Liquid 500,AVGO,Broadcom,Information Technology,53,41,-0.00062369,368.790009,368.559998,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Nasdaq Liquid 500,PTEN,PATTERSON UTI ENERGY INC,Energy,55,33,0.01850362,12.430000,12.660000,加粗信号,连续至少3个快照收益为正
-2026-08-28,2026-09-08,Prism,Nasdaq Liquid 500,LRCX,Lam Research,Information Technology,57,31,0.06134488,301.899994,320.420013,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Nasdaq Liquid 500,HALO,"Halozyme Therapeutics, Inc. - Common Stock",,58,157,0.02809682,105.349998,108.309998,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Nasdaq Liquid 500,INTC,Intel,Information Technology,65,29,0.16765396,89.470001,104.470001,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Nasdaq Liquid 500,MCHP,Microchip Technology,Information Technology,71,78,0.00617026,72.930000,73.379997,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Nasdaq Liquid 500,SRRK,SCHOLAR ROCK HOLDING,Health Care,77,85,-0.00657441,57.799999,57.419998,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Nasdaq Liquid 500,AMD,Advanced Micro Devices,Information Technology,85,23,0.08625801,465.579987,505.739990,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Nasdaq Liquid 500,GEHC,GE HealthCare,Health Care,94,101,-0.06901354,71.724998,66.775002,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Nasdaq Liquid 500,TXN,Texas Instruments,Information Technology,95,60,0.00108258,258.640015,258.920013,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Nasdaq Liquid 500,DOCU,"DocuSign, Inc. - Common Stock",,96,93,0.01687503,64.000000,65.080002,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Nasdaq Liquid 500,BKR,Baker Hughes,Energy,98,58,0.02419481,62.410000,63.919998,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Nasdaq Liquid 500,TVTX,TRAVERE THERAPEUTICS,Health Care,101,97,0.00609109,65.669998,66.070000,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Nasdaq Liquid 500,APA,APA Corporation,Energy,102,65,0.02374231,42.540001,43.549999,加粗信号,连续至少3个快照收益为正
-2026-08-28,2026-09-08,Prism,Nasdaq Liquid 500,ARGX,argenx SE - American Depositary Shares,,104,67,-0.01577390,1023.210022,1007.070007,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Nasdaq Liquid 500,NXPI,NXP Semiconductors,Information Technology,106,49,0.00129704,223.580002,223.869995,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Nasdaq Liquid 500,FRPT,"Freshpet, Inc. - Common Stock",,108,235,-0.04998589,70.820000,67.279999,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Nasdaq Liquid 500,IDXX,Idexx Laboratories,Health Care,111,123,-0.06266774,554.989990,520.210022,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Nasdaq Liquid 500,ALNY,"Alnylam Pharmaceuticals, Inc. - Common Stock",,113,46,0.09700548,237.100006,260.100006,加粗信号,连续至少3个快照收益为正
-2026-08-28,2026-09-08,Prism,Nasdaq Liquid 500,PRAX,PRAXIS PRECISION MEDICINES,Health Care,121,231,0.02242208,344.750000,352.480011,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Nasdaq Liquid 500,VRTX,Vertex Pharmaceuticals,Health Care,124,110,-0.02361125,541.690002,528.900024,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Nasdaq Liquid 500,INSM,Insmed Incorporated - Common Stock,,125,357,0.05356840,118.540001,124.889999,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Nasdaq Liquid 500,BNTX,BioNTech SE - American Depositary Shares,,126,258,-0.03345572,102.074997,98.660004,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Nasdaq Liquid 500,KYMR,KYMERA THERAPEUTICS,Health Care,135,86,-0.01421922,118.150002,116.470001,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Nasdaq Liquid 500,IBRX,IMMUNITYBIO,Health Care,145,90,0.02981366,8.050000,8.290000,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Nasdaq Liquid 500,EQIX,Equinix,Real Estate,147,82,-0.00306400,1044.410034,1041.209961,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Nasdaq Liquid 500,FIVE,"Five Below, Inc. - Common Stock",,154,113,0.05035350,241.889999,254.070007,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Nasdaq Liquid 500,ON,ON Semiconductor,Information Technology,156,70,-0.02107146,72.610001,71.080002,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Nasdaq Liquid 500,EXLS,"ExlService Holdings, Inc. - Common Stock",,166,214,-0.07500005,38.400002,35.520000,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Nasdaq Liquid 500,REGN,Regeneron Pharmaceuticals,Health Care,170,131,0.02029740,794.190002,810.309998,加粗信号,连续至少3个快照收益为正
-2026-08-28,2026-09-08,Prism,Russell,REPL,REPLIMUNE GROUP,Health Care,1,95,-0.04709677,15.500000,14.770000,当日前50,
-2026-08-28,2026-09-08,Prism,Russell,TWST,TWIST BIOSCIENCE,Health Care,2,370,-0.09421422,141.380005,128.059998,当日前50,
-2026-08-28,2026-09-08,Prism,Russell,HTFL,HEARTFLOW,Health Care,3,1,-0.00062786,47.779999,47.750000,当日前50,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Russell,AMLX,AMYLYX PHARMACEUTICALS,Health Care,4,12,-0.02475535,34.740002,33.880001,当日前50,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Russell,HNST,THE HONEST COMPANY,Consumer Staples,5,281,0.01234568,5.670000,5.740000,当日前50,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Russell,VREX,VAREX IMAGING,Health Care,6,2,-0.00054054,18.500000,18.490000,当日前50,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Russell,ARCT,ARCTURUS THERAPEUTICS HOLDINGS INC,Health Care,7,3,0.02896643,15.190000,15.630000,当日前50,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Russell,EOLS,EVOLUS INC,Health Care,8,106,0.00000000,8.880000,8.880000,当日前50,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Russell,IOVA,IOVANCE BIOTHERAPEUTICS INC,Health Care,9,47,0.08614232,8.010000,8.700000,当日前50,连续至少3个快照收益为正；连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Russell,BRCC,BRC INC CLASS A,Consumer Staples,10,5,0.05319149,8.460000,8.910000,当日前50,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Russell,CTEV,CLARITEV CORP CLASS A,Health Care,11,221,-0.03986795,39.380001,37.810001,当日前50,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Russell,CAPR,CAPRICOR THERAPEUTICS,Health Care,12,6,-0.05526590,9.590000,9.060000,当日前50,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Russell,SGHT,SIGHT SCIENCES,Health Care,13,265,-0.05263158,8.550000,8.100000,当日前50,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Russell,ASST,STRIVE INC CLASS A,Health Care,14,8,0.24931003,21.740000,27.160000,当日前50,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Russell,OMER,OMEROS,Health Care,15,10,0.02740462,18.610001,19.120001,当日前50,
-2026-08-28,2026-09-08,Prism,Russell,OABI,OMNIAB INC,Health Care,16,27,-0.05145414,4.470000,4.240000,当日前50,
-2026-08-28,2026-09-08,Prism,Russell,IMMX,IMMIX BIOPHARMA,Health Care,17,49,-0.04949785,13.940000,13.250000,当日前50,
-2026-08-28,2026-09-08,Prism,Russell,PURR,HYPERLIQUID STRATEGIES INC,Health Care,18,9,0.02756245,11.610000,11.930000,当日前50,
-2026-08-28,2026-09-08,Prism,Russell,SENS,SENSEONICS HOLDINGS INC,Health Care,19,37,0.00000000,9.330000,9.330000,当日前50,
-2026-08-28,2026-09-08,Prism,Russell,SGMT,SAGIMET BIOSCIENCES SERIES A,Health Care,20,98,0.01516588,10.550000,10.710000,当日前50,
-2026-08-28,2026-09-08,Prism,Russell,IVVD,INVIVYD,Health Care,21,559,-0.14380508,0.964500,0.825800,当日前50,
-2026-08-28,2026-09-08,Prism,Russell,INBX,INHIBRX BIOSCIENCES INC,Health Care,22,54,-0.07349492,123.410004,114.339996,当日前50,
-2026-08-28,2026-09-08,Prism,Russell,FDMT,4D MOLECULAR THERAPEUTICS INC,Health Care,23,48,-0.00272665,14.670000,14.630000,当日前50,
-2026-08-28,2026-09-08,Prism,Russell,AVAH,AVEANNA HEALTHCARE HOLDINGS INC,Health Care,24,7,0.02552553,13.320000,13.660000,当日前50,
-2026-08-28,2026-09-08,Prism,Russell,PRGO,PERRIGO PLC,Health Care,25,151,0.00690131,14.490000,14.590000,当日前50,
-2026-08-28,2026-09-08,Prism,Russell,PSNL,PERSONALIS,Health Care,26,217,-0.02753368,17.070000,16.600000,当日前50,
-2026-08-28,2026-09-08,Prism,Russell,CRDO,CREDO TECHNOLOGY GROUP HOLDING LTD,Information Technology,27,13,0.00000000,249.330002,249.330002,当日前50,
-2026-08-28,2026-09-08,Prism,Russell,LPRO,OPEN LENDING CORP,Financials,28,14,0.00000000,3.105000,3.105000,当日前50,
-2026-08-28,2026-09-08,Prism,Russell,RCMT,RCM TECHNOLOGIES INC,Industrials,29,29,-0.02915872,41.840000,40.619999,当日前50,
-2026-08-28,2026-09-08,Prism,Russell,AMR,ALPHA METALLURGICAL RESOURCE,Materials,30,26,-0.01430616,226.824997,223.580002,当日前50,
-2026-08-28,2026-09-08,Prism,Russell,ANF,ABERCROMBIE AND FITCH CLASS A,Consumer Discretionary,31,40,0.02163078,148.399994,151.610001,当日前50,
-2026-08-28,2026-09-08,Prism,Russell,BXC,BLUELINX HOLDINGS,Industrials,32,1663,0.01986424,79.540001,81.120003,当日前50,
-2026-08-28,2026-09-08,Prism,Russell,FET,FORUM ENERGY TECHNOLOGIES INC,Energy,33,334,-0.00961122,80.635002,79.860001,当日前50,连续至少3个快照收益为正
-2026-08-28,2026-09-08,Prism,Russell,FIGS,FIGS CLASS A,Consumer Discretionary,34,1320,-0.11096690,15.410000,13.700000,当日前50,
-2026-08-28,2026-09-08,Prism,Russell,HZO,MARINEMAX INC,Consumer Discretionary,35,16,0.00000000,52.169998,52.169998,当日前50,
-2026-08-28,2026-09-08,Prism,Russell,NG,NOVAGOLD RESOURCES INC,Materials,36,1119,-0.09942857,8.750000,7.880000,当日前50,
-2026-08-28,2026-09-08,Prism,Russell,TSEOQ,TRINSEO PLC,Materials,37,17,0.00000000,0.013000,0.013000,当日前50,
-2026-08-28,2026-09-08,Prism,Russell,AMPL,AMPLITUDE CLASS A,Information Technology,38,292,-0.12447552,14.300000,12.520000,当日前50,
-2026-08-28,2026-09-08,Prism,Russell,BWMN,BOWMAN CONSULTING GROUP,Industrials,39,18,-0.00023490,42.580002,42.570000,当日前50,
-2026-08-28,2026-09-08,Prism,Russell,APPN,APPIAN CORP CLASS A,Information Technology,40,1368,-0.18654426,42.509998,34.580002,当日前50,
-2026-08-28,2026-09-08,Prism,Russell,REAX,REAL REMAX GROUP,Real Estate,41,19,-0.01872926,21.090000,20.695000,当日前50,
-2026-08-28,2026-09-08,Prism,Russell,RUM,RUM GROUP CLASS A,Communication,42,85,-0.06570156,8.980000,8.390000,当日前50,
-2026-08-28,2026-09-08,Prism,Russell,FWDI,FORWARD INDUSTRIES INC,Information Technology,43,23,0.16468591,5.890000,6.860000,当日前50,
-2026-08-28,2026-09-08,Prism,Russell,ARX,ACCELERANT HOLDINGS CLASS A,Financials,44,21,0.00608211,19.730000,19.850000,当日前50,
-2026-08-28,2026-09-08,Prism,Russell,PAYS,PAYSIGN INC,Financials,45,504,-0.00077580,12.890000,12.880000,当日前50,
-2026-08-28,2026-09-08,Prism,Russell,MATV,MATIV HOLDINGS,Materials,46,1182,0.03576432,12.135000,12.569000,当日前50,
-2026-08-28,2026-09-08,Prism,Russell,ULH,UNIVERSAL LOGISTICS HOLDINGS INC,Industrials,47,1564,-0.04764344,19.520000,18.590000,当日前50,
-2026-08-28,2026-09-08,Prism,Russell,TBI,TRUEBLUE INC,Industrials,48,1554,-0.12242991,10.700000,9.390000,当日前50,
-2026-08-28,2026-09-08,Prism,Russell,MTW,MANITOWOC INC,Industrials,49,232,0.07095457,19.590000,20.980000,当日前50,
-2026-08-28,2026-09-08,Prism,Russell,MNTN,MNTN CLASS A,Communication,50,226,-0.02952309,13.210000,12.820000,当日前50,
-2026-08-28,2026-09-08,Prism,Russell,AQST,AQUESTIVE THERAPEUTICS,Health Care,56,42,0.03784861,5.020000,5.210000,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Russell,EMBC,EMBECTA,Health Care,60,64,0.09900990,5.050000,5.550000,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Russell,IBTA,IBOTTA CLASS A,Communication,65,876,0.03504985,37.090000,38.389999,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Russell,SRPT,SAREPTA THERAPEUTICS,Health Care,66,88,0.00383509,20.860001,20.940001,加粗信号,连续至少3个快照收益为正
-2026-08-28,2026-09-08,Prism,Russell,VHI,VALHI INC,Materials,70,131,0.04413413,17.900000,18.690001,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Russell,KURA,KURA ONCOLOGY,Health Care,71,43,-0.01105845,12.660000,12.520000,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Russell,NUVL,NUVALENT INC CLASS A,Health Care,74,35,0.00000000,123.360001,123.360001,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Russell,CBLL,CERIBELL,Health Care,79,46,0.02444159,23.730000,24.309999,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Russell,ZYME,ZYMEWORKS,Health Care,86,142,-0.00565967,28.270000,28.110001,加粗信号,连续至少3个快照收益为正
-2026-08-28,2026-09-08,Prism,Russell,ALEC,ALECTOR,Health Care,87,52,0.05555556,2.340000,2.470000,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Russell,PLSE,PULSE BIOSCIENCES INC,Health Care,96,122,0.02564644,47.570000,48.790001,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Russell,ABUS,ARBUTUS BIOPHARMA CORP,Health Care,97,138,0.02169625,5.070000,5.180000,加粗信号,连续至少3个快照收益为正
-2026-08-28,2026-09-08,Prism,Russell,INFU,INFUSYSTEM HOLDINGS INC,Health Care,98,1152,-0.01039501,12.025000,11.900000,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Russell,ASMB,ASSEMBLY BIOSCIENCES INC,Health Care,108,38,0.03551509,34.070000,35.279999,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Russell,METC,RAMACO RESOURCES INC CLASS A,Materials,112,246,-0.05789474,13.300000,12.530000,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Russell,NVAX,NOVAVAX,Health Care,119,63,0.10043197,9.260000,10.190000,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Russell,TOI,ONCOLOGY INSTITUTE INC,Health Care,124,58,0.00000000,5.250000,5.250000,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Russell,XNCR,XENCOR,Health Care,129,116,-0.02801224,26.059999,25.330000,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Russell,SBMT,SILVER BOW MINING CORP,Materials,143,129,-0.04307869,8.705000,8.330000,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Russell,VIR,VIR BIOTECHNOLOGY,Health Care,144,77,0.03231764,10.830000,11.180000,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Russell,HP,HELMERICH & PAYNE,Energy,148,124,0.02678571,42.560001,43.700001,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Russell,PTEN,PATTERSON UTI ENERGY INC,Energy,151,66,0.01850362,12.430000,12.660000,加粗信号,连续至少3个快照收益为正
-2026-08-28,2026-09-08,Prism,Russell,CDZI,CADIZ INC,Utilities,155,67,0.08020050,3.990000,4.310000,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Russell,CGEM,CULLINAN THERAPEUTICS,Health Care,157,78,-0.00046083,21.700001,21.690001,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Russell,RIGL,RIGEL PHARMACEUTICALS,Health Care,158,119,0.01914800,46.480000,47.369999,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Russell,ANRO,ALTO NEUROSCIENCE INC,Health Care,160,70,0.01907196,35.130001,35.799999,加粗信号,连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Russell,AMPY,AMPLIFY ENERGY,Energy,165,109,0.03571429,4.760000,4.930000,加粗信号,连续至少3个快照收益为正
-2026-08-28,2026-09-08,Prism,Russell,OCUL,OCULAR THERAPEUTIX,Health Care,172,73,0.09749035,10.360000,11.370000,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
-2026-08-28,2026-09-08,Prism,Russell,TDW,TIDEWATER,Energy,173,236,-0.00604366,92.660004,92.099998,加粗信号,连续至少3个快照收益为正
-2026-08-28,2026-09-08,Prism,Russell,ATRC,ATRICURE,Health Care,176,39,0.10692210,48.540001,53.730000,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,S&P 500,SMCI,Supermicro,Information Technology,1,38,0.04989207,37.080002,38.930000,当日前50,
+2026-08-28,2026-09-09,Early,S&P 500,BG,Bunge Global,Consumer Staples,2,17,0.06929407,115.449997,123.449997,当日前50,连续至少3个快照收益为正
+2026-08-28,2026-09-09,Early,S&P 500,HAL,Halliburton,Energy,3,18,0.02667588,36.174999,37.139999,当日前50,
+2026-08-28,2026-09-09,Early,S&P 500,ORCL,Oracle Corporation,Information Technology,4,14,0.07298301,150.720001,161.720001,当日前50,
+2026-08-28,2026-09-09,Early,S&P 500,ALB,Albemarle Corporation,Materials,5,293,-0.08308457,137.330002,125.919998,当日前50,
+2026-08-28,2026-09-09,Early,S&P 500,SNPS,Synopsys,Information Technology,6,331,-0.11158805,442.609985,393.220001,当日前50,
+2026-08-28,2026-09-09,Early,S&P 500,HOOD,Robinhood Markets,Financials,7,10,0.10569726,104.260002,115.279999,当日前50,
+2026-08-28,2026-09-09,Early,S&P 500,CVNA,Carvana,Consumer Discretionary,8,261,-0.00823992,74.029999,73.419998,当日前50,
+2026-08-28,2026-09-09,Early,S&P 500,APD,Air Products,Materials,9,358,-0.04131620,307.989990,295.265015,当日前50,
+2026-08-28,2026-09-09,Early,S&P 500,NFLX,Netflix,Communication Services,10,202,-0.06962802,81.720001,76.029999,当日前50,
+2026-08-28,2026-09-09,Early,S&P 500,TGT,Target Corporation,Consumer Staples,11,129,-0.03465391,163.184998,157.529999,当日前50,
+2026-08-28,2026-09-09,Early,S&P 500,MRK,Merck & Co.,Health Care,12,88,-0.00485471,148.309998,147.589996,当日前50,
+2026-08-28,2026-09-09,Early,S&P 500,ADSK,Autodesk,Information Technology,13,498,-0.20731991,260.660004,206.619995,当日前50,
+2026-08-28,2026-09-09,Early,S&P 500,A,Agilent Technologies,Health Care,14,206,-0.05859406,153.770004,144.759995,当日前50,
+2026-08-28,2026-09-09,Early,S&P 500,NWS,News Corp (Class B),Communication Services,15,147,-0.05078898,34.849998,33.080002,当日前50,
+2026-08-28,2026-09-09,Early,S&P 500,TSLA,"Tesla, Inc.",Consumer Discretionary,16,7,0.05465232,348.750000,367.809998,当日前50,
+2026-08-28,2026-09-09,Early,S&P 500,CMCSA,Comcast,Communication Services,17,160,-0.09127861,27.059999,24.590000,当日前50,
+2026-08-28,2026-09-09,Early,S&P 500,DIS,Walt Disney Company (The),Communication Services,18,179,-0.03617520,108.084999,104.175003,当日前50,
+2026-08-28,2026-09-09,Early,S&P 500,SBAC,SBA Communications,Real Estate,19,20,-0.02204761,190.949997,186.740005,当日前50,
+2026-08-28,2026-09-09,Early,S&P 500,PFE,Pfizer,Health Care,20,133,-0.00625891,27.959999,27.785000,当日前50,连续至少3个快照收益为正
+2026-08-28,2026-09-09,Early,S&P 500,VRTX,Vertex Pharmaceuticals,Health Care,21,195,-0.03797376,541.690002,521.119995,当日前50,连续至少3个快照收益为正；连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,S&P 500,UBER,Uber,Industrials,22,379,-0.09788121,78.820000,71.105003,当日前50,
+2026-08-28,2026-09-09,Early,S&P 500,MRNA,Moderna,Health Care,23,42,-0.01724766,137.990005,135.610001,当日前50,
+2026-08-28,2026-09-09,Early,S&P 500,GILD,Gilead Sciences,Health Care,24,94,-0.00020592,145.679993,145.649994,当日前50,
+2026-08-28,2026-09-09,Early,S&P 500,CPRT,Copart,Industrials,25,104,-0.02909982,32.990002,32.029999,当日前50,
+2026-08-28,2026-09-09,Early,S&P 500,JKHY,Jack Henry & Associates,Financials,26,154,-0.06628174,169.729996,158.479996,当日前50,
+2026-08-28,2026-09-09,Early,S&P 500,PEP,PepsiCo,Consumer Staples,27,286,-0.03104845,141.070007,136.690002,当日前50,
+2026-08-28,2026-09-09,Early,S&P 500,EFX,Equifax,Industrials,28,328,-0.13481645,194.190002,168.009995,当日前50,
+2026-08-28,2026-09-09,Early,S&P 500,DHR,Danaher Corporation,Health Care,29,236,-0.05122648,216.059998,204.992004,当日前50,
+2026-08-28,2026-09-09,Early,S&P 500,SNDK,Sandisk,Information Technology,30,1,0.18800931,1484.979980,1764.170044,当日前50,
+2026-08-28,2026-09-09,Early,S&P 500,AAPL,Apple Inc.,Information Technology,31,69,-0.01363783,319.700012,315.339996,当日前50,
+2026-08-28,2026-09-09,Early,S&P 500,PLTR,Palantir Technologies,Information Technology,32,243,-0.08996723,186.289993,169.529999,当日前50,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,S&P 500,PSKY,Paramount Skydance Corporation,Communication Services,33,90,-0.06066176,10.880000,10.220000,当日前50,
+2026-08-28,2026-09-09,Early,S&P 500,FTNT,Fortinet,Information Technology,34,360,-0.05289156,166.000000,157.220001,当日前50,
+2026-08-28,2026-09-09,Early,S&P 500,AMT,American Tower,Real Estate,35,122,-0.00385790,176.259995,175.580002,当日前50,
+2026-08-28,2026-09-09,Early,S&P 500,TRMB,Trimble Inc.,Information Technology,36,213,-0.05917056,61.009998,57.400002,当日前50,
+2026-08-28,2026-09-09,Early,S&P 500,IBKR,Interactive Brokers,Financials,37,291,-0.05801333,95.839996,90.279999,当日前50,
+2026-08-28,2026-09-09,Early,S&P 500,OKE,Oneok,Energy,38,27,0.01145178,94.745003,95.830002,当日前50,
+2026-08-28,2026-09-09,Early,S&P 500,HLT,Hilton Worldwide,Consumer Discretionary,39,302,-0.04642131,322.049988,307.100006,当日前50,
+2026-08-28,2026-09-09,Early,S&P 500,MCO,Moody's Corporation,Financials,40,304,-0.07827944,514.950012,474.640015,当日前50,
+2026-08-28,2026-09-09,Early,S&P 500,RSG,Republic Services,Industrials,41,30,0.00175588,222.110001,222.500000,当日前50,
+2026-08-28,2026-09-09,Early,S&P 500,SPGI,S&P Global,Financials,42,200,-0.05536368,442.890015,418.369995,当日前50,
+2026-08-28,2026-09-09,Early,S&P 500,FDX,FedEx,Industrials,43,339,-0.06505204,330.734985,309.220001,当日前50,
+2026-08-28,2026-09-09,Early,S&P 500,UNP,Union Pacific Corporation,Industrials,44,336,-0.07323702,307.290009,284.785004,当日前50,
+2026-08-28,2026-09-09,Early,S&P 500,EXE,Expand Energy,Energy,45,227,-0.01568868,98.160004,96.620003,当日前50,
+2026-08-28,2026-09-09,Early,S&P 500,DVN,Devon Energy,Energy,46,46,0.03453016,47.349998,48.985001,当日前50,
+2026-08-28,2026-09-09,Early,S&P 500,DE,Deere & Company,Industrials,47,15,0.07472354,630.190002,677.280029,当日前50,连续至少3个快照收益为正
+2026-08-28,2026-09-09,Early,S&P 500,COIN,Coinbase,Financials,48,97,-0.02194356,178.639999,174.720001,当日前50,
+2026-08-28,2026-09-09,Early,S&P 500,WMB,Williams Companies,Energy,49,28,0.01969804,73.708099,75.160004,当日前50,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,S&P 500,HUM,Humana,Health Care,50,34,0.03769674,385.709991,400.250000,当日前50,
+2026-08-28,2026-09-09,Early,S&P 500,MCK,McKesson Corporation,Health Care,59,215,-0.00194689,893.729980,891.989990,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,S&P 500,MOS,Mosaic Company (The),Materials,61,16,0.10944110,23.620001,26.205000,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,S&P 500,CDW,CDW Corporation,Information Technology,68,71,-0.03602144,147.690002,142.369995,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,S&P 500,ZTS,Zoetis,Health Care,70,311,-0.05210082,77.349998,73.320000,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,S&P 500,KDP,Keurig Dr Pepper,Consumer Staples,72,56,-0.00310746,32.180000,32.080002,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,S&P 500,PGR,Progressive Corporation,Financials,74,189,-0.01472674,218.649994,215.429993,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,S&P 500,CF,CF Industries,Materials,76,13,0.09808755,125.754997,138.089996,加粗信号,连续至少3个快照收益为正
+2026-08-28,2026-09-09,Early,S&P 500,EG,Everest Group,Financials,78,230,-0.02595267,377.609985,367.809998,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,S&P 500,GDDY,GoDaddy,Information Technology,79,127,-0.04220596,97.735001,93.610001,加粗信号,连续至少3个快照收益为正
+2026-08-28,2026-09-09,Early,S&P 500,YUM,Yum! Brands,Consumer Discretionary,80,283,-0.05648544,153.845001,145.154999,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,S&P 500,VEEV,Veeva Systems,Health Care,82,92,-0.05667604,276.660004,260.980011,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,S&P 500,CTVA,Corteva,Materials,84,45,0.00965088,83.930000,84.739998,加粗信号,连续至少3个快照收益为正
+2026-08-28,2026-09-09,Early,S&P 500,CRM,Salesforce,Information Technology,88,39,-0.04735897,256.339996,244.199997,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,S&P 500,NOW,ServiceNow,Information Technology,89,141,-0.09391843,144.699997,131.110001,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,S&P 500,APA,APA Corporation,Energy,90,99,0.05406674,42.540001,44.840000,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,S&P 500,HPQ,HP Inc.,Information Technology,91,22,0.06227466,30.510000,32.410000,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,S&P 500,FDS,FactSet,Financials,98,204,-0.09533603,308.750000,279.315002,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,S&P 500,EL,Estée Lauder Companies (The),Consumer Staples,105,85,-0.04431544,103.349998,98.769997,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,S&P 500,ACN,Accenture,Information Technology,108,238,-0.07223133,189.529999,175.839996,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,S&P 500,ADBE,Adobe Inc.,Information Technology,125,264,-0.12575463,291.519989,254.860001,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,S&P 500,IQV,IQVIA,Health Care,126,102,-0.01814882,261.725006,256.975006,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,S&P 500,COP,ConocoPhillips,Energy,128,96,0.04810500,130.339996,136.610001,加粗信号,连续至少3个快照收益为正
+2026-08-28,2026-09-09,Early,S&P 500,RVTY,Revvity,Health Care,129,105,-0.03823902,128.794998,123.870003,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,S&P 500,TYL,Tyler Technologies,Information Technology,130,101,-0.09347802,377.950012,342.619995,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,S&P 500,GEN,Gen Digital,Information Technology,136,199,-0.04061896,31.020000,29.760000,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,S&P 500,GIS,General Mills,Consumer Staples,138,157,-0.10675165,41.544998,37.110001,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,S&P 500,CVX,Chevron Corporation,Energy,139,73,0.05914405,201.880005,213.820007,加粗信号,连续至少3个快照收益为正
+2026-08-28,2026-09-09,Early,S&P 500,VZ,Verizon,Communication Services,145,113,-0.00648964,50.080002,49.755001,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,S&P 500,TRGP,Targa Resources,Energy,151,98,0.01233502,287.799988,291.350006,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,S&P 500,COR,Cencora,Health Care,152,231,0.00430094,322.024994,323.410004,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Nasdaq 200,SMCI,Supermicro,Information Technology,1,21,0.04989207,37.080002,38.930000,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq 200,SNPS,Synopsys,Information Technology,2,141,-0.11158805,442.609985,393.220001,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq 200,CHKP,Check Point Software Technologies Ltd. - Ordinary Shares,,3,20,-0.02356860,138.320007,135.059998,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq 200,NFLX,Netflix,Communication Services,4,85,-0.06962802,81.720001,76.029999,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq 200,DKNG,DraftKings Inc. - Class A Common Stock,,5,138,-0.06334125,25.260000,23.660000,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq 200,ADSK,Autodesk,Information Technology,6,198,-0.20731991,260.660004,206.619995,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq 200,IONS,"Ionis Pharmaceuticals, Inc. - Common Stock",,7,126,-0.08239147,61.049999,56.020000,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq 200,HTHT,H World Group Limited - American Depositary Shares,,8,63,-0.08030113,47.820000,43.980000,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq 200,Z,"Zillow Group, Inc. - Class C Capital Stock",,9,144,-0.09871007,35.660000,32.139999,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq 200,TEM,"Tempus AI, Inc. - Class A Common Stock",,10,55,-0.04309809,64.040001,61.279999,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq 200,NWS,News Corp (Class B),Communication Services,11,69,-0.05078898,34.849998,33.080002,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq 200,TSLA,"Tesla, Inc.",Consumer Discretionary,12,7,0.05465232,348.750000,367.809998,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq 200,CMCSA,Comcast,Communication Services,13,74,-0.09127861,27.059999,24.590000,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq 200,VRTX,Vertex Pharmaceuticals,Health Care,14,81,-0.03797376,541.690002,521.119995,当日前50,连续至少3个快照收益为正；连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Nasdaq 200,GILD,Gilead Sciences,Health Care,15,45,-0.00020592,145.679993,145.649994,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq 200,CPRT,Copart,Industrials,16,50,-0.02909982,32.990002,32.029999,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq 200,PEP,PepsiCo,Consumer Staples,17,128,-0.03104845,141.070007,136.690002,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq 200,SNDK,Sandisk,Information Technology,18,1,0.18800931,1484.979980,1764.170044,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq 200,AFRM,"Affirm Holdings, Inc. - Class A Common Stock",,19,163,-0.12358539,77.760002,68.150002,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq 200,AAPL,Apple Inc.,Information Technology,20,32,-0.01363783,319.700012,315.339996,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq 200,PLTR,Palantir Technologies,Information Technology,21,98,-0.08996723,186.289993,169.529999,当日前50,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Nasdaq 200,PSKY,Paramount Skydance Corporation,Communication Services,22,44,-0.06066176,10.880000,10.220000,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq 200,FTNT,Fortinet,Information Technology,23,150,-0.05289156,166.000000,157.220001,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq 200,TRMB,Trimble Inc.,Information Technology,24,87,-0.05917056,61.009998,57.400002,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq 200,MSTR,Strategy Inc - Class A Common Stock,,25,2,0.04233759,127.309998,132.699997,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq 200,ZG,"Zillow Group, Inc. - Class A Common Stock",,26,133,-0.10393338,36.610001,32.805000,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq 200,EXE,Expand Energy,Energy,27,92,-0.01568868,98.160004,96.620003,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq 200,MELI,"MercadoLibre, Inc. - Common Stock",,28,51,-0.04573175,1966.250000,1876.329956,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq 200,CEG,Constellation Energy,Utilities,29,16,0.06198735,276.750000,293.904999,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq 200,CRWD,CrowdStrike,Information Technology,30,124,-0.04853476,218.399994,207.800003,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq 200,BIIB,Biogen,Health Care,31,73,-0.03556066,218.500000,210.729996,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq 200,SBUX,Starbucks,Consumer Discretionary,32,149,-0.07241537,107.849998,100.040001,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq 200,CDW,CDW Corporation,Information Technology,33,33,-0.03602144,147.690002,142.369995,当日前50,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Nasdaq 200,VRSN,Verisign,Information Technology,34,86,-0.01709311,291.929993,286.940002,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq 200,SHOP,Shopify Inc. - Class A Subordinate Voting Shares,,35,189,-0.17076517,152.899994,126.790001,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq 200,KDP,Keurig Dr Pepper,Consumer Staples,36,27,-0.00310746,32.180000,32.080002,当日前50,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Nasdaq 200,DXCM,Dexcom,Health Care,37,93,-0.07641492,90.820000,83.879997,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq 200,MDGL,"Madrigal Pharmaceuticals, Inc. - Common Stock",,38,17,0.02416810,533.760010,546.659973,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq 200,DOCU,"DocuSign, Inc. - Common Stock",,39,47,0.00703120,64.000000,64.449997,当日前50,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Nasdaq 200,RIVN,"Rivian Automotive, Inc. - Class A Common Stock",,40,97,-0.00404487,16.070000,16.004999,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq 200,NVDA,Nvidia,Information Technology,41,18,0.02813144,217.550003,223.669998,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq 200,LITE,Lumentum,Information Technology,42,12,0.10500556,895.000000,988.979980,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq 200,OKTA,"Okta, Inc. - Class A Common Stock",,43,23,0.03916266,166.229996,172.740005,当日前50,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Nasdaq 200,FISV,Fiserv,Financials,44,152,-0.08518236,53.180000,48.650002,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq 200,ADP,Automatic Data Processing,Industrials,45,95,-0.07743151,287.480011,265.220001,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq 200,INTU,Intuit,Information Technology,46,156,-0.12321956,358.059998,313.940002,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq 200,TEAM,Atlassian Corporation  - Class A Common Stock,,47,39,-0.06656507,190.414993,177.740005,当日前50,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Nasdaq 200,NTRA,"Natera, Inc. - Common Stock",,48,29,0.01241338,326.260010,330.309998,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq 200,AMZN,Amazon,Consumer Discretionary,49,175,-0.05265923,266.429993,252.399994,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq 200,RGLD,"Royal Gold, Inc. - Common Stock",,50,43,-0.00117937,262.850006,262.540009,当日前50,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Nasdaq 200,ARGX,argenx SE - American Depositary Shares,,53,41,-0.02042594,1023.210022,1002.309998,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Nasdaq 200,MDB,"MongoDB, Inc. - Class A Common Stock",,58,185,-0.19757286,446.619995,358.380005,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Nasdaq 200,ADBE,Adobe Inc.,Information Technology,61,112,-0.12575463,291.519989,254.860001,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Nasdaq 200,TRI,Thomson Reuters Corp - Common Shares,,62,115,-0.08703220,106.224998,96.980003,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Nasdaq 200,GEN,Gen Digital,Information Technology,65,82,-0.04061896,31.020000,29.760000,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Nasdaq 200,NWSA,News Corp (Class A),Communication Services,67,58,-0.04391340,30.969999,29.610001,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Nasdaq 200,ROP,Roper Technologies,Information Technology,73,94,-0.08411545,426.200012,390.350006,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Nasdaq 200,RPRX,Royalty Pharma plc - Class A Ordinary Shares,,77,48,-0.00427277,60.849998,60.590000,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Nasdaq 200,ZBRA,Zebra Technologies,Information Technology,80,119,-0.03259931,356.450012,344.829987,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Nasdaq 200,ABNB,Airbnb,Consumer Discretionary,83,113,-0.10452404,189.429993,169.630005,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Nasdaq 200,ALNY,"Alnylam Pharmaceuticals, Inc. - Common Stock",,84,9,0.08814843,237.100006,258.000000,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Nasdaq 200,TSCO,Tractor Supply,Consumer Discretionary,85,68,-0.02073736,34.720001,34.000000,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Nasdaq 200,QCOM,Qualcomm,Information Technology,89,14,0.07436502,164.190002,176.399994,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Nasdaq 200,AMGN,Amgen,Health Care,91,96,-0.09516216,432.420013,391.269989,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Nasdaq 200,REGN,Regeneron Pharmaceuticals,Health Care,93,79,0.01694811,794.190002,807.650024,加粗信号,连续至少3个快照收益为正
+2026-08-28,2026-09-09,Early,Nasdaq 200,RVMD,"Revolution Medicines, Inc. - Common Stock",,97,83,-0.00096215,207.880005,207.679993,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Nasdaq 200,BKR,Baker Hughes,Energy,100,34,0.01970836,62.410000,63.639999,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Nasdaq 200,TMUS,T-Mobile US,Communication Services,102,26,-0.02221977,181.369995,177.339996,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Nasdaq 200,ULTA,Ulta Beauty,Consumer Discretionary,105,37,0.04707243,517.500000,541.859985,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Nasdaq 200,MSFT,Microsoft,Information Technology,106,102,-0.04260712,513.530029,491.649994,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Nasdaq 200,ECHO,EchoStar,Communication Services,108,11,0.05158918,86.839996,91.320000,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Nasdaq 200,DLTR,Dollar Tree,Consumer Staples,109,166,-0.07695304,128.259995,118.389999,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Nasdaq 200,ROIV,Roivant Sciences Ltd. - Common Shares,,114,25,0.20455207,34.709999,41.810001,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Nasdaq 200,FWONK,Liberty Media Corporation - Series C Liberty Formula One Common Stock,,115,139,-0.04911591,101.800003,96.800003,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Nasdaq 200,FWONA,Liberty Media Corporation - Series A Liberty Formula One Common Stock,,116,130,-0.05105969,93.419998,88.650002,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Nasdaq 200,FANG,Diamondback Energy,Energy,118,30,0.02509236,197.669998,202.630005,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Nasdaq 200,SMMT,Summit Therapeutics Inc.  - Common Stock,,119,22,0.27749461,13.730000,17.540001,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Nasdaq 200,LIN,Linde plc,Materials,122,147,-0.04669979,489.510010,466.649994,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Nasdaq 200,INCY,Incyte,Health Care,123,57,0.01318645,124.370003,126.010002,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Nasdaq 200,NXPI,NXP Semiconductors,Information Technology,129,84,-0.00116287,223.580002,223.320007,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Nasdaq Liquid 500,TWST,TWIST BIOSCIENCE,Health Care,2,274,-0.11217999,141.380005,125.519997,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq Liquid 500,ALM,Almonty Industries Inc. - Common Shares,,3,10,0.01607533,18.040001,18.330000,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq Liquid 500,RZLV,Rezolve AI PLC - Ordinary Shares,,6,480,-0.22558923,2.970000,2.300000,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq Liquid 500,FROG,JFROG,Information Technology,7,298,-0.11565726,98.739998,87.320000,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq Liquid 500,SMCI,Supermicro,Information Technology,8,51,0.04989207,37.080002,38.930000,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq Liquid 500,USAR,USA RARE EARTH CLASS A,Materials,9,461,-0.05169544,17.990000,17.059999,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq Liquid 500,BZ,KANZHUN LIMITED - American Depository Shares,,10,260,-0.09719096,17.799999,16.070000,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq Liquid 500,SNPS,Synopsys,Information Technology,11,360,-0.11158805,442.609985,393.220001,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq Liquid 500,LKQ,LKQ Corporation - Common Stock,,14,342,-0.05248727,25.530001,24.190001,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq Liquid 500,TENB,TENABLE HOLDINGS,Information Technology,15,458,-0.10618530,37.669998,33.669998,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq Liquid 500,HOOD,Robinhood Markets,Financials,16,25,0.10569726,104.260002,115.279999,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq Liquid 500,SRRK,SCHOLAR ROCK HOLDING,Health Care,17,133,-0.05501730,57.799999,54.619999,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq Liquid 500,AUGO,Aura Minerals Inc. - Common Shares,,18,65,0.00934581,84.529999,85.320000,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq Liquid 500,CHKP,Check Point Software Technologies Ltd. - Ordinary Shares,,19,46,-0.02356860,138.320007,135.059998,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq Liquid 500,NFLX,Netflix,Communication Services,20,219,-0.06962802,81.720001,76.029999,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq Liquid 500,GTLB,GitLab Inc. - Class A Common Stock,,21,57,0.03253851,44.869999,46.330002,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq Liquid 500,DKNG,DraftKings Inc. - Class A Common Stock,,22,351,-0.06334125,25.260000,23.660000,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq Liquid 500,IOVA,IOVANCE BIOTHERAPEUTICS INC,Health Care,23,44,0.05243446,8.010000,8.430000,当日前50,连续至少3个快照收益为正
+2026-08-28,2026-09-09,Early,Nasdaq Liquid 500,ADSK,Autodesk,Information Technology,24,475,-0.20731991,260.660004,206.619995,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq Liquid 500,MNDY,monday.com Ltd. - Ordinary Shares,,25,339,-0.19461819,100.709999,81.110001,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq Liquid 500,IONS,"Ionis Pharmaceuticals, Inc. - Common Stock",,27,329,-0.08239147,61.049999,56.020000,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq Liquid 500,TVTX,TRAVERE THERAPEUTICS,Health Care,28,69,0.00837526,65.669998,66.220001,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq Liquid 500,URBN,URBAN OUTFITTERS,Consumer Discretionary,29,280,-0.04328517,81.089996,77.580002,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq Liquid 500,SMTC,Semtech Corporation - Common Stock,,30,63,0.24982850,131.169998,163.940002,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq Liquid 500,RELY,REMITLY GLOBAL,Financials,31,144,-0.09340863,26.549999,24.070000,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq Liquid 500,HTHT,H World Group Limited - American Depositary Shares,,32,167,-0.08030113,47.820000,43.980000,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq Liquid 500,Z,"Zillow Group, Inc. - Class C Capital Stock",,33,367,-0.09871007,35.660000,32.139999,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq Liquid 500,TEM,"Tempus AI, Inc. - Class A Common Stock",,34,150,-0.04309809,64.040001,61.279999,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq Liquid 500,TSLA,"Tesla, Inc.",Consumer Discretionary,35,17,0.05465232,348.750000,367.809998,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq Liquid 500,CMCSA,Comcast,Communication Services,36,190,-0.09127861,27.059999,24.590000,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq Liquid 500,DAVE,DAVE CLASS A,Financials,37,79,-0.04404963,378.549988,361.875000,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq Liquid 500,CELH,"Celsius Holdings, Inc. - Common Stock",,40,317,-0.16191634,32.980000,27.639999,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq Liquid 500,CART,Maplebear Inc. - Common Stock,,41,255,-0.07716664,50.540001,46.639999,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq Liquid 500,PURR,HYPERLIQUID STRATEGIES INC,Health Care,42,1,0.03617571,11.610000,12.030000,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq Liquid 500,SBAC,SBA Communications,Real Estate,43,33,-0.02204761,190.949997,186.740005,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq Liquid 500,CAI,"Caris Life Sciences, Inc. - Common Stock",,44,227,-0.06242677,25.629999,24.030001,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq Liquid 500,VRTX,Vertex Pharmaceuticals,Health Care,45,213,-0.03797376,541.690002,521.119995,当日前50,连续至少3个快照收益为正
+2026-08-28,2026-09-09,Early,Nasdaq Liquid 500,MRNA,Moderna,Health Care,46,60,-0.01724766,137.990005,135.610001,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq Liquid 500,GILD,Gilead Sciences,Health Care,47,131,-0.00020592,145.679993,145.649994,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq Liquid 500,TW,Tradeweb Markets Inc. - Class A Common Stock,,48,209,-0.05446864,108.870003,102.940002,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq Liquid 500,CPRT,Copart,Industrials,49,141,-0.02909982,32.990002,32.029999,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq Liquid 500,CDNA,CAREDX,Health Care,50,72,0.00482020,49.790001,50.029999,当日前50,
+2026-08-28,2026-09-09,Early,Nasdaq Liquid 500,SRPT,SAREPTA THERAPEUTICS,Health Care,60,15,0.05560877,20.860001,22.020000,加粗信号,连续至少3个快照收益为正
+2026-08-28,2026-09-09,Early,Nasdaq Liquid 500,PLTR,Palantir Technologies,Information Technology,64,253,-0.08996723,186.289993,169.529999,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Nasdaq Liquid 500,VERA,VERA THERAPEUTICS CLASS A,Health Care,75,29,-0.01199181,34.189999,33.779999,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Nasdaq Liquid 500,XP,XP Inc. - Class A Common Stock,,84,61,0.07814275,17.660000,19.040001,加粗信号,连续至少3个快照收益为正
+2026-08-28,2026-09-09,Early,Nasdaq Liquid 500,WIX,Wix.com Ltd. - Ordinary Shares,,85,117,-0.15281899,87.620003,74.230003,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Nasdaq Liquid 500,PTEN,PATTERSON UTI ENERGY INC,Energy,87,23,0.04022526,12.430000,12.930000,加粗信号,连续至少3个快照收益为正
+2026-08-28,2026-09-09,Early,Nasdaq Liquid 500,CDW,CDW Corporation,Information Technology,90,90,-0.03602144,147.690002,142.369995,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Nasdaq Liquid 500,KDP,Keurig Dr Pepper,Consumer Staples,96,78,-0.00310746,32.180000,32.080002,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Nasdaq Liquid 500,TGTX,TG THERAPEUTICS,Health Care,98,75,0.01335068,53.930000,54.650002,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Nasdaq Liquid 500,BULL,WEBULL CORP CLASS A,Financials,101,13,0.00533618,9.370000,9.420000,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Nasdaq Liquid 500,SOUN,SOUNDHOUND AI CLASS A,Information Technology,102,447,-0.08860759,7.110000,6.480000,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Nasdaq Liquid 500,MDGL,"Madrigal Pharmaceuticals, Inc. - Common Stock",,104,39,0.02416810,533.760010,546.659973,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Nasdaq Liquid 500,SLAB,SILICON LABORATORIES,Information Technology,105,47,0.00585712,218.539993,219.820007,加粗信号,连续至少3个快照收益为正
+2026-08-28,2026-09-09,Early,Nasdaq Liquid 500,DOCU,"DocuSign, Inc. - Common Stock",,108,137,0.00703120,64.000000,64.449997,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Nasdaq Liquid 500,SBET,SHARPLINK INC,Financials,110,6,0.04146341,8.200000,8.540000,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Nasdaq Liquid 500,OKTA,"Okta, Inc. - Class A Common Stock",,116,67,0.03916266,166.229996,172.740005,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Nasdaq Liquid 500,WFRD,Weatherford International plc - Ordinary shares,,119,104,-0.00778338,93.790001,93.059998,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Nasdaq Liquid 500,KRYS,KRYSTAL BIOTECH,Health Care,120,93,-0.00958856,351.459991,348.089996,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Nasdaq Liquid 500,APA,APA Corporation,Energy,121,138,0.05406674,42.540001,44.840000,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Nasdaq Liquid 500,NCNO,NCINO,Information Technology,122,125,-0.05480644,22.990000,21.730000,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Nasdaq Liquid 500,APPF,"AppFolio, Inc. - Class A Common Stock",,126,166,-0.12299036,234.490005,205.649994,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Nasdaq Liquid 500,RGLD,"Royal Gold, Inc. - Common Stock",,132,122,-0.00117937,262.850006,262.540009,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Nasdaq Liquid 500,CSGP,CoStar Group,Real Estate,138,399,-0.08193671,32.220001,29.580000,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Nasdaq Liquid 500,ARGX,argenx SE - American Depositary Shares,,139,116,-0.02042594,1023.210022,1002.309998,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Nasdaq Liquid 500,PEGA,Pegasystems Inc. - Common Stock,,141,86,-0.03151781,36.169998,35.029999,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Nasdaq Liquid 500,MDB,"MongoDB, Inc. - Class A Common Stock",,151,446,-0.19757286,446.619995,358.380005,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Nasdaq Liquid 500,CHYM,"Chime Financial, Inc. - Class A Common Stock",,153,119,0.04066259,33.200001,34.549999,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Nasdaq Liquid 500,ADBE,Adobe Inc.,Information Technology,164,289,-0.12575463,291.519989,254.860001,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Nasdaq Liquid 500,TRI,Thomson Reuters Corp - Common Shares,,165,294,-0.08703220,106.224998,96.980003,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Nasdaq Liquid 500,DOX,Amdocs Limited - Ordinary Shares,,166,182,-0.04927673,62.910000,59.810001,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Russell,IVVD,INVIVYD,Health Care,1,240,-0.17335407,0.964500,0.797300,当日前50,
+2026-08-28,2026-09-09,Early,Russell,RPD,RAPID7,Information Technology,2,1760,-0.20541761,13.290000,10.560000,当日前50,
+2026-08-28,2026-09-09,Early,Russell,VRNS,VARONIS SYSTEMS,Information Technology,3,81,0.04940806,43.919998,46.090000,当日前50,
+2026-08-28,2026-09-09,Early,Russell,WAY,WAYSTAR HOLDING,Health Care,4,971,-0.09070118,26.240000,23.860001,当日前50,
+2026-08-28,2026-09-09,Early,Russell,REPL,REPLIMUNE GROUP,Health Care,5,611,-0.06774194,15.500000,14.450000,当日前50,
+2026-08-28,2026-09-09,Early,Russell,SGMT,SAGIMET BIOSCIENCES SERIES A,Health Care,6,207,0.02938389,10.550000,10.860000,当日前50,
+2026-08-28,2026-09-09,Early,Russell,TWST,TWIST BIOSCIENCE,Health Care,7,991,-0.11217999,141.380005,125.519997,当日前50,
+2026-08-28,2026-09-09,Early,Russell,CTEV,CLARITEV CORP CLASS A,Health Care,8,740,-0.07986287,39.380001,36.235001,当日前50,
+2026-08-28,2026-09-09,Early,Russell,RUM,RUM GROUP CLASS A,Communication,9,472,-0.16258352,8.980000,7.520000,当日前50,
+2026-08-28,2026-09-09,Early,Russell,KRO,KRONOS WORLDWIDE,Materials,10,781,-0.03968254,8.820000,8.470000,当日前50,
+2026-08-28,2026-09-09,Early,Russell,CLB,CORE LABORATORIES,Energy,11,43,0.02101859,12.370000,12.630000,当日前50,
+2026-08-28,2026-09-09,Early,Russell,FENC,FENNEC PHARMACEUTICALS,Health Care,12,529,-0.05052975,12.270000,11.650000,当日前50,
+2026-08-28,2026-09-09,Early,Russell,VHI,VALHI INC,Materials,13,229,0.04468715,17.900000,18.699900,当日前50,
+2026-08-28,2026-09-09,Early,Russell,METC,RAMACO RESOURCES INC CLASS A,Materials,14,524,-0.07669173,13.300000,12.280000,当日前50,
+2026-08-28,2026-09-09,Early,Russell,MASS,908 DEVICES,Information Technology,15,487,-0.09692451,10.730000,9.690000,当日前50,
+2026-08-28,2026-09-09,Early,Russell,BBNX,BETA BIONICS,Health Care,16,698,-0.11663282,19.719999,17.420000,当日前50,
+2026-08-28,2026-09-09,Early,Russell,TNXP,TONIX PHARMACEUTICALS HOLDING,Health Care,17,682,-0.05592347,13.590000,12.830000,当日前50,
+2026-08-28,2026-09-09,Early,Russell,AI,C3 AI CLASS A,Information Technology,18,724,-0.01423150,10.540000,10.390000,当日前50,
+2026-08-28,2026-09-09,Early,Russell,USGO,US GOLDMINING INC,Materials,19,1508,-0.08043478,9.200000,8.460000,当日前50,
+2026-08-28,2026-09-09,Early,Russell,NKTX,NKARTA,Health Care,20,49,0.05434783,2.760000,2.910000,当日前50,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Russell,KURA,KURA ONCOLOGY,Health Care,21,416,-0.04502370,12.660000,12.090000,当日前50,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Russell,NVAX,NOVAVAX,Health Care,22,28,0.06371490,9.260000,9.850000,当日前50,连续至少3个快照收益为正
+2026-08-28,2026-09-09,Early,Russell,GENC,GENCOR INDUSTRIES INC,Industrials,23,189,-0.00638293,18.799999,18.680000,当日前50,
+2026-08-28,2026-09-09,Early,Russell,LZM,LIFEZONE METALS LTD,Materials,24,1090,-0.06812933,4.330000,4.035000,当日前50,
+2026-08-28,2026-09-09,Early,Russell,NMAX,NEWSMAX CLASS B,Communication,25,412,-0.00932836,10.720000,10.620000,当日前50,
+2026-08-28,2026-09-09,Early,Russell,TH,TARGET HOSPITALITY,Consumer Discretionary,26,23,0.03504054,18.549999,19.200001,当日前50,
+2026-08-28,2026-09-09,Early,Russell,ZYME,ZYMEWORKS,Health Care,27,572,-0.03961797,28.270000,27.150000,当日前50,连续至少3个快照收益为正
+2026-08-28,2026-09-09,Early,Russell,ALEC,ALECTOR,Health Care,28,415,-0.02991453,2.340000,2.270000,当日前50,
+2026-08-28,2026-09-09,Early,Russell,CDZI,CADIZ INC,Utilities,29,221,0.01503759,3.990000,4.050000,当日前50,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Russell,MEI,METHODE ELECTRONICS,Information Technology,30,1859,-0.23354715,18.240000,13.980100,当日前50,
+2026-08-28,2026-09-09,Early,Russell,OBIO,ORCHESTRA BIOMED HOLDINGS INC,Health Care,31,176,0.05110897,5.185000,5.450000,当日前50,
+2026-08-28,2026-09-09,Early,Russell,ABUS,ARBUTUS BIOPHARMA CORP,Health Care,32,208,0.01972387,5.070000,5.170000,当日前50,连续至少3个快照收益为正
+2026-08-28,2026-09-09,Early,Russell,ACDC,PROFRAC HOLDING CLASS A,Energy,33,122,0.09819639,4.990000,5.480000,当日前50,
+2026-08-28,2026-09-09,Early,Russell,FROG,JFROG,Information Technology,34,1052,-0.11565726,98.739998,87.320000,当日前50,
+2026-08-28,2026-09-09,Early,Russell,SBMT,SILVER BOW MINING CORP,Materials,35,473,-0.06031017,8.705000,8.180000,当日前50,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Russell,SDGR,SCHRODINGER INC,Health Care,36,613,-0.02538071,19.700001,19.200001,当日前50,
+2026-08-28,2026-09-09,Early,Russell,ASMB,ASSEMBLY BIOSCIENCES INC,Health Care,37,426,-0.03522163,34.070000,32.869999,当日前50,
+2026-08-28,2026-09-09,Early,Russell,CRBP,CORBUS PHARMACEUTICALS HOLDINGS,Health Care,38,977,-0.18790101,10.910000,8.860000,当日前50,
+2026-08-28,2026-09-09,Early,Russell,IBEX,IBEX LTD,Industrials,39,796,-0.02833153,38.119999,37.040001,当日前50,
+2026-08-28,2026-09-09,Early,Russell,ACHV,ACHIEVE LIFE SCIENCES,Health Care,40,427,-0.06913580,8.100000,7.540000,当日前50,
+2026-08-28,2026-09-09,Early,Russell,BDTX,BLACK DIAMOND THERAPEUTICS INC,Health Care,41,580,-0.05829596,2.230000,2.100000,当日前50,
+2026-08-28,2026-09-09,Early,Russell,OPTU,OPTIMUM COMMUNICATIONS INC CLASS A,Communication,42,26,-0.04532020,1.015000,0.969000,当日前50,
+2026-08-28,2026-09-09,Early,Russell,CSTL,CASTLE BIOSCIENCES,Health Care,43,818,-0.03552236,33.500000,32.310001,当日前50,
+2026-08-28,2026-09-09,Early,Russell,OPTX,SYNTEC OPTICS HOLDINGS INC CLASS A,Information Technology,44,1590,-0.10680751,8.520000,7.610000,当日前50,
+2026-08-28,2026-09-09,Early,Russell,AMPY,AMPLIFY ENERGY,Energy,45,206,0.03361345,4.760000,4.920000,当日前50,连续至少3个快照收益为正
+2026-08-28,2026-09-09,Early,Russell,UUUU,ENERGY FUELS,Energy,46,326,-0.00920559,14.665000,14.530000,当日前50,
+2026-08-28,2026-09-09,Early,Russell,GLOB,GLOBANT,Information Technology,47,1065,-0.10743400,40.490002,36.139999,当日前50,
+2026-08-28,2026-09-09,Early,Russell,RES,RPC INC,Energy,48,117,0.02732240,6.405000,6.580000,当日前50,连续至少3个快照收益为正
+2026-08-28,2026-09-09,Early,Russell,USAR,USA RARE EARTH CLASS A,Materials,49,1765,-0.05169544,17.990000,17.059999,当日前50,
+2026-08-28,2026-09-09,Early,Russell,RDVT,RED VIOLET INC,Information Technology,50,68,0.01500681,73.300003,74.400002,当日前50,
+2026-08-28,2026-09-09,Early,Russell,PRTA,PROTHENA PLC,Health Care,74,384,-0.00321543,9.330000,9.300000,加粗信号,连续至少3个快照收益为正
+2026-08-28,2026-09-09,Early,Russell,FUBO,FUBOTV CLASS A,Communication,80,307,0.04031083,10.295000,10.710000,加粗信号,连续至少3个快照收益为正
+2026-08-28,2026-09-09,Early,Russell,FET,FORUM ENERGY TECHNOLOGIES INC,Energy,82,299,-0.00489867,80.635002,80.239998,加粗信号,连续至少3个快照收益为正
+2026-08-28,2026-09-09,Early,Russell,VYGR,VOYAGER THERAPEUTICS,Health Care,88,248,-0.08192090,3.540000,3.250000,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Russell,SM,SM ENERGY,Energy,94,190,0.03657208,36.639999,37.980000,加粗信号,连续至少3个快照收益为正
+2026-08-28,2026-09-09,Early,Russell,BORR,BORR DRILLING,Energy,95,235,-0.03370787,4.450000,4.300000,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Russell,AMTX,AEMETIS INC,Energy,96,233,-0.01612903,1.860000,1.830000,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Russell,LAND,GLADSTONE LAND REIT CORP,Real Estate,97,29,0.05406912,8.970000,9.455000,加粗信号,连续至少3个快照收益为正
+2026-08-28,2026-09-09,Early,Russell,ZVRA,ZEVRA THERAPEUTICS INC,Health Care,99,346,0.04107220,11.565000,12.040000,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Russell,PAHC,PHIBRO ANIMAL HEALTH CORP CLASS A,Health Care,103,305,-0.02309528,37.669998,36.799999,加粗信号,连续至少3个快照收益为正
+2026-08-28,2026-09-09,Early,Russell,IMXI,INTERNATIONAL MONEY EXPRESS INC,Financials,105,35,-0.00691085,14.470000,14.370000,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Russell,JANX,JANUX THERAPEUTICS,Health Care,107,33,0.07210199,18.030001,19.330000,加粗信号,连续至少3个快照收益为正
+2026-08-28,2026-09-09,Early,Russell,GEVO,GEVO,Energy,110,951,-0.05988024,1.670000,1.570000,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Russell,REFI,CHICAGO ATLANTIC REAL ESTATE FINAN,Financials,113,75,0.00749064,10.680000,10.760000,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Russell,IOVA,IOVANCE BIOTHERAPEUTICS INC,Health Care,115,146,0.05243446,8.010000,8.430000,加粗信号,连续至少3个快照收益为正
+2026-08-28,2026-09-09,Early,Russell,GALT,GALECTIN THERAPEUTICS INC,Health Care,116,187,0.00746269,4.020000,4.050000,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Russell,NTLA,INTELLIA THERAPEUTICS,Health Care,117,251,-0.05128205,12.870000,12.210000,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Russell,REI,RING ENERGY INC,Energy,121,261,0.02777778,1.440000,1.480000,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Russell,DNUT,KRISPY KREME,Consumer Discretionary,125,1173,-0.07492795,3.470000,3.210000,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Russell,REPX,RILEY EXPLORATION PERMIAN INC,Energy,127,289,0.12895223,38.270000,43.205002,加粗信号,连续至少3个快照收益为正
+2026-08-28,2026-09-09,Early,Russell,AKTS,AKTIS ONCOLOGY INC,Health Care,128,1034,-0.06671846,25.780001,24.059999,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Russell,CFFI,C AND F FINANCIAL CORP,Financials,131,27,0.02070847,91.750000,93.650002,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Russell,SLDB,SOLID BIOSCIENCES INC,Health Care,133,530,-0.02354145,9.770000,9.540000,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Russell,PLX,PROTALIX BIOTHERAPEUTICS,Health Care,134,102,0.05533597,2.530000,2.670000,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Russell,EMBC,EMBECTA,Health Care,136,788,0.01386139,5.050000,5.120000,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Russell,ALCO,ALICO INC,Consumer Staples,143,252,-0.01360710,40.419998,39.869999,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Russell,EPSN,EPSILON ENERGY LTD,Energy,150,125,0.03488372,6.020000,6.230000,加粗信号,连续至少3个快照收益为正
+2026-08-28,2026-09-09,Early,Russell,PRME,PRIME MEDICINE,Health Care,155,316,-0.03878116,3.610000,3.470000,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Russell,PSNL,PERSONALIS,Health Care,160,466,-0.03925015,17.070000,16.400000,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Early,Russell,BHVN,BIOHAVEN,Health Care,161,1146,-0.02467532,15.400000,15.020000,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,S&P 500,MRNA,Moderna,Health Care,1,2,-0.01724766,137.990005,135.610001,当日前50,
+2026-08-28,2026-09-09,Prism,S&P 500,VRT,Vertiv,Industrials,2,9,0.02280949,256.910004,262.769989,当日前50,
+2026-08-28,2026-09-09,Prism,S&P 500,VEEV,Veeva Systems,Health Care,3,51,-0.05667604,276.660004,260.980011,当日前50,
+2026-08-28,2026-09-09,Prism,S&P 500,PLTR,Palantir Technologies,Information Technology,4,334,-0.08996723,186.289993,169.529999,当日前50,
+2026-08-28,2026-09-09,Prism,S&P 500,CRM,Salesforce,Information Technology,5,20,-0.04735897,256.339996,244.199997,当日前50,
+2026-08-28,2026-09-09,Prism,S&P 500,NVDA,Nvidia,Information Technology,6,10,0.02813144,217.550003,223.669998,当日前50,
+2026-08-28,2026-09-09,Prism,S&P 500,MRVL,Marvell Technology,Information Technology,7,8,0.08489521,216.619995,235.009995,当日前50,
+2026-08-28,2026-09-09,Prism,S&P 500,PSKY,Paramount Skydance Corporation,Communication Services,8,69,-0.06066176,10.880000,10.220000,当日前50,
+2026-08-28,2026-09-09,Prism,S&P 500,DXCM,Dexcom,Health Care,9,52,-0.07641492,90.820000,83.879997,当日前50,
+2026-08-28,2026-09-09,Prism,S&P 500,MU,Micron Technology,Information Technology,10,1,0.10174092,932.859985,1027.770020,当日前50,
+2026-08-28,2026-09-09,Prism,S&P 500,ZBRA,Zebra Technologies,Information Technology,11,143,-0.03259931,356.450012,344.829987,当日前50,
+2026-08-28,2026-09-09,Prism,S&P 500,LITE,Lumentum,Information Technology,12,12,0.10500556,895.000000,988.979980,当日前50,
+2026-08-28,2026-09-09,Prism,S&P 500,RMD,ResMed|,Health Care,13,33,-0.08416584,240.240005,220.020004,当日前50,
+2026-08-28,2026-09-09,Prism,S&P 500,QCOM,Qualcomm,Information Technology,14,7,0.07436502,164.190002,176.399994,当日前50,
+2026-08-28,2026-09-09,Prism,S&P 500,NEM,Newmont,Materials,15,79,0.00711830,127.839996,128.750000,当日前50,
+2026-08-28,2026-09-09,Prism,S&P 500,RVTY,Revvity,Health Care,16,14,-0.03823902,128.794998,123.870003,当日前50,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,S&P 500,SLB,Schlumberger,Energy,17,27,-0.00470959,57.330002,57.060001,当日前50,
+2026-08-28,2026-09-09,Prism,S&P 500,SWKS,Skyworks Solutions,Information Technology,18,4,0.16339869,65.790001,76.540001,当日前50,连续至少3个快照收益为正；连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,S&P 500,BDX,Becton Dickinson,Health Care,19,37,-0.05122184,189.470001,179.764999,当日前50,
+2026-08-28,2026-09-09,Prism,S&P 500,NOW,ServiceNow,Information Technology,20,205,-0.09391843,144.699997,131.110001,当日前50,
+2026-08-28,2026-09-09,Prism,S&P 500,WDAY,"Workday, Inc.",Information Technology,21,251,-0.09119772,204.720001,186.050003,当日前50,
+2026-08-28,2026-09-09,Prism,S&P 500,HAL,Halliburton,Energy,22,16,0.02667588,36.174999,37.139999,当日前50,
+2026-08-28,2026-09-09,Prism,S&P 500,IT,Gartner,Information Technology,23,484,-0.14400277,198.259995,169.710007,当日前50,
+2026-08-28,2026-09-09,Prism,S&P 500,CRL,Charles River Laboratories,Health Care,24,154,-0.04498995,291.510010,278.394989,当日前50,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,S&P 500,EMR,Emerson Electric,Industrials,25,32,-0.03080293,155.179993,150.399994,当日前50,
+2026-08-28,2026-09-09,Prism,S&P 500,ETN,Eaton Corporation,Industrials,26,36,0.03096726,402.845001,415.320007,当日前50,
+2026-08-28,2026-09-09,Prism,S&P 500,AVGO,Broadcom,Information Technology,27,17,-0.01195804,368.790009,364.380005,当日前50,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,S&P 500,EL,Estée Lauder Companies (The),Consumer Staples,28,35,-0.04431544,103.349998,98.769997,当日前50,
+2026-08-28,2026-09-09,Prism,S&P 500,ANET,Arista Networks,Information Technology,29,56,-0.01264657,195.309998,192.839996,当日前50,
+2026-08-28,2026-09-09,Prism,S&P 500,MSI,Motorola Solutions,Information Technology,30,48,-0.05356628,485.940002,459.910004,当日前50,
+2026-08-28,2026-09-09,Prism,S&P 500,LRCX,Lam Research,Information Technology,31,13,0.04617424,301.899994,315.839996,当日前50,
+2026-08-28,2026-09-09,Prism,S&P 500,ABNB,Airbnb,Consumer Discretionary,32,400,-0.10452404,189.429993,169.630005,当日前50,
+2026-08-28,2026-09-09,Prism,S&P 500,SMCI,Supermicro,Information Technology,33,21,0.04989207,37.080002,38.930000,当日前50,
+2026-08-28,2026-09-09,Prism,S&P 500,ADI,Analog Devices,Information Technology,34,25,0.00909395,361.779999,365.070007,当日前50,
+2026-08-28,2026-09-09,Prism,S&P 500,FSLR,First Solar,Information Technology,35,55,-0.00665167,204.460007,203.100006,当日前50,
+2026-08-28,2026-09-09,Prism,S&P 500,INTC,Intel,Information Technology,36,6,0.18743709,89.470001,106.239998,当日前50,
+2026-08-28,2026-09-09,Prism,S&P 500,MDT,Medtronic,Health Care,37,24,0.00772986,91.205002,91.910004,当日前50,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,S&P 500,AME,Ametek,Industrials,38,31,0.00063506,236.190002,236.339996,当日前50,
+2026-08-28,2026-09-09,Prism,S&P 500,CRWD,CrowdStrike,Information Technology,39,482,-0.04853476,218.399994,207.800003,当日前50,
+2026-08-28,2026-09-09,Prism,S&P 500,ABT,Abbott Laboratories,Health Care,40,49,-0.06386196,112.430000,105.250000,当日前50,
+2026-08-28,2026-09-09,Prism,S&P 500,GNRC,Generac,Industrials,41,50,0.01452586,183.809998,186.479996,当日前50,
+2026-08-28,2026-09-09,Prism,S&P 500,MCHP,Microchip Technology,Information Technology,42,45,0.00109697,72.930000,73.010002,当日前50,
+2026-08-28,2026-09-09,Prism,S&P 500,LDOS,Leidos,Industrials,43,423,-0.08863368,140.634995,128.169998,当日前50,
+2026-08-28,2026-09-09,Prism,S&P 500,ZBH,Zimmer Biomet,Health Care,44,47,-0.06252785,100.915001,94.605003,当日前50,
+2026-08-28,2026-09-09,Prism,S&P 500,ROP,Roper Technologies,Information Technology,45,78,-0.08411545,426.200012,390.350006,当日前50,
+2026-08-28,2026-09-09,Prism,S&P 500,KLAC,KLA Corporation,Information Technology,46,26,0.04198480,175.539993,182.910004,当日前50,
+2026-08-28,2026-09-09,Prism,S&P 500,FCX,Freeport-McMoRan,Materials,47,100,-0.00281244,76.445000,76.230003,当日前50,
+2026-08-28,2026-09-09,Prism,S&P 500,SNPS,Synopsys,Information Technology,48,327,-0.11158805,442.609985,393.220001,当日前50,
+2026-08-28,2026-09-09,Prism,S&P 500,ISRG,Intuitive Surgical,Health Care,49,98,-0.05195925,372.600006,353.239990,当日前50,
+2026-08-28,2026-09-09,Prism,S&P 500,BSX,Boston Scientific,Health Care,50,89,-0.03971391,46.834999,44.974998,当日前50,
+2026-08-28,2026-09-09,Prism,S&P 500,EW,Edwards Lifesciences,Health Care,52,75,-0.04473636,90.195000,86.160004,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,S&P 500,TXN,Texas Instruments,Information Technology,62,34,0.01140574,258.640015,261.589996,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,S&P 500,MPC,Marathon Petroleum,Energy,65,18,0.08256181,368.875000,399.329987,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,S&P 500,GIS,General Mills,Consumer Staples,66,137,-0.10675165,41.544998,37.110001,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,S&P 500,BKR,Baker Hughes,Energy,68,58,0.01970836,62.410000,63.639999,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,S&P 500,TYL,Tyler Technologies,Information Technology,69,102,-0.09347802,377.950012,342.619995,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,S&P 500,APA,APA Corporation,Energy,71,88,0.05406674,42.540001,44.840000,加粗信号,连续至少3个快照收益为正
+2026-08-28,2026-09-09,Prism,S&P 500,NXPI,NXP Semiconductors,Information Technology,75,22,-0.00116287,223.580002,223.320007,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,S&P 500,PSX,Phillips 66,Energy,82,28,0.06762899,244.199997,260.714996,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,S&P 500,AES,AES Corporation,Utilities,83,46,0.00645161,14.725000,14.820000,加粗信号,连续至少3个快照收益为正
+2026-08-28,2026-09-09,Prism,S&P 500,BG,Bunge Global,Consumer Staples,86,41,0.06929407,115.449997,123.449997,加粗信号,连续至少3个快照收益为正
+2026-08-28,2026-09-09,Prism,S&P 500,PFE,Pfizer,Health Care,89,116,-0.00625891,27.959999,27.785000,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,S&P 500,SJM,J.M. Smucker Company (The),Consumer Staples,92,91,-0.06764415,132.309998,123.360001,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,S&P 500,VRTX,Vertex Pharmaceuticals,Health Care,94,179,-0.03797376,541.690002,521.119995,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,S&P 500,IQV,IQVIA,Health Care,96,74,-0.01814882,261.725006,256.975006,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,S&P 500,GILD,Gilead Sciences,Health Care,100,57,-0.00020592,145.679993,145.649994,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,S&P 500,ON,ON Semiconductor,Information Technology,115,38,-0.02244867,72.610001,70.980003,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,S&P 500,VLO,Valero Energy,Energy,116,19,0.10381515,352.309906,388.885010,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,S&P 500,ERIE,Erie Indemnity,Financials,121,343,-0.06363284,260.399994,243.830002,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,S&P 500,REGN,Regeneron Pharmaceuticals,Health Care,127,166,0.01694811,794.190002,807.650024,加粗信号,连续至少3个快照收益为正
+2026-08-28,2026-09-09,Prism,S&P 500,LH,Labcorp,Health Care,128,138,-0.04250306,335.269989,321.019989,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,S&P 500,NWSA,News Corp (Class A),Communication Services,134,156,-0.04391340,30.969999,29.610001,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,S&P 500,CPB,Campbell's Company (The),Consumer Staples,136,81,0.00000000,21.110001,21.110001,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,S&P 500,COP,ConocoPhillips,Energy,142,76,0.04810500,130.339996,136.610001,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,S&P 500,POOL,Pool Corporation,Consumer Discretionary,149,87,0.00000000,194.339996,194.339996,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,S&P 500,HUM,Humana,Health Care,154,109,0.03769674,385.709991,400.250000,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,S&P 500,MCK,McKesson Corporation,Health Care,168,128,-0.00194689,893.729980,891.989990,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,S&P 500,TRGP,Targa Resources,Energy,172,94,0.01233502,287.799988,291.350006,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,S&P 500,BIIB,Biogen,Health Care,173,132,-0.03556066,218.500000,210.729996,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,S&P 500,TRMB,Trimble Inc.,Information Technology,176,285,-0.05917056,61.009998,57.400002,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Nasdaq 200,PLTR,Palantir Technologies,Information Technology,1,124,-0.08996723,186.289993,169.529999,当日前50,
+2026-08-28,2026-09-09,Prism,Nasdaq 200,TEAM,Atlassian Corporation  - Class A Common Stock,,2,22,-0.06656507,190.414993,177.740005,当日前50,
+2026-08-28,2026-09-09,Prism,Nasdaq 200,NVDA,Nvidia,Information Technology,3,8,0.02813144,217.550003,223.669998,当日前50,
+2026-08-28,2026-09-09,Prism,Nasdaq 200,TEM,"Tempus AI, Inc. - Class A Common Stock",,4,61,-0.04309809,64.040001,61.279999,当日前50,
+2026-08-28,2026-09-09,Prism,Nasdaq 200,MRVL,Marvell Technology,Information Technology,5,6,0.08489521,216.619995,235.009995,当日前50,
+2026-08-28,2026-09-09,Prism,Nasdaq 200,PSKY,Paramount Skydance Corporation,Communication Services,6,39,-0.06066176,10.880000,10.220000,当日前50,
+2026-08-28,2026-09-09,Prism,Nasdaq 200,DXCM,Dexcom,Health Care,7,29,-0.07641492,90.820000,83.879997,当日前50,
+2026-08-28,2026-09-09,Prism,Nasdaq 200,MU,Micron Technology,Information Technology,8,1,0.10174092,932.859985,1027.770020,当日前50,
+2026-08-28,2026-09-09,Prism,Nasdaq 200,MDB,"MongoDB, Inc. - Class A Common Stock",,9,180,-0.19757286,446.619995,358.380005,当日前50,
+2026-08-28,2026-09-09,Prism,Nasdaq 200,ZBRA,Zebra Technologies,Information Technology,10,67,-0.03259931,356.450012,344.829987,当日前50,
+2026-08-28,2026-09-09,Prism,Nasdaq 200,LITE,Lumentum,Information Technology,11,10,0.10500556,895.000000,988.979980,当日前50,
+2026-08-28,2026-09-09,Prism,Nasdaq 200,QCOM,Qualcomm,Information Technology,12,5,0.07436502,164.190002,176.399994,当日前50,
+2026-08-28,2026-09-09,Prism,Nasdaq 200,WDAY,"Workday, Inc.",Information Technology,13,99,-0.09119772,204.720001,186.050003,当日前50,
+2026-08-28,2026-09-09,Prism,Nasdaq 200,RGLD,"Royal Gold, Inc. - Common Stock",,14,42,-0.00117937,262.850006,262.540009,当日前50,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Nasdaq 200,AVGO,Broadcom,Information Technology,15,13,-0.01195804,368.790009,364.380005,当日前50,
+2026-08-28,2026-09-09,Prism,Nasdaq 200,MSTR,Strategy Inc - Class A Common Stock,,16,7,0.04233759,127.309998,132.699997,当日前50,
+2026-08-28,2026-09-09,Prism,Nasdaq 200,LRCX,Lam Research,Information Technology,17,12,0.04617424,301.899994,315.839996,当日前50,
+2026-08-28,2026-09-09,Prism,Nasdaq 200,ABNB,Airbnb,Consumer Discretionary,18,151,-0.10452404,189.429993,169.630005,当日前50,
+2026-08-28,2026-09-09,Prism,Nasdaq 200,OKTA,"Okta, Inc. - Class A Common Stock",,19,27,0.03916266,166.229996,172.740005,当日前50,
+2026-08-28,2026-09-09,Prism,Nasdaq 200,SMCI,Supermicro,Information Technology,20,14,0.04989207,37.080002,38.930000,当日前50,
+2026-08-28,2026-09-09,Prism,Nasdaq 200,ADI,Analog Devices,Information Technology,21,18,0.00909395,361.779999,365.070007,当日前50,
+2026-08-28,2026-09-09,Prism,Nasdaq 200,FSLR,First Solar,Information Technology,22,32,-0.00665167,204.460007,203.100006,当日前50,
+2026-08-28,2026-09-09,Prism,Nasdaq 200,INTC,Intel,Information Technology,23,4,0.18743709,89.470001,106.239998,当日前50,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Nasdaq 200,CRWD,CrowdStrike,Information Technology,24,179,-0.04853476,218.399994,207.800003,当日前50,
+2026-08-28,2026-09-09,Prism,Nasdaq 200,SHOP,Shopify Inc. - Class A Subordinate Voting Shares,,25,195,-0.17076517,152.899994,126.790001,当日前50,
+2026-08-28,2026-09-09,Prism,Nasdaq 200,MCHP,Microchip Technology,Information Technology,26,26,0.00109697,72.930000,73.010002,当日前50,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Nasdaq 200,ROP,Roper Technologies,Information Technology,27,43,-0.08411545,426.200012,390.350006,当日前50,
+2026-08-28,2026-09-09,Prism,Nasdaq 200,KLAC,KLA Corporation,Information Technology,28,19,0.04198480,175.539993,182.910004,当日前50,
+2026-08-28,2026-09-09,Prism,Nasdaq 200,SNPS,Synopsys,Information Technology,29,121,-0.11158805,442.609985,393.220001,当日前50,
+2026-08-28,2026-09-09,Prism,Nasdaq 200,ISRG,Intuitive Surgical,Health Care,30,48,-0.05195925,372.600006,353.239990,当日前50,
+2026-08-28,2026-09-09,Prism,Nasdaq 200,AMD,Advanced Micro Devices,Information Technology,31,3,0.11923834,465.579987,521.094971,当日前50,
+2026-08-28,2026-09-09,Prism,Nasdaq 200,NTRA,"Natera, Inc. - Common Stock",,32,81,0.01241338,326.260010,330.309998,当日前50,
+2026-08-28,2026-09-09,Prism,Nasdaq 200,MPWR,Monolithic Power Systems,Information Technology,33,35,-0.04179868,1256.260010,1203.750000,当日前50,
+2026-08-28,2026-09-09,Prism,Nasdaq 200,DASH,DoorDash,Consumer Discretionary,34,140,-0.16682863,236.740005,197.244995,当日前50,
+2026-08-28,2026-09-09,Prism,Nasdaq 200,NTNX,"Nutanix, Inc. - Class A Common Stock",,35,79,-0.03209951,69.160004,66.940002,当日前50,
+2026-08-28,2026-09-09,Prism,Nasdaq 200,GEHC,GE HealthCare,Health Care,36,51,-0.09139073,71.724998,65.169998,当日前50,
+2026-08-28,2026-09-09,Prism,Nasdaq 200,TXN,Texas Instruments,Information Technology,37,21,0.01140574,258.640015,261.589996,当日前50,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Nasdaq 200,DOCU,"DocuSign, Inc. - Common Stock",,38,40,0.00703120,64.000000,64.449997,当日前50,
+2026-08-28,2026-09-09,Prism,Nasdaq 200,AMAT,Applied Materials,Information Technology,39,25,0.01555222,461.670013,468.850006,当日前50,
+2026-08-28,2026-09-09,Prism,Nasdaq 200,BKR,Baker Hughes,Energy,40,34,0.01970836,62.410000,63.639999,当日前50,连续至少3个快照收益为正；连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Nasdaq 200,ARGX,argenx SE - American Depositary Shares,,41,28,-0.02042594,1023.210022,1002.309998,当日前50,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Nasdaq 200,CTSH,Cognizant,Information Technology,42,109,-0.09119300,64.040001,58.200001,当日前50,
+2026-08-28,2026-09-09,Prism,Nasdaq 200,NXPI,NXP Semiconductors,Information Technology,43,15,-0.00116287,223.580002,223.320007,当日前50,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Nasdaq 200,LECO,"Lincoln Electric Holdings, Inc. - Common Shares",,44,111,-0.04694712,284.894989,271.519989,当日前50,
+2026-08-28,2026-09-09,Prism,Nasdaq 200,INTU,Intuit,Information Technology,45,145,-0.12321956,358.059998,313.940002,当日前50,
+2026-08-28,2026-09-09,Prism,Nasdaq 200,ADBE,Adobe Inc.,Information Technology,46,148,-0.12575463,291.519989,254.860001,当日前50,
+2026-08-28,2026-09-09,Prism,Nasdaq 200,IDXX,Idexx Laboratories,Health Care,47,57,-0.07178502,554.989990,515.150024,当日前50,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Nasdaq 200,ALNY,"Alnylam Pharmaceuticals, Inc. - Common Stock",,48,20,0.08814843,237.100006,258.000000,当日前50,连续至少3个快照收益为正
+2026-08-28,2026-09-09,Prism,Nasdaq 200,TER,Teradyne,Information Technology,49,9,0.08090825,354.970001,383.690002,当日前50,
+2026-08-28,2026-09-09,Prism,Nasdaq 200,GEN,Gen Digital,Information Technology,50,85,-0.04061896,31.020000,29.760000,当日前50,
+2026-08-28,2026-09-09,Prism,Nasdaq 200,FFIV,"F5, Inc.",Information Technology,54,38,0.02635454,394.239990,404.630005,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Nasdaq 200,VRTX,Vertex Pharmaceuticals,Health Care,55,77,-0.03797376,541.690002,521.119995,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Nasdaq 200,BNTX,BioNTech SE - American Depositary Shares,,56,58,-0.03864805,102.074997,98.129997,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Nasdaq 200,GILD,Gilead Sciences,Health Care,59,33,-0.00020592,145.679993,145.649994,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Nasdaq 200,ON,ON Semiconductor,Information Technology,70,23,-0.02244867,72.610001,70.980003,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Nasdaq 200,REGN,Regeneron Pharmaceuticals,Health Care,74,73,0.01694811,794.190002,807.650024,加粗信号,连续至少3个快照收益为正
+2026-08-28,2026-09-09,Prism,Nasdaq 200,NWSA,News Corp (Class A),Communication Services,79,70,-0.04391340,30.969999,29.610001,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Nasdaq 200,RVMD,"Revolution Medicines, Inc. - Common Stock",,82,102,-0.00096215,207.880005,207.679993,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Nasdaq 200,CHKP,Check Point Software Technologies Ltd. - Ordinary Shares,,89,78,-0.02356860,138.320007,135.059998,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Nasdaq 200,PODD,Insulet Corporation,Health Care,92,24,-0.04967964,145.130005,137.919998,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Nasdaq 200,BIIB,Biogen,Health Care,93,60,-0.03556066,218.500000,210.729996,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Nasdaq 200,TRMB,Trimble Inc.,Information Technology,95,108,-0.05917056,61.009998,57.400002,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Nasdaq 200,PCAR,Paccar,Industrials,97,53,-0.02760491,125.339996,121.879997,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Nasdaq 200,DLTR,Dollar Tree,Consumer Staples,101,133,-0.07695304,128.259995,118.389999,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Nasdaq 200,PEP,PepsiCo,Consumer Staples,110,65,-0.03104845,141.070007,136.690002,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Nasdaq 200,KHC,Kraft Heinz,Consumer Staples,112,55,-0.04241245,25.700001,24.610001,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Nasdaq 200,KDP,Keurig Dr Pepper,Consumer Staples,113,36,-0.00310746,32.180000,32.080002,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Nasdaq 200,ULTA,Ulta Beauty,Consumer Discretionary,114,101,0.04707243,517.500000,541.859985,加粗信号,连续至少3个快照收益为正
+2026-08-28,2026-09-09,Prism,Nasdaq 200,TMUS,T-Mobile US,Communication Services,115,98,-0.02221977,181.369995,177.339996,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Nasdaq 200,INCY,Incyte,Health Care,118,49,0.01318645,124.370003,126.010002,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Nasdaq 200,KMB,Kimberly-Clark,Consumer Staples,119,116,-0.09904159,109.550003,98.699997,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Nasdaq 200,MDLZ,Mondelez International,Consumer Staples,120,56,0.00096211,62.360001,62.419998,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Nasdaq 200,COST,Costco,Consumer Staples,121,97,-0.04534252,945.469971,902.599976,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Nasdaq 200,EVRG,Evergy,Utilities,127,68,0.00706756,80.650002,81.220001,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Nasdaq 200,ROIV,Roivant Sciences Ltd. - Common Shares,,131,17,0.20455207,34.709999,41.810001,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Nasdaq 200,RPRX,Royalty Pharma plc - Class A Ordinary Shares,,132,46,-0.00427277,60.849998,60.590000,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Nasdaq 200,CDW,CDW Corporation,Information Technology,133,62,-0.03602144,147.690002,142.369995,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Nasdaq 200,LNT,Alliant Energy,Utilities,145,71,-0.00249887,68.029999,67.860001,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Nasdaq 200,WMT,Walmart,Consumer Staples,146,104,0.02657878,103.089996,105.830002,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Nasdaq 200,AEP,American Electric Power,Utilities,147,59,0.01929523,122.309998,124.669998,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Nasdaq Liquid 500,MRNA,Moderna,Health Care,1,2,-0.01724766,137.990005,135.610001,当日前50,
+2026-08-28,2026-09-09,Prism,Nasdaq Liquid 500,AMLX,AMYLYX PHARMACEUTICALS,Health Care,2,13,-0.06735751,34.740002,32.400002,当日前50,
+2026-08-28,2026-09-09,Prism,Nasdaq Liquid 500,ASST,STRIVE INC CLASS A,Health Care,3,3,0.22769094,21.740000,26.690001,当日前50,
+2026-08-28,2026-09-09,Prism,Nasdaq Liquid 500,CAPR,CAPRICOR THERAPEUTICS,Health Care,4,4,-0.07403545,9.590000,8.880000,当日前50,
+2026-08-28,2026-09-09,Prism,Nasdaq Liquid 500,HTFL,HEARTFLOW,Health Care,5,5,-0.02323150,47.779999,46.669998,当日前50,
+2026-08-28,2026-09-09,Prism,Nasdaq Liquid 500,IOVA,IOVANCE BIOTHERAPEUTICS INC,Health Care,6,30,0.05243446,8.010000,8.430000,当日前50,连续至少3个快照收益为正
+2026-08-28,2026-09-09,Prism,Nasdaq Liquid 500,PURR,HYPERLIQUID STRATEGIES INC,Health Care,7,6,0.03617571,11.610000,12.030000,当日前50,
+2026-08-28,2026-09-09,Prism,Nasdaq Liquid 500,TWST,TWIST BIOSCIENCE,Health Care,8,260,-0.11217999,141.380005,125.519997,当日前50,
+2026-08-28,2026-09-09,Prism,Nasdaq Liquid 500,PLTR,Palantir Technologies,Information Technology,10,299,-0.08996723,186.289993,169.529999,当日前50,
+2026-08-28,2026-09-09,Prism,Nasdaq Liquid 500,TEAM,Atlassian Corporation  - Class A Common Stock,,11,58,-0.06656507,190.414993,177.740005,当日前50,
+2026-08-28,2026-09-09,Prism,Nasdaq Liquid 500,ALM,Almonty Industries Inc. - Common Shares,,13,27,0.01607533,18.040001,18.330000,当日前50,
+2026-08-28,2026-09-09,Prism,Nasdaq Liquid 500,AUGO,Aura Minerals Inc. - Common Shares,,14,89,0.00934581,84.529999,85.320000,当日前50,
+2026-08-28,2026-09-09,Prism,Nasdaq Liquid 500,CAI,"Caris Life Sciences, Inc. - Common Stock",,16,263,-0.06242677,25.629999,24.030001,当日前50,
+2026-08-28,2026-09-09,Prism,Nasdaq Liquid 500,CHYM,"Chime Financial, Inc. - Class A Common Stock",,17,80,0.04066259,33.200001,34.549999,当日前50,
+2026-08-28,2026-09-09,Prism,Nasdaq Liquid 500,USDE,StablecoinX Inc. - Class A Common Stock,,21,9,0.16269231,6.760000,7.859800,当日前50,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Nasdaq Liquid 500,WIX,Wix.com Ltd. - Ordinary Shares,,22,68,-0.15281899,87.620003,74.230003,当日前50,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Nasdaq Liquid 500,NVDA,Nvidia,Information Technology,25,22,0.02813144,217.550003,223.669998,当日前50,
+2026-08-28,2026-09-09,Prism,Nasdaq Liquid 500,BRZE,BRAZE CLASS A,Information Technology,26,475,-0.31291628,34.529999,23.725000,当日前50,
+2026-08-28,2026-09-09,Prism,Nasdaq Liquid 500,TEM,"Tempus AI, Inc. - Class A Common Stock",,27,141,-0.04309809,64.040001,61.279999,当日前50,
+2026-08-28,2026-09-09,Prism,Nasdaq Liquid 500,MRVL,Marvell Technology,Information Technology,28,18,0.08489521,216.619995,235.009995,当日前50,
+2026-08-28,2026-09-09,Prism,Nasdaq Liquid 500,PSKY,Paramount Skydance Corporation,Communication Services,29,87,-0.06066176,10.880000,10.220000,当日前50,
+2026-08-28,2026-09-09,Prism,Nasdaq Liquid 500,DXCM,Dexcom,Health Care,30,71,-0.07641492,90.820000,83.879997,当日前50,
+2026-08-28,2026-09-09,Prism,Nasdaq Liquid 500,SRPT,SAREPTA THERAPEUTICS,Health Care,31,31,0.05560877,20.860001,22.020000,当日前50,连续至少3个快照收益为正
+2026-08-28,2026-09-09,Prism,Nasdaq Liquid 500,SSRM,SSR MINING,Materials,32,53,0.00831314,37.290001,37.599998,当日前50,
+2026-08-28,2026-09-09,Prism,Nasdaq Liquid 500,MU,Micron Technology,Information Technology,33,1,0.10174092,932.859985,1027.770020,当日前50,
+2026-08-28,2026-09-09,Prism,Nasdaq Liquid 500,MDB,"MongoDB, Inc. - Class A Common Stock",,34,432,-0.19757286,446.619995,358.380005,当日前50,
+2026-08-28,2026-09-09,Prism,Nasdaq Liquid 500,ZBRA,Zebra Technologies,Information Technology,35,148,-0.03259931,356.450012,344.829987,当日前50,
+2026-08-28,2026-09-09,Prism,Nasdaq Liquid 500,CDNA,CAREDX,Health Care,36,95,0.00482020,49.790001,50.029999,当日前50,
+2026-08-28,2026-09-09,Prism,Nasdaq Liquid 500,LITE,Lumentum,Information Technology,37,24,0.10500556,895.000000,988.979980,当日前50,
+2026-08-28,2026-09-09,Prism,Nasdaq Liquid 500,RZLV,Rezolve AI PLC - Ordinary Shares,,38,486,-0.22558923,2.970000,2.300000,当日前50,
+2026-08-28,2026-09-09,Prism,Nasdaq Liquid 500,QCOM,Qualcomm,Information Technology,39,16,0.07436502,164.190002,176.399994,当日前50,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Nasdaq Liquid 500,FIGR,"Figure Technology Solutions, Inc. - Class A Common Stock",,40,32,0.05742025,36.049999,38.119999,当日前50,
+2026-08-28,2026-09-09,Prism,Nasdaq Liquid 500,APPF,"AppFolio, Inc. - Class A Common Stock",,41,176,-0.12299036,234.490005,205.649994,当日前50,
+2026-08-28,2026-09-09,Prism,Nasdaq Liquid 500,GTLB,GitLab Inc. - Class A Common Stock,,42,44,0.03253851,44.869999,46.330002,当日前50,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Nasdaq Liquid 500,SWKS,Skyworks Solutions,Information Technology,43,12,0.16339869,65.790001,76.540001,当日前50,连续至少3个快照收益为正；连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Nasdaq Liquid 500,WDAY,"Workday, Inc.",Information Technology,45,230,-0.09119772,204.720001,186.050003,当日前50,
+2026-08-28,2026-09-09,Prism,Nasdaq Liquid 500,QLYS,QUALYS,Information Technology,46,386,-0.09024328,187.050003,170.169998,当日前50,
+2026-08-28,2026-09-09,Prism,Nasdaq Liquid 500,RGLD,"Royal Gold, Inc. - Common Stock",,47,92,-0.00117937,262.850006,262.540009,当日前50,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Nasdaq Liquid 500,NESR,NATIONAL ENERGY SERVICES REUNITED,Energy,48,309,0.00943670,34.439999,34.764999,当日前50,
+2026-08-28,2026-09-09,Prism,Nasdaq Liquid 500,TXG,10X GENOMICS CLASS A,Health Care,49,56,0.09343516,61.540001,67.290001,当日前50,
+2026-08-28,2026-09-09,Prism,Nasdaq Liquid 500,BULL,WEBULL CORP CLASS A,Financials,50,35,0.00533618,9.370000,9.420000,当日前50,
+2026-08-28,2026-09-09,Prism,Nasdaq Liquid 500,AVGO,Broadcom,Information Technology,53,37,-0.01195804,368.790009,364.380005,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Nasdaq Liquid 500,PTEN,PATTERSON UTI ENERGY INC,Energy,55,57,0.04022526,12.430000,12.930000,加粗信号,连续至少3个快照收益为正
+2026-08-28,2026-09-09,Prism,Nasdaq Liquid 500,LRCX,Lam Research,Information Technology,57,28,0.04617424,301.899994,315.839996,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Nasdaq Liquid 500,HALO,"Halozyme Therapeutics, Inc. - Common Stock",,58,151,0.01936403,105.349998,107.389999,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Nasdaq Liquid 500,INTC,Intel,Information Technology,65,15,0.18743709,89.470001,106.239998,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Nasdaq Liquid 500,MCHP,Microchip Technology,Information Technology,71,63,0.00109697,72.930000,73.010002,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Nasdaq Liquid 500,SRRK,SCHOLAR ROCK HOLDING,Health Care,77,99,-0.05501730,57.799999,54.619999,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Nasdaq Liquid 500,AMD,Advanced Micro Devices,Information Technology,85,14,0.11923834,465.579987,521.094971,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Nasdaq Liquid 500,GEHC,GE HealthCare,Health Care,94,121,-0.09139073,71.724998,65.169998,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Nasdaq Liquid 500,TXN,Texas Instruments,Information Technology,95,54,0.01140574,258.640015,261.589996,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Nasdaq Liquid 500,DOCU,"DocuSign, Inc. - Common Stock",,96,90,0.00703120,64.000000,64.449997,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Nasdaq Liquid 500,BKR,Baker Hughes,Energy,98,78,0.01970836,62.410000,63.639999,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Nasdaq Liquid 500,TVTX,TRAVERE THERAPEUTICS,Health Care,101,86,0.00837526,65.669998,66.220001,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Nasdaq Liquid 500,APA,APA Corporation,Energy,102,108,0.05406674,42.540001,44.840000,加粗信号,连续至少3个快照收益为正
+2026-08-28,2026-09-09,Prism,Nasdaq Liquid 500,ARGX,argenx SE - American Depositary Shares,,104,65,-0.02042594,1023.210022,1002.309998,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Nasdaq Liquid 500,NXPI,NXP Semiconductors,Information Technology,106,41,-0.00116287,223.580002,223.320007,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Nasdaq Liquid 500,FRPT,"Freshpet, Inc. - Common Stock",,108,250,-0.05097432,70.820000,67.209999,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Nasdaq Liquid 500,IDXX,Idexx Laboratories,Health Care,111,134,-0.07178502,554.989990,515.150024,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Nasdaq Liquid 500,ALNY,"Alnylam Pharmaceuticals, Inc. - Common Stock",,113,49,0.08814843,237.100006,258.000000,加粗信号,连续至少3个快照收益为正
+2026-08-28,2026-09-09,Prism,Nasdaq Liquid 500,PRAX,PRAXIS PRECISION MEDICINES,Health Care,121,289,0.00159532,344.750000,345.299988,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Nasdaq Liquid 500,VRTX,Vertex Pharmaceuticals,Health Care,124,170,-0.03797376,541.690002,521.119995,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Nasdaq Liquid 500,INSM,Insmed Incorporated - Common Stock,,125,330,0.08655308,118.540001,128.800003,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Nasdaq Liquid 500,BNTX,BioNTech SE - American Depositary Shares,,126,136,-0.03864805,102.074997,98.129997,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Nasdaq Liquid 500,KYMR,KYMERA THERAPEUTICS,Health Care,135,97,-0.02302160,118.150002,115.430000,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Nasdaq Liquid 500,IBRX,IMMUNITYBIO,Health Care,145,93,0.00124224,8.050000,8.060000,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Nasdaq Liquid 500,EQIX,Equinix,Real Estate,147,82,-0.00129257,1044.410034,1043.060059,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Nasdaq Liquid 500,FIVE,"Five Below, Inc. - Common Stock",,154,103,0.02162138,241.889999,247.119995,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Nasdaq Liquid 500,ON,ON Semiconductor,Information Technology,156,59,-0.02244867,72.610001,70.980003,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Nasdaq Liquid 500,EXLS,"ExlService Holdings, Inc. - Common Stock",,166,237,-0.08984377,38.400002,34.950001,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Nasdaq Liquid 500,REGN,Regeneron Pharmaceuticals,Health Care,170,162,0.01694811,794.190002,807.650024,加粗信号,连续至少3个快照收益为正
+2026-08-28,2026-09-09,Prism,Russell,REPL,REPLIMUNE GROUP,Health Care,1,377,-0.06774194,15.500000,14.450000,当日前50,
+2026-08-28,2026-09-09,Prism,Russell,TWST,TWIST BIOSCIENCE,Health Care,2,1068,-0.11217999,141.380005,125.519997,当日前50,
+2026-08-28,2026-09-09,Prism,Russell,HTFL,HEARTFLOW,Health Care,3,1,-0.02323150,47.779999,46.669998,当日前50,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Russell,AMLX,AMYLYX PHARMACEUTICALS,Health Care,4,30,-0.06735751,34.740002,32.400002,当日前50,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Russell,HNST,THE HONEST COMPANY,Consumer Staples,5,258,-0.04056437,5.670000,5.440000,当日前50,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Russell,VREX,VAREX IMAGING,Health Care,6,421,0.00000000,18.500000,18.500000,当日前50,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Russell,ARCT,ARCTURUS THERAPEUTICS HOLDINGS INC,Health Care,7,2,-0.02962475,15.190000,14.740000,当日前50,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Russell,EOLS,EVOLUS INC,Health Care,8,106,-0.03490991,8.880000,8.570000,当日前50,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Russell,IOVA,IOVANCE BIOTHERAPEUTICS INC,Health Care,9,54,0.05243446,8.010000,8.430000,当日前50,连续至少3个快照收益为正；连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Russell,BRCC,BRC INC CLASS A,Consumer Staples,10,3,-0.00236407,8.460000,8.440000,当日前50,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Russell,CTEV,CLARITEV CORP CLASS A,Health Care,11,521,-0.07986287,39.380001,36.235001,当日前50,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Russell,CAPR,CAPRICOR THERAPEUTICS,Health Care,12,4,-0.09906152,9.590000,8.640000,当日前50,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Russell,SGHT,SIGHT SCIENCES,Health Care,13,317,-0.05847953,8.550000,8.050000,当日前50,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Russell,ASST,STRIVE INC CLASS A,Health Care,14,7,0.22769094,21.740000,26.690001,当日前50,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Russell,OMER,OMEROS,Health Care,15,13,0.04191284,18.610001,19.389999,当日前50,
+2026-08-28,2026-09-09,Prism,Russell,OABI,OMNIAB INC,Health Care,16,85,-0.10178971,4.470000,4.015000,当日前50,
+2026-08-28,2026-09-09,Prism,Russell,IMMX,IMMIX BIOPHARMA,Health Care,17,117,-0.11692970,13.940000,12.310000,当日前50,
+2026-08-28,2026-09-09,Prism,Russell,PURR,HYPERLIQUID STRATEGIES INC,Health Care,18,10,0.03617571,11.610000,12.030000,当日前50,
+2026-08-28,2026-09-09,Prism,Russell,SENS,SENSEONICS HOLDINGS INC,Health Care,19,188,-0.06538049,9.330000,8.720000,当日前50,
+2026-08-28,2026-09-09,Prism,Russell,SGMT,SAGIMET BIOSCIENCES SERIES A,Health Care,20,110,0.02938389,10.550000,10.860000,当日前50,
+2026-08-28,2026-09-09,Prism,Russell,IVVD,INVIVYD,Health Care,21,318,-0.17335407,0.964500,0.797300,当日前50,
+2026-08-28,2026-09-09,Prism,Russell,INBX,INHIBRX BIOSCIENCES INC,Health Care,22,111,-0.08548742,123.410004,112.860001,当日前50,
+2026-08-28,2026-09-09,Prism,Russell,FDMT,4D MOLECULAR THERAPEUTICS INC,Health Care,23,74,-0.03340150,14.670000,14.180000,当日前50,
+2026-08-28,2026-09-09,Prism,Russell,AVAH,AVEANNA HEALTHCARE HOLDINGS INC,Health Care,24,5,0.05255255,13.320000,14.020000,当日前50,
+2026-08-28,2026-09-09,Prism,Russell,PRGO,PERRIGO PLC,Health Care,25,130,-0.00897170,14.490000,14.360000,当日前50,
+2026-08-28,2026-09-09,Prism,Russell,PSNL,PERSONALIS,Health Care,26,147,-0.03925015,17.070000,16.400000,当日前50,
+2026-08-28,2026-09-09,Prism,Russell,CRDO,CREDO TECHNOLOGY GROUP HOLDING LTD,Information Technology,27,14,0.00000000,249.330002,249.330002,当日前50,
+2026-08-28,2026-09-09,Prism,Russell,LPRO,OPEN LENDING CORP,Financials,28,15,0.00000000,3.105000,3.105000,当日前50,
+2026-08-28,2026-09-09,Prism,Russell,RCMT,RCM TECHNOLOGIES INC,Industrials,29,24,-0.03704587,41.840000,40.290001,当日前50,
+2026-08-28,2026-09-09,Prism,Russell,AMR,ALPHA METALLURGICAL RESOURCE,Materials,30,16,-0.00011019,226.824997,226.800003,当日前50,
+2026-08-28,2026-09-09,Prism,Russell,ANF,ABERCROMBIE AND FITCH CLASS A,Consumer Discretionary,31,46,0.02500005,148.399994,152.110001,当日前50,
+2026-08-28,2026-09-09,Prism,Russell,BXC,BLUELINX HOLDINGS,Industrials,32,1782,0.00716621,79.540001,80.110001,当日前50,
+2026-08-28,2026-09-09,Prism,Russell,FET,FORUM ENERGY TECHNOLOGIES INC,Energy,33,518,-0.00489867,80.635002,80.239998,当日前50,连续至少3个快照收益为正
+2026-08-28,2026-09-09,Prism,Russell,FIGS,FIGS CLASS A,Consumer Discretionary,34,1517,-0.13887086,15.410000,13.270000,当日前50,
+2026-08-28,2026-09-09,Prism,Russell,HZO,MARINEMAX INC,Consumer Discretionary,35,385,0.00009586,52.169998,52.174999,当日前50,
+2026-08-28,2026-09-09,Prism,Russell,NG,NOVAGOLD RESOURCES INC,Materials,36,359,-0.07485714,8.750000,8.095000,当日前50,
+2026-08-28,2026-09-09,Prism,Russell,TSEOQ,TRINSEO PLC,Materials,37,17,0.00000000,0.013000,0.013000,当日前50,
+2026-08-28,2026-09-09,Prism,Russell,AMPL,AMPLITUDE CLASS A,Information Technology,38,777,-0.13356643,14.300000,12.390000,当日前50,
+2026-08-28,2026-09-09,Prism,Russell,BWMN,BOWMAN CONSULTING GROUP,Industrials,39,845,-0.00070463,42.580002,42.549999,当日前50,
+2026-08-28,2026-09-09,Prism,Russell,APPN,APPIAN CORP CLASS A,Information Technology,40,1559,-0.19454238,42.509998,34.240002,当日前50,
+2026-08-28,2026-09-09,Prism,Russell,REAX,REAL REMAX GROUP,Real Estate,41,18,-0.01706970,21.090000,20.730000,当日前50,
+2026-08-28,2026-09-09,Prism,Russell,RUM,RUM GROUP CLASS A,Communication,42,297,-0.16258352,8.980000,7.520000,当日前50,
+2026-08-28,2026-09-09,Prism,Russell,FWDI,FORWARD INDUSTRIES INC,Information Technology,43,19,0.11205433,5.890000,6.550000,当日前50,
+2026-08-28,2026-09-09,Prism,Russell,ARX,ACCELERANT HOLDINGS CLASS A,Financials,44,21,0.00608211,19.730000,19.850000,当日前50,
+2026-08-28,2026-09-09,Prism,Russell,PAYS,PAYSIGN INC,Financials,45,389,0.01086113,12.890000,13.030000,当日前50,
+2026-08-28,2026-09-09,Prism,Russell,MATV,MATIV HOLDINGS,Materials,46,1191,0.02595797,12.135000,12.450000,当日前50,
+2026-08-28,2026-09-09,Prism,Russell,ULH,UNIVERSAL LOGISTICS HOLDINGS INC,Industrials,47,1136,-0.06454918,19.520000,18.260000,当日前50,
+2026-08-28,2026-09-09,Prism,Russell,TBI,TRUEBLUE INC,Industrials,48,1813,-0.15046729,10.700000,9.090000,当日前50,
+2026-08-28,2026-09-09,Prism,Russell,MTW,MANITOWOC INC,Industrials,49,209,0.07172032,19.590000,20.995001,当日前50,
+2026-08-28,2026-09-09,Prism,Russell,MNTN,MNTN CLASS A,Communication,50,831,-0.10522332,13.210000,11.820000,当日前50,
+2026-08-28,2026-09-09,Prism,Russell,AQST,AQUESTIVE THERAPEUTICS,Health Care,56,78,0.02589641,5.020000,5.150000,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Russell,EMBC,EMBECTA,Health Care,60,400,0.01386139,5.050000,5.120000,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Russell,IBTA,IBOTTA CLASS A,Communication,65,272,0.05958477,37.090000,39.299999,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Russell,SRPT,SAREPTA THERAPEUTICS,Health Care,66,56,0.05560877,20.860001,22.020000,加粗信号,连续至少3个快照收益为正
+2026-08-28,2026-09-09,Prism,Russell,VHI,VALHI INC,Materials,70,197,0.04468715,17.900000,18.699900,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Russell,KURA,KURA ONCOLOGY,Health Care,71,59,-0.04502370,12.660000,12.090000,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Russell,NUVL,NUVALENT INC CLASS A,Health Care,74,32,0.00000000,123.360001,123.360001,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Russell,CBLL,CERIBELL,Health Care,79,43,0.02865571,23.730000,24.410000,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Russell,ZYME,ZYMEWORKS,Health Care,86,243,-0.03961797,28.270000,27.150000,加粗信号,连续至少3个快照收益为正
+2026-08-28,2026-09-09,Prism,Russell,ALEC,ALECTOR,Health Care,87,58,-0.02991453,2.340000,2.270000,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Russell,PLSE,PULSE BIOSCIENCES INC,Health Care,96,37,0.11351694,47.570000,52.970001,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Russell,ABUS,ARBUTUS BIOPHARMA CORP,Health Care,97,96,0.01972387,5.070000,5.170000,加粗信号,连续至少3个快照收益为正
+2026-08-28,2026-09-09,Prism,Russell,INFU,INFUSYSTEM HOLDINGS INC,Health Care,98,564,0.01122661,12.025000,12.160000,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Russell,ASMB,ASSEMBLY BIOSCIENCES INC,Health Care,108,45,-0.03522163,34.070000,32.869999,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Russell,METC,RAMACO RESOURCES INC CLASS A,Materials,112,266,-0.07669173,13.300000,12.280000,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Russell,NVAX,NOVAVAX,Health Care,119,70,0.06371490,9.260000,9.850000,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Russell,TOI,ONCOLOGY INSTITUTE INC,Health Care,124,44,0.00000000,5.250000,5.250000,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Russell,XNCR,XENCOR,Health Care,129,183,-0.04297767,26.059999,24.940001,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Russell,SBMT,SILVER BOW MINING CORP,Materials,143,235,-0.06031017,8.705000,8.180000,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Russell,VIR,VIR BIOTECHNOLOGY,Health Care,144,97,-0.00184672,10.830000,10.810000,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Russell,HP,HELMERICH & PAYNE,Energy,148,370,0.03876875,42.560001,44.209999,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Russell,PTEN,PATTERSON UTI ENERGY INC,Energy,151,115,0.04022526,12.430000,12.930000,加粗信号,连续至少3个快照收益为正
+2026-08-28,2026-09-09,Prism,Russell,CDZI,CADIZ INC,Utilities,155,101,0.01503759,3.990000,4.050000,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Russell,CGEM,CULLINAN THERAPEUTICS,Health Care,157,88,-0.01797244,21.700001,21.309999,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Russell,RIGL,RIGEL PHARMACEUTICALS,Health Care,158,156,0.01592085,46.480000,47.220001,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Russell,ANRO,ALTO NEUROSCIENCE INC,Health Care,160,72,-0.02960435,35.130001,34.090000,加粗信号,连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Russell,AMPY,AMPLIFY ENERGY,Energy,165,129,0.03361345,4.760000,4.920000,加粗信号,连续至少3个快照收益为正
+2026-08-28,2026-09-09,Prism,Russell,OCUL,OCULAR THERAPEUTIX,Health Care,172,53,0.10714286,10.360000,11.470000,加粗信号,连续至少3个快照收益为正；连续至少3个快照排名改善
+2026-08-28,2026-09-09,Prism,Russell,TDW,TIDEWATER,Energy,173,483,0.00496437,92.660004,93.120003,加粗信号,连续至少3个快照收益为正
+2026-08-28,2026-09-09,Prism,Russell,ATRC,ATRICURE,Health Care,176,35,0.09250099,48.540001,53.029999,加粗信号,连续至少3个快照排名改善

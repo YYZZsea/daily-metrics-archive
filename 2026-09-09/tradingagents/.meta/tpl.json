@@ -1,22 +1,19 @@
 {
   "ticker": "TPL",
-  "date": "2026-09-08",
-  "generated_at": "2026-09-08 13:21:31",
+  "date": "2026-09-09",
+  "generated_at": "2026-09-09 13:30:24",
   "mode": "enhanced-fallback",
-  "decision": "BUY-WATCH / 偏买入观察",
+  "decision": "WATCH-BUY / 强观察",
   "provider": "",
   "error": "",
   "sources": [
-    "spx-yahoo-rankings",
     "aster-call-ranking",
-    "aster-consensus-agent-ranking",
-    "aster-v2-balanced-ranking",
+    "aster-deep-v3-daily-cnn-ranking",
+    "aster-deep-v4-shape-embedding-ranking",
+    "aster-trend-relay-ranking",
     "aster-v3-quality-momentum-ranking",
-    "aster-v4-tactical-breakout-ranking",
-    "aster-v5-risk-adjusted-ranking",
     "early-spx-4h-signal-ranking",
-    "prism-spx-4h-signal-ranking",
-    "spx-early-signal-ranking"
+    "prism-spx-4h-signal-ranking"
   ],
-  "public_data_fetched_at": "2026-09-08T13:22:23-07:00"
+  "public_data_fetched_at": "2026-09-09 13:30:24"
 }
