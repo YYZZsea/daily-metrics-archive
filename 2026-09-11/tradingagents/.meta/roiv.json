@@ -1,14 +1,16 @@
 {
   "ticker": "ROIV",
-  "date": "2026-09-10",
-  "generated_at": "2026-09-10 13:30:33",
+  "date": "2026-09-11",
+  "generated_at": "2026-09-11 13:30:31",
   "mode": "enhanced-fallback",
-  "decision": "HOLD-WATCH / 继续观察",
+  "decision": "WATCH-BUY / 强观察",
   "provider": "",
   "error": "",
   "sources": [
     "nasdaq200-rankings",
     "nasdaq500-rankings",
+    "aster-chan-kline-pattern-ranking",
+    "aster-trend-relay-ranking",
     "nasdaq200-early-signal-ranking",
     "nasdaq500-early-signal-ranking",
     "early-nasdaq200-4h-signal-ranking",
@@ -16,5 +18,5 @@
     "prism-nasdaq200-4h-signal-ranking",
     "prism-nasdaq500-4h-signal-ranking"
   ],
-  "public_data_fetched_at": "2026-09-10 13:30:33"
+  "public_data_fetched_at": "2026-09-11 13:30:31"
 }

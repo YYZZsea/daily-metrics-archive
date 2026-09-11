@@ -1,0 +1,22 @@
+{
+  "ticker": "ERIC",
+  "date": "2026-09-11",
+  "generated_at": "2026-09-11 13:30:31",
+  "mode": "enhanced-fallback",
+  "decision": "WATCH-BUY / 强观察",
+  "provider": "",
+  "error": "",
+  "sources": [
+    "aster-call-ranking",
+    "aster-consensus-agent-ranking",
+    "aster-deep-v3-daily-cnn-ranking",
+    "aster-deep-v4-shape-embedding-ranking",
+    "aster-ema-candle-capture-ranking",
+    "aster-ema-cross-ranking",
+    "aster-v2-balanced-ranking",
+    "aster-v4-tactical-breakout-ranking",
+    "early-nasdaq500-4h-signal-ranking",
+    "prism-nasdaq500-4h-signal-ranking"
+  ],
+  "public_data_fetched_at": "2026-09-11 13:30:31"
+}
