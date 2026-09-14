@@ -1,0 +1,447 @@
+﻿buy_date,latest_date,strategy,universe,ticker,name,sector,original_rank,current_rank,return,buy_close,latest_close,selection_reason,signal_reason
+2026-09-01,2026-09-11,Early,S&P 500,TMUS,T-Mobile US,Communication Services,1,128,0.00093323,182.160004,182.330002,4H当日前50,4H EMA9/26 最近金叉且价格在 EMA50 上方；4H MACD 零轴上方刚金叉；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,S&P 500,ZTS,Zoetis,Health Care,2,343,-0.05521751,77.239998,72.974998,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 零轴上方刚金叉；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,S&P 500,ADM,Archer Daniels Midland,Consumer Staples,3,47,0.02578356,84.550003,86.730003,4H当日前50,4H EMA9/26 最近金叉且价格在 EMA50 上方；4H MACD 位于 Signal 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,S&P 500,AES,AES Corporation,Utilities,4,57,0.00203252,14.760000,14.790000,4H当日前50,4H EMA9/26 最近金叉且价格在 EMA50 上方；4H MACD 刚金叉但仍需零轴确认；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,S&P 500,KR,Kroger,Consumer Staples,5,26,0.00897480,57.939999,58.459999,4H当日前50,4H MACD 零轴上方刚金叉；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,S&P 500,XOM,ExxonMobil,Energy,6,48,0.00865947,164.559998,165.985001,4H当日前50,4H EMA9/26 最近金叉且价格在 EMA50 上方；4H MACD 零轴上方刚金叉；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,S&P 500,ELV,Elevance Health,Health Care,7,43,0.03913691,403.084503,418.859985,4H当日前50,4H EMA9/26 最近金叉且价格在 EMA50 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,S&P 500,SBAC,SBA Communications,Real Estate,8,98,-0.01768973,188.809998,185.470001,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,S&P 500,EOG,EOG Resources,Energy,9,54,-0.00623822,148.279999,147.354996,4H当日前50,4H EMA9/26 最近金叉且价格在 EMA50 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,S&P 500,VRSK,Verisk Analytics,Industrials,10,280,-0.09338826,194.350006,176.199997,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,S&P 500,COR,Cencora,Health Care,11,298,-0.02867153,330.989990,321.500000,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 零轴上方刚金叉；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,S&P 500,REGN,Regeneron Pharmaceuticals,Health Care,12,190,-0.05138260,823.820007,781.489990,4H当日前50,4H EMA9/26 最近金叉且价格在 EMA50 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,S&P 500,KHC,Kraft Heinz,Consumer Staples,13,386,-0.04909165,25.870001,24.600000,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 位于 Signal 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,S&P 500,CAH,Cardinal Health,Health Care,14,196,-0.01990975,239.330002,234.565002,4H当日前50,4H MACD 位于 Signal 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,S&P 500,TSLA,"Tesla, Inc.",Consumer Discretionary,15,36,0.02625742,356.089996,365.440002,4H当日前50,4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,S&P 500,SNDK,Sandisk,Information Technology,16,138,0.06277693,1536.869995,1633.349976,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,S&P 500,CDW,CDW Corporation,Information Technology,17,16,0.02322016,150.300003,153.789993,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,S&P 500,CNC,Centene Corporation,Health Care,18,10,0.01855839,65.199997,66.410004,4H当日前50,4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,S&P 500,BG,Bunge Global,Consumer Staples,19,62,0.01173164,121.040001,122.459999,4H当日前50,4H MACD 位于 Signal 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,S&P 500,BKR,Baker Hughes,Energy,20,364,-0.07218597,63.654999,59.060001,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 零轴上方刚金叉；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,S&P 500,OKE,Oneok,Energy,21,63,0.00992786,95.690002,96.639999,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 零轴上方刚金叉；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,S&P 500,CI,Cigna,Health Care,22,129,-0.00801975,283.049988,280.779999,4H当日前50,4H EMA9/26 最近金叉且价格在 EMA50 上方；4H MACD 刚金叉但仍需零轴确认；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,S&P 500,GDDY,GoDaddy,Information Technology,23,89,-0.02544729,100.599998,98.040001,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 零轴上方刚金叉；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,S&P 500,EXE,Expand Energy,Energy,24,207,-0.05151031,99.980003,94.830002,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 位于 Signal 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,S&P 500,EQT,EQT Corporation,Energy,25,211,-0.02743054,55.595001,54.070000,4H当日前50,4H MACD 零轴上方刚金叉；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,S&P 500,HUM,Humana,Health Care,26,39,0.03881619,394.500000,409.812988,4H当日前50,4H MACD 零轴上方刚金叉；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,S&P 500,ULTA,Ulta Beauty,Consumer Discretionary,27,74,0.00205266,545.659973,546.780029,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 零轴上方刚金叉；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,S&P 500,EG,Everest Group,Financials,28,236,-0.01819434,378.690002,371.799988,4H当日前50,4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,S&P 500,WFC,Wells Fargo,Financials,29,24,0.03681785,87.050003,90.254997,4H当日前50,4H EMA9/26 最近金叉且价格在 EMA50 上方；4H MACD 位于 Signal 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,S&P 500,MOS,Mosaic Company (The),Materials,30,136,0.01633398,24.795000,25.200001,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 零轴上方刚金叉；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,S&P 500,ALB,Albemarle Corporation,Materials,31,426,-0.13265454,135.539993,117.559998,4H当日前50,4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,S&P 500,DG,Dollar General,Consumer Staples,32,263,-0.04959187,131.070007,124.570000,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 位于 Signal 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,S&P 500,AAPL,Apple Inc.,Information Technology,33,32,0.02196040,325.130005,332.269989,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 位于 Signal 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,S&P 500,OXY,Occidental Petroleum,Energy,34,34,0.00820345,60.950001,61.450001,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 零轴上方刚金叉；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,S&P 500,CMG,Chipotle Mexican Grill,Consumer Discretionary,35,352,-0.03428038,37.485001,36.200001,4H当日前50,4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,S&P 500,WMB,Williams Companies,Energy,36,216,-0.03150762,75.220001,72.849998,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,S&P 500,HAL,Halliburton,Energy,37,303,-0.02622283,36.799999,35.834999,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 位于 Signal 上方
+2026-09-01,2026-09-11,Early,S&P 500,META,Meta Platforms,Communication Services,38,92,0.12011279,578.539978,648.030029,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,S&P 500,AMT,American Tower,Real Estate,39,7,0.01102712,175.929993,177.869995,4H当日前50,4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,S&P 500,FFIV,"F5, Inc.",Information Technology,40,1,0.04040733,395.720001,411.709991,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,S&P 500,VZ,Verizon,Communication Services,41,87,0.00546504,50.320000,50.595001,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,S&P 500,MO,Altria,Consumer Staples,42,20,-0.00890925,69.589996,68.970001,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,S&P 500,KMI,Kinder Morgan,Energy,43,300,-0.03832967,32.090000,30.860001,4H当日前50,4H EMA9/26 最近金叉且价格在 EMA50 上方；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,S&P 500,SLB,Schlumberger,Energy,44,289,-0.01907263,57.150002,56.060001,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,S&P 500,WELL,Welltower,Real Estate,45,346,-0.02039846,240.460007,235.554993,4H当日前50,4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,S&P 500,DVN,Devon Energy,Energy,46,88,0.02415660,49.055000,50.240002,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 零轴上方刚金叉；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,S&P 500,KDP,Keurig Dr Pepper,Consumer Staples,47,334,-0.01567890,31.889999,31.389999,4H当日前50,4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,S&P 500,CRWD,CrowdStrike,Information Technology,48,327,-0.03873158,215.070007,206.740005,4H当日前50,4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,S&P 500,CCI,Crown Castle,Real Estate,49,131,-0.00303223,75.849998,75.620003,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,S&P 500,SOLV,Solventum,Health Care,50,273,-0.03760306,90.949997,87.529999,4H当日前50,4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq 200,TMUS,T-Mobile US,Communication Services,1,61,0.00093323,182.160004,182.330002,4H当日前50,4H EMA9/26 最近金叉且价格在 EMA50 上方；4H MACD 零轴上方刚金叉；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq 200,REGN,Regeneron Pharmaceuticals,Health Care,2,90,-0.05138260,823.820007,781.489990,4H当日前50,4H EMA9/26 最近金叉且价格在 EMA50 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq 200,KHC,Kraft Heinz,Consumer Staples,3,155,-0.04909165,25.870001,24.600000,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 位于 Signal 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq 200,CDW,CDW Corporation,Information Technology,4,9,0.02322016,150.300003,153.789993,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq 200,TRI,Thomson Reuters Corp - Common Shares,,5,115,-0.08462624,106.349998,97.349998,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 零轴上方刚金叉；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq 200,TSLA,"Tesla, Inc.",Consumer Discretionary,6,15,0.02625742,356.089996,365.440002,4H当日前50,4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq 200,SNDK,Sandisk,Information Technology,7,65,0.06277693,1536.869995,1633.349976,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq 200,BKR,Baker Hughes,Energy,8,142,-0.07218597,63.654999,59.060001,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 零轴上方刚金叉；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq 200,EXE,Expand Energy,Energy,9,97,-0.05151031,99.980003,94.830002,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 位于 Signal 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq 200,ASND,Ascendis Pharma A/S - Ordinary Share,,10,25,0.01254569,260.250000,263.515015,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 位于 Signal 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq 200,ULTA,Ulta Beauty,Consumer Discretionary,11,29,0.00205266,545.659973,546.780029,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 零轴上方刚金叉；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq 200,AAPL,Apple Inc.,Information Technology,12,12,0.02196040,325.130005,332.269989,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 位于 Signal 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq 200,MDGL,"Madrigal Pharmaceuticals, Inc. - Common Stock",,13,70,-0.00783359,538.710022,534.489990,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq 200,KDP,Keurig Dr Pepper,Consumer Staples,14,138,-0.01567890,31.889999,31.389999,4H当日前50,4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq 200,CRWD,CrowdStrike,Information Technology,15,127,-0.03873158,215.070007,206.740005,4H当日前50,4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq 200,DOCU,"DocuSign, Inc. - Common Stock",,16,36,0.01562505,64.639999,65.650002,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq 200,META,Meta Platforms,Communication Services,17,43,0.12011279,578.539978,648.030029,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq 200,MELI,"MercadoLibre, Inc. - Common Stock",,18,136,-0.03367473,1963.489990,1897.369995,4H当日前50,4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq 200,RPRX,Royalty Pharma plc - Class A Ordinary Shares,,19,166,-0.05953143,62.320000,58.610001,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq 200,GEN,Gen Digital,Information Technology,20,39,0.00799467,30.020000,30.260000,4H当日前50,4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq 200,OKTA,"Okta, Inc. - Class A Common Stock",,21,34,0.00042064,166.429993,166.500000,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq 200,CEG,Constellation Energy,Utilities,22,87,0.01583961,280.309998,284.750000,4H当日前50,4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq 200,CHKP,Check Point Software Technologies Ltd. - Ordinary Shares,,23,94,-0.02104560,134.470001,131.639999,4H当日前50,4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq 200,LIN,Linde plc,Materials,24,137,-0.04219740,486.760010,466.220001,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq 200,DXCM,Dexcom,Health Care,25,178,-0.07887730,90.139999,83.029999,4H当日前50,4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq 200,FFIV,"F5, Inc.",Information Technology,26,1,0.04040733,395.720001,411.709991,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq 200,MSFT,Microsoft,Information Technology,27,73,-0.01075802,501.019989,495.630005,4H当日前50,4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq 200,ADBE,Adobe Inc.,Information Technology,28,149,-0.11832352,286.079987,252.229996,4H当日前50,4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq 200,FANG,Diamondback Energy,Energy,29,14,0.00890922,203.160004,204.970001,4H当日前50,4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq 200,ROP,Roper Technologies,Information Technology,30,163,-0.07121515,418.309998,388.519989,4H当日前50,4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq 200,DLTR,Dollar Tree,Consumer Staples,31,173,-0.10280167,131.710007,118.169998,4H当日前50,4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq 200,SMMT,Summit Therapeutics Inc.  - Common Stock,,32,44,0.23940671,14.160000,17.549999,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq 200,NFLX,Netflix,Communication Services,33,131,-0.04219770,80.809998,77.400002,4H当日前50,4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq 200,ADP,Automatic Data Processing,Industrials,34,116,-0.05372317,283.489990,268.260010,4H当日前50,4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq 200,NWSA,News Corp (Class A),Communication Services,35,121,-0.03885074,30.629999,29.440001,4H当日前50,4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq 200,PAYX,Paychex,Industrials,36,165,-0.07831898,125.639999,115.800003,4H当日前50,4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq 200,PEP,PepsiCo,Consumer Staples,37,141,-0.02482285,139.789993,136.320007,4H当日前50,
+2026-09-01,2026-09-11,Early,Nasdaq 200,MDB,"MongoDB, Inc. - Class A Common Stock",,38,175,-0.16581839,434.209991,362.209991,4H当日前50,4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq 200,PODD,Insulet Corporation,Health Care,39,176,-0.11066180,148.380005,131.960007,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H MACD 位于 Signal 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq 200,VRTX,Vertex Pharmaceuticals,Health Care,40,150,-0.05881497,547.650024,515.440002,4H当日前50,4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq 200,QCOM,Qualcomm,Information Technology,41,8,0.09219134,166.610001,181.970001,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq 200,ARGX,argenx SE - American Depositary Shares,,42,148,-0.04289700,1028.510010,984.390015,4H当日前50,4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq 200,IONS,"Ionis Pharmaceuticals, Inc. - Common Stock",,43,171,-0.09468941,59.880001,54.209999,4H当日前50,
+2026-09-01,2026-09-11,Early,Nasdaq 200,FTNT,Fortinet,Information Technology,44,85,-0.03571207,161.850006,156.070007,4H当日前50,4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq 200,ALNY,"Alnylam Pharmaceuticals, Inc. - Common Stock",,45,48,0.01044245,246.110001,248.679993,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq 200,SNPS,Synopsys,Information Technology,46,101,-0.04204234,414.820007,397.380005,4H当日前50,
+2026-09-01,2026-09-11,Early,Nasdaq 200,WDAY,"Workday, Inc.",Information Technology,47,133,-0.06391777,198.380005,185.699997,4H当日前50,4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq 200,MSTR,Strategy Inc - Class A Common Stock,,48,63,0.04876685,124.879997,130.970001,4H当日前50,4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq 200,MDLN,Medline Inc. - Class A common stock,,49,172,-0.07348339,35.110001,32.529999,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq 200,Z,"Zillow Group, Inc. - Class C Capital Stock",,50,129,-0.02840063,33.450001,32.500000,4H当日前50,
+2026-09-01,2026-09-11,Early,Nasdaq Liquid 500,TMUS,T-Mobile US,Communication Services,1,165,0.00093323,182.160004,182.330002,4H当日前50,4H EMA9/26 最近金叉且价格在 EMA50 上方；4H MACD 零轴上方刚金叉；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq Liquid 500,VERA,VERA THERAPEUTICS CLASS A,Health Care,2,37,0.02395557,34.230000,35.049999,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq Liquid 500,SMTC,Semtech Corporation - Common Stock,,3,113,0.26438346,132.270004,167.240005,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq Liquid 500,SBAC,SBA Communications,Real Estate,4,119,-0.01768973,188.809998,185.470001,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq Liquid 500,QRVO,"Qorvo, Inc. - Common Stock",,5,170,0.21006224,96.400002,116.650002,4H当日前50,4H EMA9/26 最近金叉且价格在 EMA50 上方；4H MACD 零轴上方刚金叉；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq Liquid 500,GLXY,Galaxy Digital Inc. - Class A common stock,,6,132,0.04139991,23.430000,24.400000,4H当日前50,4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq Liquid 500,SLAB,SILICON LABORATORIES,Information Technology,8,54,0.00552212,219.119995,220.330002,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 位于 Signal 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq Liquid 500,REGN,Regeneron Pharmaceuticals,Health Care,9,244,-0.05138260,823.820007,781.489990,4H当日前50,4H EMA9/26 最近金叉且价格在 EMA50 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq Liquid 500,GLNG,GOLAR LNG,Energy,10,30,0.01070126,52.330002,52.889999,4H当日前50,4H EMA9/26 最近金叉且价格在 EMA50 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq Liquid 500,KHC,Kraft Heinz,Consumer Staples,11,395,-0.04909165,25.870001,24.600000,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 位于 Signal 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq Liquid 500,VRSK,Verisk Analytics,Industrials,12,317,-0.09338826,194.350006,176.199997,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq Liquid 500,TSLA,"Tesla, Inc.",Consumer Discretionary,13,33,0.02625742,356.089996,365.440002,4H当日前50,4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq Liquid 500,SNDK,Sandisk,Information Technology,14,184,0.06277693,1536.869995,1633.349976,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq Liquid 500,CDW,CDW Corporation,Information Technology,15,16,0.02322016,150.300003,153.789993,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq Liquid 500,TRI,Thomson Reuters Corp - Common Shares,,16,315,-0.08462624,106.349998,97.349998,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 零轴上方刚金叉；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq Liquid 500,CHRD,Chord Energy Corporation - Common Stock,,17,47,0.01063753,150.410004,152.009995,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 零轴上方刚金叉；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq Liquid 500,EXEL,"Exelixis, Inc. - Common Stock",,18,288,-0.01353489,56.889999,56.119999,4H当日前50,4H MACD 零轴上方刚金叉；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq Liquid 500,BKR,Baker Hughes,Energy,19,370,-0.07218597,63.654999,59.060001,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 零轴上方刚金叉；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq Liquid 500,EXE,Expand Energy,Energy,20,263,-0.05151031,99.980003,94.830002,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 位于 Signal 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq Liquid 500,ASND,Ascendis Pharma A/S - Ordinary Share,,21,67,0.01254569,260.250000,263.515015,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 位于 Signal 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq Liquid 500,ULTA,Ulta Beauty,Consumer Discretionary,22,76,0.00205266,545.659973,546.780029,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 零轴上方刚金叉；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq Liquid 500,AAPL,Apple Inc.,Information Technology,23,31,0.02196040,325.130005,332.269989,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 位于 Signal 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq Liquid 500,WFRD,Weatherford International plc - Ordinary shares,,24,258,-0.05998730,94.519997,88.849998,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq Liquid 500,IRTC,IRHYTHM HOLDINGS INC,Health Care,25,491,-0.08925213,122.349998,111.430000,4H当日前50,4H MACD 刚金叉但仍需零轴确认；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq Liquid 500,MDGL,"Madrigal Pharmaceuticals, Inc. - Common Stock",,27,197,-0.00783359,538.710022,534.489990,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq Liquid 500,DSGX,The Descartes Systems Group Inc. - Common Stock,,28,251,-0.05458161,80.430000,76.040001,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq Liquid 500,WAY,WAYSTAR HOLDING,Health Care,29,,-0.08889755,25.760000,23.469999,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq Liquid 500,KRYS,KRYSTAL BIOTECH,Health Care,30,247,-0.04628407,363.839996,347.000000,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 位于 Signal 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq Liquid 500,PI,IMPINJ,Information Technology,31,20,0.05131105,168.190002,176.820007,4H当日前50,4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq Liquid 500,KDP,Keurig Dr Pepper,Consumer Staples,32,348,-0.01567890,31.889999,31.389999,4H当日前50,4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq Liquid 500,CRWD,CrowdStrike,Information Technology,33,310,-0.03873158,215.070007,206.740005,4H当日前50,4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq Liquid 500,MNDY,monday.com Ltd. - Ordinary Shares,,34,362,-0.10019693,96.510002,86.839996,4H当日前50,4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq Liquid 500,DOCU,"DocuSign, Inc. - Common Stock",,35,90,0.01562505,64.639999,65.650002,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq Liquid 500,NESR,NATIONAL ENERGY SERVICES REUNITED,Energy,36,,-0.03398617,34.720001,33.540001,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 零轴上方刚金叉；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq Liquid 500,GEN,Gen Digital,Information Technology,37,102,0.00799467,30.020000,30.260000,4H当日前50,4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq Liquid 500,URBN,URBAN OUTFITTERS,Consumer Discretionary,38,70,-0.00895446,79.290001,78.580002,4H当日前50,4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq Liquid 500,CPB,The Campbell's Company - Common Stock,,39,404,-0.11429773,23.709999,21.000000,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq Liquid 500,MELI,"MercadoLibre, Inc. - Common Stock",,40,341,-0.03367473,1963.489990,1897.369995,4H当日前50,4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq Liquid 500,OKTA,"Okta, Inc. - Class A Common Stock",,41,86,0.00042064,166.429993,166.500000,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq Liquid 500,RPRX,Royalty Pharma plc - Class A Ordinary Shares,,42,420,-0.05953143,62.320000,58.610001,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq Liquid 500,VSNT,"Versant Media Group, Inc. - Class A Common Stock",,43,340,-0.07740020,40.310001,37.189999,4H当日前50,4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq Liquid 500,CHKP,Check Point Software Technologies Ltd. - Ordinary Shares,,44,242,-0.02104560,134.470001,131.639999,4H当日前50,4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq Liquid 500,CHEF,CHEFS WAREHOUSE INC,Consumer Staples,45,231,-0.04388851,115.519997,110.449997,4H当日前50,4H MACD 位于 Signal 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq Liquid 500,VTRS,Viatris,Health Care,46,320,-0.00721582,16.629999,16.510000,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H MACD 位于 Signal 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq Liquid 500,META,Meta Platforms,Communication Services,47,114,0.12011279,578.539978,648.030029,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq Liquid 500,CEG,Constellation Energy,Utilities,48,235,0.01583961,280.309998,284.750000,4H当日前50,4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq Liquid 500,DXCM,Dexcom,Health Care,49,446,-0.07887730,90.139999,83.029999,4H当日前50,4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Nasdaq Liquid 500,MTCH,"Match Group, Inc. - Common Stock",,50,93,0.01145309,41.910000,42.389999,4H当日前50,4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Russell,SBRA,SABRA HEALTH CARE REIT,Real Estate,1,1119,-0.02005735,20.940001,20.520000,4H当日前50,4H EMA9/26 最近金叉且价格在 EMA50 上方；4H MACD 零轴上方刚金叉；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Russell,MUR,MURPHY OIL CORP,Energy,2,184,0.02392973,37.610001,38.509998,4H当日前50,4H EMA9/26 最近金叉且价格在 EMA50 上方；4H MACD 刚金叉但仍需零轴确认；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Russell,SD,SANDRIDGE ENERGY INC,Energy,3,221,0.01842837,14.380000,14.645000,4H当日前50,4H EMA9/26 最近金叉且价格在 EMA50 上方；4H MACD 零轴上方刚金叉；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Russell,UPWK,UPWORK,Industrials,4,601,-0.05114255,9.190000,8.720000,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H MACD 位于 Signal 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Russell,LIVN,LIVANOVA PLC,Health Care,5,903,-0.02470065,80.160004,78.180000,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Russell,OXM,OXFORD INDUSTRIES INC,Consumer Discretionary,6,1367,-0.16604868,37.759998,31.490000,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Russell,DOLE,DOLE PLC,Consumer Staples,7,1370,-0.03823954,13.860000,13.330000,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Russell,METCB,RAMACO RESOURCES CLASS B,Materials,8,1431,-0.17379310,7.250000,5.990000,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Russell,CRC,CALIFORNIA RESOURCES,Energy,9,72,0.05347198,53.860001,56.740002,4H当日前50,4H EMA9/26 最近金叉且价格在 EMA50 上方；4H MACD 刚金叉但仍需零轴确认；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Russell,LXU,LSB INDUSTRIES,Materials,10,56,0.03581021,11.170000,11.570000,4H当日前50,4H EMA9/26 最近金叉且价格在 EMA50 上方；4H MACD 零轴上方刚金叉；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Russell,ROOT,ROOT INC CLASS A,Financials,11,1322,-0.02931029,55.099998,53.485001,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Russell,VNDA,VANDA PHARMACEUTICALS INC,Health Care,12,1060,-0.06088561,5.420000,5.090000,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Russell,AESI,ATLAS ENERGY SOLUTIONS,Energy,13,58,0.11549074,12.685000,14.150000,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Russell,MNPR,MONOPAR THERAPEUTICS,Health Care,14,819,-0.06217571,117.570000,110.260002,4H当日前50,4H EMA9/26 最近金叉且价格在 EMA50 上方；4H MACD 刚金叉但仍需零轴确认；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Russell,VERA,VERA THERAPEUTICS CLASS A,Health Care,15,146,0.02395557,34.230000,35.049999,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Russell,MGY,MAGNOLIA OIL GAS CORP CLASS A,Energy,16,159,0.00274815,27.655001,27.731001,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 零轴上方刚金叉；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Russell,PRCT,PROCEPT BIOROBOTICS,Health Care,17,319,-0.02534677,20.910000,20.379999,4H当日前50,4H EMA9/26 最近金叉且价格在 EMA50 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Russell,RAMP,LIVERAMP HOLDINGS INC,Information Technology,18,1155,-0.00449622,37.810001,37.639999,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Russell,LMNR,LIMONEIRA,Consumer Staples,19,1581,-0.08198452,14.210000,13.045000,4H当日前50,4H EMA9/26 最近金叉且价格在 EMA50 上方；4H MACD 零轴上方刚金叉；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Russell,CWH,CAMPING WORLD HOLDINGS INC CLASS A,Consumer Discretionary,20,1128,-0.06923077,6.500000,6.050000,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Russell,CLB,CORE LABORATORIES,Energy,21,243,0.00887813,12.390000,12.500000,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 零轴上方刚金叉；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Russell,RNGR,RANGER ENERGY SERVICES INC CLASS A,Energy,22,82,0.02359876,16.950001,17.350000,4H当日前50,4H EMA9/26 最近金叉且价格在 EMA50 上方；4H MACD 刚金叉但仍需零轴确认；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Russell,BCRX,BIOCRYST PHARMACEUTICALS,Health Care,23,1892,-0.18145161,9.920000,8.120000,4H当日前50,4H EMA9/26 最近金叉且价格在 EMA50 上方；4H MACD 零轴上方刚金叉；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Russell,WBTN,WEBTOON ENTERTAINMENT INC,Communication,24,43,0.04457364,10.320000,10.780000,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Russell,TXNM,TXNM ENERGY INC,Utilities,25,419,-0.00319768,57.855000,57.669998,4H当日前50,4H MACD 位于 Signal 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Russell,VALU,VALUE LINE INC,Financials,26,359,-0.02007616,39.349998,38.560001,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 位于 Signal 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Russell,OIS,OIL STATES INTERNATIONAL,Energy,27,659,-0.01587302,8.820000,8.680000,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 位于 Signal 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Russell,NEXT,NEXTDECADE,Energy,28,222,0.00262467,7.620000,7.640000,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Russell,FMC,FMC CORP,Materials,29,1147,-0.03959562,11.870000,11.400000,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 位于 Signal 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Russell,CMRE,COSTAMARE,Industrials,30,179,-0.00585176,15.380000,15.290000,4H当日前50,4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Russell,SMHI,SEACOR MARINE HOLDINGS INC,Energy,31,758,-0.02451481,9.790000,9.550000,4H当日前50,4H EMA9/26 最近金叉且价格在 EMA50 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Russell,DGICA,DONEGAL GROUP INC CLASS A,Financials,32,228,0.00991137,19.170000,19.360001,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Russell,HNRG,HALLADOR ENERGY,Utilities,33,395,-0.06292003,16.370001,15.340000,4H当日前50,4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Russell,METC,RAMACO RESOURCES INC CLASS A,Materials,34,464,-0.20128480,14.010000,11.190000,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Russell,LRN,STRIDE INC,Consumer Discretionary,35,1362,-0.06028656,87.250000,81.989998,4H当日前50,4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Russell,REFI,CHICAGO ATLANTIC REAL ESTATE FINAN,Financials,36,425,-0.00556070,10.790000,10.730000,4H当日前50,4H EMA 多头排列已连续维持；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Russell,PARR,PAR PACIFIC HOLDINGS,Energy,37,178,0.05769478,79.989998,84.605003,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 位于 Signal 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Russell,SLAB,SILICON LABORATORIES,Information Technology,38,257,0.00552212,219.119995,220.330002,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 位于 Signal 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Russell,STNG,SCORPIO TANKERS,Energy,39,204,0.06201703,79.574997,84.510002,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 位于 Signal 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Russell,GLNG,GOLAR LNG,Energy,40,140,0.01070126,52.330002,52.889999,4H当日前50,4H EMA9/26 最近金叉且价格在 EMA50 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Russell,PRDO,PERDOCEO EDUCATION,Consumer Discretionary,41,433,0.00090931,32.990002,33.020000,4H当日前50,4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Russell,DXC,DXC TECHNOLOGY,Information Technology,42,347,0.02024172,11.170000,11.396100,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Russell,TITN,TITAN MACHINERY INC,Industrials,43,389,0.13047701,20.540001,23.219999,4H当日前50,4H MACD 位于 Signal 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Russell,SFL,SFL,Energy,44,275,0.06012872,12.430000,13.177400,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 零轴上方刚金叉；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Russell,IMXI,INTERNATIONAL MONEY EXPRESS INC,Financials,45,1197,-0.02151284,14.410000,14.100000,4H当日前50,4H EMA 多头排列已连续维持；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Russell,ZVRA,ZEVRA THERAPEUTICS INC,Health Care,46,844,-0.00414594,12.060000,12.010000,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Russell,NVRI,ENVIRI CORP,Industrials,47,897,0.01316980,22.020000,22.309999,4H当日前50,4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Russell,EGY,VAALCO ENERGY INC,Energy,48,296,0.05685619,5.980000,6.320000,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 零轴上方刚金叉；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Russell,HSTM,HEALTHSTREAM,Health Care,49,342,-0.01887425,29.670000,29.110001,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 位于 Signal 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Early,Russell,GNL,GLOBAL NET LEASE INC,Real Estate,50,428,-0.00712329,9.125000,9.060000,4H当日前50,4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,S&P 500,FFIV,"F5, Inc.",Information Technology,1,3,0.04040733,395.720001,411.709991,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,S&P 500,AES,AES Corporation,Utilities,2,77,0.00203252,14.760000,14.790000,4H当日前50,4H EMA9/26 最近金叉且价格在 EMA50 上方；4H MACD 刚金叉但仍需零轴确认；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,S&P 500,CI,Cigna,Health Care,3,110,-0.00801975,283.049988,280.779999,4H当日前50,4H EMA9/26 最近金叉且价格在 EMA50 上方；4H MACD 刚金叉但仍需零轴确认；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,S&P 500,WFC,Wells Fargo,Financials,4,61,0.03681785,87.050003,90.254997,4H当日前50,4H EMA9/26 最近金叉且价格在 EMA50 上方；4H MACD 位于 Signal 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,S&P 500,TMUS,T-Mobile US,Communication Services,5,124,0.00093323,182.160004,182.330002,4H当日前50,4H EMA9/26 最近金叉且价格在 EMA50 上方；4H MACD 零轴上方刚金叉；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,S&P 500,QCOM,Qualcomm,Information Technology,6,48,0.09219134,166.610001,181.970001,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,S&P 500,META,Meta Platforms,Communication Services,7,82,0.12011279,578.539978,648.030029,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,S&P 500,PG,Procter & Gamble,Consumer Staples,8,116,-0.00677112,146.210007,145.220001,4H当日前50,4H EMA9/26 最近金叉且价格在 EMA50 上方；4H MACD 位于 Signal 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,S&P 500,LIN,Linde plc,Materials,9,272,-0.04219740,486.760010,466.220001,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,S&P 500,CCI,Crown Castle,Real Estate,10,111,-0.00303223,75.849998,75.620003,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,S&P 500,XOM,ExxonMobil,Energy,11,79,0.00865947,164.559998,165.985001,4H当日前50,4H EMA9/26 最近金叉且价格在 EMA50 上方；4H MACD 零轴上方刚金叉；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,S&P 500,MO,Altria,Consumer Staples,12,93,-0.00890925,69.589996,68.970001,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,S&P 500,KMI,Kinder Morgan,Energy,13,248,-0.03832967,32.090000,30.860001,4H当日前50,4H EMA9/26 最近金叉且价格在 EMA50 上方；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,S&P 500,ADM,Archer Daniels Midland,Consumer Staples,14,60,0.02578356,84.550003,86.730003,4H当日前50,4H EMA9/26 最近金叉且价格在 EMA50 上方；4H MACD 位于 Signal 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,S&P 500,ZTS,Zoetis,Health Care,15,317,-0.05521751,77.239998,72.974998,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 零轴上方刚金叉；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,S&P 500,EOG,EOG Resources,Energy,16,94,-0.00623822,148.279999,147.354996,4H当日前50,4H EMA9/26 最近金叉且价格在 EMA50 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,S&P 500,ELV,Elevance Health,Health Care,17,67,0.03913691,403.084503,418.859985,4H当日前50,4H EMA9/26 最近金叉且价格在 EMA50 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,S&P 500,REGN,Regeneron Pharmaceuticals,Health Care,18,219,-0.05138260,823.820007,781.489990,4H当日前50,4H EMA9/26 最近金叉且价格在 EMA50 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,S&P 500,VTRS,Viatris,Health Care,19,265,-0.00721582,16.629999,16.510000,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H MACD 位于 Signal 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,S&P 500,BKR,Baker Hughes,Energy,20,276,-0.07218597,63.654999,59.060001,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 零轴上方刚金叉；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,S&P 500,PODD,Insulet Corporation,Health Care,21,415,-0.11066180,148.380005,131.960007,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H MACD 位于 Signal 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,S&P 500,KR,Kroger,Consumer Staples,22,112,0.00897480,57.939999,58.459999,4H当日前50,4H MACD 零轴上方刚金叉；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,S&P 500,VRSK,Verisk Analytics,Industrials,23,280,-0.09338826,194.350006,176.199997,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,S&P 500,ETR,Entergy,Utilities,24,289,-0.01579441,107.000000,105.309998,4H当日前50,4H MACD 位于 Signal 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,S&P 500,KHC,Kraft Heinz,Consumer Staples,25,302,-0.04909165,25.870001,24.600000,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 位于 Signal 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,S&P 500,APA,APA Corporation,Energy,26,104,0.00970657,44.299999,44.730000,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 零轴上方刚金叉；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,S&P 500,EBAY,eBay Inc.,Consumer Discretionary,27,27,0.02638595,104.980003,107.750000,4H当日前50,4H MACD 位于 Signal 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,S&P 500,SLB,Schlumberger,Energy,28,186,-0.01907263,57.150002,56.060001,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,S&P 500,ED,Consolidated Edison,Utilities,29,222,-0.01151345,107.699997,106.459999,4H当日前50,4H MACD 刚金叉但仍需零轴确认；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,S&P 500,VEEV,Veeva Systems,Health Care,30,268,-0.06137875,279.250000,262.109985,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,S&P 500,COR,Cencora,Health Care,31,343,-0.02867153,330.989990,321.500000,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 零轴上方刚金叉；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,S&P 500,CDW,CDW Corporation,Information Technology,32,34,0.02322016,150.300003,153.789993,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,S&P 500,MOS,Mosaic Company (The),Materials,33,139,0.01633398,24.795000,25.200001,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 零轴上方刚金叉；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,S&P 500,EW,Edwards Lifesciences,Health Care,34,438,-0.06997243,90.750000,84.400002,4H当日前50,4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,S&P 500,FTNT,Fortinet,Information Technology,35,194,-0.03571207,161.850006,156.070007,4H当日前50,4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,S&P 500,ULTA,Ulta Beauty,Consumer Discretionary,36,121,0.00205266,545.659973,546.780029,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 零轴上方刚金叉；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,S&P 500,GDDY,GoDaddy,Information Technology,37,143,-0.02544729,100.599998,98.040001,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 零轴上方刚金叉；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,S&P 500,SWKS,Skyworks Solutions,Information Technology,38,144,0.31063630,67.410004,88.349998,4H当日前50,4H MACD 刚金叉但仍需零轴确认；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,S&P 500,CAH,Cardinal Health,Health Care,39,232,-0.01990975,239.330002,234.565002,4H当日前50,4H MACD 位于 Signal 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,S&P 500,KIM,Kimco Realty,Real Estate,40,432,-0.03815053,24.115000,23.195000,4H当日前50,4H MACD 刚金叉但仍需零轴确认；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,S&P 500,APH,Amphenol,Information Technology,41,133,-0.48567400,163.164993,83.919998,4H当日前50,4H MACD 位于 Signal 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,S&P 500,DXCM,Dexcom,Health Care,42,421,-0.07887730,90.139999,83.029999,4H当日前50,4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,S&P 500,OXY,Occidental Petroleum,Energy,43,65,0.00820345,60.950001,61.450001,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 零轴上方刚金叉；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,S&P 500,OKE,Oneok,Energy,44,130,0.00992786,95.690002,96.639999,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 零轴上方刚金叉；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,S&P 500,TEL,TE Connectivity,Information Technology,45,9,0.01918456,207.979996,211.970001,4H当日前50,4H MACD 位于 Signal 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,S&P 500,DVN,Devon Energy,Energy,46,95,0.02415660,49.055000,50.240002,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 零轴上方刚金叉；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,S&P 500,EXE,Expand Energy,Energy,47,308,-0.05151031,99.980003,94.830002,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 位于 Signal 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,S&P 500,SBAC,SBA Communications,Real Estate,48,275,-0.01768973,188.809998,185.470001,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,S&P 500,EQT,EQT Corporation,Energy,49,266,-0.02743054,55.595001,54.070000,4H当日前50,4H MACD 零轴上方刚金叉；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,S&P 500,HPQ,HP Inc.,Information Technology,50,74,0.13232242,31.325001,35.470001,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 位于 Signal 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq 200,FFIV,"F5, Inc.",Information Technology,1,3,0.04040733,395.720001,411.709991,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq 200,TMUS,T-Mobile US,Communication Services,2,54,0.00093323,182.160004,182.330002,4H当日前50,4H EMA9/26 最近金叉且价格在 EMA50 上方；4H MACD 零轴上方刚金叉；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq 200,QCOM,Qualcomm,Information Technology,3,36,0.09219134,166.610001,181.970001,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq 200,META,Meta Platforms,Communication Services,4,48,0.12011279,578.539978,648.030029,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq 200,LIN,Linde plc,Materials,5,137,-0.04219740,486.760010,466.220001,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq 200,SMMT,Summit Therapeutics Inc.  - Common Stock,,6,44,0.23940671,14.160000,17.549999,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq 200,PODD,Insulet Corporation,Health Care,7,158,-0.11066180,148.380005,131.960007,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H MACD 位于 Signal 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq 200,REGN,Regeneron Pharmaceuticals,Health Care,8,95,-0.05138260,823.820007,781.489990,4H当日前50,4H EMA9/26 最近金叉且价格在 EMA50 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq 200,ALNY,"Alnylam Pharmaceuticals, Inc. - Common Stock",,9,121,0.01044245,246.110001,248.679993,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq 200,BKR,Baker Hughes,Energy,10,102,-0.07218597,63.654999,59.060001,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 零轴上方刚金叉；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq 200,KHC,Kraft Heinz,Consumer Staples,11,143,-0.04909165,25.870001,24.600000,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 位于 Signal 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq 200,MDLN,Medline Inc. - Class A common stock,,12,173,-0.07348339,35.110001,32.529999,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq 200,ULTA,Ulta Beauty,Consumer Discretionary,13,52,0.00205266,545.659973,546.780029,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 零轴上方刚金叉；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq 200,TRI,Thomson Reuters Corp - Common Shares,,14,110,-0.08462624,106.349998,97.349998,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 零轴上方刚金叉；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq 200,EXE,Expand Energy,Energy,15,126,-0.05151031,99.980003,94.830002,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 位于 Signal 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq 200,ASND,Ascendis Pharma A/S - Ordinary Share,,16,56,0.01254569,260.250000,263.515015,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 位于 Signal 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq 200,CDW,CDW Corporation,Information Technology,17,22,0.02322016,150.300003,153.789993,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq 200,AAPL,Apple Inc.,Information Technology,18,34,0.02196040,325.130005,332.269989,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 位于 Signal 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq 200,FTNT,Fortinet,Information Technology,19,84,-0.03571207,161.850006,156.070007,4H当日前50,4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq 200,EBAY,eBay Inc.,Consumer Discretionary,20,14,0.02638595,104.980003,107.750000,4H当日前50,4H MACD 位于 Signal 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq 200,DXCM,Dexcom,Health Care,21,163,-0.07887730,90.139999,83.029999,4H当日前50,4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq 200,MDGL,"Madrigal Pharmaceuticals, Inc. - Common Stock",,22,91,-0.00783359,538.710022,534.489990,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq 200,DOCU,"DocuSign, Inc. - Common Stock",,23,47,0.01562505,64.639999,65.650002,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq 200,CEG,Constellation Energy,Utilities,24,94,0.01583961,280.309998,284.750000,4H当日前50,4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq 200,OKTA,"Okta, Inc. - Class A Common Stock",,25,60,0.00042064,166.429993,166.500000,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq 200,KDP,Keurig Dr Pepper,Consumer Staples,26,129,-0.01567890,31.889999,31.389999,4H当日前50,4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq 200,CRWD,CrowdStrike,Information Technology,27,150,-0.03873158,215.070007,206.740005,4H当日前50,4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq 200,NBIX,"Neurocrine Biosciences, Inc. - Common Stock",,28,37,-0.00344472,156.759995,156.220001,4H当日前50,4H MACD 位于 Signal 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq 200,MDB,"MongoDB, Inc. - Class A Common Stock",,29,176,-0.16581839,434.209991,362.209991,4H当日前50,4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq 200,RPRX,Royalty Pharma plc - Class A Ordinary Shares,,30,169,-0.05953143,62.320000,58.610001,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq 200,GEN,Gen Digital,Information Technology,31,62,0.00799467,30.020000,30.260000,4H当日前50,4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq 200,ADBE,Adobe Inc.,Information Technology,32,134,-0.11832352,286.079987,252.229996,4H当日前50,4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq 200,CHKP,Check Point Software Technologies Ltd. - Ordinary Shares,,33,98,-0.02104560,134.470001,131.639999,4H当日前50,4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq 200,SNDK,Sandisk,Information Technology,34,63,0.06277693,1536.869995,1633.349976,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq 200,ROP,Roper Technologies,Information Technology,35,149,-0.07121515,418.309998,388.519989,4H当日前50,4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq 200,DLTR,Dollar Tree,Consumer Staples,36,175,-0.10280167,131.710007,118.169998,4H当日前50,4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq 200,TSLA,"Tesla, Inc.",Consumer Discretionary,37,61,0.02625742,356.089996,365.440002,4H当日前50,4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq 200,BIIB,Biogen,Health Care,38,49,0.00513794,216.039993,217.149994,4H当日前50,4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq 200,ADP,Automatic Data Processing,Industrials,39,146,-0.05372317,283.489990,268.260010,4H当日前50,4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq 200,TEAM,Atlassian Corporation  - Class A Common Stock,,40,57,-0.03919158,187.029999,179.699997,4H当日前50,4H EMA 多头排列已连续维持；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq 200,MSFT,Microsoft,Information Technology,41,85,-0.01075802,501.019989,495.630005,4H当日前50,4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq 200,PAYX,Paychex,Industrials,42,166,-0.07831898,125.639999,115.800003,4H当日前50,4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq 200,MELI,"MercadoLibre, Inc. - Common Stock",,43,144,-0.03367473,1963.489990,1897.369995,4H当日前50,4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq 200,WBD,Warner Bros. Discovery,Communication Services,44,114,-0.00988697,28.320000,28.040001,4H当日前50,4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq 200,NWS,News Corp (Class B),Communication Services,45,131,-0.04440552,34.230000,32.709999,4H当日前50,4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq 200,FANG,Diamondback Energy,Energy,46,35,0.00890922,203.160004,204.970001,4H当日前50,4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq 200,PTC,PTC Inc.,Information Technology,47,186,-0.14416595,152.809998,130.779999,4H当日前50,4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq 200,ARGX,argenx SE - American Depositary Shares,,48,145,-0.04289700,1028.510010,984.390015,4H当日前50,4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq 200,NFLX,Netflix,Communication Services,49,136,-0.04219770,80.809998,77.400002,4H当日前50,4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq 200,RGLD,"Royal Gold, Inc. - Common Stock",,50,139,-0.00712345,254.089996,252.279999,4H当日前50,4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq Liquid 500,TMUS,T-Mobile US,Communication Services,1,152,0.00093323,182.160004,182.330002,4H当日前50,4H EMA9/26 最近金叉且价格在 EMA50 上方；4H MACD 零轴上方刚金叉；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq Liquid 500,META,Meta Platforms,Communication Services,2,107,0.12011279,578.539978,648.030029,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq Liquid 500,LIN,Linde plc,Materials,3,319,-0.04219740,486.760010,466.220001,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq Liquid 500,FFIV,"F5, Inc.",Information Technology,4,4,0.04040733,395.720001,411.709991,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq Liquid 500,QCOM,Qualcomm,Information Technology,5,67,0.09219134,166.610001,181.970001,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq Liquid 500,CENX,CENTURY ALUMINUM,Materials,6,369,-0.05835827,46.779999,44.049999,4H当日前50,4H EMA9/26 最近金叉且价格在 EMA50 上方；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq Liquid 500,QRVO,"Qorvo, Inc. - Common Stock",,7,206,0.21006224,96.400002,116.650002,4H当日前50,4H EMA9/26 最近金叉且价格在 EMA50 上方；4H MACD 零轴上方刚金叉；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq Liquid 500,SMMT,Summit Therapeutics Inc.  - Common Stock,,8,110,0.23940671,14.160000,17.549999,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq Liquid 500,CAPR,CAPRICOR THERAPEUTICS,Health Care,9,,-0.16383616,10.010000,8.370000,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq Liquid 500,SOLS,Solstice Advanced Materials Inc. - Common Stock,,10,225,-0.00323993,61.730000,61.529999,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq Liquid 500,PODD,Insulet Corporation,Health Care,11,415,-0.11066180,148.380005,131.960007,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H MACD 位于 Signal 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq Liquid 500,VTRS,Viatris,Health Care,12,259,-0.00721582,16.629999,16.510000,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H MACD 位于 Signal 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq Liquid 500,ALNY,"Alnylam Pharmaceuticals, Inc. - Common Stock",,13,304,0.01044245,246.110001,248.679993,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq Liquid 500,BKR,Baker Hughes,Energy,14,266,-0.07218597,63.654999,59.060001,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 零轴上方刚金叉；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq Liquid 500,REGN,Regeneron Pharmaceuticals,Health Care,15,264,-0.05138260,823.820007,781.489990,4H当日前50,4H EMA9/26 最近金叉且价格在 EMA50 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq Liquid 500,GLNG,GOLAR LNG,Energy,16,97,0.01070126,52.330002,52.889999,4H当日前50,4H EMA9/26 最近金叉且价格在 EMA50 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq Liquid 500,SLAB,SILICON LABORATORIES,Information Technology,18,125,0.00552212,219.119995,220.330002,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 位于 Signal 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq Liquid 500,VERA,VERA THERAPEUTICS CLASS A,Health Care,19,146,0.02395557,34.230000,35.049999,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq Liquid 500,TRI,Thomson Reuters Corp - Common Shares,,20,306,-0.08462624,106.349998,97.349998,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 零轴上方刚金叉；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq Liquid 500,MDLN,Medline Inc. - Class A common stock,,21,439,-0.07348339,35.110001,32.529999,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq Liquid 500,SMTC,Semtech Corporation - Common Stock,,22,122,0.26438346,132.270004,167.240005,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq Liquid 500,KHC,Kraft Heinz,Consumer Staples,23,351,-0.04909165,25.870001,24.600000,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 位于 Signal 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq Liquid 500,CDW,CDW Corporation,Information Technology,24,51,0.02322016,150.300003,153.789993,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq Liquid 500,ULTA,Ulta Beauty,Consumer Discretionary,25,147,0.00205266,545.659973,546.780029,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 零轴上方刚金叉；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq Liquid 500,EXEL,"Exelixis, Inc. - Common Stock",,26,309,-0.01353489,56.889999,56.119999,4H当日前50,4H MACD 零轴上方刚金叉；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq Liquid 500,NESR,NATIONAL ENERGY SERVICES REUNITED,Energy,27,,-0.03398617,34.720001,33.540001,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 零轴上方刚金叉；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq Liquid 500,CHRD,Chord Energy Corporation - Common Stock,,28,99,0.01063753,150.410004,152.009995,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 零轴上方刚金叉；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq Liquid 500,SWKS,Skyworks Solutions,Information Technology,29,183,0.31063630,67.410004,88.349998,4H当日前50,4H MACD 刚金叉但仍需零轴确认；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq Liquid 500,VRSK,Verisk Analytics,Industrials,30,256,-0.09338826,194.350006,176.199997,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq Liquid 500,FTNT,Fortinet,Information Technology,31,207,-0.03571207,161.850006,156.070007,4H当日前50,4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq Liquid 500,EBAY,eBay Inc.,Consumer Discretionary,32,30,0.02638595,104.980003,107.750000,4H当日前50,4H MACD 位于 Signal 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq Liquid 500,EXE,Expand Energy,Energy,33,298,-0.05151031,99.980003,94.830002,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 位于 Signal 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq Liquid 500,SBAC,SBA Communications,Real Estate,34,279,-0.01768973,188.809998,185.470001,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq Liquid 500,IRTC,IRHYTHM HOLDINGS INC,Health Care,35,457,-0.08925213,122.349998,111.430000,4H当日前50,4H MACD 刚金叉但仍需零轴确认；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq Liquid 500,SRPT,SAREPTA THERAPEUTICS,Health Care,36,257,-0.04125640,21.330000,20.450001,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq Liquid 500,LNTH,LANTHEUS HOLDINGS,Health Care,37,265,-0.00624501,100.879997,100.250000,4H当日前50,4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq Liquid 500,APA,APA Corporation,Energy,39,126,0.00970657,44.299999,44.730000,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 零轴上方刚金叉；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq Liquid 500,ASND,Ascendis Pharma A/S - Ordinary Share,,40,156,0.01254569,260.250000,263.515015,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 位于 Signal 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq Liquid 500,AAPL,Apple Inc.,Information Technology,41,79,0.02196040,325.130005,332.269989,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 位于 Signal 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq Liquid 500,WAY,WAYSTAR HOLDING,Health Care,42,,-0.08889755,25.760000,23.469999,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq Liquid 500,DXCM,Dexcom,Health Care,43,419,-0.07887730,90.139999,83.029999,4H当日前50,4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq Liquid 500,KRYS,KRYSTAL BIOTECH,Health Care,44,273,-0.04628407,363.839996,347.000000,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 位于 Signal 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq Liquid 500,GTLB,GitLab Inc. - Class A Common Stock,,45,144,0.04213799,45.090000,46.990002,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq Liquid 500,WFRD,Weatherford International plc - Ordinary shares,,46,342,-0.05998730,94.519997,88.849998,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq Liquid 500,PI,IMPINJ,Information Technology,47,54,0.05131105,168.190002,176.820007,4H当日前50,4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Nasdaq Liquid 500,NVAX,NOVAVAX,Health Care,48,263,-0.06916996,10.120000,9.420000,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 位于 Signal 上方；4H MACD 柱体连续扩张
+2026-09-01,2026-09-11,Prism,Nasdaq Liquid 500,DUOL,"Duolingo, Inc. - Class A Common Stock",,49,280,-0.09504321,158.770004,143.679993,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 零轴上方刚金叉；4H MACD 柱体连续扩张
+2026-09-01,2026-09-11,Prism,Nasdaq Liquid 500,MDGL,"Madrigal Pharmaceuticals, Inc. - Common Stock",,50,224,-0.00783359,538.710022,534.489990,4H当日前50,4H EMA 多头排列已连续维持；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Russell,MNPR,MONOPAR THERAPEUTICS,Health Care,1,902,-0.06217571,117.570000,110.260002,4H当日前50,4H EMA9/26 最近金叉且价格在 EMA50 上方；4H MACD 刚金叉但仍需零轴确认；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Russell,SBRA,SABRA HEALTH CARE REIT,Real Estate,2,1256,-0.02005735,20.940001,20.520000,4H当日前50,4H EMA9/26 最近金叉且价格在 EMA50 上方；4H MACD 零轴上方刚金叉；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Russell,MUR,MURPHY OIL CORP,Energy,3,302,0.02392973,37.610001,38.509998,4H当日前50,4H EMA9/26 最近金叉且价格在 EMA50 上方；4H MACD 刚金叉但仍需零轴确认；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Russell,PLGO,PELAGOS INSURANCE CAPITAL LTD,Financials,4,420,0.01980598,24.740000,25.230000,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Russell,LIVN,LIVANOVA PLC,Health Care,5,771,-0.02470065,80.160004,78.180000,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Russell,SSTK,SHUTTERSTOCK,Communication,6,1459,-0.12413194,5.760000,5.045000,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Russell,UPWK,UPWORK,Industrials,7,509,-0.05114255,9.190000,8.720000,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H MACD 位于 Signal 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Russell,SPRY,ARS PHARMACEUTICALS,Health Care,8,1940,-0.17504333,5.770000,4.760000,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H MACD 位于 Signal 上方
+2026-09-01,2026-09-11,Prism,Russell,OXM,OXFORD INDUSTRIES INC,Consumer Discretionary,9,1343,-0.16604868,37.759998,31.490000,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Russell,DFIN,DONNELLEY FINANCIAL SOLUTIONS,Financials,10,1197,-0.00550372,48.150002,47.884998,4H当日前50,4H EMA9/26 最近金叉且价格在 EMA50 上方；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Russell,EIG,EMPLOYERS HOLDINGS,Financials,11,484,0.01190119,49.154999,49.740002,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Russell,KMPR,KEMPER,Financials,12,1073,-0.01338636,27.639999,27.270000,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Russell,MPLT,MAPLIGHT THERAPEUTICS,Health Care,13,151,-0.02329076,13.310000,13.000000,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Russell,DOLE,DOLE PLC,Consumer Staples,14,1310,-0.03823954,13.860000,13.330000,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Russell,NATH,NATHANS FAMOUS INC,Consumer Discretionary,15,152,0.00276360,97.699997,97.970001,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H MACD 位于 Signal 上方
+2026-09-01,2026-09-11,Prism,Russell,LUMN,LUMEN TECHNOLOGIES,Communication,16,311,0.08607199,6.390000,6.940000,4H当日前50,4H EMA9/26 最近金叉且价格在 EMA50 上方；4H MACD 位于 Signal 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Russell,PLMR,PALOMAR HOLDINGS,Financials,17,521,0.01365086,131.860001,133.660004,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Russell,CAPR,CAPRICOR THERAPEUTICS,Health Care,18,882,-0.16383616,10.010000,8.370000,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Russell,BCRX,BIOCRYST PHARMACEUTICALS,Health Care,19,1763,-0.18145161,9.920000,8.120000,4H当日前50,4H EMA9/26 最近金叉且价格在 EMA50 上方；4H MACD 零轴上方刚金叉；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Russell,AGIO,AGIOS PHARMACEUTICALS,Health Care,20,776,-0.01783107,34.209999,33.599998,4H当日前50,4H EMA9/26 最近金叉且价格在 EMA50 上方；4H MACD 零轴上方刚金叉；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Russell,PAGS,PAGSEGURO DIGITAL LTD CLASS A,Financials,21,346,0.10782704,9.135000,10.120000,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Russell,SD,SANDRIDGE ENERGY INC,Energy,22,399,0.01842837,14.380000,14.645000,4H当日前50,4H EMA9/26 最近金叉且价格在 EMA50 上方；4H MACD 零轴上方刚金叉；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Russell,METCB,RAMACO RESOURCES CLASS B,Materials,23,1414,-0.17379310,7.250000,5.990000,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Russell,CRC,CALIFORNIA RESOURCES,Energy,24,382,0.05347198,53.860001,56.740002,4H当日前50,4H EMA9/26 最近金叉且价格在 EMA50 上方；4H MACD 刚金叉但仍需零轴确认；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Russell,RAMP,LIVERAMP HOLDINGS INC,Information Technology,25,1303,-0.00449622,37.810001,37.639999,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Russell,CRNC,CERENCE,Information Technology,26,266,0.01068884,8.420000,8.510000,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Russell,SMPL,THE SIMPLY GOOD FOODS COMPANY,Consumer Staples,27,1528,-0.13532513,11.380000,9.840000,4H当日前50,4H EMA9/26 最近金叉且价格在 EMA50 上方；4H MACD 位于 Signal 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Russell,AVBP,ARRIVENT BIOPHARMA,Health Care,28,856,-0.03814262,30.150000,29.000000,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Russell,LMNR,LIMONEIRA,Consumer Staples,29,1623,-0.08198452,14.210000,13.045000,4H当日前50,4H EMA9/26 最近金叉且价格在 EMA50 上方；4H MACD 零轴上方刚金叉；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Russell,PXED,PHOENIX EDUCATION PARTNERS,Consumer Discretionary,30,1477,-0.08061753,29.150000,26.799999,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Russell,CENX,CENTURY ALUMINUM,Materials,31,1136,-0.05835827,46.779999,44.049999,4H当日前50,4H EMA9/26 最近金叉且价格在 EMA50 上方；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Russell,PBI,PITNEY BOWES,Industrials,32,1074,-0.00263087,17.105000,17.059999,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Russell,OFRM,ONCE UPON A FARM PBC,Consumer Staples,33,1037,-0.07142863,17.430000,16.184999,4H当日前50,4H EMA9/26 最近金叉且价格在 EMA50 上方；4H MACD 刚金叉但仍需零轴确认；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Russell,RNGR,RANGER ENERGY SERVICES INC CLASS A,Energy,34,187,0.02359876,16.950001,17.350000,4H当日前50,4H EMA9/26 最近金叉且价格在 EMA50 上方；4H MACD 刚金叉但仍需零轴确认；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Russell,PHAT,PHATHOM PHARMACEUTICALS,Health Care,35,1232,-0.10969116,9.390000,8.360000,4H当日前50,4H EMA9/26 最近金叉且价格在 EMA50 上方；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Russell,LXU,LSB INDUSTRIES,Materials,36,259,0.03581021,11.170000,11.570000,4H当日前50,4H EMA9/26 最近金叉且价格在 EMA50 上方；4H MACD 零轴上方刚金叉；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Russell,LENZ,LENZ THERAPEUTICS,Health Care,37,1916,-0.13575526,5.230000,4.520000,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Russell,ARDT,ARDENT HEALTH INC,Health Care,38,56,0.00273973,10.950000,10.980000,4H当日前50,4H EMA9/26 最近金叉且价格在 EMA50 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Russell,SGHC,SUPER GROUP,Consumer Discretionary,39,495,0.02889830,13.461000,13.850000,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认
+2026-09-01,2026-09-11,Prism,Russell,ROOT,ROOT INC CLASS A,Financials,40,1144,-0.02931029,55.099998,53.485001,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Russell,TWI,TITAN INTERNATIONAL INC,Industrials,41,1349,-0.02834008,7.410000,7.200000,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H MACD 位于 Signal 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Russell,OI,O I GLASS,Materials,42,1024,-0.06852248,7.005000,6.525000,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H MACD 位于 Signal 上方
+2026-09-01,2026-09-11,Prism,Russell,GNK,GENCO SHIPPING AND TRADING,Industrials,43,524,0.03054755,26.025000,26.820000,4H当日前50,4H EMA9/26 最近金叉且价格在 EMA50 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Russell,AESI,ATLAS ENERGY SOLUTIONS,Energy,44,264,0.11549074,12.685000,14.150000,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Russell,BMI,BADGER METER,Information Technology,45,1231,-0.05423786,132.380005,125.199997,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认
+2026-09-01,2026-09-11,Prism,Russell,NPCE,NEUROPACE,Health Care,46,838,-0.04748982,14.740000,14.040000,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H MACD 位于 Signal 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Russell,SMHI,SEACOR MARINE HOLDINGS INC,Energy,47,805,-0.02451481,9.790000,9.550000,4H当日前50,4H EMA9/26 最近金叉且价格在 EMA50 上方；4H MACD 柱体连续扩张；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Russell,EAF,GRAFTECH INTERNATIONAL LTD,Industrials,48,996,-0.07183099,7.100000,6.590000,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Russell,MQ,MARQETA CLASS A,Financials,49,478,0.00989487,16.170000,16.330000,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Prism,Russell,TDC,TERADATA,Information Technology,50,1070,-0.02827225,28.650000,27.840000,4H当日前50,4H EMA9 已站上 EMA26，等待 26/50 确认；4H MACD 位于 Signal 上方；4H RSI 位于健康强势区间
+2026-09-01,2026-09-11,Aster Call,Aster,SBRA,SABRA HEALTH CARE REIT,Real Estate,1,,-0.02005735,20.940001,20.520000,Aster当日前50,4H EMA 刚转强；4H MACD 新金叉
+2026-09-01,2026-09-11,Aster Call,Aster,SD,SANDRIDGE ENERGY INC,Energy,2,,0.01842837,14.380000,14.645000,Aster当日前50,4H EMA 刚转强；4H MACD 新金叉
+2026-09-01,2026-09-11,Aster Call,Aster,RNGR,RANGER ENERGY SERVICES INC CLASS A,Energy,3,,0.02359876,16.950001,17.350000,Aster当日前50,4H EMA 刚转强；4H MACD 新金叉
+2026-09-01,2026-09-11,Aster Call,Aster,TMUS,T-Mobile US,Communication Services,4,,0.00093323,182.160004,182.330002,Aster当日前50,4H EMA 刚转强；4H MACD 新金叉
+2026-09-01,2026-09-11,Aster Call,Aster,LXU,LSB INDUSTRIES,Materials,5,,0.03581021,11.170000,11.570000,Aster当日前50,4H EMA 刚转强；4H MACD 新金叉
+2026-09-01,2026-09-11,Aster Call,Aster,LMNR,LIMONEIRA,Consumer Staples,6,,-0.08198452,14.210000,13.045000,Aster当日前50,4H EMA 刚转强；4H MACD 新金叉
+2026-09-01,2026-09-11,Aster Call,Aster,QRVO,"Qorvo, Inc. - Common Stock",,7,,0.21006224,96.400002,116.650002,Aster当日前50,4H EMA 刚转强；4H MACD 新金叉
+2026-09-01,2026-09-11,Aster Call,Aster,XOM,ExxonMobil,Energy,8,,0.00865947,164.559998,165.985001,Aster当日前50,4H EMA 刚转强；4H MACD 新金叉
+2026-09-01,2026-09-11,Aster Call,Aster,MGY,MAGNOLIA OIL GAS CORP CLASS A,Energy,9,,0.00274815,27.655001,27.731001,Aster当日前50,4H EMA 多头趋势；4H MACD 新金叉
+2026-09-01,2026-09-11,Aster Call,Aster,CRC,CALIFORNIA RESOURCES,Energy,10,,0.05347198,53.860001,56.740002,Aster当日前50,4H EMA 刚转强；4H MACD 新金叉
+2026-09-01,2026-09-11,Aster Call,Aster,BCRX,BIOCRYST PHARMACEUTICALS,Health Care,11,,-0.18145161,9.920000,8.120000,Aster当日前50,4H EMA 刚转强；4H MACD 新金叉
+2026-09-01,2026-09-11,Aster Call,Aster,AGIO,AGIOS PHARMACEUTICALS,Health Care,12,,-0.01783107,34.209999,33.599998,Aster当日前50,4H EMA 刚转强；4H MACD 新金叉
+2026-09-01,2026-09-11,Aster Call,Aster,ALNY,"Alnylam Pharmaceuticals, Inc. - Common Stock",,13,,0.01044245,246.110001,248.679993,Aster当日前50,4H EMA 刚转强；4H MACD 多头
+2026-09-01,2026-09-11,Aster Call,Aster,OFRM,ONCE UPON A FARM PBC,Consumer Staples,14,,-0.07142863,17.430000,16.184999,Aster当日前50,4H EMA 刚转强；4H MACD 新金叉
+2026-09-01,2026-09-11,Aster Call,Aster,CI,Cigna,Health Care,15,,-0.00801975,283.049988,280.779999,Aster当日前50,4H EMA 刚转强；4H MACD 新金叉
+2026-09-01,2026-09-11,Aster Call,Aster,ADM,Archer Daniels Midland,Consumer Staples,16,,0.02578356,84.550003,86.730003,Aster当日前50,4H EMA 刚转强；4H MACD 多头
+2026-09-01,2026-09-11,Aster Call,Aster,OKE,Oneok,Energy,17,,0.00992786,95.690002,96.639999,Aster当日前50,4H EMA 多头趋势；4H MACD 新金叉
+2026-09-01,2026-09-11,Aster Call,Aster,MUR,MURPHY OIL CORP,Energy,18,,0.02392973,37.610001,38.509998,Aster当日前50,4H EMA 刚转强；4H MACD 新金叉
+2026-09-01,2026-09-11,Aster Call,Aster,GDDY,GoDaddy,Information Technology,19,,-0.02544729,100.599998,98.040001,Aster当日前50,4H EMA 多头趋势；4H MACD 新金叉
+2026-09-01,2026-09-11,Aster Call,Aster,COR,Cencora,Health Care,20,,-0.02867153,330.989990,321.500000,Aster当日前50,4H EMA 多头趋势；4H MACD 新金叉
+2026-09-01,2026-09-11,Aster Call,Aster,LIVN,LIVANOVA PLC,Health Care,21,,-0.02470065,80.160004,78.180000,Aster当日前50,4H EMA 刚转强；4H MACD 多头
+2026-09-01,2026-09-11,Aster Call,Aster,VAL,VALARIS LTD,Energy,22,,-0.04852821,87.989998,83.720001,Aster当日前50,4H EMA 多头趋势；4H MACD 新金叉
+2026-09-01,2026-09-11,Aster Call,Aster,PNRG,PRIMEENERGY RESOURCES CORP,Energy,23,,-0.03089421,217.839996,211.110001,Aster当日前50,4H EMA 多头趋势；4H MACD 新金叉
+2026-09-01,2026-09-11,Aster Call,Aster,QCOM,Qualcomm,Information Technology,24,,0.09219134,166.610001,181.970001,Aster当日前50,4H EMA 刚转强；4H MACD 多头
+2026-09-01,2026-09-11,Aster Call,Aster,UPWK,UPWORK,Industrials,25,,-0.05114255,9.190000,8.720000,Aster当日前50,4H EMA 刚转强；4H MACD 多头
+2026-09-01,2026-09-11,Aster Call,Aster,MNPR,MONOPAR THERAPEUTICS,Health Care,26,,-0.06217571,117.570000,110.260002,Aster当日前50,4H EMA 刚转强；4H MACD 新金叉
+2026-09-01,2026-09-11,Aster Call,Aster,SWKS,Skyworks Solutions,Information Technology,27,,0.31063630,67.410004,88.349998,Aster当日前50,4H MACD 新金叉
+2026-09-01,2026-09-11,Aster Call,Aster,DVN,Devon Energy,Energy,28,,0.02415660,49.055000,50.240002,Aster当日前50,4H EMA 多头趋势；4H MACD 新金叉
+2026-09-01,2026-09-11,Aster Call,Aster,FET,FORUM ENERGY TECHNOLOGIES INC,Energy,29,,0.00793439,82.300003,82.953003,Aster当日前50,4H EMA 多头趋势；4H MACD 新金叉
+2026-09-01,2026-09-11,Aster Call,Aster,CLB,CORE LABORATORIES,Energy,30,,0.00887813,12.390000,12.500000,Aster当日前50,4H EMA 多头趋势；4H MACD 新金叉
+2026-09-01,2026-09-11,Aster Call,Aster,MOS,Mosaic Company (The),Materials,31,,0.01633398,24.795000,25.200001,Aster当日前50,4H EMA 多头趋势；4H MACD 新金叉
+2026-09-01,2026-09-11,Aster Call,Aster,CHRD,Chord Energy Corporation - Common Stock,,32,,0.01063753,150.410004,152.009995,Aster当日前50,4H EMA 多头趋势；4H MACD 新金叉
+2026-09-01,2026-09-11,Aster Call,Aster,HLX,HELIX ENERGY SOLUTIONS GROUP INC,Energy,33,,-0.16399623,10.610000,8.870000,Aster当日前50,4H EMA 多头趋势；4H MACD 新金叉
+2026-09-01,2026-09-11,Aster Call,Aster,AESI,ATLAS ENERGY SOLUTIONS,Energy,34,,0.11549074,12.685000,14.150000,Aster当日前50,4H EMA 刚转强；4H MACD 多头
+2026-09-01,2026-09-11,Aster Call,Aster,TWI,TITAN INTERNATIONAL INC,Industrials,35,,-0.02834008,7.410000,7.200000,Aster当日前50,4H EMA 刚转强；4H MACD 多头
+2026-09-01,2026-09-11,Aster Call,Aster,ELV,Elevance Health,Health Care,36,,0.03913691,403.084503,418.859985,Aster当日前50,4H EMA 刚转强
+2026-09-01,2026-09-11,Aster Call,Aster,NESR,NATIONAL ENERGY SERVICES REUNITED,Energy,37,,-0.03398617,34.720001,33.540001,Aster当日前50,4H EMA 多头趋势；4H MACD 新金叉
+2026-09-01,2026-09-11,Aster Call,Aster,SMC,SUMMIT MIDSTREAM CORP,Energy,38,,-0.02783734,35.025002,34.049999,Aster当日前50,4H EMA 多头趋势；4H MACD 新金叉
+2026-09-01,2026-09-11,Aster Call,Aster,ASH,ASHLAND,Materials,39,,-0.06205349,75.580002,70.889999,Aster当日前50,4H MACD 新金叉
+2026-09-01,2026-09-11,Aster Call,Aster,PBF,PBF ENERGY CLASS A,Energy,40,,0.04401419,74.989403,78.290001,Aster当日前50,4H EMA 多头趋势；4H MACD 新金叉
+2026-09-01,2026-09-11,Aster Call,Aster,OXY,Occidental Petroleum,Energy,41,,0.00820345,60.950001,61.450001,Aster当日前50,4H EMA 多头趋势；4H MACD 新金叉
+2026-09-01,2026-09-11,Aster Call,Aster,WHD,CACTUS CLASS A,Energy,42,,-0.01584824,70.669998,69.550003,Aster当日前50,4H EMA 多头趋势；4H MACD 新金叉
+2026-09-01,2026-09-11,Aster Call,Aster,TRI,Thomson Reuters Corp - Common Shares,,43,,-0.08462624,106.349998,97.349998,Aster当日前50,4H EMA 多头趋势；4H MACD 新金叉
+2026-09-01,2026-09-11,Aster Call,Aster,AES,AES Corporation,Utilities,44,,0.00203252,14.760000,14.790000,Aster当日前50,4H EMA 刚转强；4H MACD 新金叉
+2026-09-01,2026-09-11,Aster Call,Aster,OXM,OXFORD INDUSTRIES INC,Consumer Discretionary,45,,-0.16604868,37.759998,31.490000,Aster当日前50,4H EMA 刚转强；4H MACD 多头
+2026-09-01,2026-09-11,Aster Call,Aster,DOLE,DOLE PLC,Consumer Staples,46,,-0.03823954,13.860000,13.330000,Aster当日前50,4H EMA 刚转强；4H MACD 多头
+2026-09-01,2026-09-11,Aster Call,Aster,HSTM,HEALTHSTREAM,Health Care,47,,-0.01887425,29.670000,29.110001,Aster当日前50,4H EMA 多头趋势；4H MACD 多头
+2026-09-01,2026-09-11,Aster Call,Aster,EOG,EOG Resources,Energy,48,,-0.00623822,148.279999,147.354996,Aster当日前50,4H EMA 刚转强
+2026-09-01,2026-09-11,Aster Call,Aster,SMPL,THE SIMPLY GOOD FOODS COMPANY,Consumer Staples,49,,-0.13532513,11.380000,9.840000,Aster当日前50,4H EMA 刚转强；4H MACD 多头
+2026-09-01,2026-09-11,Aster Call,Aster,APA,APA Corporation,Energy,50,,0.00970657,44.299999,44.730000,Aster当日前50,4H EMA 多头趋势；4H MACD 新金叉
