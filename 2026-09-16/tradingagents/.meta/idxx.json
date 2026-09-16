@@ -1,7 +1,7 @@
 {
   "ticker": "IDXX",
-  "date": "2026-09-15",
-  "generated_at": "2026-09-15 13:30:19",
+  "date": "2026-09-16",
+  "generated_at": "2026-09-16 13:30:35",
   "mode": "enhanced-fallback",
   "decision": "WAIT / 暂不追",
   "provider": "",
@@ -9,7 +9,9 @@
   "sources": [
     "spx-yahoo-rankings",
     "nasdaq200-rankings",
-    "nasdaq500-rankings"
+    "nasdaq500-rankings",
+    "early-nasdaq200-4h-signal-ranking",
+    "prism-nasdaq200-4h-signal-ranking"
   ],
-  "public_data_fetched_at": "2026-09-15T13:31:00-07:00"
+  "public_data_fetched_at": "2026-09-16T13:31:13-07:00"
 }
