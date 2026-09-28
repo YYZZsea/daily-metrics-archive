@@ -3,10 +3,10 @@
   "tickers": {
     "HOOD": {
       "first_seen": "2026-06-26",
-      "consecutive_signal_days": 0,
-      "last_signal": false,
+      "consecutive_signal_days": 1,
+      "last_signal": true,
       "last_seen_date": "2026-09-28",
-      "last_signal_date": "2026-09-17"
+      "last_signal_date": "2026-09-28"
     },
     "AVGO": {
       "first_seen": "2026-06-26",
@@ -73,10 +73,10 @@
     },
     "IR": {
       "first_seen": "2026-06-26",
-      "consecutive_signal_days": 0,
-      "last_signal": false,
+      "consecutive_signal_days": 1,
+      "last_signal": true,
       "last_seen_date": "2026-09-28",
-      "last_signal_date": "2026-09-25"
+      "last_signal_date": "2026-09-28"
     },
     "J": {
       "first_seen": "2026-06-26",
@@ -149,9 +149,9 @@
     },
     "SMTC": {
       "first_seen": "2026-07-02",
-      "consecutive_signal_days": 0,
-      "last_signal_date": "2026-09-24",
-      "last_signal": false,
+      "consecutive_signal_days": 1,
+      "last_signal_date": "2026-09-28",
+      "last_signal": true,
       "last_seen_date": "2026-09-28"
     },
     "VRT": {
@@ -233,9 +233,9 @@
     },
     "INTC": {
       "first_seen": "2026-07-02",
-      "consecutive_signal_days": 0,
-      "last_signal_date": "2026-09-18",
-      "last_signal": false,
+      "consecutive_signal_days": 1,
+      "last_signal_date": "2026-09-28",
+      "last_signal": true,
       "last_seen_date": "2026-09-28"
     },
     "ALAB": {
@@ -247,9 +247,9 @@
     },
     "ZS": {
       "first_seen": "2026-07-02",
-      "consecutive_signal_days": 2,
+      "consecutive_signal_days": 0,
       "last_signal_date": "2026-09-28",
-      "last_signal": true,
+      "last_signal": false,
       "last_seen_date": "2026-09-28"
     },
     "AMAT": {
