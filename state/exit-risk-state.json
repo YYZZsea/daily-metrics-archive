@@ -3,10 +3,10 @@
   "tickers": {
     "HOOD": {
       "first_seen": "2026-06-26",
-      "consecutive_signal_days": 0,
-      "last_signal": false,
+      "consecutive_signal_days": 1,
+      "last_signal": true,
       "last_seen_date": "2026-09-30",
-      "last_signal_date": "2026-09-28"
+      "last_signal_date": "2026-09-30"
     },
     "AVGO": {
       "first_seen": "2026-06-26",
@@ -73,10 +73,10 @@
     },
     "IR": {
       "first_seen": "2026-06-26",
-      "consecutive_signal_days": 0,
-      "last_signal": false,
+      "consecutive_signal_days": 1,
+      "last_signal": true,
       "last_seen_date": "2026-09-30",
-      "last_signal_date": "2026-09-29"
+      "last_signal_date": "2026-09-30"
     },
     "J": {
       "first_seen": "2026-06-26",
@@ -128,9 +128,9 @@
     },
     "MCHP": {
       "first_seen": "2026-07-02",
-      "consecutive_signal_days": 0,
-      "last_signal_date": "2026-09-28",
-      "last_signal": false,
+      "consecutive_signal_days": 1,
+      "last_signal_date": "2026-09-30",
+      "last_signal": true,
       "last_seen_date": "2026-09-30"
     },
     "ON": {
@@ -247,9 +247,9 @@
     },
     "ZS": {
       "first_seen": "2026-07-02",
-      "consecutive_signal_days": 2,
+      "consecutive_signal_days": 0,
       "last_signal_date": "2026-09-30",
-      "last_signal": true,
+      "last_signal": false,
       "last_seen_date": "2026-09-30"
     },
     "AMAT": {
