@@ -10,8 +10,8 @@
     },
     "AVGO": {
       "first_seen": "2026-06-26",
-      "consecutive_signal_days": 9,
-      "last_signal": true,
+      "consecutive_signal_days": 0,
+      "last_signal": false,
       "last_seen_date": "2026-10-05",
       "last_signal_date": "2026-10-05"
     },
@@ -73,8 +73,8 @@
     },
     "IR": {
       "first_seen": "2026-06-26",
-      "consecutive_signal_days": 2,
-      "last_signal": true,
+      "consecutive_signal_days": 0,
+      "last_signal": false,
       "last_seen_date": "2026-10-05",
       "last_signal_date": "2026-10-05"
     },
@@ -135,9 +135,9 @@
     },
     "ON": {
       "first_seen": "2026-07-02",
-      "consecutive_signal_days": 64,
+      "consecutive_signal_days": 0,
       "last_signal_date": "2026-10-05",
-      "last_signal": true,
+      "last_signal": false,
       "last_seen_date": "2026-10-05"
     },
     "QCOM": {
@@ -170,16 +170,16 @@
     },
     "Q": {
       "first_seen": "2026-07-02",
-      "consecutive_signal_days": 32,
+      "consecutive_signal_days": 0,
       "last_signal_date": "2026-10-05",
-      "last_signal": true,
+      "last_signal": false,
       "last_seen_date": "2026-10-05"
     },
     "STX": {
       "first_seen": "2026-07-02",
-      "consecutive_signal_days": 0,
-      "last_signal_date": "2026-10-02",
-      "last_signal": false,
+      "consecutive_signal_days": 1,
+      "last_signal_date": "2026-10-05",
+      "last_signal": true,
       "last_seen_date": "2026-10-05"
     },
     "AMKR": {
@@ -419,8 +419,8 @@
     },
     "COR": {
       "first_seen": "2026-07-06",
-      "consecutive_signal_days": 9,
-      "last_signal": true,
+      "consecutive_signal_days": 0,
+      "last_signal": false,
       "last_seen_date": "2026-10-05",
       "last_signal_date": "2026-10-05"
     },
@@ -494,10 +494,10 @@
     },
     "ESP": {
       "first_seen": "2026-07-06",
-      "consecutive_signal_days": 0,
-      "last_signal": false,
+      "consecutive_signal_days": 1,
+      "last_signal": true,
       "last_seen_date": "2026-10-05",
-      "last_signal_date": "2026-10-02"
+      "last_signal_date": "2026-10-05"
     }
   }
 }
