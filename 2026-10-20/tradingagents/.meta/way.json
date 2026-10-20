@@ -1,13 +1,15 @@
 {
   "ticker": "WAY",
-  "date": "2026-09-18",
-  "generated_at": "2026-09-18 13:30:48",
+  "date": "2026-10-20",
+  "generated_at": "2026-10-20 13:43:34",
   "mode": "enhanced-fallback",
-  "decision": "WATCH-BUY / 强观察",
+  "decision": "BUY-WATCH / 偏买入观察",
   "provider": "",
   "error": "",
   "sources": [
-    "aster-chan-kline-pattern-ranking"
+    "nasdaq500-rankings",
+    "aster-chan-kline-pattern-ranking",
+    "aster-trend-relay-ranking"
   ],
-  "public_data_fetched_at": "2026-09-18 13:30:48"
+  "public_data_fetched_at": "2026-10-20 13:43:34"
 }
