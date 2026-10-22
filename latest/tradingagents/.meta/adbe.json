@@ -1,13 +1,15 @@
 {
   "ticker": "ADBE",
-  "date": "2026-10-20",
-  "generated_at": "2026-10-20 13:43:34",
+  "date": "2026-10-21",
+  "generated_at": "2026-10-22 00:36:31",
   "mode": "enhanced-fallback",
-  "decision": "BUY-WATCH / 偏买入观察",
+  "decision": "WATCH-BUY / 强观察",
   "provider": "",
   "error": "",
   "sources": [
+    "nasdaq200-rankings",
     "aster-chan-kline-pattern-ranking",
+    "aster-v5-risk-adjusted-ranking",
     "nasdaq200-early-signal-ranking",
     "nasdaq500-early-signal-ranking",
     "early-nasdaq200-4h-signal-ranking",
@@ -18,5 +20,5 @@
     "prism-spx-4h-signal-ranking",
     "spx-early-signal-ranking"
   ],
-  "public_data_fetched_at": "2026-10-20 13:43:34"
+  "public_data_fetched_at": "2026-10-22 00:36:31"
 }

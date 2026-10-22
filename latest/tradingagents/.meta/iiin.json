@@ -1,7 +1,7 @@
 {
   "ticker": "IIIN",
-  "date": "2026-10-20",
-  "generated_at": "2026-10-20 13:43:34",
+  "date": "2026-10-21",
+  "generated_at": "2026-10-22 00:36:31",
   "mode": "enhanced-fallback",
   "decision": "BUY-WATCH / 偏买入观察",
   "provider": "",
@@ -11,10 +11,11 @@
     "aster-consensus-agent-ranking",
     "aster-deep-v3-daily-cnn-ranking",
     "aster-deep-v4-shape-embedding-ranking",
-    "aster-ema-candle-capture-ranking",
     "aster-ema-cross-ranking",
-    "aster-v4-tactical-breakout-ranking",
-    "prism-russell2000-4h-signal-ranking"
+    "aster-v2-balanced-ranking",
+    "aster-v5-risk-adjusted-ranking",
+    "russell2000-early-signal-ranking",
+    "early-russell2000-4h-signal-ranking"
   ],
-  "public_data_fetched_at": "2026-10-20 13:43:34"
+  "public_data_fetched_at": "2026-10-22 00:36:31"
 }
