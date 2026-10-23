@@ -1,17 +1,14 @@
 {
   "ticker": "TRAX",
-  "date": "2026-10-21",
-  "generated_at": "2026-10-22 00:36:31",
+  "date": "2026-10-22",
+  "generated_at": "2026-10-23 05:19:58",
   "mode": "enhanced-fallback",
-  "decision": "WATCH-BUY / 强观察",
+  "decision": "WAIT / 暂不追",
   "provider": "",
   "error": "",
   "sources": [
-    "nasdaq500-early-signal-ranking",
-    "russell2000-early-signal-ranking",
-    "early-nasdaq500-4h-signal-ranking",
-    "early-russell2000-4h-signal-ranking",
-    "prism-nasdaq500-4h-signal-ranking"
+    "nasdaq500-rankings",
+    "nasdaq500-early-signal-ranking"
   ],
-  "public_data_fetched_at": "2026-10-22 00:36:31"
+  "public_data_fetched_at": "2026-10-23 05:19:58"
 }
