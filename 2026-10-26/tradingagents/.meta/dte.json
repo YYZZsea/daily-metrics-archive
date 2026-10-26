@@ -1,14 +1,18 @@
 {
   "ticker": "DTE",
-  "date": "2026-10-22",
-  "generated_at": "2026-10-23 05:19:58",
+  "date": "2026-10-26",
+  "generated_at": "2026-10-26 13:42:34",
   "mode": "enhanced-fallback",
-  "decision": "HOLD-WATCH / 继续观察",
+  "decision": "WATCH-BUY / 强观察",
   "provider": "",
   "error": "",
   "sources": [
+    "aster-consensus-agent-ranking",
+    "aster-v2-balanced-ranking",
+    "aster-v3-quality-momentum-ranking",
+    "aster-v5-risk-adjusted-ranking",
     "early-spx-4h-signal-ranking",
-    "spx-early-signal-ranking"
+    "prism-spx-4h-signal-ranking"
   ],
-  "public_data_fetched_at": "2026-10-23 05:19:58"
+  "public_data_fetched_at": "2026-10-26 13:42:34"
 }
