@@ -1,17 +1,29 @@
 {
   "ticker": "QCOM",
-  "date": "2026-10-26",
-  "generated_at": "2026-10-26 13:42:34",
+  "date": "2026-10-27",
+  "generated_at": "2026-10-28 05:16:39",
   "mode": "enhanced-fallback",
-  "decision": "BUY-WATCH / 偏买入观察",
+  "decision": "WATCH-BUY / 强观察",
   "provider": "",
   "error": "",
   "sources": [
     "spx-yahoo-rankings",
     "nasdaq200-rankings",
     "nasdaq500-rankings",
+    "aster-call-ranking",
+    "aster-consensus-agent-ranking",
+    "aster-deep-v3-daily-cnn-ranking",
+    "aster-deep-v4-shape-embedding-ranking",
     "aster-ema-candle-capture-ranking",
-    "prism-nasdaq200-4h-signal-ranking"
+    "aster-ema-cross-ranking",
+    "aster-v2-balanced-ranking",
+    "aster-v4-tactical-breakout-ranking",
+    "nasdaq200-early-signal-ranking",
+    "early-nasdaq200-4h-signal-ranking",
+    "early-nasdaq500-4h-signal-ranking",
+    "prism-nasdaq200-4h-signal-ranking",
+    "prism-nasdaq500-4h-signal-ranking",
+    "prism-spx-4h-signal-ranking"
   ],
-  "public_data_fetched_at": "2026-10-26T13:43:53-07:00"
+  "public_data_fetched_at": "2026-10-28T05:16:59-07:00"
 }

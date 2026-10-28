@@ -1,13 +1,16 @@
 {
   "ticker": "MRVL",
-  "date": "2026-10-26",
-  "generated_at": "2026-10-26 13:42:34",
+  "date": "2026-10-27",
+  "generated_at": "2026-10-28 05:16:39",
   "mode": "enhanced-fallback",
   "decision": "WAIT / 暂不追",
   "provider": "",
   "error": "",
   "sources": [
-    "nasdaq200-rankings"
+    "spx-yahoo-rankings",
+    "nasdaq200-rankings",
+    "nasdaq500-rankings",
+    "prism-nasdaq200-4h-signal-ranking"
   ],
-  "public_data_fetched_at": "2026-10-26 13:42:34"
+  "public_data_fetched_at": "2026-10-28T05:17:33-07:00"
 }
