@@ -1,13 +1,18 @@
 {
   "ticker": "IBCP",
-  "date": "2026-10-27",
-  "generated_at": "2026-10-28 05:16:39",
+  "date": "2026-10-28",
+  "generated_at": "2026-10-28 18:30:59",
   "mode": "enhanced-fallback",
   "decision": "BUY-WATCH / 偏买入观察",
   "provider": "",
   "error": "",
   "sources": [
-    "aster-ema-candle-capture-ranking"
+    "aster-consensus-agent-ranking",
+    "aster-ema-candle-capture-ranking",
+    "aster-v2-balanced-ranking",
+    "aster-v3-quality-momentum-ranking",
+    "aster-v5-risk-adjusted-ranking",
+    "early-russell2000-4h-signal-ranking"
   ],
-  "public_data_fetched_at": "2026-10-28 05:16:39"
+  "public_data_fetched_at": "2026-10-28 18:30:59"
 }
