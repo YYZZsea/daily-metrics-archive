@@ -1,20 +1,20 @@
 {
   "ticker": "TXN",
-  "date": "2026-10-28",
-  "generated_at": "2026-10-28 18:30:59",
+  "date": "2026-10-29",
+  "generated_at": "2026-10-30 00:39:47",
   "mode": "enhanced-fallback",
-  "decision": "BUY-WATCH / 偏买入观察",
+  "decision": "HOLD-WATCH / 继续观察",
   "provider": "",
   "error": "",
   "sources": [
     "spx-yahoo-rankings",
     "nasdaq200-rankings",
     "nasdaq500-rankings",
-    "aster-trend-relay-ranking",
     "nasdaq200-early-signal-ranking",
     "early-nasdaq200-4h-signal-ranking",
     "prism-nasdaq200-4h-signal-ranking",
-    "prism-nasdaq500-4h-signal-ranking"
+    "prism-nasdaq500-4h-signal-ranking",
+    "prism-spx-4h-signal-ranking"
   ],
-  "public_data_fetched_at": "2026-10-28T18:31:00-07:00"
+  "public_data_fetched_at": "2026-10-30T00:39:49-07:00"
 }

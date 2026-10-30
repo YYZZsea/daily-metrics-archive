@@ -1,25 +1,13 @@
 {
   "ticker": "ENSG",
-  "date": "2026-10-28",
-  "generated_at": "2026-10-28 18:30:59",
+  "date": "2026-10-29",
+  "generated_at": "2026-10-30 00:39:47",
   "mode": "enhanced-fallback",
-  "decision": "BUY-WATCH / 偏买入观察",
+  "decision": "WATCH-BUY / 强观察",
   "provider": "",
   "error": "",
   "sources": [
-    "aster-call-ranking",
-    "aster-chan-kline-pattern-ranking",
-    "aster-consensus-agent-ranking",
-    "aster-deep-v3-daily-cnn-ranking",
-    "aster-deep-v4-shape-embedding-ranking",
-    "aster-ema-cross-ranking",
-    "aster-v2-balanced-ranking",
-    "aster-v3-quality-momentum-ranking",
-    "aster-v4-tactical-breakout-ranking",
-    "aster-v5-risk-adjusted-ranking",
-    "nasdaq500-early-signal-ranking",
-    "early-nasdaq500-4h-signal-ranking",
-    "prism-nasdaq500-4h-signal-ranking"
+    "aster-chan-kline-pattern-ranking"
   ],
-  "public_data_fetched_at": "2026-10-28 18:30:59"
+  "public_data_fetched_at": "2026-10-30 00:39:47"
 }
